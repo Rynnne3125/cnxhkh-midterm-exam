@@ -1,0 +1,146 @@
+/* Custom Bespoke Styling for CNXHKH Exam System */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;600;700&display=swap');
+
+:root {
+  --primary-red: #b91c1c;
+  --primary-gold: #d97706;
+  --bg-slate: #f8fafc;
+}
+
+body {
+  font-family: 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
+  background-color: #f1f5f9;
+  color: #1e293b;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Glassmorphism & Cards */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, #991b1b 0%, #b91c1c 45%, #7f1d1d 100%);
+}
+
+.hero-pattern {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.12) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Smooth Transitions */
+.smooth-transition {
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Option Button States */
+.option-btn {
+  position: relative;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1.5px solid #e2e8f0;
+}
+
+.option-btn:hover:not(:disabled) {
+  border-color: #dc2626;
+  background-color: #fef2f2;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.08);
+}
+
+.option-btn.selected {
+  border-color: #b91c1c;
+  background-color: #fff1f2;
+  box-shadow: 0 0 0 2px rgba(185, 28, 28, 0.2);
+}
+
+/* Review Mode Options */
+.option-btn.is-correct-answer {
+  border-color: #16a34a !important;
+  background-color: #f0fdf4 !important;
+  box-shadow: 0 0 0 2px rgba(22, 163, 74, 0.25) !important;
+}
+
+.option-btn.is-wrong-answer {
+  border-color: #dc2626 !important;
+  background-color: #fef2f2 !important;
+  box-shadow: 0 0 0 2px rgba(220, 38, 38, 0.25) !important;
+}
+
+/* Question Palette Tiles */
+.palette-btn {
+  transition: all 0.18s ease-in-out;
+}
+
+.palette-btn:hover {
+  transform: scale(1.08);
+}
+
+.palette-btn.current {
+  outline: 2.5px solid #dc2626;
+  outline-offset: 2px;
+}
+
+/* Floating Timer Pulse */
+@keyframes urgent-pulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.4);
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow: 0 0 0 8px rgba(220, 38, 38, 0);
+  }
+}
+
+.timer-urgent {
+  animation: urgent-pulse 1.2s infinite ease-in-out;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Print Styles */
+@media print {
+  header, .no-print, #timer-container, #palette-container, #action-bar {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+    color: black;
+    font-size: 12pt;
+  }
+
+  .print-page {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .page-break {
+    page-break-before: always;
+  }
+}

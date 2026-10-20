@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khảo Thí Trực Tuyến - Môn Chủ Nghĩa Xã Hội Khoa Học (Giữa Kỳ - 30 Câu / 15 Phút)</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            maroon: {
+              700: '#991b1b',
+              800: '#831843',
+              900: '#701a75'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Canvas Confetti CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-slate-100 min-h-screen flex flex-col text-slate-800 antialiased selection:bg-red-200 selection:text-red-900">
+
+  <!-- ======================================================== -->
+  <!-- TOP BANNER & NAVBAR GIẢNG VIÊN                          -->
+  <!-- ======================================================== -->
+  <header class="bg-white border-b border-slate-200 shadow-sm sticky top-0 z-40">
+    <!-- Thanh tiêu đề học viện -->
+    <div class="hero-gradient text-white px-4 py-2 text-xs md:text-sm font-medium flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <i data-lucide="graduation-cap" class="w-4 h-4 text-amber-300"></i>
+        <span>BỘ MÔN LÝ LUẬN CHÍNH TRỊ • HỆ THỐNG KHẢO THÍ CHUẨN ĐẠI HỌC</span>
+      </div>
+      <div class="hidden sm:flex items-center gap-4 text-xs text-red-100">
+        <span>Thời gian: <strong>15 phút</strong></span>
+        <span>•</span>
+        <span>Quy mô: <strong>30 câu trắc nghiệm</strong></span>
+        <span>•</span>
+        <span>Góc nhìn: <strong>Giảng viên CNXHKH</strong></span>
+      </div>
+    </div>
+
+    <!-- Thanh công cụ điều khiển chính -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-wrap items-center justify-between gap-3">
+      <!-- Logo và Tên môn -->
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-red-700 text-white flex items-center justify-center font-bold text-lg shadow-md shrink-0">
+          <i data-lucide="book-check" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <h1 class="text-base sm:text-lg font-bold text-slate-900 leading-tight">
+            Chủ Nghĩa Xã Hội Khoa Học
+          </h1>
+          <p class="text-xs text-slate-500 font-medium">
+            Ngân hàng Đề thi Giữa kỳ (Chương 1 - Chương 4) • Đề chuẩn phân loại
+          </p>
+        </div>
+      </div>
+
+      <!-- Tiện ích bên phải -->
+      <div class="flex items-center gap-2 flex-wrap">
+        <!-- Chế độ Luyện tập / Thi thật -->
+        <button id="study-mode-toggle" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-300 smooth-transition" title="Chuyển chế độ: Thi thật 15p hoặc Luyện tập có giải thích ngay">
+          <i data-lucide="sparkles" class="w-3.5 h-3.5 text-amber-600"></i>
+          <span class="hidden sm:inline">Chế độ:</span>
+          <span id="study-mode-label" class="text-red-700 font-bold">Luyện/Thi</span>
+        </button>
+
+        <!-- Xem từng câu / Toàn bộ -->
+        <button id="view-mode-toggle" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-300 smooth-transition" title="Chuyển đổi giữa chế độ tập trung từng câu hoặc danh sách cuộn">
+          <i data-lucide="layout-list" class="w-3.5 h-3.5"></i>
+          <span class="hidden sm:inline">Xem toàn bộ (Cuộn)</span>
+        </button>
+
+        <!-- Sổ tay tri thức cốt lõi -->
+        <button onclick="openCheatSheetModal()" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-amber-50 text-amber-900 hover:bg-amber-100 border border-amber-300 smooth-transition">
+          <i data-lucide="book-open" class="w-3.5 h-3.5 text-amber-700"></i>
+          <span>Sổ Tay Cốt Lõi</span>
+        </button>
+
+        <!-- Lịch sử thi -->
+        <button onclick="openHistoryModal()" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-300 smooth-transition relative">
+          <i data-lucide="history" class="w-3.5 h-3.5"></i>
+          <span class="hidden sm:inline">Lịch Sử</span>
+          <span id="history-count-badge" class="px-1.5 py-0.2 rounded-full text-[10px] font-bold bg-red-700 text-white">0</span>
+        </button>
+
+        <!-- Bật/Tắt Âm thanh -->
+        <button id="sound-toggle" class="p-2 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-300 smooth-transition" title="Bật/Tắt âm thanh thông báo">
+          <i id="sound-icon" data-lucide="volume-2" class="w-4 h-4 text-slate-700"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- DẢI CHỌN ĐỀ THI (10 Đề Ôn Tập + Đề Ngẫu Nhiên) -->
+    <div class="bg-slate-50 border-t border-slate-200 px-4 sm:px-6 lg:px-8 py-2">
+      <div class="max-w-7xl mx-auto flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0 scrollbar-thin">
+        <span class="text-xs font-bold text-slate-500 uppercase tracking-wider shrink-0 mr-1 flex items-center gap-1">
+          <i data-lucide="layers" class="w-3.5 h-3.5"></i> 10 Đề Ôn Tập:
+        </span>
+        <button data-set="0" onclick="initExam(0)" class="exam-tab-btn px-2.5 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition" title="Tổng ôn 4 chương">
+          <span>Đề 01 (Mã 101)</span>
+        </button>
+        <button data-set="1" onclick="initExam(1)" class="exam-tab-btn px-2.5 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition" title="Tiền đề ra đời CNXHKH">
+          <span>Đề 02 (Mã 102)</span>
+        </button>
+        <button data-set="2" onclick="initExam(2)" class="exam-tab-btn px-2.5 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition" title="Đặc điểm & Địa vị GCCN">
+          <span>Đề 03 (Mã 103)</span>
+        </button>
+        <button data-set="3" onclick="initExam(3)" class="exam-tab-btn px-2.5 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition" title="3 Nội dung sứ mệnh & Đảng">
+          <span>Đề 04 (Mã 104)</span>
+        </button>
+        <button data-set="4" onclick="initExam(4)" class="exam-tab-btn px-2.5 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition" title="GCCN Việt Nam & Biến đổi hiện nay">
+          <span>Đề 05 (Mã 105)</span>
+        </button>
+        <button data-set="5" onclick="initExam(5)" class="exam-tab-btn px-2.5 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition" title="Điều kiện ra đời & Bản chất CNXH">
+          <span>Đề 06 (Mã 106)</span>
+        </button>
+        <button data-set="6" onclick="initExam(6)" class="exam-tab-btn px-2.5 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition" title="Thời kỳ quá độ & 2 kiểu quá độ">
+          <span>Đề 07 (Mã 107)</span>
+        </button>
+        <button data-set="7" onclick="initExam(7)" class="exam-tab-btn px-2.5 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition" title="Quá độ ở VN & 8 Đặc trưng">
+          <span>Đề 08 (Mã 108)</span>
+        </button>
+        <button data-set="8" onclick="initExam(8)" class="exam-tab-btn px-2.5 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition" title="8 Phương hướng, 4 Trụ cột, 3 Đột phá">
+          <span>Đề 09 (Mã 109)</span>
+        </button>
+        <button data-set="9" onclick="initExam(9)" class="exam-tab-btn px-2.5 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition" title="Dân chủ XHCN & Nhà nước pháp quyền">
+          <span>Đề 10 (Mã 110)</span>
+        </button>
+        <button data-set="random" onclick="initExam('random')" class="exam-tab-btn px-3 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition flex items-center gap-1.5 bg-amber-100 text-amber-900 hover:bg-amber-200 border border-amber-300 ml-1" title="Trích ngẫu nhiên 30 câu từ toàn bộ ngân hàng 300 câu">
+          <i data-lucide="shuffle" class="w-3.5 h-3.5 text-amber-700"></i>
+          <span>Trộn Ngẫu Nhiên 30 Câu</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======================================================== -->
+  <!-- MAIN WORKSPACE                                           -->
+  <!-- ======================================================== -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+
+    <!-- PANEL 1: ĐANG THI / LÀM BÀI (ACTIVE) -->
+    <div id="exam-active-panel" class="space-y-6">
+      
+      <!-- Thông tin Đề & Đồng hồ đếm ngược (Sticky Bar) -->
+      <div class="bg-white rounded-2xl p-4 sm:p-5 border border-slate-200 shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+        <!-- Thông tin Đề thi -->
+        <div>
+          <div class="flex items-center gap-2.5 mb-1.5 flex-wrap">
+            <span id="exam-code-badge" class="px-2.5 py-0.5 rounded-md text-xs font-black bg-red-700 text-white tracking-wider">
+              MÃ ĐỀ: 101
+            </span>
+            <span id="study-mode-badge" class="px-3 py-0.5 text-xs font-semibold rounded-full bg-red-100 text-red-800 border border-red-200">
+              Chế độ: Thi Giữa Kỳ (Chuẩn Khảo Thí)
+            </span>
+            <span class="text-xs text-slate-500 font-medium hidden sm:inline">
+              (Chuẩn thời gian: 30s / câu)
+            </span>
+          </div>
+          <h2 id="exam-title" class="text-lg sm:text-xl font-bold text-slate-900">
+            Đề 01: Chuẩn Mực Khảo Thí & Nhận Diện Bản Chất
+          </h2>
+          <p id="exam-description" class="text-xs sm:text-sm text-slate-500 mt-1 max-w-2xl">
+            Bộ đề bao quát 4 chương trọng tâm, cân đối giữa câu hỏi thông hiểu, phân tích bản chất và nhận diện các bẫy khái niệm kinh điển.
+          </p>
+        </div>
+
+        <!-- Timer & Nút Nộp Bài -->
+        <div class="flex items-center gap-3 w-full md:w-auto justify-between md:justify-end shrink-0 pt-2 md:pt-0 border-t md:border-t-0 border-slate-100">
+          <!-- Đồng hồ -->
+          <div id="timer-container" class="flex items-center gap-2 px-3 py-1.5 rounded-xl font-mono font-bold text-slate-800 bg-slate-50 border border-slate-200 shadow-inner">
+            <i data-lucide="timer" class="w-4 h-4 text-red-600"></i>
+            <span id="timer-display" class="text-lg font-bold">15:00</span>
+          </div>
+
+          <!-- Nút Nộp bài -->
+          <button onclick="promptSubmitModal()" class="flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-bold bg-red-700 text-white hover:bg-red-800 shadow-md hover:shadow-lg transition-all smooth-transition">
+            <i data-lucide="send" class="w-4 h-4"></i>
+            <span>Nộp Bài</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- KHU VỰC 2 CỘT: CÂU HỎI (BÊN TRÁI) & BẢNG SỐ CÂU (BÊN PHẢI) -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+        
+        <!-- Cột Trái (8/12): Khu vực hiển thị câu hỏi -->
+        <div class="lg:col-span-8 space-y-4">
+          
+          <!-- BỘ LỌC XEM LẠI CÂU HỎI (Chỉ hiện khi sau khi nộp bài và xem lại) -->
+          <div id="review-filter-bar" class="hidden bg-white p-3.5 rounded-2xl border border-slate-200 shadow-sm flex items-center justify-between flex-wrap gap-2.5">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="text-xs font-bold text-slate-700 uppercase tracking-wider flex items-center gap-1">
+                <i data-lucide="filter" class="w-3.5 h-3.5 text-red-700"></i> Lọc câu hỏi:
+              </span>
+              <button data-filter="all" onclick="filterReviewQuestions('all')" class="filter-btn px-3 py-1 rounded-lg text-xs font-semibold bg-red-700 text-white smooth-transition">Tất cả (30)</button>
+              <button data-filter="wrong" onclick="filterReviewQuestions('wrong')" class="filter-btn px-3 py-1 rounded-lg text-xs font-semibold bg-white text-slate-700 border border-slate-300 hover:bg-slate-100 smooth-transition">Chỉ câu làm SAI</button>
+              <button data-filter="flagged" onclick="filterReviewQuestions('flagged')" class="filter-btn px-3 py-1 rounded-lg text-xs font-semibold bg-white text-slate-700 border border-slate-300 hover:bg-slate-100 smooth-transition">Câu đã cắm cờ</button>
+            </div>
+            <button onclick="document.getElementById('results-panel').classList.remove('hidden'); document.getElementById('exam-active-panel').classList.add('hidden'); window.scrollTo({ top: 0, behavior: 'smooth' });" class="text-xs text-red-700 font-bold hover:underline flex items-center gap-1">
+              <i data-lucide="arrow-up" class="w-3.5 h-3.5"></i> Về bảng điểm tổng quan
+            </button>
+          </div>
+
+          <!-- Hướng dẫn phím tắt nhanh cho sinh viên -->
+          <div class="bg-blue-50/70 border border-blue-200/60 rounded-xl px-4 py-2.5 text-xs text-blue-900 flex items-center justify-between flex-wrap gap-2">
+            <div class="flex items-center gap-2">
+              <i data-lucide="keyboard" class="w-4 h-4 text-blue-700"></i>
+              <span><strong>Mẹo thao tác nhanh:</strong> Phím <kbd class="px-1.5 py-0.5 bg-white border border-blue-300 rounded font-mono font-bold">A</kbd> <kbd class="px-1.5 py-0.5 bg-white border border-blue-300 rounded font-mono font-bold">B</kbd> <kbd class="px-1.5 py-0.5 bg-white border border-blue-300 rounded font-mono font-bold">C</kbd> <kbd class="px-1.5 py-0.5 bg-white border border-blue-300 rounded font-mono font-bold">D</kbd> để chọn; <kbd class="px-1.5 py-0.5 bg-white border border-blue-300 rounded font-mono font-bold">←</kbd> <kbd class="px-1.5 py-0.5 bg-white border border-blue-300 rounded font-mono font-bold">→</kbd> để đổi câu; <kbd class="px-1.5 py-0.5 bg-white border border-blue-300 rounded font-mono font-bold">F</kbd> để cắm cờ.</span>
+            </div>
+          </div>
+
+          <!-- Nơi render câu hỏi -->
+          <div id="question-display-area"></div>
+
+          <!-- Thanh điều hướng câu (Chỉ hiện khi ở Single Focus Mode) -->
+          <div id="single-nav-bar"></div>
+        </div>
+
+        <!-- Cột Phải (4/12): Bảng số câu hỏi (Palette) & Thống kê tiến độ (Sticky) -->
+        <div class="lg:col-span-4 space-y-4 lg:sticky lg:top-28">
+          
+          <div class="bg-white rounded-2xl p-5 border border-slate-200 shadow-sm space-y-4">
+            <!-- Tiêu đề Bảng câu hỏi -->
+            <div class="flex items-center justify-between pb-3 border-b border-slate-100">
+              <div class="flex items-center gap-2">
+                <i data-lucide="grid" class="w-4 h-4 text-red-700"></i>
+                <h3 class="font-bold text-sm text-slate-800 uppercase tracking-wide">Bảng Số Câu (30 Câu)</h3>
+              </div>
+              <span id="progress-bar-text" class="text-xs font-semibold text-slate-500">0% (0/30 câu)</span>
+            </div>
+
+            <!-- Thanh Progress Bar -->
+            <div class="w-full bg-slate-100 h-2 rounded-full overflow-hidden">
+              <div id="progress-bar-fill" class="bg-red-700 h-2 rounded-full smooth-transition" style="width: 0%"></div>
+            </div>
+
+            <!-- Chú thích ký hiệu màu sắc -->
+            <div class="grid grid-cols-3 gap-2 text-[11px] text-slate-600 bg-slate-50 p-2.5 rounded-xl border border-slate-100">
+              <div class="flex items-center gap-1.5">
+                <span class="w-3 h-3 rounded bg-blue-600 shrink-0"></span>
+                <span>Đã làm (<strong id="stat-answered">0</strong>)</span>
+              </div>
+              <div class="flex items-center gap-1.5">
+                <span class="w-3 h-3 rounded bg-amber-200 border border-amber-400 shrink-0"></span>
+                <span>Cần xem (<strong id="stat-flagged">0</strong>)</span>
+              </div>
+              <div class="flex items-center gap-1.5">
+                <span class="w-3 h-3 rounded bg-slate-200 shrink-0"></span>
+                <span>Chưa làm (<strong id="stat-remaining">30</strong>)</span>
+              </div>
+            </div>
+
+            <!-- Lưới 30 nút số câu hỏi -->
+            <div id="palette-grid" class="grid grid-cols-6 gap-2 pt-1">
+              <!-- Render tự động bởi JS -->
+            </div>
+
+            <!-- Lời dặn dò phân bổ thời gian của Giảng viên -->
+            <div class="mt-4 pt-3 border-t border-slate-100 text-xs text-slate-500 space-y-1.5 leading-relaxed bg-red-50/50 p-3 rounded-xl border border-red-100">
+              <div class="font-bold text-red-900 flex items-center gap-1">
+                <i data-lucide="lightbulb" class="w-3.5 h-3.5 text-amber-600"></i>
+                <span>Chiến thuật phòng thi của Thầy/Cô:</span>
+              </div>
+              <p>• 15 phút cho 30 câu nghĩa là em có trung bình <strong>30 giây/câu</strong>.</p>
+              <p>• Câu nào dài hoặc phân vân, hãy bấm <strong>"Cắm cờ"</strong> để làm tiếp câu sau, tránh sa đà mất thời gian!</p>
+              <p>• Không để trống bất kỳ câu nào trước khi bấm Nộp bài.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- PANEL 2: BẢNG KẾT QUẢ & BÁO CÁO SƯ PHẠM (HIỆN SAU KHI NỘP BÀI) -->
+    <div id="results-panel" class="hidden space-y-6">
+      
+      <!-- Thẻ Tổng Quan Điểm Số & Lời Đánh Giá Của Giảng Viên -->
+      <div class="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-sm relative overflow-hidden">
+        <div class="absolute -right-10 -bottom-10 opacity-5 pointer-events-none">
+          <i data-lucide="award" class="w-64 h-64 text-red-900"></i>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+          
+          <!-- Cột Điểm Số (4/12) -->
+          <div class="md:col-span-4 text-center md:border-r md:border-slate-200 pr-0 md:pr-6">
+            <span class="px-3 py-1 text-xs font-bold rounded-full bg-red-100 text-red-800 uppercase tracking-wider inline-block mb-3">
+              KẾT QUẢ KHẢO THÍ CHÍNH THỨC
+            </span>
+            <div id="res-score-badge" class="text-5xl sm:text-6xl font-black text-red-700 tracking-tight font-mono">
+              0.0 <span class="text-xl font-normal text-slate-400">/ 10</span>
+            </div>
+            <div class="mt-2 text-sm font-semibold text-slate-700 flex items-center justify-center gap-2">
+              <i data-lucide="check-circle" class="w-4 h-4 text-emerald-600"></i>
+              <span id="res-correct-badge">0 / 30 câu đúng</span>
+            </div>
+            <div class="text-xs text-slate-400 mt-1">
+              Thời gian hoàn thành: <span id="res-time-badge" class="font-medium text-slate-600">--</span>
+            </div>
+          </div>
+
+          <!-- Cột Nhận Xét Sư Phạm (8/12) -->
+          <div class="md:col-span-8 space-y-3">
+            <div class="flex items-center gap-2 text-red-800 text-xs font-bold uppercase tracking-wider">
+              <i data-lucide="user-check" class="w-4 h-4 text-red-700"></i>
+              <span>GÓC NHÌN & LỜI PHÊ CỦA GIẢNG VIÊN BỘ MÔN</span>
+            </div>
+            <h3 id="res-grade-title" class="text-xl sm:text-2xl font-bold text-slate-900">
+              Đang chấm điểm...
+            </h3>
+            <p id="res-teacher-comment" class="text-sm text-slate-600 leading-relaxed">
+              Nhận xét đánh giá chuyên môn...
+            </p>
+
+            <!-- Lời khuyên trọng tâm -->
+            <div class="pt-2">
+              <h5 class="text-xs font-bold text-slate-700 uppercase tracking-wide mb-1.5">Lời khuyên chiến lược cho kỳ thi thật:</h5>
+              <ul id="res-teacher-advice" class="space-y-1"></ul>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Biểu đồ phân tích độ vững 4 Chương -->
+        <div class="mt-8 pt-6 border-t border-slate-100">
+          <h4 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3 flex items-center gap-1.5">
+            <i data-lucide="bar-chart-3" class="w-4 h-4"></i>
+            Phân Tích Mức Độ Nắm Vững Kiến Thức Theo 4 Chương:
+          </h4>
+          <div id="res-chapter-breakdown" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3"></div>
+        </div>
+
+        <!-- Nhóm nút hành động sau thi -->
+        <div class="mt-8 pt-6 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3">
+          <div class="flex items-center gap-2">
+            <button onclick="startReviewMode()" class="px-5 py-2.5 rounded-xl text-sm font-bold bg-slate-900 text-white hover:bg-slate-800 shadow-sm smooth-transition flex items-center gap-2">
+              <i data-lucide="file-search" class="w-4 h-4"></i>
+              <span>Rà Soát Toàn Bộ Bài Làm & Lời Giải</span>
+            </button>
+            <button onclick="printExamSheet()" class="px-4 py-2.5 rounded-xl text-sm font-semibold bg-white border border-slate-300 text-slate-700 hover:bg-slate-50 shadow-sm smooth-transition flex items-center gap-2">
+              <i data-lucide="printer" class="w-4 h-4"></i>
+              <span class="hidden sm:inline">In Bài Thi</span>
+            </button>
+          </div>
+          <div class="flex items-center gap-2">
+            <button onclick="initExam(state.currentSetIndex)" class="px-4 py-2.5 rounded-xl text-sm font-semibold bg-red-50 text-red-800 border border-red-200 hover:bg-red-100 smooth-transition flex items-center gap-1.5">
+              <i data-lucide="rotate-ccw" class="w-4 h-4"></i>
+              <span>Làm Lại Đề Này</span>
+            </button>
+            <button onclick="initExam('random')" class="px-4 py-2.5 rounded-xl text-sm font-bold bg-amber-600 text-white hover:bg-amber-700 shadow-sm smooth-transition flex items-center gap-1.5">
+              <i data-lucide="shuffle" class="w-4 h-4"></i>
+              <span>Thử Đề Ngẫu Nhiên Mới</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- ======================================================== -->
+  <!-- MODAL: XÁC NHẬN NỘP BÀI                                 -->
+  <!-- ======================================================== -->
+  <div id="confirm-submit-modal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl border border-slate-200 space-y-4">
+      <div class="flex items-center gap-3 text-red-700">
+        <div class="w-10 h-10 rounded-full bg-red-100 flex items-center justify-center shrink-0">
+          <i data-lucide="help-circle" class="w-6 h-6 text-red-700"></i>
+        </div>
+        <div>
+          <h3 class="text-lg font-bold text-slate-900">Xác Nhận Nộp Bài Thi</h3>
+          <p class="text-xs text-slate-500">Môn: Chủ nghĩa xã hội khoa học (Giữa kỳ)</p>
+        </div>
+      </div>
+
+      <div id="confirm-submit-text" class="text-sm text-slate-700 leading-relaxed">
+        <!-- Render nội dung cảnh báo câu chưa làm -->
+      </div>
+
+      <div class="flex items-center justify-end gap-3 pt-3 border-t border-slate-100">
+        <button onclick="closeSubmitModal()" class="px-4 py-2 rounded-xl text-sm font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 smooth-transition">
+          Làm tiếp
+        </button>
+        <button onclick="submitExam(false)" class="px-5 py-2 rounded-xl text-sm font-bold text-white bg-red-700 hover:bg-red-800 shadow-md smooth-transition">
+          Xác nhận nộp bài
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- MODAL: SỔ TAY TRI THỨC CỐT LÕI (MINI CHEAT-SHEET)        -->
+  <!-- ======================================================== -->
+  <div id="cheatsheet-modal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-3xl w-full max-h-[85vh] flex flex-col shadow-2xl border border-slate-200">
+      
+      <!-- Header Modal -->
+      <div class="p-5 border-b border-slate-200 flex items-center justify-between bg-red-700 text-white rounded-t-3xl">
+        <div class="flex items-center gap-2.5">
+          <i data-lucide="bookmark-check" class="w-5 h-5 text-amber-300"></i>
+          <div>
+            <h3 class="font-bold text-base md:text-lg leading-tight">Sổ Tay Tri Thức Cốt Lõi (Chương 1 - 4)</h3>
+            <p class="text-xs text-red-100">Tóm tắt các định nghĩa, quy luật, phát kiến và thuật ngữ không thể quên</p>
+          </div>
+        </div>
+        <button onclick="closeCheatSheetModal()" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white smooth-transition">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <!-- Nội dung Sổ tay cuộn được -->
+      <div id="cheatsheet-content" class="p-6 overflow-y-auto space-y-4 flex-1">
+        <!-- Render từ questions.js -->
+      </div>
+
+      <!-- Footer Modal -->
+      <div class="p-4 bg-slate-50 border-t border-slate-200 rounded-b-3xl flex items-center justify-between text-xs text-slate-500">
+        <span>Biên soạn dựa trên Giáo trình & Ghi chú bài giảng của sinh viên</span>
+        <button onclick="closeCheatSheetModal()" class="px-4 py-2 bg-slate-800 text-white rounded-xl font-bold hover:bg-slate-900 smooth-transition">
+          Đóng Sổ Tay
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ======================================================== -->
+  <!-- MODAL: LỊCH SỬ LÀM BÀI (LOCALSTORAGE)                   -->
+  <!-- ======================================================== -->
+  <div id="history-modal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden items-center justify-center p-4">
+    <div class="bg-white rounded-2xl max-w-lg w-full max-h-[80vh] flex flex-col shadow-2xl border border-slate-200">
+      
+      <div class="p-4 border-b border-slate-200 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <i data-lucide="history" class="w-5 h-5 text-red-700"></i>
+          <h3 class="font-bold text-slate-800 text-base">Lịch Sử Khảo Thí Của Em</h3>
+        </div>
+        <button onclick="closeHistoryModal()" class="p-1 rounded-lg text-slate-400 hover:text-slate-700">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <div id="history-list" class="p-4 overflow-y-auto space-y-3 flex-1">
+        <!-- Render lịch sử từ LocalStorage -->
+      </div>
+
+      <div class="p-3 bg-slate-50 border-t border-slate-200 flex items-center justify-between">
+        <button onclick="clearExamHistory()" class="text-xs text-red-700 hover:underline font-semibold flex items-center gap-1">
+          <i data-lucide="trash-2" class="w-3.5 h-3.5"></i> Xóa toàn bộ lịch sử
+        </button>
+        <button onclick="closeHistoryModal()" class="px-4 py-1.5 bg-slate-800 text-white rounded-lg text-xs font-bold hover:bg-slate-900">
+          Đóng
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Container Toast Notifications -->
+  <div id="toast-container" class="fixed bottom-5 right-5 z-50 space-y-2 pointer-events-none"></div>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t border-slate-200 py-6 text-center text-xs text-slate-500 mt-auto no-print">
+    <div class="max-w-7xl mx-auto px-4">
+      <p class="font-medium text-slate-700">Ứng dụng Ôn thi & Khảo thí Giữa kỳ Môn Chủ Nghĩa Xã Hội Khoa Học</p>
+      <p class="mt-1 text-slate-400">Nội dung xây dựng dựa trên Giáo trình chuẩn mực và Ghi chép bài giảng môn học (Chương 1 đến Chương 4)</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
