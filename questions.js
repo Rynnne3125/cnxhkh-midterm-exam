@@ -1,4603 +1,4569 @@
 // =========================================================================
-// NGÂN HÀNG 10 ĐỀ THI GIỮA KỲ CHỦ NGHĨA XÃ HỘI KHOA HỌC (30 CÂU - 15 PHÚT)
-// Biên soạn chuẩn khảo thí ôn tập giữa kỳ từ Ghi chú bài giảng & Slide (Chương 1 - 4)
-// Thiết kế định dạng chuẩn mực như Đề 1, tập trung ôn tập và chọn đáp án đúng nhất
+// NGÂN HÀNG KHẢO THÍ CHUẨN GIỮA KỲ: LỊCH SỬ ĐẢNG CỘNG SẢN VIỆT NAM
+// CHƯƠNG 1: ĐẢNG CỘNG SẢN VIỆT NAM RA ĐỜI VÀ LÃNH ĐẠO ĐẤU TRANH GIÀNH CHÍNH QUYỀN (1930 - 1945)
+// Quy chuẩn khảo thí VKU Đà Nẵng: 50 Câu Trắc Nghiệm / Đề - Thời Gian 40 Phút
+// 6 Bộ Đề Khảo Thí Chuẩn Mực (300 Câu Hỏi Độc Bản - Không Trùng Lặp)
+// Đáp án thiết kế cân bằng độ dài, cô đọng súc tích, chống đoán mò
 // =========================================================================
 
 const EXAM_SETS = [
   {
     "id": "de_01",
     "code": "MÃ ĐỀ: 101",
-    "title": "Đề 01: Tổng Ôn Nhập Môn & Khái Niệm Nền Tảng (Chương 1 - 4)",
-    "description": "Bộ đề bao quát kiến thức trọng tâm từ Chương 1 đến Chương 4, bám sát các mốc thời gian, định nghĩa và nguyên lý cơ bản nhất.",
-    "duration": 15,
+    "title": "Đề 01: Tổng Ôn Khảo Thí Toàn Diện Chương 1 (1858 - 1945)",
+    "description": "Bộ đề khảo thí chuẩn mực bao quát toàn bộ Chương 1, phân loại học lực sinh viên từ bối cảnh 1858 đến thắng lợi Cách mạng Tháng Tám năm 1945.",
+    "duration": 40,
     "questions": [
       {
         "id": 1,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
-        "level": "Thông hiểu",
-        "question": "Tác phẩm nào đánh dấu sự ra đời của Chủ nghĩa xã hội khoa học và là kim chỉ nam cho phong trào công nhân?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Nhận biết",
+        "question": "Thực dân Pháp nổ súng tấn công vào địa danh nào để mở đầu cuộc xâm lược Việt Nam?",
         "options": [
-          "Tư bản luận (1867)",
-          "Tuyên ngôn của Đảng Cộng sản (1848)",
-          "Chống Đuy-rinh (1878)",
-          "Nhà nước và Cách mạng (1917)"
+          "Cửa biển Đà Nẵng",
+          "Cửa biển Thuận An",
+          "Bán đảo Đồ Sơn",
+          "Thành Gia Định"
         ],
-        "correct": 1,
-        "explanation": "Tác phẩm 'Tuyên ngôn của Đảng Cộng sản' do C.Mác và Ph.Ăngghen soạn thảo ra đời tháng 2/1848, là văn kiện đánh dấu sự ra đời của CNXHKH và là kim chỉ nam của phong trào.",
-        "trapAnalysis": "Ghi nhớ chính xác mốc năm 1848 gắn liền với Tuyên ngôn của Đảng Cộng sản."
+        "correct": 0,
+        "explanation": "Chiều 31/8 và rạng sáng 1/9/1858, liên quân Pháp - Tây Ban Nha nổ súng tấn công bán đảo Sơn Trà (Đà Nẵng), chính thức mở đầu xâm lược Việt Nam.",
+        "trapAnalysis": "Đà Nẵng là nơi Pháp nổ súng đầu tiên, không nhầm lẫn với Gia Định (1859) hay Thuận An (1883)."
       },
       {
         "id": 2,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
-        "level": "Nhận biết",
-        "question": "Ba phát kiến vĩ đại của khoa học tự nhiên làm tiền đề cho sự ra đời của CNXHKH bao gồm:",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Thông hiểu",
+        "question": "Bản hiệp ước nào đánh dấu sự đầu hàng hoàn toàn của triều đình Huế trước thực dân Pháp?",
         "options": [
-          "Thuyết tương đối, Thuyết lượng tử, Thuyết nhật tâm",
-          "Thuyết tế bào, Thuyết tiến hóa, Định luật bảo toàn và chuyển hóa năng lượng",
-          "Định luật vạn vật hấp dẫn, Hình học phi Ơ-clit, Thuyết nguyên tử",
-          "Thuyết di truyền Men-đen, Thuyết Big Bang, Cơ học lượng tử"
+          "Hiệp ước Nhâm Tuất (1862)",
+          "Hiệp ước Giáp Tuất (1874)",
+          "Hiệp ước Hác-măng (1883)",
+          "Hiệp ước Pa-tơ-nốt (1884)"
         ],
-        "correct": 1,
-        "explanation": "Ba phát kiến vĩ đại của khoa học tự nhiên thế kỷ XIX là: Thuyết tế bào, Thuyết tiến hóa của Đác-uyn, Định luật bảo toàn và chuyển hóa năng lượng.",
-        "trapAnalysis": "Học thuộc bộ ba phát kiến khoa học tự nhiên thế kỷ XIX."
+        "correct": 3,
+        "explanation": "Hiệp ước Pa-tơ-nốt (6/6/1884) đã chấm dứt hoàn toàn sự tồn tại của nhà nước phong kiến độc lập, biến Việt Nam thành nước thuộc địa nửa phong kiến.",
+        "trapAnalysis": "Hiệp ước Hác-măng (1883) là hiệp ước đầu hàng sơ bộ, còn Pa-tơ-nốt (1884) mới là văn bản xác lập sự thống trị toàn diện cuối cùng."
       },
       {
         "id": 3,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Tiền đề lý luận trực tiếp nhất cho sự ra đời của Chủ nghĩa xã hội khoa học là:",
+        "question": "Mâu thuẫn chủ yếu và bao trùm nhất trong xã hội Việt Nam thời thuộc địa nửa phong kiến là gì?",
         "options": [
-          "Triết học cổ điển Đức",
-          "Kinh tế chính trị học cổ điển Anh",
-          "Chủ nghĩa xã hội không tưởng - phê phán",
-          "Triết học khai sáng Pháp"
+          "Giữa giai cấp nông dân với địa chủ",
+          "Giữa giai cấp công nhân với tư sản",
+          "Giữa dân tộc Việt Nam với đế quốc xâm lược",
+          "Giữa thợ thuyền tiểu tư sản với tư bản Pháp"
         ],
         "correct": 2,
-        "explanation": "Chủ nghĩa xã hội không tưởng - phê phán (tiêu biểu là Xanh Ximông, Phuriê, Ôoen) là tiền đề tư tưởng lý luận trực tiếp nhất cho CNXHKH.",
-        "trapAnalysis": "Phân biệt: Triết học Đức là tiền đề cho Triết học Mác, KTCT Anh cho KTCT Mác, còn CNXH không tưởng là tiền đề trực tiếp cho CNXHKH."
+        "explanation": "Mâu thuẫn cơ bản gồm: Dân tộc VN >< Đế quốc Pháp và Nông dân >< Địa chủ. Trong đó mâu thuẫn giữa toàn thể dân tộc VN với đế quốc xâm lược là mâu thuẫn chủ yếu nhất.",
+        "trapAnalysis": "Tránh chọn mâu thuẫn giai cấp (nông dân - địa chủ), vì giải phóng dân tộc là mâu thuẫn hàng đầu đòi hỏi giải quyết cấp bách."
       },
       {
         "id": 4,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
-        "level": "Thông hiểu",
-        "question": "Nội dung cơ bản và quan trọng nhất của CNXHKH giúp vượt qua hạn chế của chủ nghĩa xã hội không tưởng là gì?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Nhận biết",
+        "question": "Giai cấp công nhân Việt Nam ra đời trong khoảng thời gian lịch sử nào?",
         "options": [
-          "Lên án sự bóc lột của giai cấp tư sản",
-          "Phát hiện giai cấp công nhân là lực lượng có thể xóa bỏ CNTB, xây dựng CNXH",
-          "Mô tả viễn cảnh xã hội tương lai không còn nhà nước",
-          "Đề xướng lối sống hòa bình và hợp tác giữa các giai cấp"
+          "Trước khi thực dân Pháp xâm lược",
+          "Trong cuộc khai thác thuộc địa lần thứ nhất",
+          "Sau cuộc khai thác thuộc địa lần thứ hai",
+          "Trong phong trào Xô viết Nghệ - Tĩnh"
         ],
         "correct": 1,
-        "explanation": "Nội dung cơ bản, quan trọng nhất đối với CNXHKH là phát hiện giai cấp công nhân là lực lượng xã hội có sứ mệnh xóa bỏ CNTB, xây dựng CNXH.",
-        "trapAnalysis": "Điểm khác biệt căn bản của CNXHKH là tìm ra lực lượng xã hội tiên phong - giai cấp công nhân."
+        "explanation": "Giai cấp công nhân Việt Nam hình thành trong cuộc khai thác thuộc địa lần thứ nhất của Pháp (1897 - 1914), ra đời trước cả giai cấp tư sản dân tộc.",
+        "trapAnalysis": "Công nhân Việt Nam ra đời TRƯỚC tư sản Việt Nam (khai thác lần 1), chứ không phải sau chiến tranh thế giới thứ nhất."
       },
       {
         "id": 5,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
-        "level": "Nhận biết",
-        "question": "Theo tiến trình phát triển của hình thái kinh tế - xã hội cộng sản chủ nghĩa, Việt Nam hiện nay đang ở giai đoạn nào?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Thông hiểu",
+        "question": "Lực lượng nào chiếm trên 90% dân số và là lực lượng đông đảo nhất của cách mạng Việt Nam?",
         "options": [
-          "Đã hoàn thành chủ nghĩa xã hội",
-          "Đang trong thời kỳ quá độ lên chủ nghĩa xã hội",
-          "Đang ở giai đoạn cao cộng sản chủ nghĩa",
-          "Chủ nghĩa tư bản độc quyền nhà nước"
+          "Giai cấp công nhân",
+          "Giai cấp nông dân",
+          "Tầng lớp tiểu tư sản",
+          "Giai cấp tư sản dân tộc"
         ],
         "correct": 1,
-        "explanation": "Sơ đồ các giai đoạn: CNXH (thấp/thời kỳ quá độ lên CSCN) -> CSCN (cao). Việt Nam đang trong thời kỳ quá độ lên chủ nghĩa xã hội.",
-        "trapAnalysis": "Việt Nam đang trong thời kỳ quá độ lên CNXH (bỏ qua chế độ TBCN)."
+        "explanation": "Giai cấp nông dân chiếm hơn 90% dân số, chịu ách áp bức bóc lột nặng nề nhất, là lực lượng đông đảo và động lực to lớn của cách mạng.",
+        "trapAnalysis": "Công nhân là giai cấp lãnh đạo, còn nông dân là lực lượng đông đảo nhất và là quân chủ lực của cách mạng."
       },
       {
         "id": 6,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Nhận biết",
-        "question": "Giai cấp công nhân là con đẻ của nền sản xuất nào?",
+        "question": "Cuộc khởi nghĩa tiêu biểu và kéo dài nhất kết thúc phong trào Cần Vương do ai lãnh đạo?",
         "options": [
-          "Nền sản xuất nông nghiệp phong kiến",
-          "Nền tiểu thủ công nghiệp phường hội",
-          "Nền đại công nghiệp hiện đại",
-          "Nền kinh tế tự nhiên nguyên thủy"
+          "Nguyễn Thiện Thuật",
+          "Phạm Bành và Đinh Công Tráng",
+          "Phan Đình Phùng",
+          "Hoàng Hoa Thám"
         ],
         "correct": 2,
-        "explanation": "Giai cấp công nhân là con đẻ của nền công nghiệp hiện đại, gắn liền với quá trình sản xuất vật chất hiện đại.",
-        "trapAnalysis": "Từ khóa cốt lõi: 'con đẻ của nền đại công nghiệp'."
+        "explanation": "Khởi nghĩa Hương Khê (1885 - 1896) do Phan Đình Phùng lãnh đạo là cuộc khởi nghĩa tiêu biểu nhất, khi ông mất thì phong trào Cần Vương cũng kết thúc.",
+        "trapAnalysis": "Hoàng Hoa Thám lãnh đạo khởi nghĩa Yên Thế (phong trào nông dân tự vệ), không thuộc biên niên phong trào Cần Vương."
       },
       {
         "id": 7,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Về mặt kinh tế dưới chế độ tư bản chủ nghĩa, giai cấp công nhân có đặc điểm gì?",
+        "question": "Nhận xét của Nguyễn Ái Quốc về chủ trương cầu viện Nhật Bản của Phan Bội Châu là gì?",
         "options": [
-          "Sở hữu một phần tư liệu sản xuất chủ yếu",
-          "Không sở hữu tư liệu sản xuất, bị giai cấp tư sản bóc lột giá trị thặng dư",
-          "Nắm quyền chi phối toàn bộ các tập đoàn tư bản",
-          "Tự do làm chủ các nhà máy công xưởng"
+          "Chẳng khác nào xin giặc rủ lòng thương",
+          "Chẳng khác nào đưa hổ cửa trước rước beo cửa sau",
+          "Hành động mang tính chất manh động ám sát",
+          "Không kích thích được lòng yêu nước toàn dân"
         ],
         "correct": 1,
-        "explanation": "Giai cấp công nhân không sở hữu tư liệu sản xuất chủ yếu, buộc phải bán sức lao động và bị giai cấp tư sản bóc lột giá trị thặng dư.",
-        "trapAnalysis": "Đặc trưng kinh tế của vô sản là: không sở hữu TLSX chủ yếu, bị bóc lột GTTD."
+        "explanation": "Nguyễn Ái Quốc nhận xét việc cụ Phan Bội Châu nhờ cậy đế quốc Nhật để đánh đế quốc Pháp chẳng khác gì 'đuổi hổ cửa trước, rước beo cửa sau'.",
+        "trapAnalysis": "'Xin giặc rủ lòng thương' là nhận xét của Người về chủ trương dựa vào Pháp để cải cách của Phan Châu Trinh."
       },
       {
         "id": 8,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Đặc điểm nổi bật nhất về phương thức lao động quy định vai trò lãnh đạo cách mạng của giai cấp công nhân là:",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Nhận biết",
+        "question": "Tổ chức Việt Nam Quốc dân Đảng thành lập năm 1927 đại diện cho khuynh hướng chính trị nào?",
         "options": [
-          "Lao động thủ công tinh xảo",
-          "Lao động bằng phương thức công nghiệp",
-          "Lao động đơn lẻ, tản mạn tại gia đình",
-          "Lao động thuần túy bằng cơ bắp không cần tổ chức"
+          "Khuynh hướng phong kiến",
+          "Khuynh hướng vô sản",
+          "Dân chủ tư sản",
+          "Xã hội dân chủ"
         ],
-        "correct": 1,
-        "explanation": "Lao động bằng phương thức công nghiệp là đặc điểm nổi bật nhất, rèn luyện cho GCCN tính tổ chức, kỷ luật, tinh thần hợp tác.",
-        "trapAnalysis": "Đặc điểm nổi bật nhất: lao động bằng phương thức công nghiệp."
+        "correct": 2,
+        "explanation": "Việt Nam Quốc dân Đảng (do Nguyễn Thái Học lãnh đạo) là tổ chức đại diện cho khuynh hướng dân chủ tư sản ở Việt Nam theo chủ nghĩa Tam Dân của Tôn Trung Sơn.",
+        "trapAnalysis": "Việt Nam Quốc dân Đảng không đi theo khuynh hướng vô sản mà theo lập trường dân chủ tư sản."
       },
       {
         "id": 9,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Nội dung tổng quát sứ mệnh lịch sử của giai cấp công nhân là gì?",
+        "question": "Sự thất bại của cuộc Khởi nghĩa Yên Bái (2/1930) đã khẳng định điều gì?",
         "options": [
-          "Xóa bỏ chủ nghĩa tư bản; xây dựng chủ nghĩa xã hội",
-          "Kêu gọi xóa bỏ máy móc để trở về thời kỳ thủ công",
-          "Duy trì chế độ chiếm hữu tư nhân tư bản chủ nghĩa",
-          "Chia đều toàn bộ của cải xã hội cho từng cá nhân"
+          "Sự cáo chung của chế độ phong kiến",
+          "Sự phá sản của khuynh hướng dân chủ tư sản",
+          "Sự suy yếu của phong trào công nhân",
+          "Sự bất lực của giai cấp nông dân"
         ],
-        "correct": 0,
-        "explanation": "Nội dung sứ mệnh lịch sử của giai cấp công nhân: Xóa bỏ chủ nghĩa tư bản; xây dựng chủ nghĩa xã hội và chủ nghĩa cộng sản.",
-        "trapAnalysis": "Hai vế không tách rời: Xóa bỏ CNTB và Xây dựng CNXH."
+        "correct": 1,
+        "explanation": "Khởi nghĩa Yên Bái thất bại đánh dấu sự phá sản hoàn toàn của khuynh hướng chính trị dân chủ tư sản trong phong trào giải phóng dân tộc Việt Nam.",
+        "trapAnalysis": "Chế độ phong kiến chỉ kết thúc vào tháng 8/1945 khi Bảo Đại thoái vị; Yên Bái đánh dấu sự thất bại của tư sản dân tộc."
       },
       {
         "id": 10,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Điều kiện KHÁCH QUAN quy định sứ mệnh lịch sử của giai cấp công nhân do yếu tố nào tạo nên?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Nhận biết",
+        "question": "Chính sách 'chia để trị' của thực dân Pháp tại Việt Nam chia đất nước thành ba kỳ gồm:",
         "options": [
-          "Do ý chí chủ quan của các lãnh tụ cách mạng",
-          "Do địa vị kinh tế và địa vị chính trị - xã hội của giai cấp công nhân quy định",
-          "Do sự tài trợ của các nhà tư bản tiến bộ",
-          "Do phong trào từ thiện quốc tế ủng hộ"
+          "Bắc Kỳ, Trung Kỳ, Nam Kỳ với ba quy chế khác nhau",
+          "Đông Kỳ, Tây Kỳ, Nam Kỳ trực thuộc quân sự",
+          "Thượng Kỳ, Hạ Kỳ, Trung Kỳ do vua Nguyễn cai quản",
+          "Bắc Bộ, Trung Bộ, Nam Bộ thuộc quyền sứ thần Pháp"
         ],
-        "correct": 1,
-        "explanation": "Điều kiện khách quan quy định sứ mệnh lịch sử của GCCN do địa vị kinh tế và địa vị chính trị - xã hội của giai cấp công nhân quy định.",
-        "trapAnalysis": "Phân biệt: Địa vị kinh tế & CT-XH là điều kiện khách quan."
+        "correct": 0,
+        "explanation": "Pháp chia Việt Nam thành 3 kỳ: Bắc Kỳ (nửa bảo hộ), Trung Kỳ (bảo hộ), Nam Kỳ (thuộc địa) nằm trong Liên bang Đông Dương.",
+        "trapAnalysis": "Pháp dùng danh xưng Bắc Kỳ, Trung Kỳ, Nam Kỳ để xóa tên gọi đất nước Việt Nam trên bản đồ thế giới."
       },
       {
         "id": 11,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Nhân tố CHỦ QUAN giữ vai trò quan trọng nhất để giai cấp công nhân thực hiện thắng lợi sứ mệnh lịch sử là:",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Nguyễn Tất Thành ra đi tìm đường cứu nước từ bến cảng Nhà Rồng vào ngày tháng năm nào?",
         "options": [
-          "Sự ra đời và lãnh đạo của Đảng Cộng sản",
-          "Sự gia tăng tự phát của các cuộc biểu tình",
-          "Sự hỗ trợ tài chính từ công đoàn các nước tư bản",
-          "Ý thức tự giác của giai cấp nông dân"
+          "05/06/1911",
+          "19/05/1911",
+          "06/05/1911",
+          "15/06/1911"
         ],
         "correct": 0,
-        "explanation": "Điều kiện chủ quan quy định sứ mệnh lịch sử của giai cấp công nhân: nhân tố quan trọng nhất là Đảng Cộng sản (lãnh đạo).",
-        "trapAnalysis": "Đảng Cộng sản là nhân tố chủ quan quyết định hàng đầu."
+        "explanation": "Ngày 5/6/1911, từ bến cảng Nhà Rồng (Sài Gòn), người thanh niên Nguyễn Tất Thành lên con tàu Đô đốc Latouche-Tréville ra đi tìm đường cứu nước.",
+        "trapAnalysis": "Ngày sinh của Bác là 19/5/1890, ngày ra đi tìm đường cứu nước là 5/6/1911."
       },
       {
         "id": 12,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Nhận biết",
-        "question": "Giai cấp công nhân Việt Nam chính thức ra đời vào thời gian nào?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Thông hiểu",
+        "question": "Sự kiện nào đánh dấu bước ngoặt đưa Nguyễn Ái Quốc từ người yêu nước trở thành chiến sĩ cộng sản?",
         "options": [
-          "Đầu thế kỷ XIX",
-          "Đầu thế kỷ XX",
-          "Sau Cách mạng Tháng Tám 1945",
-          "Sau năm 1975 khi thống nhất đất nước"
+          "Gửi Bản Yêu sách của nhân dân An Nam (1919)",
+          "Đọc Luận cương của Lênin về vấn đề thuộc địa (7/1920)",
+          "Bỏ phiếu tán thành Quốc tế III và lập Đảng CS Pháp (12/1920)",
+          "Sáng lập Hội Việt Nam Cách mạng Thanh niên (1925)"
         ],
-        "correct": 1,
-        "explanation": "Giai cấp công nhân ở Việt Nam ra đời vào đầu thế kỷ XX trong các cuộc khai thác thuộc địa của thực dân Pháp.",
-        "trapAnalysis": "Mốc ra đời của GCCN Việt Nam: Đầu thế kỷ XX."
+        "correct": 2,
+        "explanation": "Tại Đại hội Tours (tháng 12/1920), Người bỏ phiếu tán thành Quốc tế III và tham gia sáng lập Đảng Cộng sản Pháp, đánh dấu bước ngoặt từ người yêu nước thành người cộng sản.",
+        "trapAnalysis": "Đọc Luận cương (7/1920) là tìm thấy con đường, còn Đại hội Tours (12/1920) mới là sự kiện chính thức đánh dấu bước ngoặt trở thành chiến sĩ cộng sản."
       },
       {
         "id": 13,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Nhận biết",
-        "question": "Quy luật chung về sự ra đời của Đảng Cộng sản theo chủ nghĩa Mác - Lênin là sản phẩm của sự kết hợp giữa:",
+        "question": "Cơ quan ngôn luận do Hội Liên hiệp thuộc địa xuất bản tại Paris năm 1922 do Nguyễn Ái Quốc làm chủ nhiệm kiêm chủ bút là:",
         "options": [
-          "Phong trào công nhân + Chủ nghĩa Mác - Lênin",
-          "Phong trào nông dân + Triết học cổ điển Đức",
-          "Phong trào yêu nước + Phong trào sinh viên",
-          "Chủ nghĩa xã hội không tưởng + Kinh tế chính trị học Anh"
+          "Báo L'Humanité",
+          "Báo Le Paria",
+          "Báo Thanh Niên",
+          "Báo Búa Liềm"
         ],
-        "correct": 0,
-        "explanation": "Công thức kinh điển: Đảng Cộng sản = Phong trào công nhân + Chủ nghĩa Mác - Lênin.",
-        "trapAnalysis": "Công thức chung gồm 2 yếu tố: PTCN + CN Mác-Lênin."
+        "correct": 1,
+        "explanation": "Báo Le Paria (Người cùng khổ) ra số đầu tiên ngày 1/4/1922, là diễn đàn đấu tranh giải phóng các dân tộc thuộc địa.",
+        "trapAnalysis": "L'Humanité là báo của Đảng Xã hội/Cộng sản Pháp, Thanh Niên xuất bản ở Quảng Châu (1925)."
       },
       {
         "id": 14,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Nội dung KINH TẾ trong sứ mệnh lịch sử của giai cấp công nhân là:",
+        "question": "Tác phẩm lý luận nào của Nguyễn Ái Quốc xuất bản năm 1927 đóng vai trò chuẩn bị trực tiếp về tư tưởng chính trị cho việc lập Đảng?",
         "options": [
-          "Lực lượng sản xuất cơ bản, sản xuất của cải cho xã hội xã hội chủ nghĩa",
-          "Giành lấy chính quyền nhà nước từ tay giai cấp tư sản",
-          "Tiến hành đấu tranh tư tưởng, xây dựng đạo đức mới",
-          "Xóa bỏ quyền sở hữu vật phẩm tiêu dùng cá nhân"
+          "Bản án chế độ thực dân Pháp",
+          "Đường Kách mệnh",
+          "Tự chỉ trích",
+          "Chính cương vắn tắt"
         ],
-        "correct": 0,
-        "explanation": "Slide bài giảng: Nội dung kinh tế của sứ mệnh lịch sử: giai cấp công nhân là lực lượng sản xuất cơ bản, sản xuất của cải cho xã hội xã hội chủ nghĩa.",
-        "trapAnalysis": "Nội dung kinh tế gắn liền với: sản xuất của cải vật chất, lực lượng sản xuất cơ bản."
+        "correct": 1,
+        "explanation": "Tác phẩm 'Đường Kách mệnh' (1927) tập hợp các bài giảng tại Quảng Châu, vạch rõ phương hướng và vai trò tiên phong của Đảng cách mạng.",
+        "trapAnalysis": "'Bản án chế độ thực dân Pháp' xuất bản 1925, còn 'Đường Kách mệnh' xuất bản 1927 chuẩn bị lý luận thành lập Đảng."
       },
       {
         "id": 15,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Nội dung CHÍNH TRỊ - XÃ HỘI trong sứ mệnh lịch sử của giai cấp công nhân là:",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Hội Việt Nam Cách mạng Thanh niên được Nguyễn Ái Quốc thành lập vào thời gian nào tại Quảng Châu?",
         "options": [
-          "Đòi tăng lương giảm giờ làm thuần túy",
-          "Dưới sự lãnh đạo của Đảng Cộng sản, đấu tranh giành chính quyền và xây dựng nhà nước mới của nhân dân",
-          "Thỏa hiệp với giai cấp tư sản để cùng nắm chính quyền",
-          "Tham gia vào các tổ chức tôn giáo để truyền bá đức tin"
+          "Tháng 2/1925",
+          "Tháng 6/1925",
+          "Tháng 11/1924",
+          "Tháng 3/1926"
         ],
         "correct": 1,
-        "explanation": "Slide: Nội dung chính trị - xã hội: dưới sự lãnh đạo của Đảng Cộng sản, giai cấp công nhân đấu tranh giành chính quyền và xây dựng nhà nước mới của nhân dân.",
-        "trapAnalysis": "Nội dung chính trị: Giành chính quyền và xây dựng nhà nước mới dưới sự lãnh đạo của ĐCS."
+        "explanation": "Tháng 6/1925, Nguyễn Ái Quốc thành lập Hội Việt Nam Cách mạng Thanh niên tại Quảng Châu (Trung Quốc), nòng cốt là nhóm Cộng sản đoàn.",
+        "trapAnalysis": "Tháng 2/1925 thành lập Cộng sản đoàn; tháng 6/1925 mới chính thức thành lập Hội Việt Nam Cách mạng Thanh niên."
       },
       {
         "id": 16,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Nội dung VĂN HÓA, TƯ TƯỞNG trong sứ mệnh lịch sử của giai cấp công nhân lấy hệ tư tưởng nào làm chủ đạo?",
+        "question": "Phong trào 'Vô sản hóa' (1928) của Hội Việt Nam Cách mạng Thanh niên nhằm mục đích cốt lõi gì?",
         "options": [
-          "Hệ tư tưởng tư sản và tự do cá nhân",
-          "Hệ tư tưởng tôn giáo",
-          "Hệ tư tưởng của Mác - Lênin",
-          "Hệ tư tưởng phong kiến"
+          "Vận động công nhân quyên góp tiền mua vũ khí",
+          "Tổ chức tổng bãi công phá hoại nhà máy Pháp",
+          "Rèn luyện lập trường giai cấp và truyền bá chủ nghĩa Mác - Lênin",
+          "Đưa cán bộ sang Liên Xô đào tạo lý luận cao cấp"
         ],
         "correct": 2,
-        "explanation": "Slide và ghi chú viết tay ở lề: Nội dung văn hóa, tư tưởng: xây dựng nền văn hóa và con người mới với tư tưởng, đạo đức XHCN; 'hệ tư tưởng của Mác - Lênin'.",
-        "trapAnalysis": "Hệ tư tưởng chủ đạo là chủ nghĩa Mác - Lênin."
+        "explanation": "Đưa hội viên vào các hầm mỏ, đồn điền cùng lao động với công nhân để rèn luyện lập trường giai cấp và truyền bá chủ nghĩa Mác - Lênin vào phong trào công nhân.",
+        "trapAnalysis": "'Vô sản hóa' không nhằm mua vũ khí hay bãi công tức thời, mà là phương thức thâm nhập thực tiễn để giác ngộ công nhân."
       },
       {
         "id": 17,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Điểm tương đồng căn bản giữa giai cấp công nhân hiện nay với giai cấp công nhân thế kỷ XIX là:",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Chi bộ cộng sản đầu tiên ở Việt Nam được thành lập vào tháng 3/1929 tại địa chỉ nào?",
         "options": [
-          "Đều không có trình độ văn hóa",
-          "Vẫn là lực lượng sản xuất hàng đầu, vẫn chịu sự bóc lột giá trị thặng dư",
-          "Đều bị cấm tham gia vào đời sống chính trị",
-          "Đều sống ở nông thôn và làm việc nông nghiệp"
+          "Số 5D Hàm Long, Hà Nội",
+          "Số 312 Khâm Thiên, Hà Nội",
+          "Số 90 Thợ Nhuộm, Hà Nội",
+          "Bến Nhà Rồng, Sài Gòn"
         ],
-        "correct": 1,
-        "explanation": "Điểm tương đồng với TK XIX: vẫn là LLSX hàng đầu, vẫn chịu sự bóc lột giá trị thặng dư, vẫn tồn tại xung đột lợi ích cơ bản với giai cấp tư sản.",
-        "trapAnalysis": "GCCN hiện nay vẫn bị bóc lột giá trị thặng dư và là LLSX hàng đầu."
+        "correct": 0,
+        "explanation": "Tháng 3/1929, chi bộ cộng sản đầu tiên gồm 7 đảng viên thành lập tại số 5D phố Hàm Long (Hà Nội) do Trần Văn Cung làm Bí thư.",
+        "trapAnalysis": "312 Khâm Thiên là nơi thành lập Đông Dương Cộng sản Đảng (6/1929), còn 5D Hàm Long là nơi lập chi bộ đầu tiên (3/1929)."
       },
       {
         "id": 18,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Biến đổi nổi bật của giai cấp công nhân trong kỷ nguyên công nghệ hiện đại là xu hướng gì?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Tổ chức cộng sản nào ra đời vào tháng 6/1929 tại Bắc Kỳ và xuất bản báo Búa Liềm?",
         "options": [
-          "Xu hướng bần cùng hóa tuyệt đối",
-          "Xu hướng trí tuệ hóa công nhân (công nhân tri thức)",
-          "Xu hướng biến hoàn toàn thành giai cấp tư sản",
-          "Xu hướng từ bỏ lao động công nghiệp"
+          "An Nam Cộng sản Đảng",
+          "Đông Dương Cộng sản Đảng",
+          "Đông Dương Cộng sản Liên đoàn",
+          "Tân Việt Cách mạng Đảng"
         ],
         "correct": 1,
-        "explanation": "Những biến đổi của GCCN hiện nay: xu hướng trí tuệ hóa công nhân (công nhân tri thức); tham gia vào sở hữu (trung lưu hóa); biểu hiện mới của xã hội hóa lao động.",
-        "trapAnalysis": "Xu hướng nổi bật: trí tuệ hóa công nhân (công nhân tri thức)."
+        "explanation": "Đông Dương Cộng sản Đảng thành lập ngày 17/6/1929 tại 312 Khâm Thiên (Hà Nội), cơ quan ngôn luận là báo Búa Liềm.",
+        "trapAnalysis": "An Nam Cộng sản Đảng xuất bản tạp chí Bôn-sê-vích (8/1929 tại Nam Kỳ)."
       },
       {
         "id": 19,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Về mặt kinh tế, điều kiện ra đời của Chủ nghĩa xã hội là sự phát triển của mâu thuẫn giữa:",
+        "question": "Sự xuất hiện của 3 tổ chức cộng sản năm 1929 đặt ra yêu cầu lịch sử cấp bách nào?",
         "options": [
-          "Lực lượng sản xuất với quan hệ sản xuất trong chủ nghĩa tư bản",
-          "Giai cấp nông dân với giai cấp địa chủ",
-          "Thương nghiệp tư nhân với kinh tế nhà nước",
-          "Sản xuất nông nghiệp với sản xuất thủ công nghiệp"
+          "Hợp nhất thành một chính đảng duy nhất",
+          "Phân chia địa bàn hoạt động độc lập",
+          "Tập trung mua sắm vũ khí chuẩn bị bạo động",
+          "Chờ đợi chỉ thị từ Quốc tế Nông dân"
         ],
         "correct": 0,
-        "explanation": "Điều kiện ra đời CNXH: Về kinh tế: lực lượng sản xuất mâu thuẫn với quan hệ sản xuất trong chủ nghĩa tư bản. Về chính trị: mâu thuẫn giữa GCCN và GCTS.",
-        "trapAnalysis": "Về kinh tế: LLSX mâu thuẫn với QHSX trong CNTB."
+        "explanation": "Ba tổ chức cộng sản hoạt động tranh giành ảnh hưởng và công kích lẫn nhau, đòi hỏi phải hợp nhất thành một Đảng Cộng sản duy nhất để thống nhất hành động cách mạng.",
+        "trapAnalysis": "Không phải duy trì ba tổ chức để chia vùng lãnh thổ, mà quy luật khách quan đòi hỏi phải hợp nhất."
       },
       {
         "id": 20,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Đặc trưng bản chất về kinh tế của Chủ nghĩa xã hội là gì?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Hội nghị hợp nhất thành lập Đảng Cộng sản Việt Nam (đầu năm 1930) được tổ chức tại đâu?",
         "options": [
-          "Nền kinh tế lạc hậu dựa trên tư hữu nhỏ lẻ",
-          "Có nền kinh tế phát triển cao, dựa trên lực lượng sản xuất hiện đại và chế độ công hữu về tư liệu sản xuất chủ yếu",
-          "Chế độ tư hữu tư bản chủ nghĩa hoàn thiện",
-          "Kinh tế bao cấp triệt để không có phân phối theo lao động"
+          "Quảng Châu, Trung Quốc",
+          "Cửu Long, Hương Cảng, Trung Quốc",
+          "Ma Cao, Trung Quốc",
+          "Pác Bó, Cao Bằng"
         ],
         "correct": 1,
-        "explanation": "Vở ghi: Đặc trưng bản chất của CNXH: có nền kinh tế phát triển cao, dựa trên LLSX hiện đại và chế độ công hữu về tư liệu sản xuất chủ yếu.",
-        "trapAnalysis": "Đặc trưng kinh tế bản chất: Công hữu về tư liệu sản xuất chủ yếu."
+        "explanation": "Hội nghị hợp nhất diễn ra từ ngày 6/1 đến 7/2/1930 tại Cửu Long (thuộc Hương Cảng, Trung Quốc) dưới sự chủ trì của Nguyễn Ái Quốc.",
+        "trapAnalysis": "Ma Cao là nơi họp Đại hội I (1935); Cửu Long (Hương Cảng) mới là nơi tổ chức Hội nghị thành lập Đảng."
       },
       {
         "id": 21,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Nhận biết",
-        "question": "Nhà nước xã hội chủ nghĩa đầu tiên xuất hiện trong thực tiễn lịch sử là:",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Thông hiểu",
+        "question": "Đại biểu của hai tổ chức cộng sản nào đã trực tiếp tham gia Hội nghị hợp nhất đầu năm 1930?",
         "options": [
-          "Nước Pháp sau Công xã Pari 1871",
-          "Liên Xô cũ sau Cách mạng Tháng Mười Nga năm 1917",
-          "Việt Nam sau Cách mạng Tháng Tám 1945",
-          "Trung Quốc sau năm 1949"
+          "Đông Dương CS Đảng và An Nam CS Đảng",
+          "Đông Dương CS Đảng và Đông Dương CS Liên đoàn",
+          "An Nam CS Đảng và Tân Việt Cách mạng Đảng",
+          "Đông Dương CS Liên đoàn và Việt Nam Quốc dân Đảng"
         ],
-        "correct": 1,
-        "explanation": "Vở ghi: Nhà nước chủ nghĩa xã hội đầu tiên xuất hiện trong thực tiễn: Liên Xô cũ sau Cách mạng Tháng Mười Nga năm 1917.",
-        "trapAnalysis": "Nhà nước XHCN đầu tiên: Liên Xô sau CM Tháng Mười Nga 1917."
+        "correct": 0,
+        "explanation": "Hội nghị hợp nhất có sự tham gia của đại biểu Đông Dương Cộng sản Đảng và An Nam Cộng sản Đảng; Đông Dương Cộng sản Liên đoàn được kết nạp sau vào ngày 24/2/1930.",
+        "trapAnalysis": "Đông Dương CS Liên đoàn không kịp cử đại biểu đến dự Hội nghị thành lập nhưng đã gửi thư xin gia nhập và được chấp thuận."
       },
       {
         "id": 22,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Cách mạng vô sản là cuộc cách mạng được thực hiện bằng con đường nào?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Các văn kiện được thông qua tại Hội nghị thành lập Đảng hợp thành văn kiện nào?",
         "options": [
-          "Thương lượng hòa giải với tư sản",
-          "Bạo lực cách mạng",
-          "Cầu xin cải cách từ chính phủ tư sản",
-          "Chờ đợi CNTB tự tan rã hòa bình"
+          "Luận cương chính trị",
+          "Cương lĩnh chính trị đầu tiên",
+          "Chương trình hành động",
+          "Chỉ thị kháng chiến"
         ],
         "correct": 1,
-        "explanation": "Vở ghi: Cách mạng vô sản là cuộc cách mạng được thực hiện bằng con đường bạo lực cách mạng.",
-        "trapAnalysis": "Cách mạng vô sản thực hiện bằng bạo lực cách mạng."
+        "explanation": "Chính cương vắn tắt, Sách lược vắn tắt, Chương trình tóm tắt và Điều lệ vắn tắt do Nguyễn Ái Quốc soạn thảo hợp thành Cương lĩnh chính trị đầu tiên của Đảng.",
+        "trapAnalysis": "Luận cương chính trị do Trần Phú soạn thảo được thông qua vào tháng 10/1930, không phải tháng 2/1930."
       },
       {
         "id": 23,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Theo V.I.Lênin, thời kỳ quá độ lên chủ nghĩa xã hội được ví là:",
+        "question": "Phương hướng chiến lược của cách mạng Việt Nam nêu trong Cương lĩnh chính trị đầu tiên là gì?",
         "options": [
-          "'Một kỳ nghỉ dài của giai cấp vô sản'",
-          "'Những cơn đau đẻ kéo dài' (cực kỳ khó khăn)",
-          "'Con đường bằng phẳng trải đầy hoa hồng'",
-          "'Một cuộc cải cách hành chính đơn giản'"
+          "Làm tư sản dân quyền và thổ địa cách mạng để đi tới xã hội cộng sản",
+          "Tiến hành cách mạng xã hội chủ nghĩa bỏ qua giai đoạn tư bản",
+          "Thực hiện cách mạng ruộng đất để lật đổ chế độ phong kiến",
+          "Xây dựng chế độ cộng hòa dân chủ theo mô hình phương Tây"
         ],
-        "correct": 1,
-        "explanation": "Vở ghi: Theo Lênin, thời kỳ quá độ là 'những cơn đau đẻ kéo dài' (CỰC KÌ KHÓ KHĂN).",
-        "trapAnalysis": "Lênin ví thời kỳ quá độ là 'những cơn đau đẻ kéo dài'."
+        "correct": 0,
+        "explanation": "Phương hướng chiến lược: 'Làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản'.",
+        "trapAnalysis": "Cương lĩnh kết hợp chặt chẽ cách mạng tư sản dân quyền và thổ địa cách mạng hướng thẳng tới xã hội cộng sản."
       },
       {
         "id": 24,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Có mấy kiểu quá độ lên chủ nghĩa xã hội và Việt Nam thuộc kiểu nào?",
+        "question": "Cương lĩnh tháng 2/1930 xác định lực lượng nòng cốt (gốc cách mạng) là các giai cấp nào?",
         "options": [
-          "Có 1 kiểu quá độ; Việt Nam không cần quá độ",
-          "Có 2 kiểu (quá độ trực tiếp và quá độ gián tiếp); Việt Nam thuộc kiểu quá độ gián tiếp",
-          "Có 3 kiểu quá độ; Việt Nam thuộc quá độ trực tiếp",
-          "Có 4 kiểu quá độ; Việt Nam thuộc kiểu tư bản phát triển"
+          "Công nhân và nông dân",
+          "Công nhân và tiểu tư sản",
+          "Nông dân và trí thức",
+          "Công nhân và tư sản dân tộc"
         ],
-        "correct": 1,
-        "explanation": "Có hai kiểu quá độ: Quá độ trực tiếp (từ CNTB phát triển - Mác+Ăngghen nêu ra); Quá độ gián tiếp (từ tiền tư bản - Lênin bổ sung, ví dụ Việt Nam).",
-        "trapAnalysis": "Hai kiểu quá độ: Trực tiếp & Gián tiếp. Việt Nam là quá độ gián tiếp."
+        "correct": 0,
+        "explanation": "Cương lĩnh khẳng định công nhân và nông dân là lực lượng nòng cốt, là 'gốc cách mạng'; đồng thời chủ trương đoàn kết với tiểu tư sản, trí thức.",
+        "trapAnalysis": "Gốc cách mạng luôn là liên minh Công - Nông, công nhân giữ vai trò lãnh đạo."
       },
       {
         "id": 25,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Đặc điểm bao trùm của thời kỳ quá độ lên CNXH trên mọi lĩnh vực là gì?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Vận dụng",
+        "question": "Ý nghĩa lịch sử vĩ đại nhất của sự kiện thành lập Đảng Cộng sản Việt Nam (1930) là:",
         "options": [
-          "Chỉ có các yếu tố xã hội chủ nghĩa thuần nhất",
-          "Các yếu tố của xã hội cũ và xã hội mới đan xen trên mọi lĩnh vực",
-          "Xã hội cũ đã bị xóa bỏ hoàn toàn ngay lập tức",
-          "Không còn giai cấp và không còn đấu tranh giai cấp"
+          "Chấm dứt hoàn toàn ách thống trị của thực dân Pháp",
+          "Chấm dứt khủng hoảng về đường lối cứu nước và giai cấp lãnh đạo",
+          "Xóa bỏ hoàn toàn chế độ tư hữu ruộng đất phong kiến",
+          "Đưa nhân dân ta lên vị thế làm chủ hoàn toàn chính quyền"
         ],
         "correct": 1,
-        "explanation": "Slide: Đặc điểm thời kỳ quá độ: các yếu tố của xã hội cũ và xã hội mới đan xen trên mọi lĩnh vực: kinh tế nhiều thành phần, chính trị đa dạng phức tạp, tư tưởng tồn tại nhiều quan điểm.",
-        "trapAnalysis": "Từ khóa đan xen cũ - mới trên mọi lĩnh vực."
+        "explanation": "Sự ra đời của Đảng đã chấm dứt thời kỳ khủng hoảng sâu sắc về đường lối cứu nước và tổ chức lãnh đạo phong trào yêu nước Việt Nam.",
+        "trapAnalysis": "Năm 1930 chưa xóa bỏ được ách thống trị của Pháp hay đưa nhân dân nắm chính quyền (điều này chỉ đạt được sau Cách mạng Tháng Tám 1945)."
       },
       {
         "id": 26,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Quá độ lên CNXH bỏ qua chế độ tư bản chủ nghĩa ở Việt Nam được hiểu là bỏ qua điều gì?",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Phong trào cách mạng 1930 - 1931 đạt tới đỉnh cao thắng lợi với sự kiện nào?",
         "options": [
-          "Bỏ qua toàn bộ thành tựu khoa học công nghệ của CNTB",
-          "Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa",
-          "Bỏ qua việc quan hệ ngoại giao với các nước tư bản",
-          "Bỏ qua phát triển lực lượng sản xuất hiện đại"
+          "Cuộc bãi công của công nhân đồn điền cao su Phú Riềng",
+          "Sự thành lập chính quyền Xô viết Nghệ - Tĩnh",
+          "Cuộc biểu tình của nông dân Tiền Hải (Thái Bình)",
+          "Cuộc bãi công của thợ máy xưởng Ba Son"
         ],
         "correct": 1,
-        "explanation": "Vở ghi: Quá độ lên CNXH bỏ qua chế độ TBCN là bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa.",
-        "trapAnalysis": "Bỏ qua vị trí thống trị của QHSX và KTTT TBCN."
+        "explanation": "Đỉnh cao của phong trào 1930 - 1931 là việc thành lập chính quyền Xô viết ở các huyện thuộc Nghệ An và Hà Tĩnh vào tháng 9/1930.",
+        "trapAnalysis": "Ba Son là sự kiện năm 1925, Phú Riềng đầu năm 1930; đỉnh cao bao trùm là Xô viết Nghệ - Tĩnh."
       },
       {
         "id": 27,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Thông hiểu",
-        "question": "Trong 4 trụ cột phát triển của Việt Nam, yếu tố nào là 'TRUNG TÂM'?",
+        "question": "Tính chất của chính quyền Xô viết Nghệ - Tĩnh được lịch sử khẳng định là:",
         "options": [
-          "Xây dựng Đảng",
-          "Phát triển kinh tế - xã hội",
-          "Phát triển văn hóa, con người",
-          "Củng cố quốc phòng, an ninh"
+          "Chính quyền liên hiệp tư sản dân tộc",
+          "Chính quyền của công nhân và nông dân sơ khai",
+          "Chính quyền dân chủ cộng hòa nghị trường",
+          "Chính quyền quân quản lâm thời thuộc địa"
         ],
         "correct": 1,
-        "explanation": "Bốn trụ cột phát triển: Phát triển kinh tế - xã hội là TRUNG TÂM; Xây dựng Đảng là THEN CHỐT; Phát triển văn hóa, con người là NỀN TẢNG TINH THẦN; Củng cố quốc phòng, an ninh là NHIỆM VỤ TRỌNG YẾU, THƯỜNG XUYÊN.",
-        "trapAnalysis": "Kinh tế - xã hội = TRUNG TÂM."
+        "explanation": "Xô viết Nghệ - Tĩnh là hình thức chính quyền cách mạng sơ khai của giai cấp công nhân và nông dân dưới sự lãnh đạo của Đảng.",
+        "trapAnalysis": "Không phải chính quyền tư sản hay nghị trường, đây là chính quyền công nông phôi thai đầu tiên."
       },
       {
         "id": 28,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Trong 4 trụ cột phát triển của Việt Nam, yếu tố nào là 'THEN CHỐT'?",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Hội nghị Ban Chấp hành Trung ương Đảng tháng 10/1930 đã bầu ai làm Tổng Bí thư đầu tiên?",
         "options": [
-          "Phát triển kinh tế - xã hội",
-          "Xây dựng Đảng",
-          "Củng cố quốc phòng, an ninh",
-          "Hội nhập quốc tế"
+          "Nguyễn Ái Quốc",
+          "Trần Phú",
+          "Lê Hồng Phong",
+          "Hà Huy Tập"
         ],
         "correct": 1,
-        "explanation": "Bốn trụ cột phát triển: Xây dựng Đảng là THEN CHỐT.",
-        "trapAnalysis": "Xây dựng Đảng = THEN CHỐT."
+        "explanation": "Hội nghị TW tháng 10/1930 tại Hương Cảng đã cử đồng chí Trần Phú làm Tổng Bí thư đầu tiên của Đảng.",
+        "trapAnalysis": "Nguyễn Ái Quốc chủ trì hội nghị thành lập Đảng nhưng không giữ chức Tổng Bí thư; Trần Phú là Tổng Bí thư đầu tiên."
       },
       {
         "id": 29,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Nhận biết",
-        "question": "Thuật ngữ 'Dân chủ' được cấu thành từ hai từ Hy Lạp cổ nào và có nghĩa là gì?",
+        "question": "Hội nghị Trung ương tháng 10/1930 đã quyết định đổi tên Đảng Cộng sản Việt Nam thành tên gì?",
         "options": [
-          "Demos (nhân dân) + Kratos (quyền lực) -> Quyền lực thuộc về nhân dân",
-          "Polis (thành bang) + Nomos (luật) -> Pháp luật của thành bang",
-          "Demos (người giàu) + Archia (cai trị) -> Sự cai trị của người giàu",
-          "Kratos (nhà nước) + Civitas (công dân) -> Nhà nước của công dân"
+          "Đảng Lao động Việt Nam",
+          "Đảng Cộng sản Đông Dương",
+          "Đông Dương Cộng sản Liên đoàn",
+          "Hội Liên hiệp Lao động Đông Dương"
         ],
-        "correct": 0,
-        "explanation": "Vở ghi: Dân chủ = Demos (nhân dân) + Kratos (quyền lực). Nguồn gốc: dân chủ là quyền lực của nhân dân, thuộc về nhân dân. Ra đời thế kỷ VII - VI TCN.",
-        "trapAnalysis": "Demos = Nhân dân; Kratos = Quyền lực."
+        "correct": 1,
+        "explanation": "Theo chỉ thị của Quốc tế Cộng sản, Hội nghị TW tháng 10/1930 đã quyết định đổi tên Đảng thành Đảng Cộng sản Đông Dương.",
+        "trapAnalysis": "Đảng Lao động Việt Nam là tên gọi đổi tại Đại hội II (1951), còn tháng 10/1930 đổi thành Đảng Cộng sản Đông Dương."
       },
       {
         "id": 30,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Thông hiểu",
-        "question": "Đặc điểm cốt lõi của cấu trúc quyền lực trong Nhà nước pháp quyền XHCN Việt Nam là:",
+        "question": "Hạn chế chủ yếu trong Luận cương chính trị tháng 10/1930 của Trần Phú là gì?",
         "options": [
-          "Tam quyền phân lập độc lập tuyệt đối",
-          "Quyền lực nhà nước là thống nhất, có sự phân công, phối hợp và kiểm soát giữa lập pháp, hành pháp, tư pháp",
-          "Quyền lực tập trung vào một cá nhân tối cao",
-          "Không có sự phân công giữa các cơ quan nhà nước"
+          "Chưa nhận thấy vai trò lãnh đạo của giai cấp công nhân",
+          "Chưa thấy được quy luật vận động của chủ nghĩa tư bản",
+          "Nặng về đấu tranh giai cấp và chưa đặt giải phóng dân tộc lên hàng đầu",
+          "Không đề ra khẩu hiệu tịch thu ruộng đất của địa chủ"
+        ],
+        "correct": 2,
+        "explanation": "Luận cương chưa đặt nhiệm vụ giải phóng dân tộc lên hàng đầu mà quá nặng về đấu tranh giai cấp và ruộng đất, đồng thời đánh giá chưa đúng khả năng cách mạng của tiểu tư sản, tư sản dân tộc.",
+        "trapAnalysis": "Luận cương vẫn khẳng định công nhân lãnh đạo và vẫn đòi ruộng đất, hạn chế là quá nặng về đấu tranh giai cấp."
+      },
+      {
+        "id": 31,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Câu nói nổi tiếng nào là lời trăn trối của đồng chí Trần Phú trước khi hy sinh trong tù?",
+        "options": [
+          "Không thành công thì cũng thành nhân",
+          "Hãy giữ vững chí khí chiến đấu",
+          "Dù phải đốt cháy cả dãy Trường Sơn",
+          "Quyết tử để Tổ quốc quyết sinh"
         ],
         "correct": 1,
-        "explanation": "Slide: Quyền lực nhà nước thống nhất, có phân công, phối hợp và kiểm soát giữa lập pháp, hành pháp, tư pháp; do Đảng Cộng sản Việt Nam lãnh đạo; tổ chức theo nguyên tắc tập trung dân chủ.",
-        "trapAnalysis": "Quyền lực thống nhất, có phân công, phối hợp và kiểm soát."
+        "explanation": "Trước khi hy sinh tại nhà thương Chợ Quán ngày 6/9/1931, Tổng Bí thư Trần Phú đã nhắn nhủ: 'Hãy giữ vững chí khí chiến đấu'.",
+        "trapAnalysis": "'Không thành công cũng thành nhân' là của Nguyễn Thái Học; 'Quyết tử để Tổ quốc quyết sinh' xuất hiện năm 1946."
+      },
+      {
+        "id": 32,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Đại hội đại biểu toàn quốc lần thứ I của Đảng (tháng 3/1935) diễn ra ở địa điểm nào?",
+        "options": [
+          "Hương Cảng, Trung Quốc",
+          "Ma Cao, Trung Quốc",
+          "Quảng Châu, Trung Quốc",
+          "Tân Trào, Tuyên Quang"
+        ],
+        "correct": 1,
+        "explanation": "Đại hội I họp tại Ma Cao (Trung Quốc) từ ngày 27 đến 31/3/1935, đánh dấu sự phục hồi hoàn chỉnh hệ thống tổ chức Đảng.",
+        "trapAnalysis": "Hội nghị thành lập Đảng ở Hương Cảng (1930), Đại hội I họp ở Ma Cao (1935)."
+      },
+      {
+        "id": 33,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Thông hiểu",
+        "question": "Đại hội VII của Quốc tế Cộng sản (tháng 7/1935) xác định kẻ thù nguy hiểm trước mắt của nhân loại là:",
+        "options": [
+          "Chủ nghĩa đế quốc thực dân",
+          "Chủ nghĩa phát xít",
+          "Giai cấp phong kiến suy tàn",
+          "Chủ nghĩa cơ hội xét lại"
+        ],
+        "correct": 1,
+        "explanation": "Đại hội VII QTCS (do Dimitrov chủ trì) xác định chủ nghĩa phát xít là kẻ thù nguy hiểm trực tiếp của hòa bình và cách mạng thế giới.",
+        "trapAnalysis": "Kẻ thù nguy hiểm hàng đầu lúc này là chủ nghĩa phát xít (Đức, Ý, Nhật), không phải toàn bộ chủ nghĩa tư bản nói chung."
+      },
+      {
+        "id": 34,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Thông hiểu",
+        "question": "Mục tiêu trực tiếp, trước mắt của phong trào dân chủ 1936 - 1939 ở Việt Nam là đòi:",
+        "options": [
+          "Độc lập dân tộc hoàn toàn và ruộng đất cho dân cày",
+          "Tự do, dân chủ, cơm áo, hòa bình",
+          "Lật đổ ách phát xít Nhật và lập chính phủ mới",
+          "Tổng bãi công trên toàn cõi Đông Dương"
+        ],
+        "correct": 1,
+        "explanation": "Thời kỳ 1936 - 1939, Đảng chủ trương chưa đòi độc lập và ruộng đất ngay mà tập trung đòi các quyền dân sinh dân chủ: tự do, dân chủ, cơm áo, hòa bình.",
+        "trapAnalysis": "Giai đoạn 1936-1939 tạm gác khẩu hiệu lật đổ đế quốc và chia ruộng đất, chỉ đòi dân sinh, dân chủ."
+      },
+      {
+        "id": 35,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Tác phẩm 'Tự chỉ trích' (tháng 7/1939) nhằm uốn nắn các lệch lạc trong Đảng do ai viết?",
+        "options": [
+          "Lê Hồng Phong",
+          "Hà Huy Tập",
+          "Nguyễn Văn Cừ",
+          "Trường Chinh"
+        ],
+        "correct": 2,
+        "explanation": "Tổng Bí thư Nguyễn Văn Cừ đã viết tác phẩm 'Tự chỉ trích' để làm rõ nguyên tắc tự phê bình và phê bình, thống nhất tư tưởng trong Đảng.",
+        "trapAnalysis": "Tác giả 'Tự chỉ trích' là Tổng Bí thư Nguyễn Văn Cừ, xuất bản trước khi Chiến tranh thế giới thứ hai bùng nổ."
+      },
+      {
+        "id": 36,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Thông hiểu",
+        "question": "Hình thức đấu tranh mới nổi bật trong phong trào 1936 - 1939 khác với giai đoạn 1930 - 1931 là:",
+        "options": [
+          "Khởi nghĩa vũ trang cướp chính quyền",
+          "Đấu tranh công khai, hợp pháp và nửa hợp pháp",
+          "Ám sát cá nhân bọn trùm thực dân",
+          "Bạo động du kích ở vùng rừng núi hiểm trở"
+        ],
+        "correct": 1,
+        "explanation": "Thời kỳ 1936 - 1939 kết hợp khéo léo giữa đấu tranh công khai, hợp pháp, nửa hợp pháp (nghị trường, báo chí) với hoạt động bí mật bất hợp pháp.",
+        "trapAnalysis": "Giai đoạn 1930-1931 chỉ có bất hợp pháp và vũ trang bãi công; 1936-1939 mới có đấu tranh công khai hợp pháp."
+      },
+      {
+        "id": 37,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Hội nghị Trung ương Đảng nào (tháng 11/1939) đã mở đầu sự chuyển hướng chỉ đạo chiến lược cách mạng?",
+        "options": [
+          "Hội nghị Trung ương 6",
+          "Hội nghị Trung ương 7",
+          "Hội nghị Trung ương 8",
+          "Hội nghị Toàn quốc"
+        ],
+        "correct": 0,
+        "explanation": "Hội nghị TW 6 (11/1939 tại Bà Điểm do Nguyễn Văn Cừ chủ trì) đã mở đầu chuyển hướng bằng việc đặt nhiệm vụ giải phóng dân tộc lên hàng đầu.",
+        "trapAnalysis": "HNTW 6 mở đầu, HNTW 7 phát triển, và HNTW 8 hoàn chỉnh sự chuyển hướng chiến lược."
+      },
+      {
+        "id": 38,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Hội nghị Trung ương lần thứ 8 (tháng 5/1941) họp tại địa điểm lịch sử nào?",
+        "options": [
+          "Bà Điểm, Hóc Môn",
+          "Đình Bảng, Bắc Ninh",
+          "Khuổi Nặm, Pác Bó, Cao Bằng",
+          "Tân Trào, Tuyên Quang"
+        ],
+        "correct": 2,
+        "explanation": "Hội nghị TW 8 họp từ ngày 10 đến 19/5/1941 tại lán Khuổi Nặm (Pác Bó, Hà Quảng, Cao Bằng) do đồng chí Nguyễn Ái Quốc chủ trì.",
+        "trapAnalysis": "Bà Điểm là nơi họp HNTW 6 (1939); Đình Bảng là HNTW 7 (1940); Khuổi Nặm (Pác Bó) là nơi họp HNTW 8 (1941)."
+      },
+      {
+        "id": 39,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Nội dung quan trọng nhất được hoàn chỉnh tại Hội nghị Trung ương 8 (5/1941) là gì?",
+        "options": [
+          "Đặt nhiệm vụ giải phóng dân tộc lên hàng đầu và cấp bách hơn hết",
+          "Quyết định phát động ngay khởi nghĩa vũ trang trên cả nước",
+          "Đổi tên Đảng thành Đảng Lao động Việt Nam",
+          "Thực hiện ngay việc chia toàn bộ ruộng đất cho nông dân"
+        ],
+        "correct": 0,
+        "explanation": "HNTW 8 khẳng định quyền lợi của bộ phận, của giai cấp phải phục tùng quyền lợi giải phóng dân tộc, đặt nhiệm vụ giải phóng dân tộc lên trên hết, trước hết.",
+        "trapAnalysis": "Năm 1941 chưa phát động Tổng khởi nghĩa mà chỉ chuẩn bị lực lượng; khẩu hiệu ruộng đất bị tạm gác lại."
+      },
+      {
+        "id": 40,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Mặt trận Việt Nam Độc lập Đồng minh (Mặt trận Việt Minh) được thành lập vào ngày tháng năm nào?",
+        "options": [
+          "19/05/1941",
+          "28/01/1941",
+          "22/12/1944",
+          "09/03/1945"
+        ],
+        "correct": 0,
+        "explanation": "Mặt trận Việt Minh được thành lập theo quyết định của Hội nghị Trung ương 8 vào ngày 19/5/1941 (trùng với ngày sinh của Bác Hồ).",
+        "trapAnalysis": "28/1/1941 là ngày Bác về nước; 19/5/1941 là ngày thành lập Mặt trận Việt Minh."
+      },
+      {
+        "id": 41,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Đội Việt Nam Tuyên truyền Giải phóng quân thành lập ngày 22/12/1944 do ai làm đội trưởng chỉ huy?",
+        "options": [
+          "Hoàng Văn Thái",
+          "Võ Nguyên Giáp",
+          "Chu Văn Tấn",
+          "Trần Đăng Ninh"
+        ],
+        "correct": 1,
+        "explanation": "Đội Việt Nam Tuyên truyền Giải phóng quân thành lập ngày 22/12/1944 tại khu rừng Trần Hưng Đạo gồm 34 chiến sĩ, do đồng chí Võ Nguyên Giáp chỉ huy.",
+        "trapAnalysis": "Võ Nguyên Giáp là người chỉ huy trực tiếp theo chỉ thị của Hồ Chí Minh."
+      },
+      {
+        "id": 42,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Phương châm hoạt động của Đội Việt Nam Tuyên truyền Giải phóng quân khi mới thành lập là gì?",
+        "options": [
+          "Quân sự trọng hơn chính trị",
+          "Chính trị trọng hơn quân sự",
+          "Đánh chắc thắng, tiến công đồng loạt",
+          "Phòng ngự vững chắc chờ viện binh"
+        ],
+        "correct": 1,
+        "explanation": "Hồ Chí Minh chỉ thị: 'Tên nó là Đội Việt Nam Tuyên truyền Giải phóng quân, nghĩa là chính trị trọng hơn quân sự. Nó là đội tuyên truyền'.",
+        "trapAnalysis": "Ghi nhớ chữ 'Tuyên truyền': chính trị trọng hơn quân sự, tác chiến là phương thức tuyên truyền vũ trang."
+      },
+      {
+        "id": 43,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Bản Chỉ thị lịch sử 'Nhật - Pháp bắn nhau và hành động của chúng ta' được ban hành vào ngày nào?",
+        "options": [
+          "09/03/1945",
+          "12/03/1945",
+          "15/04/1945",
+          "15/08/1945"
+        ],
+        "correct": 1,
+        "explanation": "Sau khi Nhật đảo chính Pháp đêm 9/3/1945, Ban Thường vụ TW Đảng đã họp và ra bản Chỉ thị lịch sử vào ngày 12/3/1945.",
+        "trapAnalysis": "9/3/1945 là ngày Nhật đảo chính, 12/3/1945 là ngày Chỉ thị của Đảng được ban hành."
+      },
+      {
+        "id": 44,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Chỉ thị ngày 12/3/1945 xác định kẻ thù cụ thể trước mắt và duy nhất của nhân dân Đông Dương là:",
+        "options": [
+          "Thực dân Pháp",
+          "Phát xít Nhật",
+          "Liên minh thực dân Pháp và phát xít Nhật",
+          "Đế quốc Mỹ và Tưởng Giới Thạch"
+        ],
+        "correct": 1,
+        "explanation": "Chỉ thị nhận định sau đảo chính, thực dân Pháp đã mất quyền lực hoàn toàn, kẻ thù cụ thể trước mắt duy nhất chỉ còn là phát xít Nhật.",
+        "trapAnalysis": "Sau đêm 9/3, Pháp đã bị Nhật gạt bỏ, khẩu hiệu 'đánh đuổi Pháp - Nhật' được thay bằng 'đánh đuổi phát xít Nhật'."
+      },
+      {
+        "id": 45,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Khẩu hiệu đấu tranh hành động thiết thực nhất trong Cao trào kháng Nhật cứu nước (1945) là:",
+        "options": [
+          "Giảm tô, giảm tức, chia ruộng đất",
+          "Phá kho thóc Nhật để giải quyết nạn đói",
+          "Đòi quyền tự do báo chí và xuất bản",
+          "Đánh đổ chính phủ Trần Trọng Kim"
+        ],
+        "correct": 1,
+        "explanation": "Khẩu hiệu 'Phá kho thóc Nhật, giải quyết nạn đói' đáp ứng đúng nguyện vọng sinh tử của hàng triệu nông dân, thổi bùng ngọn lửa tiền khởi nghĩa.",
+        "trapAnalysis": "Khẩu hiệu thực tế, cấp bách nhất cuốn hút hàng triệu quần chúng chính là 'Phá kho thóc Nhật'."
+      },
+      {
+        "id": 46,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Khu giải phóng Việt Bắc được thành lập tháng 6/1945 gồm bao nhiêu tỉnh?",
+        "options": [
+          "4 tỉnh",
+          "6 tỉnh",
+          "8 tỉnh",
+          "10 tỉnh"
+        ],
+        "correct": 1,
+        "explanation": "Khu giải phóng Việt Bắc gồm 6 tỉnh: Cao Bằng, Bắc Kạn, Lạng Sơn, Hà Giang, Tuyên Quang, Thái Nguyên (gọi tắt là Cao - Bắc - Lạng - Hà - Tuyên - Thái).",
+        "trapAnalysis": "Nhớ công thức 'Cao - Bắc - Lạng - Hà - Tuyên - Thái' gồm đúng 6 tỉnh căn cứ địa."
+      },
+      {
+        "id": 47,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Ba nguyên tắc chỉ đạo khởi nghĩa được Hội nghị toàn quốc của Đảng (14 - 15/8/1945) xác định là:",
+        "options": [
+          "Bí mật, bất ngờ, kiên quyết",
+          "Tập trung, thống nhất, kịp thời",
+          "Đánh nhanh, thắng nhanh, dứt điểm",
+          "Tự lực, kiên trì, toàn diện"
+        ],
+        "correct": 1,
+        "explanation": "Hội nghị toàn quốc xác định 3 nguyên tắc bảo đảm thắng lợi cho cuộc khởi nghĩa là: Tập trung, Thống nhất và Kịp thời.",
+        "trapAnalysis": "Học thuộc 3 nguyên tắc khởi nghĩa tháng Tám: Tập trung - Thống nhất - Kịp thời."
+      },
+      {
+        "id": 48,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Bốn tỉnh đầu tiên trong cả nước giành được chính quyền vào ngày 18/8/1945 là:",
+        "options": [
+          "Bắc Giang, Hải Dương, Hà Tĩnh, Quảng Nam",
+          "Hà Nội, Hải Phòng, Huế, Sài Gòn",
+          "Thái Nguyên, Tuyên Quang, Cao Bằng, Bắc Kạn",
+          "Quảng Ngãi, Bình Định, Phú Yên, Khánh Hòa"
+        ],
+        "correct": 0,
+        "explanation": "Bắc Giang, Hải Dương, Hà Tĩnh, Quảng Nam là bốn địa phương nổ súng giành chính quyền cấp tỉnh sớm nhất trong cả nước (ngày 18/8/1945).",
+        "trapAnalysis": "Hà Nội giành chính quyền ngày 19/8; 4 tỉnh sớm nhất là Bắc Giang, Hải Dương, Hà Tĩnh, Quảng Nam (18/8)."
+      },
+      {
+        "id": 49,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Sự kiện nào đánh dấu chế độ phong kiến Việt Nam hoàn toàn sụp đổ vào tháng 8/1945?",
+        "options": [
+          "Khởi nghĩa thắng lợi tại Hà Nội (19/8)",
+          "Khởi nghĩa thắng lợi tại Sài Gòn (25/8)",
+          "Vua Bảo Đại thoái vị tại Huế (30/8)",
+          "Chủ tịch Hồ Chí Minh đọc Tuyên ngôn Độc lập (2/9)"
+        ],
+        "correct": 2,
+        "explanation": "Chiều 30/8/1945, tại Ngọ Môn (Huế), vua Bảo Đại tuyên bố thoái vị và trao ấn kiếm cho đại diện chính phủ lâm thời, chấm dứt chế độ phong kiến.",
+        "trapAnalysis": "Bảo Đại thoái vị ngày 30/8 chính thức chấm dứt chế độ quân chủ, còn 2/9 là ngày khai sinh chế độ cộng hòa dân chủ."
+      },
+      {
+        "id": 50,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Vận dụng",
+        "question": "Tính chất căn bản của Cách mạng Tháng Tám năm 1945 ở Việt Nam là gì?",
+        "options": [
+          "Cách mạng xã hội chủ nghĩa triệt để",
+          "Cách mạng tư sản mang tính chất cải lương",
+          "Cách mạng giải phóng dân tộc mang tính chất dân chủ mới",
+          "Cách mạng ruộng đất của giai cấp nông dân"
+        ],
+        "correct": 2,
+        "explanation": "Cách mạng Tháng Tám là cuộc cách mạng giải phóng dân tộc mang tính chất dân chủ mới (điển hình, sâu sắc, triệt để), do Đảng vô sản lãnh đạo.",
+        "trapAnalysis": "Không phải cách mạng XHCN (nhiệm vụ giành độc lập là chính), mà là giải phóng dân tộc mang tính dân chủ mới."
       }
     ]
   },
   {
     "id": "de_02",
     "code": "MÃ ĐỀ: 102",
-    "title": "Đề 02: Tiền Đề Ra Đời CNXHKH & Phát Hiện Vĩ Đại Của C.Mác",
-    "description": "Trọng tâm ôn tập: Ba phát kiến khoa học tự nhiên, ba tiền đề lý luận, tác phẩm Tuyên ngôn Đảng Cộng sản và sứ mệnh GCCN.",
-    "duration": 15,
+    "title": "Đề 02: Bối Cảnh Lịch Sử & Các Phong Trào Yêu Nước Trước 1930",
+    "description": "Bộ đề chuyên sâu về hoàn cảnh thuộc địa nửa phong kiến, chính sách khai thác thuộc địa của Pháp và sự thất bại của các phong trào yêu nước tiền bối.",
+    "duration": 40,
     "questions": [
       {
         "id": 1,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Nhận biết",
-        "question": "Năm ra đời của tác phẩm 'Tuyên ngôn của Đảng Cộng sản' là năm nào?",
+        "question": "Cuộc khai thác thuộc địa lần thứ nhất của thực dân Pháp tại Việt Nam diễn ra trong khoảng thời gian nào?",
         "options": [
-          "1845",
-          "1848",
-          "1867",
-          "1871"
+          "1858 - 1884",
+          "1897 - 1914",
+          "1914 - 1918",
+          "1919 - 1929"
         ],
         "correct": 1,
-        "explanation": "Tháng 2/1848, tác phẩm Tuyên ngôn của Đảng Cộng sản do C.Mác và Ph.Ăngghen soạn thảo chính thức ra đời.",
-        "trapAnalysis": "Nhớ mốc son lịch sử: 1848."
+        "explanation": "Cuộc khai thác thuộc địa lần thứ nhất do Toàn quyền Paul Doumer tiến hành kéo dài từ năm 1897 đến năm 1914 (bắt đầu Chiến tranh thế giới thứ nhất).",
+        "trapAnalysis": "1897 - 1914 là khai thác lần thứ nhất; 1919 - 1929 là khai thác lần thứ hai sau Thế chiến thứ nhất."
       },
       {
         "id": 2,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Tác phẩm 'Tuyên ngôn của Đảng Cộng sản' có vai trò gì đối với phong trào công nhân và CNXHKH?",
+        "question": "Mục đích lớn nhất trong chính sách kinh tế của thực dân Pháp tại Việt Nam là gì?",
         "options": [
-          "Là văn kiện đánh dấu sự ra đời của CNXHKH, là kim chỉ nam cho phong trào",
-          "Chỉ là một bài báo ngắn bình luận sự kiện chính trị",
-          "Là hiệp ước quân sự giữa các nước châu Âu",
-          "Là sách hướng dẫn kỹ thuật công nghiệp cơ khí"
+          "Công nghiệp hóa hiện đại hóa thuộc địa",
+          "Vơ vét tài nguyên và bóc lột nhân công giá rẻ",
+          "Xây dựng nền kinh tế tự chủ cho Đông Dương",
+          "Phát triển kinh tế hàng hóa tư bản độc lập"
         ],
-        "correct": 0,
-        "explanation": "Tuyên ngôn của Đảng Cộng sản là tác phẩm đánh dấu sự ra đời của CNXHKH và là kim chỉ nam của CNXHKH.",
-        "trapAnalysis": "Tác phẩm đánh dấu sự ra đời và là kim chỉ nam."
+        "correct": 1,
+        "explanation": "Mục đích chính của Pháp là vơ vét tối đa nguồn tài nguyên thiên nhiên, bóc lột sức lao động rẻ mạt và biến Việt Nam thành thị trường tiêu thụ hàng hóa của chính quốc.",
+        "trapAnalysis": "Pháp không hề có ý định công nghiệp hóa mà kìm hãm công nghiệp nặng để Việt Nam phụ thuộc hoàn toàn vào Pháp."
       },
       {
         "id": 3,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Nhận biết",
-        "question": "Ai là tác giả của tác phẩm 'Tuyên ngôn của Đảng Cộng sản' (1848)?",
+        "question": "Giai cấp địa chủ phong kiến Việt Nam bị phân hóa thành hai bộ phận nào dưới thời thuộc địa?",
         "options": [
-          "C.Mác và V.I.Lênin",
-          "C.Mác và Ph.Ăngghen",
-          "Ph.Ăngghen và V.I.Lênin",
-          "C.Mác và Hêghen"
+          "Đại địa chủ và trung, tiểu địa chủ",
+          "Địa chủ quan lại và địa chủ trí thức",
+          "Địa chủ công thương và địa chủ đồn điền",
+          "Địa chủ kháng chiến và địa chủ trung lập"
         ],
-        "correct": 1,
-        "explanation": "C.Mác và Ph.Ăngghen cùng soạn thảo tác phẩm Tuyên ngôn của Đảng Cộng sản theo ủy nhiệm của Liên đoàn những người cộng sản.",
-        "trapAnalysis": "Đồng tác giả: C.Mác và Ph.Ăngghen."
+        "correct": 0,
+        "explanation": "Giai cấp địa chủ phân hóa thành: đại địa chủ (câu kết với đế quốc đàn áp nhân dân) và trung, tiểu địa chủ (ít nhiều có tinh thần dân tộc chống đế quốc).",
+        "trapAnalysis": "Sự phân hóa căn bản là đại địa chủ phản động cấu kết với Pháp và trung, tiểu địa chủ có lòng yêu nước."
       },
       {
         "id": 4,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Tác phẩm 'Tuyên ngôn của Đảng Cộng sản' ra đời trong bối cảnh lịch sử nào?",
+        "question": "Đặc điểm nổi bật nhất của giai cấp tư sản Việt Nam thời kỳ thuộc địa là:",
         "options": [
-          "Giai cấp phong kiến đang lớn mạnh",
-          "Chủ nghĩa tư bản hình thành và phong trào công nhân phát triển mạnh mẽ thành lực lượng chính trị độc lập",
-          "Thế giới bước vào thời đại công nghệ số",
-          "Các nước thuộc địa đã hoàn toàn giành được độc lập"
+          "Có tiềm lực kinh tế lớn mạnh chi phối thị trường",
+          "Phân hóa thành tư sản mại bản và tư sản dân tộc",
+          "Đóng vai trò lãnh đạo tuyệt đối phong trào công nhân",
+          "Nắm giữ phần lớn tư liệu sản xuất công nghiệp nặng"
         ],
         "correct": 1,
-        "explanation": "Những năm 40 thế kỷ XIX, đại công nghiệp cơ khí phát triển làm giai cấp vô sản trưởng thành và đấu tranh chống tư sản.",
-        "trapAnalysis": "Bối cảnh: Sự phát triển của CNTB và phong trào công nhân thế kỷ XIX."
+        "explanation": "Giai cấp tư sản Việt Nam số lượng ít, thế lực kinh tế yếu, phân hóa thành tư sản mại bản (ăn cánh với Pháp) và tư sản dân tộc (có khuynh hướng dân tộc nhưng hay thỏa hiệp).",
+        "trapAnalysis": "Tư sản Việt Nam không có tiềm lực lớn và không lãnh đạo công nhân, mà bị phân hóa thành hai bộ phận đối lập."
       },
       {
         "id": 5,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
-        "level": "Thông hiểu",
-        "question": "Vì sao nói 'Tuyên ngôn của Đảng Cộng sản' là kim chỉ nam của CNXHKH?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Nhận biết",
+        "question": "Phong trào Cần Vương (1885 - 1896) chính thức bùng nổ sau khi ai ban bố Chiếu Cần Vương?",
         "options": [
-          "Vì tác phẩm chỉ rõ phương hướng, mục tiêu và con đường giải phóng giai cấp công nhân và nhân dân lao động",
-          "Vì tác phẩm là địa lý hướng dẫn giao thông châu Âu",
-          "Vì tác phẩm được in nhiều thứ tiếng nhất",
-          "Vì tác phẩm do chính phủ Anh ban hành"
+          "Vua Tự Đức",
+          "Vua Hàm Nghi",
+          "Vua Duy Tân",
+          "Vua Đồng Khánh"
         ],
-        "correct": 0,
-        "explanation": "Là kim chỉ nam vì tác phẩm vạch ra cương lĩnh hành động khoa học cho phong trào công nhân quốc tế.",
-        "trapAnalysis": "Kim chỉ nam nghĩa là ngọn cờ dẫn đường, định hướng hành động."
+        "correct": 1,
+        "explanation": "Sau vụ binh biến kinh thành Huế thất bại, Tôn Thất Thuyết phò tá vua Hàm Nghi ra căn cứ Tân Sở (Quảng Trị) và ban Chiếu Cần Vương kêu gọi phò vua cứu nước ngày 13/7/1885.",
+        "trapAnalysis": "Hàm Nghi là vị vua yêu nước ban Chiếu Cần Vương; Tự Đức đã mất năm 1883, Đồng Khánh là vua bù nhìn tay sai."
       },
       {
         "id": 6,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
-        "level": "Nhận biết",
-        "question": "Phát kiến khoa học tự nhiên nào chứng minh sự thống nhất về cấu tạo của toàn bộ giới sinh vật?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Thông hiểu",
+        "question": "Điểm khác biệt căn bản giữa Khởi nghĩa Yên Thế với phong trào Cần Vương là gì?",
         "options": [
-          "Định luật bảo toàn năng lượng",
-          "Thuyết tế bào",
-          "Thuyết tiến hóa",
-          "Thuyết tương đối"
+          "Do trí thức Nho học chỉ huy để khôi phục vương quyền",
+          "Là phong trào đấu tranh tự vệ tự phát của nông dân",
+          "Được sự viện trợ vũ khí trực tiếp từ phát xít Nhật",
+          "Có sự tham gia đông đảo của giai cấp công nhân"
         ],
         "correct": 1,
-        "explanation": "Thuyết tế bào (Slai-đen và Svan-nơ) chứng minh tính thống nhất về nguồn gốc và cấu tạo của mọi cơ thể sinh vật.",
-        "trapAnalysis": "Thuyết tế bào = cấu tạo thống nhất của sinh vật."
+        "explanation": "Khởi nghĩa Yên Thế (1884 - 1913) do Hoàng Hoa Thám lãnh đạo là phong trào tự vệ của nông dân vùng đất trung du, không chịu sự chi phối của ý thức hệ phong kiến Cần Vương.",
+        "trapAnalysis": "Cần Vương là phò vua khôi phục ngai vàng phong kiến, còn Yên Thế là nông dân đấu tranh tự vệ để giữ đất giữ làng."
       },
       {
         "id": 7,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Nhận biết",
-        "question": "Phát kiến khoa học tự nhiên nào chứng minh thế giới sinh vật luôn biến đổi và phát triển theo quy luật tự nhiên?",
+        "question": "Hội Duy Tân (1904) do Phan Bội Châu sáng lập chủ trương thiết lập chế độ chính trị nào?",
         "options": [
-          "Thuyết tế bào",
-          "Thuyết tiến hóa của Đác-uyn",
-          "Định luật bảo toàn năng lượng",
-          "Định luật quán tính"
+          "Chế độ quân chủ phong kiến tập quyền",
+          "Chế độ quân chủ lập hiến",
+          "Chế độ cộng hòa dân chủ",
+          "Chế độ Xã hội chủ nghĩa"
         ],
         "correct": 1,
-        "explanation": "Thuyết tiến hóa của S.Đác-uyn chứng minh sinh giới không phải bất biến do thượng đế sinh ra mà tiến hóa theo quy luật khách quan.",
-        "trapAnalysis": "Thuyết tiến hóa = biến đổi, phát triển của sinh vật."
+        "explanation": "Ban đầu (1904), Hội Duy Tân của Phan Bội Châu lấy việc đánh đuổi Pháp, khôi phục nước Việt Nam và lập nên chế độ quân chủ lập hiến làm mục đích (tôn Cường Để làm Hội chủ).",
+        "trapAnalysis": "Hội Duy Tân (1904) chủ trương 'quân chủ lập hiến'; đến năm 1912 khi lập Việt Nam Quang phục Hội mới chuyển sang 'cộng hòa dân quốc'."
       },
       {
         "id": 8,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
-        "level": "Nhận biết",
-        "question": "Phát kiến khoa học tự nhiên nào chứng minh vật chất và năng lượng không tự sinh ra và không tự mất đi?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Thông hiểu",
+        "question": "Chủ trương cứu nước nổi bật gắn liền với tên tuổi của cụ Phan Châu Trinh là gì?",
         "options": [
-          "Định luật vạn vật hấp dẫn",
-          "Định luật bảo toàn và chuyển hóa năng lượng",
-          "Thuyết tế bào",
-          "Thuyết tiến hóa"
+          "Khởi nghĩa vũ trang bạo động đánh đuổi thực dân Pháp",
+          "Cải cách văn hóa giáo dục, nâng cao dân trí dân quyền",
+          "Cầu viện sự giúp đỡ của chính phủ đế quốc Anh",
+          "Tập hợp công nông tiến hành khởi nghĩa từng phần"
         ],
         "correct": 1,
-        "explanation": "Định luật bảo toàn và chuyển hóa năng lượng chứng minh tính biện chứng và sự bảo toàn chuyển hóa vô tận của vật chất.",
-        "trapAnalysis": "Định luật bảo toàn và chuyển hóa năng lượng."
+        "explanation": "Phan Châu Trinh theo khuynh hướng cải cách ôn hòa: 'Khai dân trí, chấn dân khí, hậu dân sinh', dựa vào Pháp để đánh đổ phong kiến hủ bại.",
+        "trapAnalysis": "Bạo động là xu hướng của Phan Bội Châu; cải cách ôn hòa nâng cao dân trí là xu hướng của Phan Châu Trinh."
       },
       {
         "id": 9,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
-        "level": "Thông hiểu",
-        "question": "Ý nghĩa phương pháp luận lớn nhất của ba phát kiến KHTN đối với CNXHKH là gì?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Nhận biết",
+        "question": "Trường Đông Kinh Nghĩa Thục (1907) được thành lập tại Hà Nội do ai đứng đầu làm Thục trưởng?",
         "options": [
-          "Tạo ra động cơ hơi nước mới",
-          "Cung cấp cơ sở khoa học tự nhiên khẳng định tính biện chứng, duy vật và sự vận động khách quan của thế giới",
-          "Xóa bỏ hoàn toàn nghiên cứu triết học xã hội",
-          "Giúp giai cấp tư sản phát minh máy dệt"
+          "Lương Văn Can",
+          "Nguyễn Quyền",
+          "Huỳnh Thúc Kháng",
+          "Đào Nguyên Phổ"
         ],
-        "correct": 1,
-        "explanation": "Cung cấp cơ sở khoa học tự nhiên vững chắc chứng minh tính duy vật biện chứng của tự nhiên và xã hội.",
-        "trapAnalysis": "Ý nghĩa: Cung cấp cơ sở khoa học khẳng định tính biện chứng khách quan."
+        "correct": 0,
+        "explanation": "Đông Kinh Nghĩa Thục thành lập tháng 3/1907 tại Hàng Đào (Hà Nội) do cụ Lương Văn Can làm Thục trưởng, Nguyễn Quyền làm Giám học.",
+        "trapAnalysis": "Lương Văn Can là Thục trưởng (Hiệu trưởng), Nguyễn Quyền là Giám học."
       },
       {
         "id": 10,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
-        "level": "Thông hiểu",
-        "question": "Nếu thiếu ba phát kiến KHTN thế kỷ XIX, lý luận của chủ nghĩa Mác sẽ thiếu đi điều gì?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Vận dụng",
+        "question": "Nguyên nhân sâu xa dẫn đến sự thất bại của các phong trào yêu nước trước năm 1930 là:",
         "options": [
-          "Tiền đề khoa học tự nhiên chứng minh cho thế giới quan duy vật biện chứng",
-          "Tiền đề về tiền tệ và ngân hàng",
-          "Các bản vẽ chế tạo máy móc",
-          "Sự đồng tình của giới quý tộc"
+          "Thiếu tinh thần chiến đấu hy sinh của quần chúng",
+          "Thực dân Pháp được trang bị vũ khí hiện đại",
+          "Khủng hoảng về giai cấp lãnh đạo và đường lối cứu nước",
+          "Địa bàn khởi nghĩa bị chia cắt bởi sông ngòi"
         ],
-        "correct": 0,
-        "explanation": "Ba phát kiến KHTN là tiền đề khoa học tự nhiên trực tiếp cho sự ra đời của chủ nghĩa Mác.",
-        "trapAnalysis": "Tiền đề khoa học tự nhiên cho chủ nghĩa duy vật biện chứng."
+        "correct": 2,
+        "explanation": "Các phong trào yêu nước trước năm 1930 thất bại đều bắt nguồn từ nguyên nhân căn bản: khủng hoảng về đường lối cứu nước đúng đắn và thiếu một giai cấp tiên phong lãnh đạo.",
+        "trapAnalysis": "Nhân dân ta vô cùng anh dũng, nhưng thiếu đường lối và giai cấp lãnh đạo tiên tiến (hệ tư tưởng vô sản)."
       },
       {
         "id": 11,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Nhận biết",
-        "question": "Ba tiền đề tư tưởng - lý luận cho sự ra đời của CNXHKH bao gồm:",
+        "question": "Văn kiện nào của V.I. Lênin đã chỉ ra cho Nguyễn Ái Quốc con đường giành độc lập tự do chân chính?",
         "options": [
-          "Triết học cổ điển Đức, Kinh tế chính trị học cổ điển Anh, Chủ nghĩa xã hội không tưởng phê phán",
-          "Triết học Trung Hoa, Triết học Ấn Độ, Triết học Hy Lạp",
-          "Kinh tế tư bản Pháp, Văn học cổ điển Nga, Xã hội học Mỹ",
-          "Triết học khai sáng Pháp, Thần học tôn giáo, Luật học La Mã"
+          "Tuyên ngôn của Đảng Cộng sản",
+          "Nhà nước và Cách mạng",
+          "Sơ thảo Luận cương về vấn đề dân tộc và thuộc địa",
+          "Hai sách lược của Đảng dân chủ xã hội"
         ],
-        "correct": 0,
-        "explanation": "Vở ghi nêu rõ: Tiền đề lý luận gồm: Triết học cổ điển Đức, Kinh tế chính trị học cổ điển Anh, Chủ nghĩa xã hội không tưởng phê phán.",
-        "trapAnalysis": "Bộ ba tiền đề: Triết học Đức, Kinh tế Anh, CNXH không tưởng Pháp/Anh."
+        "correct": 2,
+        "explanation": "Tháng 7/1920, đọc bản 'Sơ thảo lần thứ nhất những luận cương về vấn đề dân tộc và vấn đề thuộc địa' của Lênin, Người đã tìm thấy chân lý giải phóng dân tộc.",
+        "trapAnalysis": "Tuyên ngôn của Đảng CS do Mác - Ăngghen viết (1848); Luận cương về vấn đề dân tộc thuộc địa của Lênin mới là văn kiện quyết định hướng đi của Bác."
       },
       {
         "id": 12,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Đại biểu xuất sắc nhất của Triết học cổ điển Đức mà C.Mác đã kế thừa hạt nhân hợp lý là ai?",
+        "question": "Khẳng định nào của Nguyễn Ái Quốc rút ra từ thực tiễn sau khi đọc Luận cương của Lênin?",
         "options": [
-          "Platôn và Arixtốt",
-          "Hêghen và Phoi-ơ-bắc",
-          "Căng-tơ và Đề-cáctơ",
-          "A.Smith và Ricardo"
+          "Muốn cứu nước và giải phóng dân tộc không có con đường nào khác con đường cách mạng vô sản",
+          "Chỉ cần nâng cao dân trí là có thể giành lại độc lập từ thực dân",
+          "Cách mạng là việc của sĩ phu và quan lại yêu nước",
+          "Dựa vào các nước tư bản phát triển để xây dựng đất nước"
         ],
-        "correct": 1,
-        "explanation": "Mác kế thừa phép biện chứng của Hêghen và chủ nghĩa duy vật của Phoi-ơ-bắc để sáng lập chủ nghĩa duy vật biện chứng.",
-        "trapAnalysis": "Hêghen (biện chứng) và Phoi-ơ-bắc (duy vật)."
+        "correct": 0,
+        "explanation": "Nguyễn Ái Quốc rút ra kết luận bất hủ: 'Muốn cứu nước và giải phóng dân tộc không có con đường nào khác con đường cách mạng vô sản'.",
+        "trapAnalysis": "Học thuộc luận điểm nền tảng của Chủ tịch Hồ Chí Minh: chỉ có con đường cách mạng vô sản mới giải phóng triệt để dân tộc."
       },
       {
         "id": 13,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
-        "level": "Thông hiểu",
-        "question": "Các nhà kinh tế học cổ điển Anh nổi tiếng nhất được C.Mác kế thừa là:",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Năm 1919, bản Yêu sách của nhân dân An Nam do Nguyễn Ái Quốc ký tên được gửi tới đâu?",
         "options": [
-          "A.Smith và D.Ricardo",
-          "J.M.Keynes và M.Friedman",
-          "Xanh Ximông và Phuriê",
-          "Hêghen và Hốp-xơ"
+          "Hội nghị Versailles (Pháp)",
+          "Hội nghị Giơ-ne-vơ (Thụy Sĩ)",
+          "Hội nghị I-an-ta (Liên Xô)",
+          "Đại hội Quốc tế Cộng sản"
         ],
         "correct": 0,
-        "explanation": "A.Smith và D.Ricardo là hai đại biểu lớn của Kinh tế chính trị học cổ điển Anh.",
-        "trapAnalysis": "A.Smith và D.Ricardo."
+        "explanation": "Tháng 6/1919, thay mặt Hội những người Việt Nam yêu nước tại Pháp, Nguyễn Ái Quốc gửi bản Yêu sách của nhân dân An Nam tới Hội nghị hòa bình Versailles.",
+        "trapAnalysis": "Bản Yêu sách gửi tới Hội nghị Versailles (1919), không nhầm với Giơ-ne-vơ (1954) hay I-an-ta (1945)."
       },
       {
         "id": 14,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Các nhà đại biểu tiêu biểu của Chủ nghĩa xã hội không tưởng - phê phán đầu thế kỷ XIX là:",
+        "question": "Bản Yêu sách của nhân dân An Nam (1919) đã đưa ra các yêu sách căn bản về:",
         "options": [
-          "C.Mác và Ph.Ăngghen",
-          "Xanh Ximông, Sáclơ Phuriê và Rôbớt Ôoen",
-          "Hêghen và Phoi-ơ-bắc",
-          "V.I.Lênin và Xtalanh"
+          "Trao trả độc lập ngay lập tức cho Việt Nam",
+          "Các quyền tự do dân chủ tối thiểu và quyền bình đẳng",
+          "Rút toàn bộ quân đội viễn chinh Pháp về nước",
+          "Tịch thu toàn bộ ruộng đất chia cho nông dân"
         ],
         "correct": 1,
-        "explanation": "Ba nhà không tưởng vĩ đại: Xanh Ximông, Sáclơ Phuriê (Pháp) và Rôbớt Ôoen (Anh).",
-        "trapAnalysis": "Xanh Ximông, Sáclơ Phuriê, Rôbớt Ôoen."
+        "explanation": "Bản Yêu sách gồm 8 điểm, tập trung đòi các quyền tự do dân chủ tối thiểu, bãi bỏ các tòa án đặc biệt và thực hiện quyền bình đẳng về pháp lý cho người bản xứ.",
+        "trapAnalysis": "Bản Yêu sách năm 1919 chưa nêu khẩu hiệu đánh đổ chế độ thuộc địa đòi độc lập ngay, mà đòi quyền tự do dân chủ tối thiểu."
       },
       {
         "id": 15,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
-        "level": "Thông hiểu",
-        "question": "Vì sao CNXH của Xanh Ximông, Phuriê và Ôoen được gọi là 'không tưởng'?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Cơ quan báo chí nào được Nguyễn Ái Quốc sáng lập ngày 21/6/1925 tại Quảng Châu?",
         "options": [
-          "Vì họ không muốn người nghèo có cuộc sống tốt hơn",
-          "Vì họ không phát hiện ra sứ mệnh của giai cấp công nhân và không tìm ra con đường bạo lực cách mạng",
-          "Vì họ chỉ vẽ tranh mà không viết sách",
-          "Vì họ phản đối việc nghiên cứu kinh tế"
+          "Báo Le Paria",
+          "Báo Thanh Niên",
+          "Báo Lao Động",
+          "Báo Cờ Giải Phóng"
         ],
         "correct": 1,
-        "explanation": "Tính chất không tưởng thể hiện ở chỗ: không phát hiện được lực lượng xã hội tiên phong (GCCN) và chủ trương cầu xin lòng tốt của vua chúa, tư bản.",
-        "trapAnalysis": "Không tưởng vì thiếu lực lượng tiên phong (GCCN) và con đường cách mạng."
+        "explanation": "Ngày 21/6/1925, báo Thanh Niên (cơ quan ngôn luận của Hội VN Cách mạng Thanh niên) ra số đầu tiên, đánh dấu sự ra đời của nền báo chí cách mạng Việt Nam.",
+        "trapAnalysis": "Ngày 21/6 hàng năm được lấy làm Ngày Báo chí Cách mạng Việt Nam chính từ mốc ra đời của báo Thanh Niên."
       },
       {
         "id": 16,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Nội dung nào sau đây là phát hiện quan trọng nhất của C.Mác và Ph.Ăngghen đối với CNXHKH?",
+        "question": "Trong tác phẩm 'Đường Kách mệnh' (1927), Nguyễn Ái Quốc xác định lực lượng lãnh đạo cách mệnh là ai?",
         "options": [
-          "Phát hiện ra định luật hấp dẫn của xã hội",
-          "Phát hiện giai cấp công nhân là lực lượng có thể xóa bỏ CNTB, xây dựng CNXH",
-          "Phát hiện ra cách chế tạo máy móc tự động",
-          "Phát hiện ra việc in tiền giấy"
+          "Giai cấp tư sản dân tộc",
+          "Giai cấp công nhân thông qua Đảng cách mệnh",
+          "Tầng lớp trí thức và học sinh tiến bộ",
+          "Tất cả các cá nhân có lòng yêu nước"
         ],
         "correct": 1,
-        "explanation": "Vở ghi: Một nội dung cơ bản, quan trọng nhất đối với CNXHKH là phát hiện giai cấp công nhân là lực lượng có thể xóa bỏ CNTB, xây dựng CNXH.",
-        "trapAnalysis": "Phát hiện cốt lõi: Sứ mệnh lịch sử của giai cấp công nhân."
+        "explanation": "Người khẳng định: 'Cách mệnh trước hết phải có cái gì? Trước hết phải có Đảng cách mệnh...', và giai cấp công nhân là người lãnh đạo cách mệnh.",
+        "trapAnalysis": "Đảng cách mệnh của giai cấp công nhân giữ vai trò lãnh đạo, không giao quyền lãnh đạo cho tư sản hay trí thức."
       },
       {
         "id": 17,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
-        "level": "Thông hiểu",
-        "question": "Trước C.Mác, các học thuyết xã hội chủ nghĩa không tưởng nhìn nhận giai cấp công nhân như thế nào?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Phong trào đấu tranh nào của công nhân năm 1925 đánh dấu bước chuyển từ 'tự phát' sang 'tự giác'?",
         "options": [
-          "Là giai cấp lãnh đạo toàn xã hội",
-          "Chỉ là một giai cấp đau khổ, đáng thương cần được cứu giúp, chứ không thấy vai trò tự giải phóng",
-          "Là giai cấp thống trị có nhiều tư liệu sản xuất",
-          "Là giai cấp không có thật trong xã hội"
+          "Bãi công của công nhân Ba Son (Sài Gòn)",
+          "Bãi công của công nhân mỏ than Hòn Gai",
+          "Bãi công của công nhân đồn điền Phú Riềng",
+          "Bãi công của công nhân nhà máy sợi Nam Định"
         ],
-        "correct": 1,
-        "explanation": "CNXH không tưởng chỉ thấy công nhân là nạn nhân đau khổ cần thương hại, không thấy được sức mạnh cách mạng tự giải phóng của họ.",
-        "trapAnalysis": "Chỉ coi GCCN là nạn nhân đau khổ, không thấy sứ mệnh lịch sử."
+        "correct": 0,
+        "explanation": "Cuộc bãi công của thợ máy xưởng Ba Son do Tôn Đức Thắng lãnh đạo (8/1925) nhằm trì hoãn tàu chiến Pháp sang đàn áp cách mạng Trung Quốc đánh dấu bước chuyển sang tự giác.",
+        "trapAnalysis": "Ba Son (8/1925) thể hiện tính quốc tế vô sản và tổ chức chặt chẽ, đánh dấu bước chuyển từ tự phát sang tự giác."
       },
       {
         "id": 18,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
-        "level": "Thông hiểu",
-        "question": "Sứ mệnh của GCCN theo phát hiện của CNXHKH nhằm mục tiêu giải phóng những ai?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Tổ chức An Nam Cộng sản Đảng được thành lập vào tháng 8/1929 tại vùng nào?",
         "options": [
-          "Chỉ giải phóng riêng cho thợ mỏ",
-          "Chỉ giải phóng cho người nghèo ở châu Âu",
-          "Giải phóng bản thân giai cấp công nhân đồng thời giải phóng toàn thể xã hội khỏi áp bức bóc lột",
-          "Giải phóng cho giai cấp tư sản khỏi phá sản"
+          "Bắc Kỳ",
+          "Trung Kỳ",
+          "Nam Kỳ",
+          "Hải ngoại"
         ],
         "correct": 2,
-        "explanation": "Sứ mệnh của GCCN mang tính nhân văn triệt để: giải phóng giai cấp mình gắn liền với giải phóng toàn thể nhân loại cần lao.",
-        "trapAnalysis": "Giải phóng giai cấp mình đồng thời giải phóng toàn xã hội."
+        "explanation": "An Nam Cộng sản Đảng được thành lập vào tháng 8/1929 tại Nam Kỳ (Sài Gòn), cơ quan ngôn luận là tạp chí Bôn-sê-vích.",
+        "trapAnalysis": "Đông Dương CS Đảng ra đời ở Bắc Kỳ (6/1929), An Nam CS Đảng ở Nam Kỳ (8/1929), Đông Dương CS Liên đoàn ở Trung Kỳ."
       },
       {
         "id": 19,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Nhận biết",
-        "question": "Chủ nghĩa Mác bao gồm mấy bộ phận lý luận cấu thành?",
+        "question": "Tổ chức Đông Dương Cộng sản Liên đoàn được hình thành từ sự phân hóa của chính đảng nào?",
         "options": [
-          "2 bộ phận",
-          "3 bộ phận (Triết học Mác, KTCT Mác, CNXHKH)",
-          "4 bộ phận",
-          "5 bộ phận"
+          "Việt Nam Quốc dân Đảng",
+          "Tân Việt Cách mạng Đảng",
+          "Tâm Tâm xã",
+          "Hội Duy Tân"
         ],
         "correct": 1,
-        "explanation": "Chủ nghĩa Mác gồm 3 bộ phận cấu thành hữu cơ: Triết học Mác - Lênin, Kinh tế chính trị Mác - Lênin và Chủ nghĩa xã hội khoa học.",
-        "trapAnalysis": "3 bộ phận: Triết học, Kinh tế chính trị, CNXHKH."
+        "explanation": "Đông Dương Cộng sản Liên đoàn ra đời từ sự phân hóa của các đảng viên tiên tiến trong Tân Việt Cách mạng Đảng tại Trung Kỳ (tháng 9/1929).",
+        "trapAnalysis": "Tân Việt Cách mạng Đảng phân hóa thành Đông Dương CS Liên đoàn; Hội VN Cách mạng Thanh niên phân hóa thành Đông Dương CS Đảng và An Nam CS Đảng."
       },
       {
         "id": 20,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Bộ phận nào trong chủ nghĩa Mác trực tiếp luận chứng về sứ mệnh lịch sử của GCCN và con đường xây dựng xã hội mới?",
+        "question": "Nguyễn Ái Quốc triệu tập Hội nghị hợp nhất các tổ chức cộng sản đầu năm 1930 với tư cách gì?",
         "options": [
-          "Triết học Mác",
-          "Kinh tế chính trị Mác",
-          "Chủ nghĩa xã hội khoa học",
-          "Toán học ứng dụng"
+          "Chủ tịch Hội Việt Nam Cách mạng Thanh niên",
+          "Phái viên của Quốc tế Cộng sản",
+          "Tổng Bí thư Đảng Cộng sản Pháp",
+          "Đại biểu của Đông Dương Cộng sản Đảng"
         ],
-        "correct": 2,
-        "explanation": "Chủ nghĩa xã hội khoa học là bộ phận trực tiếp nghiên cứu về sứ mệnh lịch sử của GCCN và quy luật chính trị - xã hội của cách mạng XHCN.",
-        "trapAnalysis": "CNXHKH trực tiếp luận chứng sứ mệnh của GCCN."
+        "correct": 1,
+        "explanation": "Nguyễn Ái Quốc chủ động triệu tập và chủ trì Hội nghị hợp nhất với tư cách là phái viên được Quốc tế Cộng sản trao đầy đủ thẩm quyền giải quyết vấn đề Đảng ở Đông Dương.",
+        "trapAnalysis": "Tư cách chính thức của Người tại Hội nghị là phái viên của Quốc tế Cộng sản."
       },
       {
         "id": 21,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
-        "level": "Thông hiểu",
-        "question": "Sơ đồ phân kỳ hình thái kinh tế - xã hội cộng sản chủ nghĩa theo chủ nghĩa Mác - Lênin gồm các giai đoạn nào?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Hai đại biểu của Đông Dương Cộng sản Đảng tham dự Hội nghị hợp nhất là ai?",
         "options": [
-          "Chủ nghĩa xã hội (giai đoạn thấp/thời kỳ quá độ) -> Cộng sản chủ nghĩa (giai đoạn cao)",
-          "Cộng sản nguyên thủy -> Chủ nghĩa xã hội -> Tư bản chủ nghĩa",
-          "Chủ nghĩa tư bản -> Cộng sản chủ nghĩa -> Chủ nghĩa xã hội",
-          "Thời kỳ quá độ -> Giai cấp phong kiến -> Cộng sản chủ nghĩa"
+          "Trịnh Đình Cửu và Nguyễn Đức Cảnh",
+          "Châu Văn Liêm và Nguyễn Thiệu",
+          "Trần Phú và Ngô Gia Tự",
+          "Lê Hồng Phong và Hà Huy Tập"
         ],
         "correct": 0,
-        "explanation": "Vở ghi: Sơ đồ các giai đoạn: chủ nghĩa xã hội (giai đoạn thấp/thời kỳ quá độ lên CSCN) -> cộng sản chủ nghĩa (giai đoạn cao).",
-        "trapAnalysis": "CNXH (giai đoạn thấp) -> CSCN (giai đoạn cao)."
+        "explanation": "Đại biểu của Đông Dương Cộng sản Đảng gồm Trịnh Đình Cửu và Nguyễn Đức Cảnh; đại biểu An Nam Cộng sản Đảng gồm Châu Văn Liêm và Nguyễn Thiệu.",
+        "trapAnalysis": "Trịnh Đình Cửu - Nguyễn Đức Cảnh (Đông Dương CS Đảng); Châu Văn Liêm - Nguyễn Thiệu (An Nam CS Đảng)."
       },
       {
         "id": 22,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Giữa xã hội tư bản chủ nghĩa và xã hội cộng sản chủ nghĩa là thời kỳ lịch sử nào?",
+        "question": "Tên gọi chính thức của Đảng được quyết định tại Hội nghị hợp nhất (tháng 2/1930) là:",
         "options": [
-          "Thời kỳ hòa bình vĩnh cửu",
-          "Thời kỳ quá độ chính trị lên chủ nghĩa xã hội",
-          "Thời kỳ khôi phục chế độ phong kiến",
-          "Thời kỳ giải tán mọi chính phủ"
+          "Đảng Cộng sản Đông Dương",
+          "Đảng Cộng sản Việt Nam",
+          "Đảng Lao động Việt Nam",
+          "Đảng Xã hội Việt Nam"
         ],
         "correct": 1,
-        "explanation": "Giữa xã hội TBCN và XH CSCN là một thời kỳ cải biến cách mạng - thời kỳ quá độ lên CNXH.",
-        "trapAnalysis": "Thời kỳ quá độ lên CNXH."
+        "explanation": "Hội nghị thống nhất lấy tên là Đảng Cộng sản Việt Nam theo đúng đề xuất sáng suốt của Nguyễn Ái Quốc.",
+        "trapAnalysis": "Hội nghị tháng 2/1930 lấy tên Đảng Cộng sản Việt Nam; đến tháng 10/1930 mới đổi thành Đảng Cộng sản Đông Dương."
       },
       {
         "id": 23,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Giai đoạn cao của hình thái cộng sản chủ nghĩa có đặc trưng nổi bật về phân phối của cải là gì?",
+        "question": "Trong Cương lĩnh tháng 2/1930, thái độ của Đảng đối với tầng lớp tiểu tư sản, trí thức là gì?",
         "options": [
-          "Làm theo năng lực, hưởng theo lao động",
-          "Làm theo năng lực, hưởng theo nhu cầu",
-          "Phân phối bình quân cào bằng",
-          "Phân phối theo vốn đóng góp"
+          "Coi là đối tượng cần phải tiêu diệt ngay",
+          "Lôi kéo họ đi về phe vô sản giai cấp",
+          "Cô lập và tịch thu toàn bộ tài sản",
+          "Thờ ơ không cần liên kết hay quan tâm"
         ],
         "correct": 1,
-        "explanation": "Giai đoạn thấp (CNXH): Phân phối theo lao động. Giai đoạn cao (CSCN): Phân phối theo nhu cầu ('Làm theo năng lực, hưởng theo nhu cầu').",
-        "trapAnalysis": "Giai đoạn cao: Làm theo năng lực, hưởng theo nhu cầu."
+        "explanation": "Cương lĩnh chủ trương: Đảng phải thu phục cho được đại bộ phận giai cấp mình, phải làm cho giai cấp mình lãnh đạo được dân chúng, phải lôi kéo tiểu tư sản, trí thức về phe vô sản.",
+        "trapAnalysis": "Cương lĩnh khẳng định tiểu tư sản, trí thức là đồng minh quan trọng cần lôi kéo về phía cách mạng."
       },
       {
         "id": 24,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
-        "level": "Nhận biết",
-        "question": "Việt Nam hiện nay đang ở giai đoạn lịch sử nào trong tiến trình đi lên CNCS?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Thông hiểu",
+        "question": "Đối với tư sản dân tộc và trung, tiểu địa chủ, Cương lĩnh tháng 2/1930 chủ trương sách lược ra sao?",
         "options": [
-          "Giai đoạn cao của CSCN",
-          "Thời kỳ quá độ lên chủ nghĩa xã hội",
-          "Chủ nghĩa xã hội phát triển hoàn hảo",
-          "Giai đoạn phục hồi chủ nghĩa tư bản"
+          "Đánh đổ triệt để cùng với bọn đại địa chủ",
+          "Lợi dụng hoặc ít ra làm cho họ đứng trung lập",
+          "Giao quyền lãnh đạo cách mạng cho họ",
+          "Tịch thu tất cả ruộng đất và nhà xưởng của họ"
         ],
         "correct": 1,
-        "explanation": "Vở ghi: Việt Nam đang trong thời kỳ quá độ lên chủ nghĩa xã hội (bỏ qua chế độ TBCN).",
-        "trapAnalysis": "Việt Nam đang trong thời kỳ quá độ lên CNXH."
+        "explanation": "Cương lĩnh nêu rõ: đối với phú nông, trung, tiểu địa chủ và tư sản An Nam mà chưa rõ mặt phản cách mạng thì phải lợi dụng, ít nhất cũng làm cho họ trung lập.",
+        "trapAnalysis": "Chủ trương của Nguyễn Ái Quốc là phân hóa kẻ thù, lôi kéo hoặc trung lập các tầng lớp yêu nước, tránh đẩy họ sang phía thực dân."
       },
       {
         "id": 25,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
-        "level": "Thông hiểu",
-        "question": "Vì sao Việt Nam không thể tiến thẳng lên CNXH hoàn chỉnh ngay mà phải trải qua thời kỳ quá độ?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Vận dụng",
+        "question": "Quy luật hình thành Đảng Cộng sản Việt Nam do Chủ tịch Hồ Chí Minh đúc kết gồm những yếu tố nào?",
         "options": [
-          "Vì xuất phát điểm của Việt Nam là nước thuộc địa nửa phong kiến, nông nghiệp lạc hậu bỏ qua chế độ TBCN",
-          "Vì các nước láng giềng yêu cầu như vậy",
-          "Vì không có Đảng lãnh đạo",
-          "Vì nhân dân không muốn xây dựng CNXH"
+          "Chủ nghĩa Mác - Lênin kết hợp với phong trào công nhân",
+          "Chủ nghĩa Mác - Lênin kết hợp phong trào công nhân và phong trào yêu nước",
+          "Phong trào công nhân kết hợp với phong trào nông dân",
+          "Chủ nghĩa Mác - Lênin kết hợp phong trào giải phóng dân tộc thế giới"
         ],
-        "correct": 0,
-        "explanation": "Do đi lên từ nền kinh tế tiểu nông lạc hậu, bỏ qua CNTB, Việt Nam bắt buộc phải trải qua thời kỳ quá độ để xây dựng cơ sở vật chất kỹ thuật.",
-        "trapAnalysis": "Xuất phát điểm thấp, đi từ nước nông nghiệp lạc hậu."
+        "correct": 1,
+        "explanation": "Quy luật chung: Chủ nghĩa Mác + Phong trào công nhân. Riêng ở Việt Nam có nét độc đáo là kết hợp thêm với 'Phong trào yêu nước' nồng nàn của dân tộc.",
+        "trapAnalysis": "Điểm sáng tạo của Hồ Chí Minh là bổ sung thêm thành tố thứ 3: 'Phong trào yêu nước'."
       },
       {
         "id": 26,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
-        "level": "Thông hiểu",
-        "question": "Khái niệm nào sau đây chỉ đúng bản chất của CNXHKH?",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Nguyên nhân kinh tế quốc tế trực tiếp thúc đẩy phong trào cách mạng 1930 - 1931 bùng nổ là:",
         "options": [
-          "Là khoa học về các quy luật chính trị - xã hội của quá trình phát sinh, hình thành và phát triển của hình thái KT-XH cộng sản chủ nghĩa",
-          "Là môn học dạy kỹ thuật cơ khí trong nhà máy",
-          "Là môn học về thương mại quốc tế",
-          "Là triết học tự nhiên thuần túy"
+          "Khủng hoảng năng lượng toàn cầu",
+          "Cuộc đại suy thoái kinh tế thế giới 1929 - 1933",
+          "Chiến tranh thương mại giữa Pháp và Đức",
+          "Hạn hán và mất mùa kéo dài ở châu Á"
         ],
-        "correct": 0,
-        "explanation": "CNXHKH là khoa học về quy luật chính trị - xã hội của quá trình chuyển biến từ CNTB lên CNXH và CSCN.",
-        "trapAnalysis": "Quy luật chính trị - xã hội của cách mạng XHCN."
+        "correct": 1,
+        "explanation": "Cuộc đại khủng hoảng kinh tế thế giới (1929 - 1933) đã giáng đòn nặng nề vào nước Pháp, thực dân Pháp tăng cường trút gánh nặng lên thuộc địa làm đời sống nhân dân khốn cùng.",
+        "trapAnalysis": "Cuộc khủng hoảng kinh tế thừa (1929 - 1933) là nguyên nhân kinh tế trực tiếp làm mâu thuẫn xã hội bùng nổ dữ dội."
       },
       {
         "id": 27,
-        "chapter": "Chương 1: Nhập môn CNXHKH",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Thông hiểu",
-        "question": "Đối tượng nghiên cứu của Chủ nghĩa xã hội khoa học là gì?",
+        "question": "Ngày kỷ niệm nào lần đầu tiên được giai cấp công nhân và nhân dân Việt Nam kỷ niệm công khai vào năm 1930?",
         "options": [
-          "Quy luật giá trị thặng dư trong kinh tế",
-          "Những quy luật và tính quy luật chính trị - xã hội của quá trình cách mạng XHCN và xây dựng CNXH, CSCN",
-          "Quy luật vận động của các thiên thể vũ trụ",
-          "Quy luật tâm lý cá nhân của người lao động"
+          "Ngày Quốc tế Phụ nữ 8/3",
+          "Ngày Quốc tế Lao động 1/5",
+          "Ngày Cách mạng Tháng Mười 7/11",
+          "Ngày Quốc khánh Pháp 14/7"
         ],
         "correct": 1,
-        "explanation": "Đối tượng của CNXHKH là những quy luật chính trị - xã hội của phong trào công nhân và cách mạng XHCN.",
-        "trapAnalysis": "Quy luật chính trị - xã hội của cách mạng XHCN."
+        "explanation": "Ngày 1/5/1930, lần đầu tiên công nhân và nông dân Việt Nam mít tinh, biểu tình kỷ niệm ngày Quốc tế Lao động, đòi quyền lợi kinh tế và tự do chính trị.",
+        "trapAnalysis": "1/5/1930 là mốc bùng nổ phong trào cách mạng 1930-1931 trên phạm vi cả nước."
       },
       {
         "id": 28,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Nhận biết",
-        "question": "Giai cấp công nhân được Các Mác và Ăngghen định nghĩa bằng hai phương thức tiếp cận cơ bản nào?",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Thông hiểu",
+        "question": "Chính quyền Xô viết Nghệ - Tĩnh đã thực hiện chính sách kinh tế quan trọng nào cho dân nghèo?",
         "options": [
-          "Phương diện kinh tế - xã hội và phương diện chính trị - xã hội",
-          "Phương diện tuổi tác và giới tính",
-          "Phương diện quốc tịch và tôn giáo",
-          "Phương diện nơi ở thành thị hay nông thôn"
+          "Miễn hoàn toàn các loại thuế chợ, thuế đò và chia ruộng công",
+          "Quốc hữu hóa toàn bộ nhà xưởng xí nghiệp tư bản",
+          "Phát tiền mặt cứu tế đồng loạt cho mọi người dân",
+          "Cho phép tự do giao thương với thương lái Pháp"
         ],
         "correct": 0,
-        "explanation": "Hai phương diện cơ bản: (1) Kinh tế - xã hội (quan hệ với TLSX, vị trí trong sản xuất); (2) Chính trị - xã hội (tính tổ chức, kỷ luật, địa vị bị bóc lột).",
-        "trapAnalysis": "Phương diện kinh tế - xã hội và chính trị - xã hội."
+        "explanation": "Về kinh tế, chính quyền Xô viết bãi bỏ thuế thân, thuế chợ, thuế đò; xóa nợ cho người nghèo và lấy ruộng công chia cho dân cày nghèo.",
+        "trapAnalysis": "Chính sách kinh tế thực tiễn của Xô viết là xóa bỏ thuế vô lý và chia lại ruộng đất công tích thu được."
       },
       {
         "id": 29,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Thông hiểu",
-        "question": "Về phương diện kinh tế - xã hội, giai cấp công nhân là những người gắn liền với:",
+        "question": "Hội nghị Ban Chấp hành Trung ương tháng 10/1930 do ai chủ trì?",
         "options": [
-          "Nền sản xuất tiểu nông gia đình",
-          "Nền sản xuất đại công nghiệp hiện đại, lao động bằng phương thức công nghiệp",
-          "Nền kinh tế săn bắt hái lượm",
-          "Công việc buôn bán tự do ngoài chợ"
+          "Nguyễn Ái Quốc",
+          "Trần Phú",
+          "Hà Huy Tập",
+          "Nguyễn Văn Cừ"
         ],
         "correct": 1,
-        "explanation": "Giai cấp công nhân gắn với công nghiệp hiện đại, gắn liền với quá trình sản xuất vật chất hiện đại.",
-        "trapAnalysis": "Gắn liền với nền đại công nghiệp hiện đại."
+        "explanation": "Đồng chí Trần Phú (vừa từ Liên Xô về nước) được phân công khởi thảo Luận cương và chủ trì Hội nghị Trung ương tháng 10/1930 tại Hương Cảng.",
+        "trapAnalysis": "Hội nghị tháng 10/1930 do Trần Phú chủ trì, Nguyễn Ái Quốc lúc này ở vai trò phái viên Quốc tế Cộng sản."
       },
       {
         "id": 30,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Thông hiểu",
-        "question": "Giai cấp công nhân không sở hữu tư liệu sản xuất chủ yếu nên trong CNTB họ phải:",
+        "question": "Luận cương chính trị tháng 10/1930 xác định hai mâu thuẫn giai cấp sâu sắc nhất ở Đông Dương là:",
         "options": [
-          "Làm chủ các tập đoàn lớn",
-          "Bán sức lao động cho nhà tư bản để nhận tiền công và bị bóc lột giá trị thặng dư",
-          "Tự do kinh doanh không cần tiền vốn",
-          "Thu thuế từ giai cấp tư sản"
+          "Giữa thợ thuyền với chủ xưởng và giữa nông dân với địa chủ",
+          "Giữa công nhân, nông dân với địa chủ phong kiến và đế quốc",
+          "Giữa tư sản dân tộc với thực dân Pháp xâm lược",
+          "Giữa tiểu tư sản trí thức với các tập đoàn tài phiệt"
         ],
         "correct": 1,
-        "explanation": "Do không có TLSX, công nhân buộc phải bán sức lao động cho giai cấp tư sản và bị bóc lột giá trị thặng dư.",
-        "trapAnalysis": "Bán sức lao động và bị bóc lột giá trị thặng dư."
+        "explanation": "Luận cương xác định một bên là thợ thuyền, dân cày và các phần tử lao khổ; một bên là địa chủ phong kiến và tư bản đế quốc chủ nghĩa.",
+        "trapAnalysis": "Luận cương nhấn mạnh hai nhiệm vụ: đánh đổ phong kiến và đánh đổ đế quốc, hai nhiệm vụ này khăng khít với nhau."
+      },
+      {
+        "id": 31,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Thông hiểu",
+        "question": "Điểm giống nhau cơ bản giữa Cương lĩnh tháng 2/1930 và Luận cương tháng 10/1930 là gì?",
+        "options": [
+          "Đều đánh giá cao vai trò cách mạng của tư sản dân tộc",
+          "Đều khẳng định công nhân là lực lượng lãnh đạo cách mạng",
+          "Đều đặt nhiệm vụ giải phóng dân tộc lên hàng đầu",
+          "Đều chủ trương thành lập Mặt trận Việt Minh"
+        ],
+        "correct": 1,
+        "explanation": "Cả hai văn kiện đều xác định giai cấp công nhân thông qua đội tiên phong là Đảng Cộng sản giữ vai trò lãnh đạo cách mạng, lấy liên minh công nông làm nền tảng.",
+        "trapAnalysis": "Luận cương 10/1930 không đánh giá cao tư sản dân tộc và chưa đặt giải phóng dân tộc lên hàng đầu; điểm chung then chốt là khẳng định vai trò lãnh đạo của công nhân."
+      },
+      {
+        "id": 32,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Văn kiện nào được Trung ương Đảng công bố vào tháng 6/1932 để định hướng khôi phục phong trào?",
+        "options": [
+          "Chương trình hành động của Đảng",
+          "Lời kêu gọi toàn quốc kháng chiến",
+          "Đề cương về Văn hóa Việt Nam",
+          "Chính cương vắn tắt của Đảng"
+        ],
+        "correct": 0,
+        "explanation": "Tháng 6/1932, Đảng ban hành bản 'Chương trình hành động của Đảng Cộng sản Đông Dương' nhằm phục hồi các cơ sở Đảng và phong trào cách mạng sau khủng bố.",
+        "trapAnalysis": "Bản 'Chương trình hành động' (6/1932) đóng vai trò then chốt trong giai đoạn củng cố và khôi phục phong trào 1932 - 1935."
+      },
+      {
+        "id": 33,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Đại hội đại biểu lần thứ I của Đảng (3/1935) đã bầu đồng chí nào làm Tổng Bí thư?",
+        "options": [
+          "Nguyễn Ái Quốc",
+          "Trần Phú",
+          "Lê Hồng Phong",
+          "Hà Huy Tập"
+        ],
+        "correct": 2,
+        "explanation": "Đại hội lần thứ I (tháng 3/1935 tại Ma Cao) đã bầu đồng chí Lê Hồng Phong làm Tổng Bí thư Ban Chấp hành Trung ương Đảng.",
+        "trapAnalysis": "Trần Phú hy sinh năm 1931; người được bầu làm Tổng Bí thư tại Đại hội I (1935) là Lê Hồng Phong."
+      },
+      {
+        "id": 34,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Thông hiểu",
+        "question": "Sự kiện quốc tế nào trực tiếp tạo điều kiện thuận lợi cho phong trào dân chủ 1936 - 1939 ở Việt Nam?",
+        "options": [
+          "Mặt trận Nhân dân Pháp lên nắm quyền và thi hành chính sách nới lỏng",
+          "Chiến tranh thế giới thứ hai bùng nổ ở châu Âu",
+          "Liên Xô hoàn thành kế hoạch 5 năm lần thứ nhất",
+          "Mỹ tuyên bố mở cửa thị trường với khu vực châu Á"
+        ],
+        "correct": 0,
+        "explanation": "Năm 1936, Mặt trận Nhân dân Pháp lên nắm chính quyền, ban bố các chính sách dân chủ cho thuộc địa như thả tù chính trị, cho phép tự do báo chí, lập hội.",
+        "trapAnalysis": "Sự thắng lợi của Mặt trận Nhân dân Pháp (1936) là thời cơ khách quan quyết định cho phong trào dân chủ 1936 - 1939 bùng nổ."
+      },
+      {
+        "id": 35,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Thông hiểu",
+        "question": "Văn kiện 'Chung quanh vấn đề chiến sách mới' (tháng 10/1936) của Ban Thường vụ TW Đảng đã xác định lại:",
+        "options": [
+          "Vấn đề chống đế quốc và thổ địa cách mạng không nhất thiết phải làm song song",
+          "Cách mạng chỉ tập trung tiêu diệt giai cấp tư sản dân tộc",
+          "Phải lập tức tịch thu toàn bộ tài sản của tầng lớp tiểu tư sản",
+          "Từ bỏ hoàn toàn mục tiêu giải phóng dân tộc trong tương lai"
+        ],
+        "correct": 0,
+        "explanation": "Văn kiện chỉ rõ: Vấn đề chống đế quốc và giải quyết ruộng đất tuy có quan hệ mật thiết, nhưng tùy tình hình cụ thể, có thể làm từng việc một chứ không nhất thiết phải làm song song cùng lúc.",
+        "trapAnalysis": "Văn kiện tháng 10/1936 là bước điều chỉnh chiến lược quan trọng uốn nắn những hạn chế của Luận cương tháng 10/1930."
+      },
+      {
+        "id": 36,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Cuộc mít tinh công khai khổng lồ kỷ niệm ngày Quốc tế Lao động 1/5/1938 diễn ra tại địa điểm nào ở Hà Nội?",
+        "options": [
+          "Quảng trường Ba Đình",
+          "Nhà hát Lớn Hà Nội",
+          "Khu Đấu Xảo",
+          "Cột cờ Hà Nội"
+        ],
+        "correct": 2,
+        "explanation": "Cuộc mít tinh kỷ niệm ngày 1/5/1938 diễn ra tại Khu Đấu Xảo (nay là Cung Văn hóa Hữu nghị Việt - Xô, Hà Nội) với hơn 2,5 vạn người tham gia.",
+        "trapAnalysis": "Khu Đấu Xảo là địa điểm diễn ra cuộc mít tinh lịch sử 1/5/1938."
+      },
+      {
+        "id": 37,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Tình cảnh của nhân dân Việt Nam sau khi phát xít Nhật xâm lược Đông Dương (tháng 9/1940) được ví là:",
+        "options": [
+          "Nồi da xáo thịt",
+          "Một cổ hai tròng",
+          "Ngàn cân treo sợi tóc",
+          "Cá nằm trên thớt"
+        ],
+        "correct": 1,
+        "explanation": "Thực dân Pháp câu kết với phát xít Nhật để bóc lột, đẩy nhân dân ta vào cảnh khốn cùng chịu áp bức 'một cổ hai tròng'.",
+        "trapAnalysis": "'Một cổ hai tròng' phản ánh sự áp bức kép của cả thực dân Pháp và phát xít Nhật từ tháng 9/1940."
+      },
+      {
+        "id": 38,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Ba cuộc khởi nghĩa và binh biến vũ trang nổ ra mở đầu cho thời kỳ 1939 - 1941 là:",
+        "options": [
+          "Bắc Sơn, Nam Kỳ, Binh biến Đô Lương",
+          "Yên Bái, Ba Tơ, Hương Khê",
+          "Hà Nội, Huế, Sài Gòn",
+          "Phú Riềng, Ba Son, Can Lộc"
+        ],
+        "correct": 0,
+        "explanation": "Khởi nghĩa Bắc Sơn (9/1940), Khởi nghĩa Nam Kỳ (11/1940) và Binh biến Đô Lương (1/1941) là những tiếng súng báo hiệu cho cuộc khởi nghĩa toàn quốc.",
+        "trapAnalysis": "Bộ ba mở đầu: Khởi nghĩa Bắc Sơn, Khởi nghĩa Nam Kỳ và Binh biến Đô Lương."
+      },
+      {
+        "id": 39,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Lá cờ đỏ sao vàng năm cánh lần đầu tiên xuất hiện trong phong trào cách mạng nào?",
+        "options": [
+          "Phong trào Xô viết Nghệ - Tĩnh (1930)",
+          "Cuộc Khởi nghĩa Nam Kỳ (tháng 11/1940)",
+          "Cuộc Khởi nghĩa Bắc Sơn (tháng 9/1940)",
+          "Cuộc Binh biến Đô Lương (tháng 1/1941)"
+        ],
+        "correct": 1,
+        "explanation": "Lá cờ đỏ sao vàng năm cánh lần đầu tiên tung bay trong cuộc Khởi nghĩa Nam Kỳ bùng nổ ngày 23/11/1940.",
+        "trapAnalysis": "Lá cờ đỏ sao vàng xuất hiện trong Khởi nghĩa Nam Kỳ (11/1940), sau đó được Hội nghị TW 8 và Quốc dân Đại hội Tân Trào chọn làm Quốc kỳ."
+      },
+      {
+        "id": 40,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Sau 30 năm bôn ba tìm đường cứu nước, lãnh tụ Nguyễn Ái Quốc về nước trực tiếp lãnh đạo vào thời gian nào?",
+        "options": [
+          "28/01/1941",
+          "19/05/1941",
+          "02/09/1945",
+          "19/08/1945"
+        ],
+        "correct": 0,
+        "explanation": "Ngày 28/1/1941 (mùng 2 Tết Tân Tỵ), Nguyễn Ái Quốc bí mật vượt mốc 108 biên giới Việt - Trung về đến Pác Bó (Cao Bằng).",
+        "trapAnalysis": "28/1/1941 là ngày Bác về nước; 19/5/1941 là ngày thành lập Mặt trận Việt Minh."
+      },
+      {
+        "id": 41,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Hội nghị Trung ương 8 (5/1941) chủ trương thành lập chính quyền nhà nước tương lai mang hình thức gì?",
+        "options": [
+          "Chính quyền Xô viết công nông binh",
+          "Nước Việt Nam Dân chủ Cộng hòa",
+          "Cộng hòa Liên bang Đông Dương",
+          "Quân chủ lập hiến dân quốc"
+        ],
+        "correct": 1,
+        "explanation": "HNTW 8 chủ trương sau khi đánh đuổi Nhật - Pháp sẽ thành lập một nước Việt Nam Dân chủ Cộng hòa với chính phủ của toàn thể nhân dân.",
+        "trapAnalysis": "Không lập chính quyền Xô viết chỉ của công nông như năm 1930, mà lập nước Việt Nam Dân chủ Cộng hòa của toàn dân tộc."
+      },
+      {
+        "id": 42,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Văn kiện 'Đề cương về Văn hóa Việt Nam' (năm 1943) do ai khởi thảo?",
+        "options": [
+          "Nguyễn Ái Quốc",
+          "Trường Chinh",
+          "Võ Nguyên Giáp",
+          "Phạm Văn Đồng"
+        ],
+        "correct": 1,
+        "explanation": "'Đề cương về Văn hóa Việt Nam' được Tổng Bí thư Trường Chinh soạn thảo và thông qua tại Hội nghị Ban Thường vụ Trung ương Đảng đầu năm 1943.",
+        "trapAnalysis": "Tác giả của 'Đề cương về Văn hóa Việt Nam' (1943) là đồng chí Trường Chinh."
+      },
+      {
+        "id": 43,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Ba nguyên tắc vận động của nền văn hóa mới trong Đề cương Văn hóa năm 1943 gồm:",
+        "options": [
+          "Dân tộc hóa, Đại chúng hóa, Khoa học hóa",
+          "Hiện đại hóa, Xã hội hóa, Toàn cầu hóa",
+          "Tự do hóa, Dân chủ hóa, Cách mạng hóa",
+          "Cách tân hóa, Quần chúng hóa, Tiến bộ hóa"
+        ],
+        "correct": 0,
+        "explanation": "Ba nguyên tắc chỉ đạo cuộc vận động văn hóa mới của Đảng là: Dân tộc hóa, Đại chúng hóa và Khoa học hóa.",
+        "trapAnalysis": "Ghi nhớ bộ ba nguyên tắc kinh điển của Đề cương văn hóa: Dân tộc hóa - Đại chúng hóa - Khoa học hóa."
+      },
+      {
+        "id": 44,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Hai chiến thắng đầu tiên của Đội Việt Nam Tuyên truyền Giải phóng quân diễn ra tại đâu?",
+        "options": [
+          "Phai Khắt và Nà Ngần",
+          "Đông Khê và Thất Khê",
+          "Bắc Sơn và Đình Cả",
+          "Võ Nhai và Chợ Đồn"
+        ],
+        "correct": 0,
+        "explanation": "Ngay sau khi thành lập, Đội đã mưu trí tiêu diệt hai đồn giặc tại Phai Khắt (25/12/1944) và Nà Ngần (26/12/1944) ở Cao Bằng.",
+        "trapAnalysis": "Trận thắng mở màn lịch sử của Quân đội nhân dân Việt Nam là Phai Khắt và Nà Ngần."
+      },
+      {
+        "id": 45,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Tại sao Ban Thường vụ TW Đảng nhận định đêm 9/3/1945 chưa phải thời cơ Tổng khởi nghĩa?",
+        "options": [
+          "Quân Nhật chưa đảo chính xong quân Pháp",
+          "Quân Pháp vẫn còn kháng cự dữ dội ở biên giới",
+          "Quân Nhật hoang mang nhưng quân đội ta chưa sẵn sàng",
+          "Tầng lớp trung gian chưa ngả hẳn về cách mạng và lực lượng chưa đủ mạnh"
+        ],
+        "correct": 3,
+        "explanation": "Lúc này tuy Nhật đảo chính Pháp gây khủng hoảng chính trị, nhưng quân Nhật còn rất mạnh, tầng lớp trung gian còn hoang mang và lực lượng quần chúng chưa được chuẩn bị đầy đủ.",
+        "trapAnalysis": "Thời cơ Tổng khởi nghĩa chỉ thực sự chín muồi khi phát xít Nhật đầu hàng Đồng minh vô điều kiện (tháng 8/1945)."
+      },
+      {
+        "id": 46,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Hội nghị Quân sự cách mạng Bắc Kỳ (tháng 4/1945) đã quyết định thống nhất các lực lượng vũ trang thành:",
+        "options": [
+          "Việt Nam Tuyên truyền Giải phóng quân",
+          "Cứu quốc quân",
+          "Việt Nam Giải phóng quân",
+          "Vệ quốc đoàn"
+        ],
+        "correct": 2,
+        "explanation": "Tháng 4/1945, Hội nghị Quân sự Bắc Kỳ quyết định thống nhất Việt Nam Tuyên truyền Giải phóng quân và Cứu quốc quân thành Việt Nam Giải phóng quân (5/1945).",
+        "trapAnalysis": "Sau khi thống nhất năm 1945 mang tên Việt Nam Giải phóng quân; đến năm 1946 mới đổi tên thành Vệ quốc đoàn và Quân đội quốc gia Việt Nam."
+      },
+      {
+        "id": 47,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Quân lệnh số 1 phát động Tổng khởi nghĩa giành chính quyền được ban bố vào thời điểm nào?",
+        "options": [
+          "23 giờ ngày 13/8/1945",
+          "Sáng ngày 14/8/1945",
+          "Trưa ngày 15/8/1945",
+          "Tối ngày 19/8/1945"
+        ],
+        "correct": 0,
+        "explanation": "Ngay khi nhận được tin Nhật sắp đầu hàng, 23 giờ ngày 13/8/1945, Ủy ban Khởi nghĩa toàn quốc đã ban bố Quân lệnh số 1 phát động Tổng khởi nghĩa.",
+        "trapAnalysis": "Quân lệnh số 1 được ban bố vào đêm 13/8/1945 trước khi Hội nghị toàn quốc khai mạc."
+      },
+      {
+        "id": 48,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Quốc dân Đại hội Tân Trào (16 - 17/8/1945) đã bầu ai làm Chủ tịch Ủy ban Dân tộc Giải phóng Việt Nam?",
+        "options": [
+          "Trường Chinh",
+          "Hồ Chí Minh",
+          "Võ Nguyên Giáp",
+          "Huỳnh Thúc Kháng"
+        ],
+        "correct": 1,
+        "explanation": "Đại hội đã nhất trí bầu Ủy ban Dân tộc Giải phóng Việt Nam (tức Chính phủ lâm thời) do đồng chí Hồ Chí Minh làm Chủ tịch.",
+        "trapAnalysis": "Hồ Chí Minh được bầu làm Chủ tịch Chính phủ lâm thời tại Đại hội Quốc dân Tân Trào."
+      },
+      {
+        "id": 49,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Khởi nghĩa giành chính quyền thắng lợi ở Hà Nội diễn ra vào ngày nào?",
+        "options": [
+          "18/08/1945",
+          "19/08/1945",
+          "23/08/1945",
+          "25/08/1945"
+        ],
+        "correct": 1,
+        "explanation": "Ngày 19/8/1945, cuộc mít tinh khổng lồ tại Nhà hát Lớn Hà Nội chuyển thành biểu tình vũ trang cướp chính quyền thắng lợi rực rỡ.",
+        "trapAnalysis": "Hà Nội (19/8), Huế (23/8), Sài Gòn (25/8)."
+      },
+      {
+        "id": 50,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Vận dụng",
+        "question": "Bài học kinh nghiệm mang tính quyết định hàng đầu của Cách mạng Tháng Tám năm 1945 là:",
+        "options": [
+          "Giữ vững đường lối giương cao ngọn cờ độc lập dân tộc",
+          "Tranh thủ tối đa viện trợ vũ khí của các nước lớn",
+          "Đợi quân Đồng minh vào tước khí giới phát xít Nhật",
+          "Thỏa hiệp vô điều kiện với chính phủ bù nhìn"
+        ],
+        "correct": 0,
+        "explanation": "Bài học số một là luôn giương cao ngọn cờ giải phóng dân tộc, đặt lợi ích tối cao của Tổ quốc lên trên hết, tập hợp toàn thể nhân dân.",
+        "trapAnalysis": "Bài học cốt tử là tự lực cánh sinh giương cao ngọn cờ độc lập dân tộc, không ỷ lại Đồng minh hay thỏa hiệp."
       }
     ]
   },
   {
     "id": "de_03",
     "code": "MÃ ĐỀ: 103",
-    "title": "Đề 03: Khái Niệm, Đặc Điểm & Địa Vị Của Giai Cấp Công Nhân",
-    "description": "Ôn tập sâu Chương 2: Phương thức lao động công nghiệp, con đẻ của nền đại công nghiệp, địa vị kinh tế và địa vị chính trị - xã hội.",
-    "duration": 15,
+    "title": "Đề 03: Lãnh Tụ Nguyễn Ái Quốc & Quá Trình Thành Lập Đảng",
+    "description": "Khảo sát toàn diện hành trình cứu nước của Nguyễn Ái Quốc, chuẩn bị về tư tưởng chính trị, tổ chức và sự kiện Hội nghị hợp nhất thành lập Đảng đầu năm 1930.",
+    "duration": 40,
     "questions": [
       {
         "id": 1,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Nhận biết",
-        "question": "Luận điểm 'Giai cấp công nhân là con đẻ của nền đại công nghiệp' chỉ ra nguồn gốc hình thành của giai cấp này gắn với:",
+        "question": "Sau khi đánh chiếm Nam Kỳ, thực dân Pháp đã biến Nam Kỳ thành vùng có chế độ cai trị nào?",
         "options": [
-          "Nông nghiệp truyền thống",
-          "Cuộc cách mạng công nghiệp",
-          "Thương nghiệp hàng hải thời cổ đại",
-          "Làng nghề gốm sứ truyền thống"
+          "Xứ thuộc địa trực trị",
+          "Xứ bảo hộ toàn phần",
+          "Xứ nửa bảo hộ tự trị",
+          "Đặc khu hành chính mở"
         ],
-        "correct": 1,
-        "explanation": "Giai cấp công nhân ra đời cùng với sự phát triển của nền đại công nghiệp cơ khí trong cách mạng công nghiệp.",
-        "trapAnalysis": "Con đẻ của nền đại công nghiệp."
+        "correct": 0,
+        "explanation": "Trong Liên bang Đông Dương, thực dân Pháp quy định Nam Kỳ là xứ thuộc địa (chế độ cai trị trực trị), đứng đầu là Thống đốc người Pháp.",
+        "trapAnalysis": "Nam Kỳ là 'thuộc địa' trực trị của Pháp, khác với Bắc Kỳ (nửa bảo hộ) và Trung Kỳ (bảo hộ)."
       },
       {
         "id": 2,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Đặc điểm nổi bật nhất về phương thức lao động của giai cấp công nhân là:",
+        "question": "Ba thứ thuế độc quyền khét tiếng mang lại nguồn thu khổng lồ cho thực dân Pháp tại Đông Dương là:",
         "options": [
-          "Lao động bằng công cụ thô sơ",
-          "Lao động bằng phương thức công nghiệp",
-          "Lao động hoàn toàn biệt lập tại nhà",
-          "Lao động tùy hứng không theo giờ giấc"
+          "Thuế muối, thuế rượu, thuế thuốc phiện",
+          "Thuế đất, thuế thân, thuế đò",
+          "Thuế lâm sản, thuế chợ, thuế xuất nhập khẩu",
+          "Thuế nông nghiệp, thuế thương nghiệp, thuế cầu đường"
         ],
-        "correct": 1,
-        "explanation": "Vở ghi: Lao động bằng phương thức công nghiệp là đặc điểm nổi bật nhất của giai cấp công nhân.",
-        "trapAnalysis": "Đặc điểm nổi bật nhất: lao động bằng phương thức công nghiệp."
+        "correct": 0,
+        "explanation": "Chính quyền thực dân độc quyền khai thác và buôn bán muối, rượu và thuốc phiện; đây là 3 thứ thuế độc quyền gây tội ác tày trời đối với giống nòi dân tộc ta.",
+        "trapAnalysis": "Ghi nhớ 'Tam độc' trong chính sách thuế bóc lột của Pháp: Muối - Rượu - Thuốc phiện."
       },
       {
         "id": 3,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Giai cấp công nhân là đại biểu cho yếu tố nào trong lực lượng sản xuất hiện đại?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Nhận biết",
+        "question": "Thành phần xuất thân chủ yếu của giai cấp công nhân Việt Nam là từ đâu?",
         "options": [
-          "Lực lượng sản xuất tiên tiến nhất",
-          "Phương thức sản xuất thủ công nhỏ lẻ",
-          "Lực lượng bảo thủ kìm hãm sản xuất",
-          "Công cụ sản xuất thời kỳ đồ đá"
+          "Tiểu tư sản thành thị",
+          "Nông dân bị mất ruộng đất",
+          "Thợ thủ công truyền thống",
+          "Nho sĩ sa sút phá sản"
         ],
-        "correct": 0,
-        "explanation": "Giai cấp công nhân là đại biểu cho lực lượng sản xuất tiên tiến, trực tiếp vận hành công nghệ sản xuất hiện đại.",
-        "trapAnalysis": "Đại biểu cho lực lượng sản xuất tiên tiến."
+        "correct": 1,
+        "explanation": "Giai cấp công nhân Việt Nam phần lớn xuất thân từ nông dân bị đế quốc và địa chủ tước đoạt ruộng đất, buộc phải vào hầm mỏ, nhà máy làm thuê.",
+        "trapAnalysis": "Đặc điểm lịch sử quan trọng: Công nhân Việt Nam có nguồn gốc trực tiếp từ nông dân nghèo bị bần cùng hóa."
       },
       {
         "id": 4,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Vì sao giai cấp công nhân lại có tính tổ chức và kỷ luật lao động cao?",
+        "question": "Vì sao giai cấp công nhân Việt Nam sớm trở thành lực lượng lãnh đạo phong trào cách mạng?",
         "options": [
-          "Do bẩm sinh khi sinh ra đã có",
-          "Do được tôi luyện trong môi trường sản xuất dây chuyền công nghiệp hiện đại",
-          "Do bị đe dọa bằng vũ lực",
-          "Do các nhà tư bản ban tặng"
+          "Có số lượng đông đảo chiếm đa số dân cư",
+          "Đại biểu cho phương thức sản xuất tiên tiến và tiếp thu chủ nghĩa Mác",
+          "Sở hữu nhiều hầm mỏ và đồn điền lớn trong nước",
+          "Được chính quyền thực dân Pháp bảo trợ về pháp lý"
         ],
         "correct": 1,
-        "explanation": "Dây chuyền đại công nghiệp đòi hỏi tính hiệp tác chặt chẽ, tính kỷ luật nghiêm ngặt và tính tổ chức cao.",
-        "trapAnalysis": "Rèn luyện từ môi trường sản xuất đại công nghiệp."
+        "explanation": "Công nhân là đại biểu cho lực lượng sản xuất tiến bộ, có tính tổ chức kỷ luật cao, gắn với chủ nghĩa Mác - Lênin và có tinh thần cách mạng triệt để nhất.",
+        "trapAnalysis": "Công nhân không đông về số lượng (chỉ khoảng 2% dân số thời bấy giờ) nhưng lãnh đạo nhờ bản chất giai cấp tiên tiến."
       },
       {
         "id": 5,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Phẩm chất nào sau đây KHÔNG PHẢI là phẩm chất của giai cấp công nhân hiện đại?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Nhận biết",
+        "question": "Cuộc khởi nghĩa Ba Đình trong phong trào Cần Vương gắn liền với tên tuổi của những ai?",
         "options": [
-          "Tính tổ chức, kỷ luật cao",
-          "Tinh thần hợp tác quốc tế",
-          "Tâm lý tự do tản mạn, tùy tiện của tiểu nông",
-          "Tác phong công nghiệp khẩn trương"
+          "Phạm Bành và Đinh Công Tráng",
+          "Nguyễn Thiện Thuật và Nguyễn Cao",
+          "Phan Đình Phùng và Cao Thắng",
+          "Tống Duy Tân và Cao Điển"
         ],
-        "correct": 2,
-        "explanation": "Tâm lý tự do tản mạn, tùy tiện là đặc điểm của người sản xuất nhỏ tiểu nông, hoàn toàn đối lập với tác phong của công nhân.",
-        "trapAnalysis": "Tâm lý tùy tiện, tản mạn là của người sản xuất nhỏ."
+        "correct": 0,
+        "explanation": "Khởi nghĩa Ba Đình (Thanh Hóa, 1886 - 1887) do hai thủ lĩnh Phạm Bành và Đinh Công Tráng chỉ huy, xây dựng công sự kiên cố chặn bước tiến quân Pháp.",
+        "trapAnalysis": "Phạm Bành - Đinh Công Tráng (Ba Đình); Nguyễn Thiện Thuật (Bãi Sậy); Phan Đình Phùng (Hương Khê)."
       },
       {
         "id": 6,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Giai cấp công nhân gắn liền với quá trình sản xuất vật chất hiện đại có nghĩa là gì?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Nhận biết",
+        "question": "Phong trào Đông Du (1905 - 1908) của cụ Phan Bội Châu đưa thanh niên Việt Nam sang học tập tại đâu?",
         "options": [
-          "Họ chỉ làm việc trong các văn phòng luật",
-          "Họ trực tiếp hoặc gián tiếp vận hành các công cụ sản xuất công nghiệp để tạo ra của cải vật chất",
-          "Họ không bao giờ tiếp xúc với máy móc",
-          "Họ chỉ tiêu thụ hàng hóa mà không sản xuất"
+          "Nước Pháp",
+          "Nước Nga",
+          "Nước Nhật Bản",
+          "Nước Trung Hoa"
         ],
-        "correct": 1,
-        "explanation": "GCCN gắn liền với sản xuất vật chất hiện đại, là người trực tiếp vận hành máy móc và công nghệ.",
-        "trapAnalysis": "Gắn liền với sản xuất vật chất hiện đại."
+        "correct": 2,
+        "explanation": "Cụ Phan Bội Châu tổ chức đưa khoảng 200 thanh niên yêu nước sang Nhật Bản học tập quân sự và chính trị nhằm mưu đồ khôi phục đất nước.",
+        "trapAnalysis": "Đông Du là đưa thanh niên sang phương Đông (cụ thể là Nhật Bản), không nhầm với sang Pháp hay Nga."
       },
       {
         "id": 7,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Tâm lý lao động công nghiệp của giai cấp công nhân được biểu hiện ở điểm nào?",
+        "question": "Khẩu hiệu 'Khai dân trí, chấn dân khí, hậu dân sinh' là chủ trương của ai?",
         "options": [
-          "Tác phong nhanh nhẹn, chính xác, tuân thủ quy trình kỹ thuật nghiêm ngặt",
-          "Đi làm muộn về sớm theo ý thích",
-          "Làm việc theo thời vụ phụ thuộc thời tiết",
-          "Không quan tâm đến an toàn lao động"
+          "Phan Bội Châu",
+          "Phan Châu Trinh",
+          "Huỳnh Thúc Kháng",
+          "Lương Văn Can"
         ],
-        "correct": 0,
-        "explanation": "Tâm lý lao động công nghiệp: tôn trọng thời gian, tuân thủ quy trình công nghệ, có tính đồng đội cao.",
-        "trapAnalysis": "Tâm lý công nghiệp = tuân thủ quy trình, chính xác, kỷ luật."
+        "correct": 1,
+        "explanation": "Đây là tư tưởng xuyên suốt của cụ Phan Châu Trinh trong phong trào Duy Tân: mở mang dân trí, thức tỉnh ý thức tự cường và cải thiện dân sinh.",
+        "trapAnalysis": "Khẩu hiệu khai dân trí gắn liền với nhà cải cách Phan Châu Trinh."
       },
       {
         "id": 8,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Tinh thần hợp tác của giai cấp công nhân xuất phát từ điều kiện khách quan nào?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Nhận biết",
+        "question": "Người lãnh đạo cuộc Khởi nghĩa Yên Bái tháng 2/1930 của Việt Nam Quốc dân Đảng là ai?",
         "options": [
-          "Bản chất của nền sản xuất công nghiệp mang tính xã hội hóa cao",
-          "Lời kêu gọi của các tổ chức từ thiện",
-          "Quy định bắt buộc của tòa án tư sản",
-          "Sự nhường nhịn vô điều kiện"
+          "Nguyễn Thái Học",
+          "Phó Đức Chính",
+          "Nguyễn Khắc Nhu",
+          "Đoàn Trần Nghiệp"
         ],
         "correct": 0,
-        "explanation": "Sản xuất dây chuyền hiện đại đòi hỏi sự phối hợp nhịp nhàng giữa nhiều bộ phận, hình thành tinh thần hợp tác tự nhiên.",
-        "trapAnalysis": "Xuất phát từ tính chất xã hội hóa của nền sản xuất công nghiệp."
+        "explanation": "Chủ tịch Việt Nam Quốc dân Đảng là Nguyễn Thái Học, người trực tiếp chỉ huy cuộc Khởi nghĩa Yên Bái đêm 9 rạng sáng 10/2/1930.",
+        "trapAnalysis": "Nguyễn Thái Học là thủ lĩnh tối cao của Việt Nam Quốc dân Đảng."
       },
       {
         "id": 9,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Tổng hợp các phẩm chất cần thiết giúp giai cấp công nhân có vai trò lãnh đạo cách mạng bao gồm:",
+        "question": "Hạn chế căn bản nhất của tổ chức Việt Nam Quốc dân Đảng (1927 - 1930) là gì?",
         "options": [
-          "Lao động bằng phương thức công nghiệp, đại biểu LLSX tiên tiến, tính tổ chức kỷ luật, tinh thần hợp tác, tâm lý công nghiệp",
-          "Sở hữu nhiều ruộng đất, nhiều vàng bạc tích lũy",
-          "Có quyền thừa kế ngai vàng phong kiến",
-          "Chỉ biết nghe theo sự sai bảo của chủ xưởng"
+          "Không có tổ chức cơ sở bí mật trong quân đội",
+          "Thiếu cương lĩnh vững chắc và xa rời quần chúng nhân dân",
+          "Không nhận được viện trợ tài chính từ giai cấp phong kiến",
+          "Chỉ hoạt động tập trung ở vùng nông thôn Nam Bộ"
         ],
-        "correct": 0,
-        "explanation": "Vở ghi: Tổng phẩm chất cần thiết: lao động bằng phương thức công nghiệp, đại biểu cho LLSX tiên tiến, tính tổ chức, kỷ luật lao động, tinh thần hợp tác và tâm lý lao động công nghiệp.",
-        "trapAnalysis": "Học thuộc bộ phẩm chất cách mạng của GCCN."
+        "correct": 1,
+        "explanation": "Tổ chức này thiếu một đường lối chính trị khoa học, nội bộ phân tán, thiên về ám sát bạo động và không gắn bó mật thiết với đông đảo quần chúng công nông.",
+        "trapAnalysis": "Việt Nam Quốc dân Đảng thiên về bạo động liều lĩnh, thiếu cơ sở quần chúng vững chắc."
       },
       {
         "id": 10,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Giai cấp nào sau đây có lợi ích đối kháng trực tiếp nhất với giai cấp tư sản trong CNTB?",
+        "question": "Cuộc bãi công của công nhân đồn điền cao su Phú Riềng (2/1930) diễn ra ở địa bàn nào?",
         "options": [
-          "Giai cấp nông dân",
-          "Tầng lớp tiểu thương",
-          "Giai cấp công nhân",
-          "Tầng lớp quý tộc phong kiến"
+          "Bình Phước",
+          "Đồng Nai",
+          "Tây Ninh",
+          "Bình Dương"
         ],
-        "correct": 2,
-        "explanation": "Giai cấp công nhân là giai cấp đối lập trực tiếp về lợi ích căn bản với giai cấp tư sản (bị bóc lột GTTD).",
-        "trapAnalysis": "GCCN đối lập trực tiếp về lợi ích với GCTS."
+        "correct": 0,
+        "explanation": "Phú Riềng Đỏ (nay thuộc tỉnh Bình Phước) là nơi bùng nổ cuộc bãi công anh dũng của hơn 5.000 phu cao su dưới sự lãnh đạo của Chi bộ Đông Dương CS Đảng.",
+        "trapAnalysis": "Phú Riềng Đỏ thuộc tỉnh Bình Phước (trước đây thuộc tỉnh Thủ Dầu Một / Sông Bé)."
       },
       {
         "id": 11,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Về địa vị kinh tế trong chế độ tư bản chủ nghĩa, giai cấp công nhân là giai cấp:",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Khi rời Tổ quốc năm 1911 trên tàu Latouche-Tréville, Nguyễn Tất Thành lấy tên là gì?",
         "options": [
-          "Không có tư liệu sản xuất chủ yếu, phải bán sức lao động để kiếm sống",
-          "Làm chủ toàn bộ ngân hàng và nhà máy",
-          "Chiếm hữu phần lớn đất đai nông nghiệp",
-          "Được chia đều lợi nhuận với nhà tư bản"
+          "Nguyễn Ái Quốc",
+          "Văn Ba",
+          "Thầu Chín",
+          "Nguyễn Sinh Cung"
         ],
-        "correct": 0,
-        "explanation": "Vở ghi: Không sở hữu tư liệu sản xuất, bị giai cấp tư sản bóc lột giá trị thặng dư.",
-        "trapAnalysis": "Không sở hữu TLSX chủ yếu, phải bán sức lao động."
+        "correct": 1,
+        "explanation": "Người thanh niên yêu nước xin làm phụ bếp trên tàu và lấy tên là Văn Ba khi bắt đầu cuộc hành trình vạn dặm cứu nước.",
+        "trapAnalysis": "Văn Ba là tên gọi năm 1911; Nguyễn Ái Quốc xuất hiện năm 1919; Thầu Chín là bí danh tại Thái Lan (1928)."
       },
       {
         "id": 12,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Nguồn gốc sinh ra giá trị thặng dư mà nhà tư bản bóc lột của công nhân là từ:",
+        "question": "Vì sao Nguyễn Ái Quốc quyết định sang phương Tây tìm đường cứu nước thay vì sang phương Đông?",
         "options": [
-          "Máy móc tự sinh ra trong đêm",
-          "Sức lao động sống của giai cấp công nhân tạo ra vượt quá giá trị sức lao động của họ",
-          "Sự may mắn trong kinh doanh trên thị trường",
-          "Sự hỗ trợ từ tiền trợ cấp của chính phủ"
+          "Để tìm hiểu các nước đế quốc làm giàu bằng cách nào",
+          "Để xem nước Pháp và các nước làm thế nào rồi về giúp đồng bào",
+          "Để tìm kiếm sự hỗ trợ tài chính từ các nhà tư sản châu Âu",
+          "Để học tập kỹ thuật đóng tàu chiến hiện đại"
         ],
         "correct": 1,
-        "explanation": "Giá trị thặng dư là phần giá trị do lao động của công nhân tạo ra ngoài thời gian lao động tất yếu, bị nhà tư bản chiếm đoạt không công.",
-        "trapAnalysis": "Do lao động sống của công nhân tạo ra."
+        "explanation": "Người nói: 'Tôi muốn đi ra ngoài, xem nước Pháp và các nước khác. Sau khi xem xét họ làm như thế nào, tôi sẽ trở về giúp đồng bào chúng ta'.",
+        "trapAnalysis": "Người sang phương Tây để tìm hiểu tận gốc rễ những khẩu hiệu 'Tự do - Bình đẳng - Bác ái' của chính quốc."
       },
       {
         "id": 13,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Về địa vị chính trị - xã hội dưới chế độ tư bản, giai cấp công nhân là giai cấp:",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Tên gọi 'Nguyễn Ái Quốc' lần đầu tiên xuất hiện công khai gắn liền với sự kiện nào?",
         "options": [
-          "Thống trị về mặt chính trị",
-          "Bị áp bức, bị tước đoạt quyền lực nhà nước thực sự",
-          "Nắm giữ chức vụ tổng thống vĩnh viễn",
-          "Có quyền lực tối cao trong xã hội"
+          "Đại hội Tours của Đảng Xã hội Pháp (1920)",
+          "Gửi Yêu sách của nhân dân An Nam tới Hội nghị Versailles (1919)",
+          "Thành lập Hội Liên hiệp thuộc địa tại Paris (1921)",
+          "Xuất bản tác phẩm Đường Kách mệnh (1927)"
         ],
         "correct": 1,
-        "explanation": "Dưới CNTB, giai cấp công nhân bị áp bức về chính trị, nhà nước tư sản là công cụ phục vụ giai cấp tư sản.",
-        "trapAnalysis": "Bị áp bức về chính trị - xã hội."
+        "explanation": "Tháng 6/1919, bản 'Yêu sách của nhân dân An Nam' gửi tới Hội nghị Versailles lần đầu tiên ký tên đại diện là Nguyễn Ái Quốc.",
+        "trapAnalysis": "Tên gọi Nguyễn Ái Quốc xuất hiện lần đầu năm 1919 tại Pháp."
       },
       {
         "id": 14,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Điều kiện khách quan quy định sứ mệnh lịch sử của GCCN bắt nguồn từ:",
+        "question": "Luận điểm cốt lõi nào trong Luận cương của Lênin đã thuyết phục trọn vẹn Nguyễn Ái Quốc?",
         "options": [
-          "Lòng tốt của các nhà lãnh đạo",
-          "Địa vị kinh tế và địa vị chính trị - xã hội của giai cấp công nhân trong xã hội TBCN",
-          "Lời tiên tri của các nhà tôn giáo",
-          "Số tiền tiết kiệm trong tài khoản của họ"
+          "Đoàn kết vô sản chính quốc với các dân tộc thuộc địa bị áp bức",
+          "Tiến hành chiến tranh đế quốc để phân chia lại thị trường",
+          "Bảo tồn các quan hệ sản xuất tư bản ở các nước chậm tiến",
+          "Ủng hộ các phong trào tôn giáo làm động lực giải phóng"
         ],
-        "correct": 1,
-        "explanation": "Vở ghi: Điều kiện khách quan quy định sứ mệnh lịch sử của giai cấp công nhân: do địa vị kinh tế và địa vị chính trị xã hội của GCCN quy định.",
-        "trapAnalysis": "Điều kiện khách quan = Địa vị kinh tế và Địa vị chính trị - xã hội."
+        "correct": 0,
+        "explanation": "Lênin khẳng định giai cấp vô sản ở các nước tư bản chính quốc phải liên minh mật thiết với phong trào giải phóng của các dân tộc thuộc địa bị áp bức.",
+        "trapAnalysis": "Điểm mấu chốt của Luận cương Lênin là gắn liền cách mạng vô sản với cách mạng giải phóng dân tộc thuộc địa."
       },
       {
         "id": 15,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Vì sao người thợ thủ công thời trung cổ không thể có sứ mệnh lịch sử xóa bỏ CNTB?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Tác phẩm 'Bản án chế độ thực dân Pháp' của Nguyễn Ái Quốc được xuất bản lần đầu năm 1925 tại đâu?",
         "options": [
-          "Vì họ gắn với công cụ thủ công nhỏ lẻ, phân tán, không đại biểu cho lực lượng sản xuất tiến bộ",
-          "Vì họ không biết chế tạo gốm sứ",
-          "Vì họ có thu nhập quá cao",
-          "Vì họ không sống ở thành thị"
+          "Paris, Pháp",
+          "Quảng Châu, Trung Quốc",
+          "Mát-xcơ-va, Liên Xô",
+          "Luân Đôn, Anh"
         ],
         "correct": 0,
-        "explanation": "Thợ thủ công gắn với công cụ thủ công lạc hậu, tính phân tán, tư hữu nhỏ, nên không thể lãnh đạo cách mạng công nghiệp.",
-        "trapAnalysis": "Thợ thủ công gắn với sản xuất thủ công nhỏ lẻ."
+        "explanation": "Tác phẩm 'Le Procès de la colonisation française' (Bản án chế độ thực dân Pháp) được viết bằng tiếng Pháp và xuất bản tại Paris năm 1925.",
+        "trapAnalysis": "Bản án chế độ thực dân Pháp xuất bản ở Paris (1925); Đường Kách mệnh xuất bản ở Quảng Châu (1927)."
       },
       {
         "id": 16,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Vì sao giai cấp nông dân không thể tự mình đảm đương vai trò lãnh đạo cách mạng XHCN?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Tổ chức tiền thân trực tiếp chuẩn bị về mặt nhân sự và tổ chức cho Đảng Cộng sản Việt Nam là:",
         "options": [
-          "Vì nông dân không có tinh thần yêu nước",
-          "Vì nông dân gắn với nền sản xuất tiểu nông phân tán, manh mún, mang tư tưởng tư hữu nhỏ",
-          "Vì nông dân không muốn chống lại địa chủ",
-          "Vì số lượng nông dân quá ít ỏi"
+          "Tâm Tâm xã",
+          "Hội Việt Nam Cách mạng Thanh niên",
+          "Tân Việt Cách mạng Đảng",
+          "Hội Phản đế Đồng minh"
         ],
         "correct": 1,
-        "explanation": "Nông dân là đồng minh tin cậy nhưng gắn liền với sản xuất nhỏ, manh mún, không có hệ tư tưởng độc lập nên không thể lãnh đạo.",
-        "trapAnalysis": "Nông dân gắn với sản xuất tiểu nông phân tán."
+        "explanation": "Hội Việt Nam Cách mạng Thanh niên (thành lập 6/1925) là tổ chức quá độ, tiền thân trực tiếp chuẩn bị đội ngũ cán bộ và tổ chức cho sự ra đời của Đảng.",
+        "trapAnalysis": "Tâm Tâm Xã là tổ chức phôi thai sơ khởi, còn Hội VN Cách mạng Thanh niên là tiền thân trực tiếp nhất."
       },
       {
         "id": 17,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Tầng lớp trí thức đóng vai trò gì trong mối quan hệ với giai cấp công nhân?",
+        "question": "Vụ mưu sát viên Toàn quyền Mélin tại Sa Điện (Quảng Châu, 1924) gắn với người thanh niên yêu nước nào?",
         "options": [
-          "Là giai cấp độc lập lãnh đạo xã hội",
-          "Là một tầng lớp xã hội quan trọng, đồng minh của GCCN, kết hợp với GCCN trong liên minh công - nông - trí thức",
-          "Là kẻ thù không đội trời chung của GCCN",
-          "Là lực lượng sở hữu toàn bộ các nhà máy"
+          "Phạm Hồng Thái",
+          "Lê Hồng Sơn",
+          "Hồ Tùng Mậu",
+          "Lê Văn Phan"
         ],
-        "correct": 1,
-        "explanation": "Trí thức không phải là giai cấp độc lập mà là tầng lớp xã hội; họ liên minh chặt chẽ với công nhân và nông dân dưới sự lãnh đạo của ĐCS.",
-        "trapAnalysis": "Trí thức là tầng lớp xã hội quan trọng, đồng minh của GCCN."
+        "correct": 0,
+        "explanation": "Ngày 19/6/1924, người chiến sĩ Phạm Hồng Thái (thành viên Tâm Tâm Xã) ném bom mưu sát Toàn quyền Mélin tại Sa Điện rồi gieo mình xuống dòng Châu Giang hy sinh.",
+        "trapAnalysis": "Tiếng bom Sa Điện là của liệt sĩ Phạm Hồng Thái, được ví như cánh én báo hiệu mùa xuân cách mạng."
       },
       {
         "id": 18,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Mục tiêu cuối cùng trong việc thực hiện sứ mệnh của giai cấp công nhân là gì?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Bí thư của Chi bộ cộng sản đầu tiên tại số 5D Hàm Long (tháng 3/1929) là đồng chí nào?",
         "options": [
-          "Thay thế sự thống trị của giai cấp tư sản bằng sự áp bức của riêng giai cấp công nhân",
-          "Xóa bỏ mọi hình thức người bóc lột người, xây dựng xã hội cộng sản chủ nghĩa văn minh",
-          "Chỉ chia ruộng đất cho người nghèo",
-          "Xây dựng nền quân chủ tập quyền"
+          "Trần Văn Cung",
+          "Ngô Gia Tự",
+          "Nguyễn Đức Cảnh",
+          "Trịnh Đình Cửu"
         ],
-        "correct": 1,
-        "explanation": "Sứ mệnh của GCCN không nhằm thiết lập đặc quyền giai cấp cho mình mà nhằm xóa bỏ mọi chế độ bóc lột giai cấp.",
-        "trapAnalysis": "Xóa bỏ mọi bóc lột, xây dựng xã hội không giai cấp."
+        "correct": 0,
+        "explanation": "Đồng chí Trần Văn Cung (tức Quốc Anh) được cử làm Bí thư Chi bộ cộng sản đầu tiên tại 5D Hàm Long.",
+        "trapAnalysis": "Bí thư chi bộ đầu tiên là Trần Văn Cung, các thành viên gồm Ngô Gia Tự, Nguyễn Đức Cảnh, Trịnh Đình Cửu..."
       },
       {
         "id": 19,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Luận điểm khẳng định: 'Giai cấp công nhân chỉ có thể giải phóng mình khi đồng thời giải phóng toàn thể xã hội' thể hiện tính chất gì?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Tổ chức Đông Dương Cộng sản Liên đoàn chính thức gia nhập Đảng Cộng sản Việt Nam vào ngày nào?",
         "options": [
-          "Tính ích kỷ cục bộ",
-          "Tính nhân văn, triệt để cách mạng và tính phổ quát của sứ mệnh lịch sử",
-          "Tính ảo tưởng không thực tế",
-          "Sự thỏa hiệp vô điều kiện"
+          "03/02/1930",
+          "07/02/1930",
+          "24/02/1930",
+          "01/05/1930"
         ],
-        "correct": 1,
-        "explanation": "Công nhân không có tư hữu để bảo vệ, muốn giải phóng mình khỏi bóc lột phải xóa bỏ tận gốc chế độ tư hữu bóc lột của toàn xã hội.",
-        "trapAnalysis": "Tính triệt để và nhân văn: giải phóng mình gắn với giải phóng toàn xã hội."
+        "correct": 2,
+        "explanation": "Ngày 24/2/1930, Ban Chấp hành Trung ương lâm thời của Đảng họp và quyết nghị chấp thuận Đông Dương Cộng sản Liên đoàn gia nhập Đảng CSVN.",
+        "trapAnalysis": "Hội nghị thành lập kết thúc ngày 7/2/1930; đến 24/2/1930 Đông Dương CS Liên đoàn mới chính thức được kết nạp hoàn tất sự hợp nhất."
       },
       {
         "id": 20,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Giai cấp công nhân có tinh thần đoàn kết quốc tế xuất phát từ cơ sở nào?",
+        "question": "Cương lĩnh chính trị đầu tiên của Đảng (2/1930) xác định nhiệm vụ kinh tế then chốt là:",
         "options": [
-          "Họ cùng chung địa vị bị giai cấp tư sản toàn cầu áp bức bóc lột và có chung mục tiêu giải phóng",
-          "Do các nhà tư bản bắt buộc họ phải ký cam kết",
-          "Do công nhân thích học ngoại ngữ",
-          "Do họ không có tổ quốc"
+          "Tịch thu toàn bộ sản nghiệp của đế quốc và ruộng đất chia cho dân cày nghèo",
+          "Mở rộng kinh tế thị trường tự do buôn bán trao đổi",
+          "Quốc hữu hóa toàn bộ các xí nghiệp của tư sản bản địa",
+          "Duy trì các đồn điền cao su dưới sự quản lý của chính phủ"
         ],
         "correct": 0,
-        "explanation": "Khẩu hiệu 'Vô sản tất cả các nước, đoàn kết lại!' xuất phát từ bản chất quốc tế của tư bản và sự liên kết khách quan của đại công nghiệp.",
-        "trapAnalysis": "Chung địa vị bị áp bức và chung mục tiêu giải phóng."
+        "explanation": "Về kinh tế: Tịch thu toàn bộ sản nghiệp lớn của tư bản đế quốc Pháp, tịch thu ruộng đất của đế quốc làm của công và chia cho dân cày nghèo, bỏ sưu thuế, mở mang công nghiệp.",
+        "trapAnalysis": "Chỉ tịch thu ruộng đất của đế quốc và đại địa chủ phản bội chia cho dân cày nghèo, chưa tịch thu ruộng đất của trung tiểu địa chủ."
       },
       {
         "id": 21,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Nhận biết",
-        "question": "Thuật ngữ nào sau đây đồng nghĩa với 'giai cấp công nhân hiện đại' trong các tác phẩm của C.Mác?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Thông hiểu",
+        "question": "Mối quan hệ giữa cách mạng Việt Nam với cách mạng thế giới được Cương lĩnh tháng 2/1930 xác định là:",
         "options": [
-          "Giai cấp vô sản",
-          "Giai cấp nông dân nghèo",
-          "Tầng lớp thị dân",
-          "Tầng lớp thợ thủ công"
+          "Cách mạng Việt Nam hoàn toàn độc lập và không liên quan đến thế giới",
+          "Cách mạng Việt Nam là một bộ phận của cách mạng vô sản thế giới",
+          "Chỉ liên kết với các nước xã hội chủ nghĩa ở châu Âu",
+          "Trông chờ sự giải phóng từ các cường quốc tư bản dân chủ"
         ],
-        "correct": 0,
-        "explanation": "C.Mác và Ăngghen dùng các thuật ngữ: giai cấp vô sản, giai cấp vô sản hiện đại, giai cấp công nhân hiện đại để chỉ cùng một lực lượng xã hội.",
-        "trapAnalysis": "Giai cấp vô sản đồng nghĩa với giai cấp công nhân."
+        "correct": 1,
+        "explanation": "Cương lĩnh khẳng định: Cách mạng Việt Nam là một bộ phận khăng khít của cách mạng vô sản thế giới, phải thực hiện đoàn kết với các dân tộc bị áp bức và vô sản quốc tế.",
+        "trapAnalysis": "Tinh thần quốc tế vô sản: Cách mạng Việt Nam là một bộ phận của cách mạng thế giới."
       },
       {
         "id": 22,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Vì sao giai cấp công nhân là giai cấp kiên quyết nhất trong cuộc đấu tranh chống chủ nghĩa tư bản?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Văn kiện nào KHÔNG nằm trong Cương lĩnh chính trị đầu tiên do Nguyễn Ái Quốc soạn thảo (2/1930)?",
         "options": [
-          "Vì họ không có tài sản tư liệu sản xuất để mất ngoài xiềng xích, họ được cả thế giới",
-          "Vì họ có vũ khí tối tân hơn quân đội",
-          "Vì họ được trả lương cao nhất",
-          "Vì họ không sợ mất ruộng đất"
+          "Chánh cương vắn tắt",
+          "Sách lược vắn tắt",
+          "Chương trình tóm tắt",
+          "Luận cương chính trị"
         ],
-        "correct": 0,
-        "explanation": "Tuyên ngôn ĐCS: 'Những người vô sản chẳng mất gì hết ngoài xiềng xích của mình. Họ có cả một thế giới để giành lấy'.",
-        "trapAnalysis": "Không có TLSX để mất ngoài xiềng xích."
+        "correct": 3,
+        "explanation": "'Luận cương chính trị' là văn kiện do Trần Phú soạn thảo được thông qua vào tháng 10/1930, không thuộc Cương lĩnh tháng 2/1930.",
+        "trapAnalysis": "Cương lĩnh tháng 2/1930 gồm: Chánh cương vắn tắt, Sách lược vắn tắt, Chương trình tóm tắt, Điều lệ vắn tắt."
       },
       {
         "id": 23,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Yếu tố nào sau đây quyết định bước chuyển của phong trào công nhân từ 'tự phát' sang 'tự giác'?",
+        "question": "Yếu tố quyết định bảo đảm thắng lợi của cách mạng Việt Nam theo Cương lĩnh tháng 2/1930 là:",
         "options": [
-          "Khi có sự truyền bá của chủ nghĩa Mác - Lênin và sự ra đời của Đảng Cộng sản",
-          "Khi các cuộc đình công tự phát tăng về số lượng",
-          "Khi công nhân được tăng thêm 5% tiền lương",
-          "Khi công nhân chuyển từ nhà máy này sang nhà máy khác"
+          "Sự viện trợ vũ khí dồi dào từ các nước lớn",
+          "Sự lãnh đạo đúng đắn của Đảng Cộng sản Việt Nam",
+          "Số lượng thành viên đông đảo của giai cấp nông dân",
+          "Sự suy yếu tự nhiên của các tập đoàn thực dân"
         ],
-        "correct": 0,
-        "explanation": "Phong trào công nhân chỉ chuyển từ tự phát sang tự giác khi được tiếp thu lý luận Mác - Lênin thông qua sự lãnh đạo của Đảng Cộng sản.",
-        "trapAnalysis": "Tiếp thu chủ nghĩa Mác - Lênin và có Đảng Cộng sản lãnh đạo."
+        "correct": 1,
+        "explanation": "Cương lĩnh chỉ rõ: Đảng là đội tiên phong của giai cấp vô sản, phải có năng lực lãnh đạo quần chúng thì cách mạng mới giành được thắng lợi triệt để.",
+        "trapAnalysis": "Sự lãnh đạo của Đảng là nhân tố quyết định hàng đầu mọi thắng lợi của cách mạng Việt Nam."
       },
       {
         "id": 24,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Đấu tranh kinh tế (đòi tăng lương, giảm giờ làm) của công nhân có vai trò như thế nào?",
+        "question": "Chữ 'thổ địa cách mạng' trong Cương lĩnh tháng 2/1930 có nghĩa là gì?",
         "options": [
-          "Là mục đích cuối cùng của phong trào công nhân",
-          "Là bước chuẩn bị, rèn luyện lực lượng ban đầu, nhưng không thể thay thế cho đấu tranh chính trị",
-          "Hoàn toàn vô ích không nên thực hiện",
-          "Đủ để xóa bỏ hoàn toàn chủ nghĩa tư bản"
+          "Cách mạng về đo đạc địa lý và phân định ranh giới",
+          "Cách mạng ruộng đất giải quyết quyền lợi cho nông dân",
+          "Khai hoang mở rộng diện tích đất lâm nghiệp",
+          "Chuyển đổi đất nông nghiệp sang đất công nghiệp"
         ],
         "correct": 1,
-        "explanation": "Đấu tranh kinh tế là cần thiết nhưng nếu chỉ dừng ở đó thì không thể xóa bỏ được tận gốc quan hệ bóc lột tư bản.",
-        "trapAnalysis": "Đấu tranh kinh tế là bước chuẩn bị, cần tiến tới đấu tranh chính trị."
+        "explanation": "'Thổ địa cách mạng' chính là cuộc cách mạng ruộng đất, đánh đổ giai cấp địa chủ phong kiến để mang lại ruộng cày cho người nông dân nghèo.",
+        "trapAnalysis": "'Thổ địa' ở đây là ruộng đất, tức cách mạng ruộng đất chống phong kiến."
       },
       {
         "id": 25,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Hình thức đấu tranh cao nhất trong phong trào công nhân là hình thức nào?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Vận dụng",
+        "question": "Tính chất sáng tạo nổi bật nhất của Cương lĩnh tháng 2/1930 so với lý luận giáo điều thời kỳ đó là:",
         "options": [
-          "Đấu tranh kinh tế (bãi công, đình công)",
-          "Đấu tranh chính trị (giành chính quyền nhà nước)",
-          "Đấu tranh nghị trường xin sửa luật",
-          "Đấu tranh từ thiện"
+          "Tập hợp rộng rãi mọi lực lượng dân tộc yêu nước thay vì cô lập họ",
+          "Từ bỏ đấu tranh bạo lực vũ trang chuyển sang nghị trường",
+          "Khẳng định cách mạng vô sản chỉ nổ ra ở các nước công nghiệp",
+          "Đặt nhiệm vụ chống phong kiến lên trên nhiệm vụ chống đế quốc"
         ],
-        "correct": 1,
-        "explanation": "Đấu tranh chính trị nhằm lật đổ ách thống trị của giai cấp tư sản và giành lấy chính quyền là hình thức đấu tranh cao nhất.",
-        "trapAnalysis": "Đấu tranh chính trị giành chính quyền là đỉnh cao."
+        "correct": 0,
+        "explanation": "Nguyễn Ái Quốc đã vận dụng sáng tạo chủ nghĩa Mác khi chủ trương tập hợp rộng rãi tiểu tư sản, trí thức, trung tiểu địa chủ và tư sản dân tộc yêu nước, trong khi Quốc tế Cộng sản lúc đó coi họ là thù địch.",
+        "trapAnalysis": "Điểm sáng tạo nhất là sách lược đại đoàn kết dân tộc, không rơi vào tả khuynh cô lập lực lượng."
       },
       {
         "id": 26,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Mối quan hệ giữa phong trào công nhân và phong trào yêu nước ở các nước thuộc địa như Việt Nam là gì?",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Cuộc biểu tình vũ trang của nông dân huyện Hưng Nguyên (Nghệ An) diễn ra vào ngày lịch sử nào?",
         "options": [
-          "Tách rời hoàn toàn, không liên quan đến nhau",
-          "Gắn bó khăng khít, phong trào công nhân vừa đấu tranh vì giai cấp vừa đứng ở tuyến đầu giải phóng dân tộc",
-          "Đối lập và bài trừ lẫn nhau",
-          "Phong trào công nhân phản đối phong trào giải phóng dân tộc"
+          "01/05/1930",
+          "12/09/1930",
+          "20/10/1930",
+          "01/05/1931"
         ],
         "correct": 1,
-        "explanation": "Ở các nước thuộc địa, mâu thuẫn dân tộc sâu sắc làm cho phong trào công nhân hòa quyện chặt chẽ với phong trào yêu nước giải phóng dân tộc.",
-        "trapAnalysis": "Gắn bó mật thiết, giải phóng giai cấp gắn liền với giải phóng dân tộc."
+        "explanation": "Ngày 12/9/1930, khoảng 8.000 nông dân Hưng Nguyên biểu tình kéo về thành phố Vinh, thực dân Pháp cho máy bay ném bom làm hàng trăm người chết, thổi bùng ngọn lửa Xô viết Nghệ - Tĩnh.",
+        "trapAnalysis": "Ngày 12/9 được xem là ngày tưởng niệm Xô viết Nghệ - Tĩnh."
       },
       {
         "id": 27,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Thông hiểu",
-        "question": "Giai cấp công nhân có khả năng đoàn kết với các tầng lớp lao động khác vì:",
+        "question": "Chính quyền Xô viết Nghệ - Tĩnh đã thực hiện chính sách văn hóa xã hội tiến bộ nào?",
         "options": [
-          "Có sự giống nhau về lợi ích cơ bản: cùng bị áp bức bóc lột và mong muốn xã hội công bằng",
-          "Có thể mua chuộc các tầng lớp khác bằng tiền",
-          "Bắt buộc các tầng lớp khác phải tuân lệnh",
-          "Không có việc gì làm nên muốn liên minh"
+          "Bắt buộc toàn dân học tiếng Pháp để hòa nhập",
+          "Mở các lớp dạy chữ Quốc ngữ, xóa bỏ hủ tục mê tín dị đoan",
+          "Xây dựng các viện nghiên cứu khoa học hàn lâm",
+          "Chỉ đạo in ấn sách báo tôn giáo truyền thống"
         ],
-        "correct": 0,
-        "explanation": "Công nhân, nông dân và người lao động đều có chung kẻ thù là ách bóc lột của tư sản, đế quốc nên có cơ sở liên minh tự nhiên.",
-        "trapAnalysis": "Chung lợi ích cơ bản và chung kẻ thù bóc lột."
+        "correct": 1,
+        "explanation": "Chính quyền Xô viết mở rộng dạy chữ Quốc ngữ, bài trừ rượu chè, cờ bạc, hủ tục phong kiến, xây dựng nếp sống văn minh mới.",
+        "trapAnalysis": "Tiến bộ văn hóa nổi bật của Xô viết là phổ biến chữ Quốc ngữ và xóa bỏ các tệ nạn mê tín."
       },
       {
         "id": 28,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Đặc điểm nào của phương thức sản xuất đại công nghiệp trực tiếp rèn luyện tinh thần kỷ luật của công nhân?",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Quốc tế Cộng sản chính thức công nhận Đảng Cộng sản Đông Dương là phân bộ độc lập vào thời gian nào?",
         "options": [
-          "Sự phụ thuộc vào dây chuyền máy móc và nhịp độ làm việc liên tục",
-          "Thời gian tự do không ai kiểm soát",
-          "Việc làm tại nhà theo cảm hứng",
-          "Mỗi người làm một kiểu không cần tiêu chuẩn"
+          "Tháng 2/1930",
+          "Tháng 10/1930",
+          "Tháng 4/1931",
+          "Tháng 3/1935"
         ],
-        "correct": 0,
-        "explanation": "Quy trình công nghệ tự động và dây chuyền buộc người công nhân phải tuân thủ nghiêm ngặt giờ giấc và kỹ thuật.",
-        "trapAnalysis": "Sự phụ thuộc vào dây chuyền công nghiệp hiện đại."
+        "correct": 2,
+        "explanation": "Tháng 4/1931, tại Hội nghị lần thứ 11 Ban Chấp hành Quốc tế Cộng sản, Đảng Cộng sản Đông Dương được công nhận là một phân bộ độc lập trực thuộc Quốc tế Cộng sản.",
+        "trapAnalysis": "Tháng 4/1931 đánh dấu vị thế chính thức của Đảng ta trong phong trào cộng sản thế giới."
       },
       {
         "id": 29,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Thông hiểu",
-        "question": "Khái niệm nào phản ánh đúng bản chất vị trí của giai cấp công nhân trong hệ thống sản xuất TBCN?",
+        "question": "Vì sao phong trào 1930 - 1931 được đánh giá là cuộc diễn tập đầu tiên chuẩn bị cho CMT8?",
         "options": [
-          "Giai cấp làm thuê, bán sức lao động",
-          "Giai cấp sở hữu tư bản tài chính",
-          "Giai cấp bóc lột giá trị thặng dư",
-          "Giai cấp trung lưu độc lập với mọi quan hệ sản xuất"
+          "Đã thành lập được quân đội chính quy hiện đại",
+          "Khẳng định vai trò lãnh đạo của Đảng và sức mạnh liên minh công nông",
+          "Đã giải phóng hoàn toàn hai tỉnh Nghệ An và Hà Tĩnh",
+          "Đã buộc Pháp phải ký hiệp định rút quân khỏi miền Bắc"
         ],
-        "correct": 0,
-        "explanation": "Vô sản là giai cấp làm thuê hiện đại, do không có TLSX nên phải bán sức lao động để kiếm sống.",
-        "trapAnalysis": "Giai cấp làm thuê, bán sức lao động."
+        "correct": 1,
+        "explanation": "Phong trào đã rèn luyện đội ngũ cán bộ, tôi luyện quần chúng và khẳng định trên thực tế năng lực lãnh đạo của Đảng cùng sức mạnh của liên minh công nông.",
+        "trapAnalysis": "Ý nghĩa là cuộc tập dượt đầu tiên rèn luyện Đảng và quần chúng chuẩn bị cho khởi nghĩa sau này."
       },
       {
         "id": 30,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Thông hiểu",
-        "question": "Sứ mệnh lịch sử của giai cấp công nhân có điểm kết thúc là khi nào?",
+        "question": "Trong Luận cương tháng 10/1930, mối quan hệ giữa hai nhiệm vụ chống đế quốc và phong kiến được nhìn nhận:",
         "options": [
-          "Khi giành được chính quyền nhà nước",
-          "Khi xây dựng thành công chủ nghĩa xã hội và chủ nghĩa cộng sản trên toàn thế giới",
-          "Khi hoàn thành cuộc tổng bãi công đầu tiên",
-          "Khi các nhà máy tự động hóa hoàn toàn"
+          "Hai nhiệm vụ có quan hệ khăng khít không thể tách rời nhau",
+          "Nhiệm vụ chống đế quốc phải đặt lên trước nhiệm vụ ruộng đất",
+          "Nhiệm vụ chống phong kiến chỉ cần làm sau khi giải phóng dân tộc",
+          "Chỉ coi trọng chống đế quốc, coi nhẹ đấu tranh chống địa chủ"
+        ],
+        "correct": 0,
+        "explanation": "Luận cương cho rằng vấn đề thổ địa là cái cốt của cách mạng tư sản dân quyền, gắn chặt hữu cơ không thể tách rời với nhiệm vụ chống đế quốc.",
+        "trapAnalysis": "Luận cương xem hai nhiệm vụ khăng khít, nhưng trên thực tế lại coi thổ địa cách mạng là cái cốt, chưa tách biệt ưu tiên."
+      },
+      {
+        "id": 31,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Ban Lãnh đạo hải ngoại của Đảng Cộng sản Đông Dương được thành lập năm 1934 do ai đứng đầu?",
+        "options": [
+          "Lê Hồng Phong",
+          "Hà Huy Tập",
+          "Phùng Chí Kiên",
+          "Nguyễn Ái Quốc"
+        ],
+        "correct": 0,
+        "explanation": "Đồng chí Lê Hồng Phong được cử làm người đứng đầu Ban Lãnh đạo hải ngoại của Đảng (thành lập năm 1934 tại Thượng Hải).",
+        "trapAnalysis": "Lê Hồng Phong là người đứng đầu Ban Lãnh đạo hải ngoại chỉ đạo phục hồi các cơ sở Đảng trong nước."
+      },
+      {
+        "id": 32,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Thông hiểu",
+        "question": "Khẩu hiệu đấu tranh chủ yếu của Đảng trong phong trào 1936 - 1939 là:",
+        "options": [
+          "Đánh đuổi phát xít Nhật và bè lũ tay sai",
+          "Độc lập dân tộc và ruộng đất cho dân cày",
+          "Chống phát xít, chống chiến tranh, đòi tự do cơm áo hòa bình",
+          "Thành lập chính quyền Xô viết trên toàn cõi Đông Dương"
+        ],
+        "correct": 2,
+        "explanation": "Khẩu hiệu thời kỳ 1936 - 1939 tập trung vào các yêu sách cấp bách: 'Chống phát xít, chống chiến tranh, chống phản động thuộc địa, đòi tự do, cơm áo, hòa bình'.",
+        "trapAnalysis": "Khẩu hiệu đòi tự do, dân chủ, cơm áo, hòa bình là đặc trưng số một của giai đoạn 1936 - 1939."
+      },
+      {
+        "id": 33,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Phong trào 'Đông Dương Đại hội' năm 1936 được tổ chức nhằm mục đích gì?",
+        "options": [
+          "Thu thập nguyện vọng dân chúng gửi cho Phái đoàn điều tra Pháp",
+          "Bầu ra quốc hội lâm thời cho ba nước Đông Dương",
+          "Phát động bãi công vũ trang lật đổ chính quyền thuộc địa",
+          "Chuẩn bị đón tiếp các phái đoàn Quốc tế Cộng sản sang thăm"
+        ],
+        "correct": 0,
+        "explanation": "Phong trào Đông Dương Đại hội lập các Ủy ban hành động thu thập 'dân nguyện' (nguyện vọng nhân dân) để trình lên Phái đoàn điều tra của Quốc hội Pháp sang Đông Dương.",
+        "trapAnalysis": "Mục đích là thu thập dân nguyện và thức tỉnh quần chúng đòi cải cách dân sinh dân chủ."
+      },
+      {
+        "id": 34,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Mặt trận thống nhất được Đảng chủ trương thành lập trong phong trào 1936 - 1939 có tên gọi chính thức là:",
+        "options": [
+          "Mặt trận Phản đế Đồng minh",
+          "Mặt trận Dân chủ Đông Dương",
+          "Mặt trận Việt Minh",
+          "Mặt trận Liên Việt"
         ],
         "correct": 1,
-        "explanation": "Sứ mệnh của GCCN chỉ hoàn thành khi đã xóa bỏ hoàn toàn mọi chế độ người bóc lột người, xây dựng thành công xã hội CSCN.",
-        "trapAnalysis": "Hoàn thành khi xây dựng thành công CNXH và CSCN."
+        "explanation": "Ban đầu mang tên Mặt trận Thống nhất Nhân dân Phản đế Đông Dương (1936), sau đó tháng 3/1938 đổi thành Mặt trận Dân chủ Đông Dương.",
+        "trapAnalysis": "Mặt trận Dân chủ Đông Dương là tên gọi chính thức của mặt trận thời kỳ 1936 - 1939."
+      },
+      {
+        "id": 35,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Thông hiểu",
+        "question": "Tờ báo công khai nào của Đảng xuất bản tại Hà Nội trong phong trào Dân chủ 1936 - 1939?",
+        "options": [
+          "Báo Búa Liềm",
+          "Báo Tiền Phong và Dân Chúng",
+          "Báo Cứu Quốc",
+          "Báo Sự Thật"
+        ],
+        "correct": 1,
+        "explanation": "Đảng xuất bản nhiều tờ báo công khai tiếng Việt và tiếng Pháp như Tiền Phong, Dân Chúng, Lao Động, Tin Tức... để tuyên truyền rộng rãi đường lối của Đảng.",
+        "trapAnalysis": "Tiền Phong, Dân Chúng, Tin Tức là báo công khai thời kỳ 1936-1939; Cứu Quốc là báo của Mặt trận Việt Minh sau 1941."
+      },
+      {
+        "id": 36,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Vận dụng",
+        "question": "Ý nghĩa lớn nhất của phong trào dân chủ 1936 - 1939 đối với Cách mạng Tháng Tám năm 1945 là:",
+        "options": [
+          "Xây dựng được một đội quân chính quy hùng hậu",
+          "Tập hợp và giáo dục chính trị cho hàng triệu quần chúng nhân dân",
+          "Buộc chính phủ Pháp trao trả quyền tự trị cho Việt Nam",
+          "Xóa bỏ hoàn toàn bộ máy chính quyền phong kiến cấp xã"
+        ],
+        "correct": 1,
+        "explanation": "Phong trào đã lôi cuốn hàng triệu người thuộc nhiều tầng lớp tham gia trận tập dượt chính trị to lớn, xây dựng đội quân chính trị hùng hậu cho Tổng khởi nghĩa.",
+        "trapAnalysis": "Đây là cuộc tập dượt thứ hai chuẩn bị lực lượng chính trị quần chúng cho Cách mạng Tháng Tám."
+      },
+      {
+        "id": 37,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Chiến tranh thế giới thứ hai chính thức bùng nổ vào ngày tháng năm nào?",
+        "options": [
+          "01/09/1939",
+          "22/06/1941",
+          "07/12/1941",
+          "09/03/1945"
+        ],
+        "correct": 0,
+        "explanation": "Chiến tranh thế giới thứ hai bùng nổ ngày 1/9/1939 khi phát xít Đức tấn công Ba Lan, thực dân Pháp lập tức chuyển sang chế độ cai trị thời chiến ở thuộc địa.",
+        "trapAnalysis": "Thế chiến 2 bùng nổ ngày 1/9/1939; 22/6/1941 Đức đánh Liên Xô; 7/12/1941 Nhật đánh Trân Châu Cảng."
+      },
+      {
+        "id": 38,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Tại Hội nghị Trung ương 6 (11/1939), khẩu hiệu 'cách mạng ruộng đất' được điều chỉnh như thế nào?",
+        "options": [
+          "Tiếp tục thực hiện triệt để tịch thu ruộng đất chia đều",
+          "Tạm gác lại, chỉ tịch thu ruộng đất của đế quốc và tay sai phản bội",
+          "Xóa bỏ hoàn toàn và cam kết không đụng chạm đến ruộng đất",
+          "Cho phép nông dân mua lại ruộng đất từ tay chủ đồn điền Pháp"
+        ],
+        "correct": 1,
+        "explanation": "Đảng chủ trương tạm gác khẩu hiệu tịch thu ruộng đất của toàn bộ giai cấp địa chủ, chỉ tịch thu ruộng đất của đế quốc và tay sai phản bội Tổ quốc để tập trung lực lượng chống đế quốc.",
+        "trapAnalysis": "Tạm gác khẩu hiệu cách mạng ruộng đất là bước đột phá chiến lược mở đường cho liên minh toàn dân tộc."
+      },
+      {
+        "id": 39,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Cuộc Khởi nghĩa Bắc Sơn (27/9/1940) nổ ra tại tỉnh nào?",
+        "options": [
+          "Lạng Sơn",
+          "Cao Bằng",
+          "Thái Nguyên",
+          "Tuyên Quang"
+        ],
+        "correct": 0,
+        "explanation": "Khởi nghĩa Bắc Sơn nổ ra tại châu Bắc Sơn (thuộc tỉnh Lạng Sơn) nhân cơ hội quân Pháp hoang mang tháo chạy trước sự tiến công của quân Nhật.",
+        "trapAnalysis": "Bắc Sơn thuộc tỉnh Lạng Sơn; căn cứ Bắc Sơn - Võ Nhai nối liền hai tỉnh Lạng Sơn và Thái Nguyên."
+      },
+      {
+        "id": 40,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Căn cứ địa cách mạng nào được đồng chí Nguyễn Ái Quốc chọn xây dựng đầu tiên sau khi về nước (1941)?",
+        "options": [
+          "Căn cứ địa Cao Bằng",
+          "Căn cứ địa Bắc Sơn - Võ Nhai",
+          "Khu giải phóng Tân Trào",
+          "Chiến khu Ba Tơ"
+        ],
+        "correct": 0,
+        "explanation": "Người chọn Cao Bằng vì nơi đây có địa thế 'tiến khả dĩ công, thoái khả dĩ thủ', phong trào quần chúng tốt, thuận lợi nối liền với hậu phương quốc tế.",
+        "trapAnalysis": "Cao Bằng là căn cứ địa đầu tiên do Bác trực tiếp chỉ đạo xây dựng từ đầu năm 1941."
+      },
+      {
+        "id": 41,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Tên gọi các đoàn thể quần chúng trong Mặt trận Việt Minh đều gắn với hai chữ gì?",
+        "options": [
+          "Cứu quốc",
+          "Giải phóng",
+          "Đồng minh",
+          "Tiến bộ"
+        ],
+        "correct": 0,
+        "explanation": "Các đoàn thể quần chúng trong Mặt trận Việt Minh đều mang tên gọi 'Cứu quốc': Hội Nông dân Cứu quốc, Hội Công nhân Cứu quốc, Hội Thanh niên Cứu quốc, Hội Phụ nữ Cứu quốc...",
+        "trapAnalysis": "Đặc trưng của Mặt trận Việt Minh là các tổ chức đoàn thể đều mang tên 'Cứu quốc'."
+      },
+      {
+        "id": 42,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Cơ quan ngôn luận chính thức của Tổng bộ Việt Minh xuất bản năm 1942 là tờ báo nào?",
+        "options": [
+          "Báo Nhân Dân",
+          "Báo Cứu Quốc",
+          "Báo Cờ Giải Phóng",
+          "Báo Quân Đội Nhân Dân"
+        ],
+        "correct": 1,
+        "explanation": "Báo Cứu Quốc là cơ quan tuyên truyền chính thức của Tổng bộ Việt Minh, do Tổng bộ trực tiếp chỉ đạo xuất bản từ năm 1942.",
+        "trapAnalysis": "Báo Cứu Quốc là của Mặt trận Việt Minh; Báo Cờ Giải Phóng là cơ quan của Ban Trung ương Đảng Cộng sản Đông Dương."
+      },
+      {
+        "id": 43,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Tác phẩm lịch sử bằng thơ diễn ca do Nguyễn Ái Quốc biên soạn năm 1942 để giáo dục lòng yêu nước là:",
+        "options": [
+          "Nhật ký trong tù",
+          "Lịch sử nước ta",
+          "Đường Kách mệnh",
+          "Tuyên ngôn Độc lập"
+        ],
+        "correct": 1,
+        "explanation": "Tác phẩm 'Lịch sử nước ta' (1942) mở đầu bằng hai câu thơ bất hủ: 'Dân ta phải biết sử ta / Cho tường gốc tích nước nhà Việt Nam'.",
+        "trapAnalysis": "'Lịch sử nước ta' là tác phẩm diễn ca lịch sử; 'Nhật ký trong tù' được viết khi Người bị giam ở Quảng Tây (1942 - 1943)."
+      },
+      {
+        "id": 44,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Hội nghị Ban Thường vụ TW Đảng ra Chỉ thị 'Nhật - Pháp bắn nhau' (12/3/1945) được tổ chức tại đâu?",
+        "options": [
+          "Làng Đình Bảng (Từ Sơn, Bắc Ninh)",
+          "Lán Khuổi Nặm (Pác Bó, Cao Bằng)",
+          "Đình Tân Trào (Sơn Dương, Tuyên Quang)",
+          "Hiệp Hòa (Bắc Giang)"
+        ],
+        "correct": 0,
+        "explanation": "Hội nghị họp tại làng Đình Bảng (Từ Sơn, Bắc Ninh) do đồng chí Trường Chinh chủ trì ngay trong những ngày Nhật nổ súng đảo chính Pháp.",
+        "trapAnalysis": "Đình Bảng (Từ Sơn, Bắc Ninh) là nơi họp ban hành Chỉ thị lịch sử 12/3/1945."
+      },
+      {
+        "id": 45,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Hình thái của cuộc khởi nghĩa được Ban Thường vụ TW Đảng vạch ra trong Chỉ thị 12/3/1945 là:",
+        "options": [
+          "Đi từ khởi nghĩa từng phần, chiến tranh du kích cục bộ tiến lên Tổng khởi nghĩa",
+          "Đánh đòn phủ đầu đồng loạt vào các thành phố cảng lớn",
+          "Bao vây phong tỏa kinh tế rồi tiến hành thương thuyết hòa bình",
+          "Chờ đợi các đợt ném bom của quân đội Đồng minh rồi tiếp quản"
+        ],
+        "correct": 0,
+        "explanation": "Chỉ thị xác định phát động khởi nghĩa từng phần và chiến tranh du kích cục bộ ở những nơi có điều kiện, tạo đà làm tiền đề cho Tổng khởi nghĩa.",
+        "trapAnalysis": "Phương châm khởi nghĩa: Đi từ khởi nghĩa từng phần tiến lên Tổng khởi nghĩa."
+      },
+      {
+        "id": 46,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Địa phương nào được Hồ Chí Minh chọn làm 'Thủ đô Khu giải phóng' vào mùa hè năm 1945?",
+        "options": [
+          "Pác Bó (Cao Bằng)",
+          "Tân Trào (Tuyên Quang)",
+          "Định Hóa (Thái Nguyên)",
+          "Bắc Sơn (Lạng Sơn)"
+        ],
+        "correct": 1,
+        "explanation": "Tháng 5/1945, Hồ Chí Minh chuyển từ Pác Bó về Tân Trào (Sơn Dương, Tuyên Quang) và chỉ đạo chọn Tân Trào làm thủ đô lâm thời của Khu giải phóng.",
+        "trapAnalysis": "Tân Trào là thủ đô Khu giải phóng Việt Bắc thời kỳ tiền khởi nghĩa Tháng Tám."
+      },
+      {
+        "id": 47,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Thời cơ ngàn năm có một của Cách mạng Tháng Tám năm 1945 xuất hiện trong khoảng thời gian nào?",
+        "options": [
+          "Từ khi Nhật đảo chính Pháp đến khi phát xít Đức đầu hàng",
+          "Từ khi Nhật đầu hàng Đồng minh đến trước khi quân Đồng minh vào Đông Dương",
+          "Sau khi quân Đồng minh đã vào giải giáp hoàn tất quân đội Nhật",
+          "Khi Chủ tịch Hồ Chí Minh về nước tại Pác Bó Cao Bằng"
+        ],
+        "correct": 1,
+        "explanation": "Thời cơ ngàn vàng xuất hiện từ ngày 15/8/1945 (Nhật đầu hàng) và khép lại khi quân Đồng minh (quân Anh và quân Tưởng) đặt chân vào nước ta.",
+        "trapAnalysis": "Thời cơ chỉ tồn tại trong khoảng nửa tháng ngắn ngủi: Sau khi Nhật đầu hàng và trước khi quân Đồng minh vào."
+      },
+      {
+        "id": 48,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Khởi nghĩa giành chính quyền ở Huế thắng lợi vào ngày nào trong năm 1945?",
+        "options": [
+          "19/08/1945",
+          "23/08/1945",
+          "25/08/1945",
+          "30/08/1945"
+        ],
+        "correct": 1,
+        "explanation": "Ngày 23/8/1945, nhân dân Thừa Thiên Huế dưới sự lãnh đạo của Ủy ban Khởi nghĩa đã nổi dậy giành chính quyền thắng lợi trọn vẹn.",
+        "trapAnalysis": "Khởi nghĩa ở Huế thắng lợi ngày 23/8/1945 (ngày 30/8 là Bảo Đại thoái vị)."
+      },
+      {
+        "id": 49,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Khởi nghĩa giành chính quyền ở Sài Gòn thắng lợi vào ngày nào trong năm 1945?",
+        "options": [
+          "19/08/1945",
+          "23/08/1945",
+          "25/08/1945",
+          "28/08/1945"
+        ],
+        "correct": 2,
+        "explanation": "Ngày 25/8/1945, hàng triệu nhân dân Sài Gòn - Chợ Lớn và các tỉnh lân cận đã nhất tề đứng lên giành chính quyền về tay nhân dân.",
+        "trapAnalysis": "Ba mốc trọng yếu: Hà Nội 19/8, Huế 23/8, Sài Gòn 25/8."
+      },
+      {
+        "id": 50,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Vận dụng",
+        "question": "Nguyên nhân chủ quan quyết định nhất làm nên thắng lợi của Cách mạng Tháng Tám năm 1945 là:",
+        "options": [
+          "Phát xít Nhật bị quân Đồng minh đánh bại trên chiến trường thế giới",
+          "Đảng Cộng sản lãnh đạo đúng đắn với đường lối cách mạng sáng tạo",
+          "Sự sụp đổ nhanh chóng của chính phủ bù nhìn Trần Trọng Kim",
+          "Viện trợ quân sự của các nước trong khối xã hội chủ nghĩa"
+        ],
+        "correct": 1,
+        "explanation": "Sự lãnh đạo đúng đắn, sáng suốt và tài tình của Đảng Cộng sản Đông Dương đứng đầu là Chủ tịch Hồ Chí Minh là nhân tố chủ quan quyết định nhất.",
+        "trapAnalysis": "Nhật đầu hàng là điều kiện khách quan thuận lợi; nhân tố chủ quan quyết định nhất luôn là sự lãnh đạo của Đảng."
       }
     ]
   },
   {
     "id": "de_04",
     "code": "MÃ ĐỀ: 104",
-    "title": "Đề 04: Nội Dung Sứ Mệnh Lịch Sử GCCN & Vai Trò Đảng Cộng Sản",
-    "description": "Ôn tập 3 nội dung sứ mệnh (Kinh tế, Chính trị - XH, Văn hóa - tư tưởng), điều kiện chủ quan và quy luật thành lập Đảng Cộng sản.",
-    "duration": 15,
+    "title": "Đề 04: Cương Lĩnh 2/1930, Luận Cương 10/1930 & Cao Trào 1930 - 1935",
+    "description": "So sánh đối chiếu Cương lĩnh 2/1930 và Luận cương 10/1930, đỉnh cao Xô viết Nghệ - Tĩnh và giai đoạn đấu tranh kiên cường phục hồi hệ thống tổ chức Đảng.",
+    "duration": 40,
     "questions": [
       {
         "id": 1,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Nhận biết",
-        "question": "Sứ mệnh lịch sử của giai cấp công nhân được thể hiện trên mấy nội dung cơ bản?",
+        "question": "Trước khi thực dân Pháp xâm lược, xã hội phong kiến Việt Nam mang tính chất gì?",
         "options": [
-          "1 nội dung duy nhất",
-          "2 nội dung",
-          "3 nội dung (Kinh tế, Chính trị - xã hội, Văn hóa - tư tưởng)",
-          "4 nội dung"
+          "Xã hội phong kiến độc lập tự chủ",
+          "Xã hội thuộc địa nửa phong kiến",
+          "Xã hội tiền tư bản chủ nghĩa phát triển",
+          "Xã hội nông nghiệp phụ thuộc phương Tây"
         ],
-        "correct": 2,
-        "explanation": "Sứ mệnh lịch sử của GCCN thể hiện toàn diện trên 3 nội dung: Nội dung kinh tế, Nội dung chính trị - xã hội và Nội dung văn hóa, tư tưởng.",
-        "trapAnalysis": "Ba nội dung: Kinh tế, Chính trị - XH, Văn hóa - tư tưởng."
+        "correct": 0,
+        "explanation": "Trước năm 1858, Việt Nam là một quốc gia độc lập, có chủ quyền hoàn chỉnh dưới sự thống trị của chế độ phong kiến nhà Nguyễn.",
+        "trapAnalysis": "Trước 1858 là xã hội phong kiến độc lập; sau các hiệp ước đầu hàng mới trở thành thuộc địa nửa phong kiến."
       },
       {
         "id": 2,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Trong nội dung KINH TẾ, giai cấp công nhân đóng vai trò gì đối với xã hội mới?",
+        "question": "Chính sách độc quyền kinh tế của thực dân Pháp đã làm cho nền kinh tế Việt Nam có đặc điểm gì?",
         "options": [
-          "Là lực lượng sản xuất cơ bản, sản xuất của cải cho xã hội xã hội chủ nghĩa",
-          "Là tầng lớp trung gian chỉ làm dịch vụ phân phối",
-          "Là lực lượng chỉ tiêu thụ hàng hóa",
-          "Là giai cấp duy trì kinh tế tự cung tự cấp"
+          "Phát triển cân đối giữa nông nghiệp và công nghiệp nặng",
+          "Lạc hậu, què quặt và lệ thuộc hoàn toàn vào kinh tế Pháp",
+          "Trở thành trung tâm công nghiệp chế biến của Đông Nam Á",
+          "Tự cấp tự túc hoàn toàn không giao thương quốc tế"
         ],
-        "correct": 0,
-        "explanation": "Slide: Nội dung kinh tế của sứ mệnh lịch sử: giai cấp công nhân là lực lượng sản xuất cơ bản, sản xuất của cải cho xã hội xã hội chủ nghĩa.",
-        "trapAnalysis": "Nội dung kinh tế: LLSX cơ bản, sản xuất của cải cho XHCN."
+        "correct": 1,
+        "explanation": "Chính sách của Pháp chỉ tập trung khai thác khoáng sản và đồn điền, kìm hãm công nghiệp nặng, làm kinh tế Việt Nam què quặt, nghèo nàn và lệ thuộc.",
+        "trapAnalysis": "Đặc trưng kinh tế Việt Nam thời thuộc địa: lạc hậu, què quặt, phụ thuộc vào mẫu quốc."
       },
       {
         "id": 3,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Mục tiêu kinh tế lâu dài của giai cấp công nhân sau khi giành chính quyền là gì?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Nhận biết",
+        "question": "Hai giai cấp mới xuất hiện trong xã hội Việt Nam từ các cuộc khai thác thuộc địa của Pháp là:",
         "options": [
-          "Tập trung toàn bộ của cải vào tay các nhà tư bản nước ngoài",
-          "Xây dựng quan hệ sản xuất mới dựa trên chế độ công hữu về tư liệu sản xuất chủ yếu và phát triển mạnh mẽ lực lượng sản xuất",
-          "Phá hủy toàn bộ các nhà máy hiện đại",
-          "Chia đều tư liệu sản xuất cho từng hộ cá thể"
+          "Công nhân và tư sản",
+          "Địa chủ và nông dân",
+          "Nông dân và thợ thủ công",
+          "Sĩ phu và quan lại"
         ],
-        "correct": 1,
-        "explanation": "Về kinh tế, GCCN lãnh đạo xác lập chế độ công hữu về TLSX chủ yếu, tổ chức sản xuất hiện đại để nâng cao đời sống nhân dân.",
-        "trapAnalysis": "Xác lập chế độ công hữu TLSX chủ yếu, phát triển LLSX."
+        "correct": 0,
+        "explanation": "Địa chủ và nông dân là hai giai cấp cũ vốn có; công nhân và tư sản là hai giai cấp mới ra đời gắn liền với phương thức sản xuất tư bản do Pháp du nhập.",
+        "trapAnalysis": "Hai giai cấp mới: Công nhân (ra đời khai thác lần 1) và Tư sản (hình thành rõ nét khai thác lần 2)."
       },
       {
         "id": 4,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Nội dung CHÍNH TRỊ - XÃ HỘI trong sứ mệnh của giai cấp công nhân là:",
+        "question": "Tầng lớp tiểu tư sản Việt Nam (học sinh, sinh viên, trí thức...) có thái độ chính trị ra sao?",
         "options": [
-          "Dưới sự lãnh đạo của Đảng Cộng sản, đấu tranh giành chính quyền và xây dựng nhà nước mới của nhân dân",
-          "Thỏa hiệp với chính phủ tư sản để nhận ghế bộ trưởng",
-          "Tuyên bố bãi bỏ hoàn toàn pháp luật và nhà nước ngay lập tức",
-          "Chỉ tham gia biểu tình ôn hòa không động chạm đến quyền lực nhà nước"
+          "Hoàn toàn thỏa hiệp cấu kết với thực dân Pháp",
+          "Có tinh thần dân tộc hăng hái, nhạy bén với thời cuộc",
+          "Lãnh đạo phong trào giải phóng dân tộc thành công",
+          "Không quan tâm tới vận mệnh độc lập của đất nước"
         ],
-        "correct": 0,
-        "explanation": "Slide: Nội dung chính trị - xã hội: dưới sự lãnh đạo của Đảng Cộng sản, giai cấp công nhân đấu tranh giành chính quyền và xây dựng nhà nước mới của nhân dân.",
-        "trapAnalysis": "Nội dung chính trị: Giành chính quyền và xây dựng nhà nước mới dưới sự lãnh đạo của ĐCS."
+        "correct": 1,
+        "explanation": "Tiểu tư sản bị thực dân bạc đãi, khinh rẻ, có tinh thần yêu nước nồng nàn, tiếp thu nhanh các luồng tư tưởng mới và là lực lượng cách mạng quan trọng.",
+        "trapAnalysis": "Tiểu tư sản hăng hái và yêu nước nhưng do địa vị kinh tế bấp bênh nên không thể đóng vai trò giai cấp lãnh đạo."
       },
       {
         "id": 5,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Nhà nước mới do giai cấp công nhân và nhân dân lao động xây dựng sau khi giành chính quyền mang bản chất của giai cấp nào?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Nhận biết",
+        "question": "Vị thủ lĩnh chỉ huy cuộc khởi nghĩa Bãi Sậy trong phong trào Cần Vương là ai?",
         "options": [
-          "Mang bản chất giai cấp tư sản",
-          "Mang bản chất giai cấp công nhân",
-          "Mang bản chất giai cấp địa chủ phong kiến",
-          "Không mang bản chất của bất kỳ giai cấp nào"
+          "Nguyễn Thiện Thuật",
+          "Phạm Bành",
+          "Phan Đình Phùng",
+          "Tống Duy Tân"
         ],
-        "correct": 1,
-        "explanation": "Nhà nước XHCN mang bản chất của giai cấp công nhân, phục vụ lợi ích của đa số nhân dân lao động dưới sự lãnh đạo của Đảng.",
-        "trapAnalysis": "Mang bản chất giai cấp công nhân."
+        "correct": 0,
+        "explanation": "Khởi nghĩa Bãi Sậy (Hưng Yên, 1883 - 1892) do Nguyễn Thiện Thuật (Tán thuật Nguyễn Thiện Thuật) lãnh đạo dựa vào địa thế đầm lầy lau sậy hiểm trở.",
+        "trapAnalysis": "Nguyễn Thiện Thuật gắn với Khởi nghĩa Bãi Sậy ở đồng bằng Bắc Bộ."
       },
       {
         "id": 6,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Nội dung VĂN HÓA, TƯ TƯỞNG trong sứ mệnh của giai cấp công nhân bao gồm nhiệm vụ nào?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Nhận biết",
+        "question": "Tổ chức Việt Nam Quang phục Hội do Phan Bội Châu thành lập năm 1912 đề ra tôn chỉ mục đích gì?",
         "options": [
-          "Bảo tồn nguyên vẹn các hủ tục lạc hậu phong kiến",
-          "Xây dựng nền văn hóa và con người mới với tư tưởng, đạo đức xã hội chủ nghĩa",
-          "Nhập khẩu toàn bộ lối sống thực dụng phương Tây",
-          "Cấm đoán mọi hoạt động sáng tạo nghệ thuật"
+          "Khôi phục Việt Nam, thành lập nước Cộng hòa Dân quốc",
+          "Thiết lập nền quân chủ lập hiến do Cường Để đứng đầu",
+          "Hợp tác với chính quyền thực dân Pháp để khai hóa văn minh",
+          "Tiến hành cách mạng vô sản theo mô hình Cách mạng Tháng Mười"
         ],
-        "correct": 1,
-        "explanation": "Slide: Nội dung văn hóa, tư tưởng: xây dựng nền văn hóa và con người mới với tư tưởng, đạo đức xã hội chủ nghĩa.",
-        "trapAnalysis": "Xây dựng văn hóa mới và con người mới với tư tưởng, đạo đức XHCN."
+        "correct": 0,
+        "explanation": "Năm 1912, dưới ảnh hưởng của Cách mạng Tân Hợi (Trung Quốc), Phan Bội Châu giải tán Hội Duy Tân để lập Việt Nam Quang phục Hội với tôn chỉ: 'Đánh đuổi giặc Pháp, khôi phục nước Việt Nam, thành lập nước Cộng hòa Dân quốc'.",
+        "trapAnalysis": "Năm 1904 chủ trương Quân chủ lập hiến, nhưng đến năm 1912 Việt Nam Quang phục Hội chuyển sang 'Cộng hòa Dân quốc'."
       },
       {
         "id": 7,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Ghi chú viết tay ở lề tài liệu về nội dung văn hóa, tư tưởng nhấn mạnh nền tảng gì?",
+        "question": "Phong trào chống sưu thuế ở Trung Kỳ nổ ra dữ dội nhất vào năm nào?",
         "options": [
-          "Hệ tư tưởng Nho giáo phong kiến",
-          "Hệ tư tưởng của Mác - Lênin",
-          "Chủ nghĩa tự do cá nhân tư sản",
-          "Chủ nghĩa vị kỷ thực dụng"
+          "Năm 1904",
+          "Năm 1908",
+          "Năm 1917",
+          "Năm 1930"
         ],
         "correct": 1,
-        "explanation": "Vở ghi và slide: Ghi chú viết tay ở lề nêu 'hệ tư tưởng của Mác - Lênin'.",
-        "trapAnalysis": "Hệ tư tưởng Mác - Lênin là nền tảng."
+        "explanation": "Năm 1908, phong trào cúp tóc, chống đi xâu, giảm sưu thuế bùng nổ mạnh mẽ ở Quảng Nam, sau đó lan rộng khắp các tỉnh Trung Kỳ.",
+        "trapAnalysis": "Phong trào chống thuế Trung Kỳ gắn liền với năm 1908 và tinh thần Duy Tân."
       },
       {
         "id": 8,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Trong ba nội dung của sứ mệnh lịch sử, nội dung nào giữ vai trò tiền đề quyết định để thực hiện các nội dung khác?",
+        "question": "Câu nói nổi tiếng 'Không thành công cũng thành nhân' trước khi lên máy chém là của ai?",
         "options": [
-          "Nội dung kinh tế (sản xuất của cải vật chất)",
-          "Nội dung giải trí cuối tuần",
-          "Nội dung thời trang may mặc",
-          "Nội dung thi cử học vị"
+          "Nguyễn Thái Học",
+          "Phan Bội Châu",
+          "Hoàng Hoa Thám",
+          "Trần Phú"
         ],
         "correct": 0,
-        "explanation": "Sản xuất vật chất là cơ sở của đời sống xã hội. Không có nền kinh tế phát triển cao thì không thể có điều kiện xây dựng chính trị và văn hóa XHCN vững chắc.",
-        "trapAnalysis": "Nội dung kinh tế là cơ sở, nền tảng vật chất."
+        "explanation": "Đồng chí Nguyễn Thái Học - lãnh tụ Việt Nam Quốc dân Đảng - đã khẳng định khí phách yêu nước trước khi bị thực dân Pháp hành quyết sau Khởi nghĩa Yên Bái.",
+        "trapAnalysis": "Nguyễn Thái Học là tác giả câu nói 'Không thành công cũng thành nhân' (1930)."
       },
       {
         "id": 9,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Mục tiêu của cuộc cách mạng tư tưởng - văn hóa của giai cấp công nhân là giải phóng con người khỏi điều gì?",
+        "question": "Thất bại của phong trào Cần Vương (1885 - 1896) đã chứng minh điều gì?",
         "options": [
-          "Khỏi sự phát triển của công nghệ hiện đại",
-          "Khỏi những quan niệm lạc hậu, tư tưởng tư sản và tàn dư đạo đức cũ",
-          "Khỏi việc học tập nghiên cứu khoa học",
-          "Khỏi lao động sản xuất"
+          "Hệ tư tưởng phong kiến không còn đủ sức lãnh đạo sự nghiệp cứu nước",
+          "Nhân dân không còn tha thiết với nền độc lập dân tộc",
+          "Khuynh hướng vô sản đã giành được vị trí thống trị tuyệt đối",
+          "Giai cấp tư sản Việt Nam đã làm chủ hoàn toàn xã hội"
         ],
-        "correct": 1,
-        "explanation": "Cách mạng tư tưởng văn hóa nhằm xóa bỏ các tư tưởng tư sản, phong kiến hủ bại, xây dựng thế giới quan khoa học và nhân sinh quan cách mạng.",
-        "trapAnalysis": "Giải phóng khỏi tư tưởng lạc hậu, hủ tục cũ."
+        "correct": 0,
+        "explanation": "Khởi nghĩa Hương Khê kết thúc cũng là lúc phong trào Cần Vương chấm dứt, chứng tỏ ngọn cờ phong kiến phò vua đã lỗi thời trước sứ mệnh lịch sử.",
+        "trapAnalysis": "Phong trào Cần Vương thất bại đánh dấu sự bất lực của hệ tư tưởng phong kiến trong cuộc chiến chống thực dân."
       },
       {
         "id": 10,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Mối quan hệ biện chứng giữa 3 nội dung sứ mệnh của GCCN (Kinh tế, Chính trị, Văn hóa) là gì?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Nhận biết",
+        "question": "Chính sách văn hóa giáo dục nô dịch của Pháp nhằm mục đích trực tiếp nào?",
         "options": [
-          "Tách rời biệt lập, không tác động đến nhau",
-          "Gắn bó mật thiết, tác động qua lại lẫn nhau tạo thành một chỉnh thể thống nhất",
-          "Chỉ cần làm tốt kinh tế, bỏ qua chính trị và văn hóa",
-          "Chỉ cần làm tốt văn hóa, kinh tế tự khắc phát triển"
+          "Đào tạo đội ngũ trí thức phục vụ bộ máy cai trị và ru ngủ nhân dân",
+          "Xóa mù chữ toàn diện cho trẻ em nông thôn Đông Dương",
+          "Bảo tồn các di sản văn hóa cổ truyền của dân tộc Việt Nam",
+          "Khuyến khích tư tưởng tự do bình đẳng của cuộc Đại cách mạng Pháp"
         ],
-        "correct": 1,
-        "explanation": "Ba nội dung tạo thành chỉnh thể hữu cơ: kinh tế là cơ sở, chính trị là công cụ bảo đảm quyền lực, văn hóa là mục tiêu và nền tảng tinh thần.",
-        "trapAnalysis": "Chỉnh thể thống nhất, gắn bó mật thiết."
+        "correct": 0,
+        "explanation": "Chính sách giáo dục nô dịch, ngu dân nhằm đào tạo ra một lớp công chức tay sai phục vụ chính quyền thuộc địa và làm tê liệt tinh thần quật khởi của thanh niên.",
+        "trapAnalysis": "Mục đích là phục vụ cai trị và ngu dân, tuyệt đối không phổ biến tư tưởng tiến bộ thực thụ của nước Pháp."
       },
       {
         "id": 11,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Điều kiện chủ quan giữ vai trò QUYẾT ĐỊNH NHẤT để GCCN hoàn thành sứ mệnh lịch sử là:",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Tháng 12/1920, Nguyễn Ái Quốc tham dự Đại hội lần thứ XVIII của Đảng Xã hội Pháp tại thành phố nào?",
         "options": [
-          "Sự ra đời và vai trò lãnh đạo của Đảng Cộng sản",
-          "Sự tăng lên nhanh chóng của dân số tự nhiên",
-          "Mức viện trợ vũ khí từ nước ngoài",
-          "Sự thông cảm của các tổ chức tôn giáo"
+          "Paris",
+          "Tours",
+          "Marseille",
+          "Lyon"
         ],
-        "correct": 0,
-        "explanation": "Vở ghi: Điều kiện chủ quan quy định sứ mệnh lịch sử của giai cấp công nhân: nhân tố quan trọng nhất: Đảng Cộng Sản (lãnh đạo).",
-        "trapAnalysis": "Nhân tố quan trọng nhất: Đảng Cộng sản lãnh đạo."
+        "correct": 1,
+        "explanation": "Đại hội lần thứ XVIII của Đảng Xã hội Pháp diễn ra tại thành phố Tours (tháng 12/1920), nơi Người bỏ phiếu gia nhập Quốc tế III.",
+        "trapAnalysis": "Đại hội Tours (12/1920) là sự kiện lịch sử quyết định chuyển sang Đảng Cộng sản."
       },
       {
         "id": 12,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Đảng Cộng sản được xác định là tổ chức gì của giai cấp công nhân?",
+        "question": "Tổ chức 'Hội Liên hiệp thuộc địa' thành lập năm 1921 tại Paris nhằm mục đích gì?",
         "options": [
-          "Đội tiên phong chiến đấu, bộ tham mưu chiến đấu",
-          "Một câu lạc bộ giao lưu giải trí",
-          "Một tổ chức kinh doanh vì lợi nhuận",
-          "Một hội đồng trọng tài đứng giữa công nhân và tư sản"
+          "Đoàn kết các dân tộc thuộc địa cùng đấu tranh chống chủ nghĩa thực dân",
+          "Quyên góp kiều hối gửi về nước giúp đỡ người nghèo",
+          "Vận động quốc hội Pháp nới lỏng chính sách nhập cư",
+          "Mở các cửa hàng thương mại cho người Á - Phi tại châu Âu"
         ],
         "correct": 0,
-        "explanation": "Đảng Cộng sản là đội tiên phong, bộ tham mưu chiến đấu cao nhất của giai cấp công nhân và nhân dân lao động.",
-        "trapAnalysis": "Đội tiên phong, bộ tham mưu chiến đấu."
+        "explanation": "Hội Liên hiệp thuộc địa là mặt trận tập hợp những người dân thuộc địa các nước tại Pháp để thức tỉnh và đoàn kết chống lại kẻ thù chung là chủ nghĩa thực dân.",
+        "trapAnalysis": "Hội Liên hiệp thuộc địa là tổ chức cách mạng đoàn kết nhân dân các thuộc địa Pháp."
       },
       {
         "id": 13,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Nhận biết",
-        "question": "Quy luật phổ biến về sự hình thành Đảng Cộng sản được V.I.Lênin khái quát là:",
+        "question": "Năm 1923, Nguyễn Ái Quốc rời nước Pháp để sang học tập và hoạt động tại quốc gia nào?",
         "options": [
-          "Đảng Cộng sản = Phong trào công nhân + Chủ nghĩa Mác - Lênin",
-          "Đảng Cộng sản = Phong trào nông dân + Triết học phương Đông",
-          "Đảng Cộng sản = Phong trào trí thức + Kinh tế thị trường",
-          "Đảng Cộng sản = Tôn giáo + Đạo đức truyền thống"
+          "Liên Xô",
+          "Trung Quốc",
+          "Đức",
+          "Thái Lan"
         ],
         "correct": 0,
-        "explanation": "Vở ghi: Đảng Cộng sản = phong trào công nhân + chủ nghĩa Mác Lênin.",
-        "trapAnalysis": "Công thức chung: PT công nhân + CN Mác-Lênin."
+        "explanation": "Tháng 6/1923, Nguyễn Ái Quốc bí mật rời Paris sang Mát-xcơ-va (Liên Xô) để dự Hội nghị Quốc tế Nông dân và Đại hội V Quốc tế Cộng sản.",
+        "trapAnalysis": "Năm 1923 Bác sang Liên Xô; cuối năm 1924 mới từ Liên Xô về Quảng Châu (Trung Quốc)."
       },
       {
         "id": 14,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Nếu phong trào công nhân KHÔNG có sự kết hợp với chủ nghĩa Mác - Lênin thì phong trào sẽ ra sao?",
+        "question": "Tại Đại hội V Quốc tế Cộng sản (1924), Nguyễn Ái Quốc đã nhấn mạnh vai trò chiến lược của vấn đề nào?",
         "options": [
-          "Tự động chuyển thành cách mạng XHCN thắng lợi",
-          "Chỉ dừng lại ở mức đấu tranh tự phát kinh tế đòi quyền lợi trước mắt",
-          "Lật đổ được nhà nước tư sản ngay lập tức",
-          "Biến thành giai cấp tư sản cầm quyền"
+          "Cách mạng giải phóng dân tộc ở các nước thuộc địa",
+          "Chiến tranh giữa các nước tư bản chủ nghĩa đế quốc",
+          "Xây dựng liên minh các nước tư bản dân chủ",
+          "Tập trung cách mạng vô sản ở các nước chính quốc trước"
         ],
-        "correct": 1,
-        "explanation": "Không có lý luận Mác - Lênin dẫn đường, phong trào công nhân chỉ là phong trào tự phát đòi tăng lương cục bộ, không thể đi tới tự giác chính trị.",
-        "trapAnalysis": "Chỉ dừng lại ở đấu tranh tự phát kinh tế."
+        "correct": 0,
+        "explanation": "Người đã chỉ rõ vị trí chiến lược to lớn của cách mạng thuộc địa và khẳng định cách mạng thuộc địa không thụ động chờ đợi cách mạng ở chính quốc mà có thể chủ động nổ ra và giành thắng lợi trước.",
+        "trapAnalysis": "Đóng góp lý luận sáng tạo: Cách mạng thuộc địa có thể giành thắng lợi trước cách mạng ở chính quốc."
       },
       {
         "id": 15,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Ngược lại, nếu chủ nghĩa Mác - Lênin KHÔNG thâm nhập vào phong trào công nhân thì chủ nghĩa Mác sẽ như thế nào?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Tổ chức cách mạng phôi thai được thành lập tại Quảng Châu tháng 2/1925 có tên là:",
         "options": [
-          "Sẽ trở thành một học thuyết lý thuyết thuần túy trong sách vở, không có lực lượng vật chất hiện thực",
-          "Vẫn tự động giải phóng xã hội",
-          "Biến thành tôn giáo mới",
-          "Bị các nhà tư bản mua lại bản quyền"
+          "Cộng sản đoàn",
+          "Tâm Tâm xã",
+          "Hội Cứu quốc",
+          "Phản đế liên minh"
         ],
         "correct": 0,
-        "explanation": "V.I.Lênin chỉ rõ: Lý luận không có phong trào quần chúng là lý luận suông; phong trào không có lý luận soi đường là phong trào mù quáng.",
-        "trapAnalysis": "Lý luận suông nếu thiếu phong trào hiện thực."
+        "explanation": "Tháng 2/1925, Nguyễn Ái Quốc lựa chọn những thanh niên tích cực nhất của Tâm Tâm Xã để lập nhóm nòng cốt bí mật mang tên 'Cộng sản đoàn'.",
+        "trapAnalysis": "Tháng 2/1925 lập nhóm nòng cốt Cộng sản đoàn; tháng 6/1925 phát triển thành Hội VN Cách mạng Thanh niên."
       },
       {
         "id": 16,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Mối quan hệ gắn bó máu thịt giữa Đảng Cộng sản và giai cấp công nhân thể hiện ở điểm nào?",
+        "question": "Nội dung bài giảng huấn luyện cán bộ của Nguyễn Ái Quốc tại Quảng Châu nhấn mạnh điều gì đầu tiên?",
         "options": [
-          "Đảng là một tổ chức tư nhân độc lập có cổ phần riêng",
-          "GCCN là cơ sở xã hội - giai cấp của Đảng, còn Đảng là đội tiên phong đại biểu trung thành cho lợi ích của GCCN",
-          "Đảng đứng trên giai cấp công nhân và thu học phí của công nhân",
-          "Đảng không liên quan đến đời sống của công nhân"
+          "Tư cách của một người cách mệnh",
+          "Kỹ thuật sử dụng súng trường và chất nổ",
+          "Cách tổ chức các cuộc bãi công biểu tình",
+          "Nguyên lý kinh tế chính trị tư bản"
         ],
-        "correct": 1,
-        "explanation": "Đảng Cộng sản không có lợi ích riêng tách rời lợi ích của giai cấp công nhân và nhân dân lao động; GCCN là nền tảng giai cấp của Đảng.",
-        "trapAnalysis": "GCCN là cơ sở giai cấp, Đảng là đội tiên phong đại diện."
+        "correct": 0,
+        "explanation": "Mở đầu cuốn sách 'Đường Kách mệnh', phần đầu tiên Người nêu ra là: 'Tư cách một người cách mệnh' (đạo đức cách mạng, cần kiệm liêm chính, chí công vô tư).",
+        "trapAnalysis": "Tác phẩm Đường Kách mệnh đặt việc rèn luyện đạo đức, 'Tư cách người cách mệnh' lên trang đầu tiên."
       },
       {
         "id": 17,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Nguyên tắc tổ chức và sinh hoạt cơ bản nhất của Đảng Cộng sản theo chủ nghĩa Mác - Lênin là gì?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Tổ chức Đông Dương Cộng sản Đảng thành lập ngày 17/6/1929 tại số nhà nào?",
         "options": [
-          "Nguyên tắc tập trung dân chủ",
-          "Nguyên tắc tự do cá nhân tuyệt đối",
-          "Nguyên tắc đa nguyên chính trị",
-          "Nguyên tắc cha truyền con nối"
+          "Số 312 phố Khâm Thiên, Hà Nội",
+          "Số 5D phố Hàm Long, Hà Nội",
+          "Số 90 phố Thợ Nhuộm, Hà Nội",
+          "Số 48 phố Hàng Ngang, Hà Nội"
         ],
         "correct": 0,
-        "explanation": "Tập trung dân chủ là nguyên tắc tổ chức cơ bản nhất của Đảng Cộng sản, bảo đảm Đảng thống nhất về ý chí và hành động.",
-        "trapAnalysis": "Nguyên tắc tập trung dân chủ."
+        "explanation": "Ngày 17/6/1929, đại biểu các tổ chức cơ sở cộng sản miền Bắc họp tại số nhà 312 Khâm Thiên (Hà Nội) quyết định thành lập Đông Dương Cộng sản Đảng.",
+        "trapAnalysis": "5D Hàm Long lập Chi bộ đầu tiên (3/1929); 312 Khâm Thiên thành lập Đông Dương CS Đảng (6/1929)."
       },
       {
         "id": 18,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Tại sao nói Đảng Cộng sản là nhân tố quyết định mọi thắng lợi của cách mạng XHCN?",
+        "question": "Văn kiện nào do Trần Phú khởi thảo tại số nhà 90 Thợ Nhuộm (Hà Nội) vào mùa thu năm 1930?",
         "options": [
-          "Vì Đảng đề ra đường lối chiến lược, sách lược đúng đắn và tổ chức lãnh đạo quần chúng hành động",
-          "Vì Đảng có nhiều tiền bạc nhất xã hội",
-          "Vì Đảng ban phát của cải miễn phí cho mọi người",
-          "Vì Đảng không bao giờ phải chịu sự giám sát"
+          "Luận cương chính trị tháng 10/1930",
+          "Chính cương vắn tắt của Đảng",
+          "Chương trình hành động của Đảng",
+          "Tác phẩm Tự chỉ trích"
         ],
         "correct": 0,
-        "explanation": "Đảng là bộ tham mưu sáng suốt vạch ra đường lối cách mạng đúng đắn, tập hợp và lãnh đạo quần chúng nhân dân làm nên thắng lợi.",
-        "trapAnalysis": "Đề ra đường lối đúng đắn và lãnh đạo thực hiện."
+        "explanation": "Tại căn nhà số 90 Thợ Nhuộm (Hà Nội), đồng chí Trần Phú đã soạn thảo bản dự thảo Luận cương chính trị để trình Hội nghị Trung ương tháng 10/1930.",
+        "trapAnalysis": "Số 90 Thợ Nhuộm là nơi Trần Phú thảo Luận cương chính trị tháng 10/1930."
       },
       {
         "id": 19,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Khái niệm 'Liên minh công - nông' trong cách mạng XHCN giữ vai trò gì?",
+        "question": "Hội nghị hợp nhất đầu năm 1930 quyết định xuất bản các cơ quan ngôn luận nào của Đảng?",
         "options": [
-          "Là cơ sở kinh tế - chính trị vững chắc của khối đại đoàn kết toàn dân dưới sự lãnh đạo của Đảng",
-          "Là một thỏa thuận buôn bán nông sản",
-          "Là hiệp định chia rẽ giữa công nhân và nông dân",
-          "Là chính sách bắt buộc nông dân bỏ ruộng"
+          "Tạp chí Đỏ và Báo Tranh Đấu",
+          "Báo Cứu Quốc và Báo Tiền Phong",
+          "Báo Cờ Giải Phóng và Tạp chí Cộng Sản",
+          "Báo Nhân Dân và Báo Quân Đội Nhân Dân"
         ],
         "correct": 0,
-        "explanation": "Liên minh công - nông - trí thức là nền tảng chính trị - xã hội của nhà nước XHCN và của khối đại đoàn kết dân tộc do Đảng lãnh đạo.",
-        "trapAnalysis": "Nền tảng chính trị - xã hội của khối đại đoàn kết."
+        "explanation": "Hội nghị thành lập Đảng quyết định xuất bản 'Tạp chí Đỏ' làm cơ quan lý luận và tờ báo 'Tranh Đấu' làm cơ quan tuyên truyền của Đảng.",
+        "trapAnalysis": "Hai ấn phẩm đầu tiên của Đảng năm 1930: Tạp chí Đỏ và Báo Tranh Đấu."
       },
       {
         "id": 20,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Ai giữ vai trò lãnh đạo trong khối liên minh công - nông - trí thức?",
+        "question": "Cương lĩnh chính trị đầu tiên (2/1930) xác định mục tiêu cuối cùng của cách mạng Việt Nam là gì?",
         "options": [
-          "Giai cấp nông dân",
-          "Giai cấp công nhân (thông qua Đảng Cộng sản)",
-          "Tầng lớp trí thức",
-          "Giai cấp tư sản"
+          "Đi tới xã hội cộng sản",
+          "Xây dựng nhà nước tư sản hiện đại",
+          "Trở thành một phân bộ thuộc Khối Liên hiệp Pháp",
+          "Phát triển kinh tế hỗn hợp nhiều thành phần"
         ],
-        "correct": 1,
-        "explanation": "Giai cấp công nhân giữ vai trò lãnh đạo khối liên minh thông qua đội tiên phong là Đảng Cộng sản.",
-        "trapAnalysis": "Giai cấp công nhân lãnh đạo qua Đảng Cộng sản."
+        "correct": 0,
+        "explanation": "Phương hướng chiến lược khẳng định làm tư sản dân quyền và thổ địa cách mạng để 'đi tới xã hội cộng sản'.",
+        "trapAnalysis": "Mục tiêu tối hậu của Cương lĩnh tháng 2/1930 là tiến thẳng tới xã hội cộng sản."
       },
       {
         "id": 21,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Ở các nước định hướng xã hội chủ nghĩa hiện nay, giai cấp công nhân giữ vai trò gì?",
+        "question": "Chủ trương của Cương lĩnh tháng 2/1930 đối với giai cấp tư sản dân tộc thể hiện tư tưởng nào?",
         "options": [
-          "Là giai cấp bị bóc lột nặng nề nhất",
-          "Đã trở thành giai cấp lãnh đạo xã hội thông qua đội tiên phong là Đảng Cộng sản",
-          "Không còn tồn tại trong xã hội",
-          "Trở thành giai cấp làm thuê thuần túy"
+          "Tư tưởng liên minh và trung lập khôn khéo để cô lập kẻ thù chính",
+          "Tư tưởng tiêu diệt triệt để tư sản để xác lập chuyên chính vô sản",
+          "Tư tưởng chia sẻ hoàn toàn quyền lãnh đạo cách mạng cho tư sản",
+          "Tư tưởng tuyệt đối không thỏa hiệp với bất kỳ giai cấp nào"
         ],
-        "correct": 1,
-        "explanation": "Slide: Ở một số nước xã hội chủ nghĩa, giai cấp công nhân đã trở thành giai cấp lãnh đạo thông qua đội tiên phong là Đảng Cộng sản.",
-        "trapAnalysis": "Đã trở thành giai cấp lãnh đạo thông qua ĐCS."
+        "correct": 0,
+        "explanation": "Cương lĩnh chủ trương lợi dụng hoặc làm cho họ trung lập, lôi kéo các phần tử yêu nước, tập trung mũi nhọn vào đế quốc Pháp và tay sai đầu sỏ.",
+        "trapAnalysis": "Đây là tư tưởng phân hóa kẻ thù, tập hợp lực lượng đại đoàn kết dân tộc của Nguyễn Ái Quốc."
       },
       {
         "id": 22,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Nhiệm vụ chính trị của giai cấp công nhân ở các nước xã hội chủ nghĩa hiện nay là gì?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Ngày 3/2 hàng năm được chính thức công nhận là Ngày kỷ niệm thành lập Đảng tại kỳ Đại hội nào?",
         "options": [
-          "Lãnh đạo nhân dân bảo vệ vững chắc tổ quốc và xây dựng thành công chủ nghĩa xã hội",
-          "Lật đổ nhà nước của chính mình",
-          "Khôi phục lại chế độ tư bản chủ nghĩa",
-          "Tuyên bố giải tán tổ chức công đoàn"
+          "Đại hội I (1935)",
+          "Đại hội II (1951)",
+          "Đại hội III (1960)",
+          "Đại hội IV (1976)"
         ],
-        "correct": 0,
-        "explanation": "Slide 2.2.2: Về chính trị, ở các nước định hướng xã hội chủ nghĩa, giai cấp công nhân lãnh đạo nhân dân xây dựng chủ nghĩa xã hội.",
-        "trapAnalysis": "Lãnh đạo nhân dân xây dựng CNXH."
+        "correct": 2,
+        "explanation": "Đại hội đại biểu toàn quốc lần thứ III của Đảng (tháng 9/1960) đã ra Nghị quyết quyết định lấy ngày 3/2 dương lịch hàng năm làm ngày kỷ niệm thành lập Đảng.",
+        "trapAnalysis": "Đại hội III (1960) đã quyết định lấy ngày 3/2 làm ngày kỷ niệm chính thức thành lập Đảng."
       },
       {
         "id": 23,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Ở các nước tư bản chủ nghĩa hiện nay, giai cấp công nhân thực hiện sứ mệnh về chính trị như thế nào?",
+        "question": "Văn kiện nào do Nguyễn Ái Quốc soạn thảo nêu rõ tôn chỉ 'thu phục đại bộ phận công nông'?",
         "options": [
-          "Ủng hộ hoàn toàn các cuộc chiến tranh xâm lược",
-          "Đi đầu trong đấu tranh chống áp bức, bất công và các vấn đề xã hội, đòi dân sinh, dân chủ",
-          "Từ bỏ mọi cuộc bãi công",
-          "Chỉ phục vụ lợi ích của các tỷ phú"
+          "Sách lược vắn tắt của Đảng",
+          "Điều lệ vắn tắt của Đảng",
+          "Luận cương chính trị",
+          "Chương trình hành động"
         ],
-        "correct": 1,
-        "explanation": "Slide 2.2.2: Ở các nước tư bản chủ nghĩa, đi đầu trong đấu tranh chống áp bức, bất công và các vấn đề xã hội.",
-        "trapAnalysis": "Đi đầu chống áp bức, bất công, đòi dân sinh dân chủ."
+        "correct": 0,
+        "explanation": "Trong 'Sách lược vắn tắt của Đảng', Người chỉ rõ: Đảng phải thu phục cho được đại bộ phận giai cấp mình, phải làm cho giai cấp mình lãnh đạo được dân chúng.",
+        "trapAnalysis": "Đoạn văn 'thu phục đại bộ phận giai cấp mình...' nằm trong bản 'Sách lược vắn tắt'."
       },
       {
         "id": 24,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Về văn hóa - xã hội, giai cấp công nhân trên thế giới hiện nay đóng góp điều gì?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Vận dụng",
+        "question": "Sự ra đời của Đảng Cộng sản Việt Nam chứng minh sự phát triển vượt bậc của phong trào công nhân ở điểm nào?",
         "options": [
-          "Góp phần xây dựng nền văn hóa tiến bộ vì công bằng, bình đẳng và quyền con người",
-          "Bài xích các giá trị tiến bộ của nhân loại",
-          "Bắt buộc mọi người phải sống theo khuôn mẫu cứng nhắc",
-          "Phá hủy các di sản văn hóa truyền thống"
+          "Phong trào công nhân đã chuyển hẳn từ đấu tranh tự phát sang đấu tranh tự giác",
+          "Giai cấp công nhân đã kiểm soát toàn bộ hệ thống đồn điền cao su",
+          "Mọi công nhân đều đã được kết nạp vào các nghiệp đoàn công khai",
+          "Công nhân không còn phải chịu sự áp bức của tư bản Pháp"
         ],
         "correct": 0,
-        "explanation": "Slide 2.2.2: Về văn hóa - xã hội, góp phần xây dựng nền văn hóa tiến bộ vì công bằng, bình đẳng và quyền con người.",
-        "trapAnalysis": "Xây dựng nền văn hóa tiến bộ vì công bằng, bình đẳng, quyền con người."
+        "explanation": "Khi Đảng Cộng sản ra đời nắm quyền lãnh đạo, phong trào công nhân Việt Nam đã chính thức bước sang giai đoạn hoàn toàn tự giác với mục tiêu chính trị rõ rệt.",
+        "trapAnalysis": "Sự ra đời của Đảng đánh dấu mốc phong trào công nhân hoàn toàn chuyển sang tự giác."
       },
       {
         "id": 25,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Về kinh tế trên thế giới hiện nay, giai cấp công nhân vẫn giữ vai trò gì?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Vận dụng",
+        "question": "Yếu tố đóng vai trò cầu nối đưa chủ nghĩa Mác - Lênin vào phong trào công nhân Việt Nam là:",
         "options": [
-          "Vai trò sản xuất vật chất chủ yếu cho xã hội",
-          "Chỉ làm nhiệm vụ trung gian thương mại",
-          "Không còn tham gia vào chuỗi cung ứng hàng hóa",
-          "Chỉ sống dựa vào tiền trợ cấp thất nghiệp"
+          "Hội Việt Nam Cách mạng Thanh niên",
+          "Tân Việt Cách mạng Đảng",
+          "Việt Nam Quốc dân Đảng",
+          "Đông Kinh Nghĩa Thục"
         ],
         "correct": 0,
-        "explanation": "Slide 2.2.2: Về kinh tế, giai cấp công nhân vẫn giữ vai trò sản xuất vật chất chủ yếu.",
-        "trapAnalysis": "Vẫn giữ vai trò sản xuất vật chất chủ yếu."
+        "explanation": "Hội Việt Nam Cách mạng Thanh niên do Nguyễn Ái Quốc sáng lập là 'chiếc cầu nối' truyền bá chủ nghĩa Mác - Lênin vào phong trào công nhân và phong trào yêu nước.",
+        "trapAnalysis": "Hội VN Cách mạng Thanh niên chính là tổ chức giữ vai trò cầu nối lịch sử này."
       },
       {
         "id": 26,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Mâu thuẫn cơ bản giữa lao động và tư bản trong thế giới hiện đại:",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Cuộc đấu tranh mở đầu của công nhân trong phong trào cách mạng 1930 - 1931 diễn ra ở đâu?",
         "options": [
-          "Đã hoàn toàn biến mất vĩnh viễn",
-          "Vẫn tiếp tục tồn tại và ngày càng mở rộng, sâu sắc dưới nhiều hình thức mới",
-          "Chỉ tồn tại ở các nước châu Phi nghèo đói",
-          "Đã được giải quyết ổn thỏa bằng tiền thưởng cuối năm"
+          "Công nhân đồn điền cao su Phú Riềng (2/1930)",
+          "Công nhân nhà máy sợi Nam Định (3/1930)",
+          "Công nhân khu công nghiệp Bến Thủy (5/1930)",
+          "Công nhân mỏ than Cẩm Phả (11/1930)"
         ],
-        "correct": 1,
-        "explanation": "Bản chất bóc lột của CNTB không đổi, xung đột lợi ích giữa lao động làm thuê và tư bản bóc lột vẫn là mâu thuẫn cơ bản của CNTB hiện đại.",
-        "trapAnalysis": "Vẫn tồn tại và phát triển sâu sắc dưới các hình thức mới."
+        "correct": 2,
+        "explanation": "Ngày 1/5/1930, công nhân xưởng cưa, xưởng diêm Bến Thủy (Vinh) cùng hàng nghìn nông dân biểu tình thị uy, mở đầu cho cao trào cách mạng ở Nghệ - Tĩnh.",
+        "trapAnalysis": "Bến Thủy (1/5/1930) là tiếng pháo hiệu bùng nổ cao trào cách mạng 1930 - 1931."
       },
       {
         "id": 27,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Thông hiểu",
-        "question": "Công đoàn là tổ chức có vai trò gì đối với giai cấp công nhân?",
+        "question": "Lực lượng tự vệ bảo vệ chính quyền Xô viết Nghệ - Tĩnh được gọi là gì?",
         "options": [
-          "Là tổ chức chính trị cao nhất thay thế Đảng Cộng sản",
-          "Là tổ chức quần chúng rộng lớn đại diện bảo vệ quyền và lợi ích hợp pháp, chính đáng của người lao động",
-          "Là cơ quan thuộc quyền quản lý của ông chủ tư bản",
-          "Là cơ quan xét xử các vụ án hình sự"
+          "Đội Du kích Bắc Sơn",
+          "Đội Tự vệ Đỏ",
+          "Đội Cứu quốc quân",
+          "Đội Tự vệ Cảm tử"
         ],
         "correct": 1,
-        "explanation": "Công đoàn là tổ chức chính trị - xã hội rộng lớn của giai cấp công nhân, là cầu nối giữa Đảng với công nhân, chăm lo bảo vệ quyền lợi người lao động.",
-        "trapAnalysis": "Tổ chức quần chúng đại diện, chăm lo bảo vệ quyền lợi công nhân."
+        "explanation": "Chính quyền Xô viết đã tổ chức ra các 'Đội Tự vệ Đỏ' làm nòng cốt bảo vệ trật tự trị an và trừng trị bọn phản cách mạng.",
+        "trapAnalysis": "Lực lượng vũ trang thời Xô viết 1930 mang tên 'Tự vệ Đỏ' (Xích vệ đội)."
       },
       {
         "id": 28,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Thông hiểu",
-        "question": "Giai cấp công nhân hiện nay có biểu hiện mới nào của 'xã hội hóa lao động'?",
+        "question": "Luận cương chính trị tháng 10/1930 xác định động lực chính của cách mạng là:",
         "options": [
-          "Sản xuất khép kín trong từng gia đình nhỏ",
-          "Phân công lao động mang tính toàn cầu, chuỗi cung ứng quốc tế liên kết xuyên biên giới",
-          "Không cần liên hệ giữa các phân xưởng",
-          "Cấm buôn bán xuất nhập khẩu hàng hóa"
+          "Giai cấp công nhân và nông dân",
+          "Giai cấp công nhân và tầng lớp trí thức",
+          "Giai cấp nông dân và tiểu tư sản thành thị",
+          "Toàn thể các giai cấp và tầng lớp dân tộc"
         ],
-        "correct": 1,
-        "explanation": "Slide: Biểu hiện mới của xã hội hóa lao động: chuỗi giá trị toàn cầu, dây chuyền sản xuất đa quốc gia, hợp tác kỹ thuật số xuyên lục địa.",
-        "trapAnalysis": "Phân công lao động toàn cầu, chuỗi cung ứng quốc tế."
+        "correct": 0,
+        "explanation": "Luận cương xác định công nhân và nông dân là hai động lực chính của cách mạng tư sản dân quyền, trong đó công nhân là giai cấp lãnh đạo.",
+        "trapAnalysis": "Cả Cương lĩnh và Luận cương đều xem công nhân và nông dân là động lực chính."
       },
       {
         "id": 29,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Thông hiểu",
-        "question": "Vì sao nói Đảng Cộng sản là đội tiên phong của GCCN mà không phải là của giai cấp tư sản?",
+        "question": "Tại sao Luận cương tháng 10/1930 lại không nêu khẩu hiệu lôi kéo tư sản dân tộc và trung tiểu địa chủ?",
         "options": [
-          "Vì Đảng được cấu thành từ những người công nhân và chiến đấu vì mục tiêu xóa bỏ bóc lột, giải phóng giai cấp vô sản",
-          "Vì nhà nước tư sản cấm tư sản vào Đảng",
-          "Vì Đảng không cho người giàu tham gia biểu tình",
-          "Vì Đảng chỉ tuyển dụng người biết lái xe buýt"
+          "Vì cho rằng họ có quyền lợi gắn chặt với đế quốc và phong kiến",
+          "Vì họ không biết chữ và không hiểu lý luận cách mạng",
+          "Vì họ đã di cư hết sang các nước tư bản phương Tây",
+          "Vì chính quyền thực dân Pháp đã xóa sổ hoàn toàn các giai cấp này"
         ],
         "correct": 0,
-        "explanation": "Đảng Cộng sản đại biểu trung thành cho lợi ích của GCCN và nhân dân lao động, lấy chủ nghĩa Mác - Lênin làm nền tảng kim chỉ nam.",
-        "trapAnalysis": "Chiến đấu vì mục tiêu xóa bỏ áp bức bóc lột, giải phóng GCCN."
+        "explanation": "Do nhận thức giáo điều về vấn đề giai cấp từ Quốc tế Cộng sản thời kỳ đó, Luận cương coi toàn bộ giai cấp tư sản và địa chủ là đối tượng của cách mạng.",
+        "trapAnalysis": "Hạn chế mang tính lịch sử: Đồng nhất tư sản dân tộc với tư sản mại bản, chưa thấy tính chất hai mặt của họ."
       },
       {
         "id": 30,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Sự lãnh đạo của Đảng Cộng sản đối với nhà nước XHCN được thực hiện theo nguyên tắc nào?",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Đồng chí Nguyễn Đức Cảnh - người sáng lập Tổng Công hội Đỏ Bắc Kỳ - bị địch xử chém tại đâu năm 1932?",
         "options": [
-          "Đảng bao biện, làm thay mọi công việc của các cơ quan nhà nước",
-          "Đảng lãnh đạo nhà nước thông qua đường lối, chủ trương, công tác cán bộ và kiểm tra giám sát, hoạt động trong khuôn khổ Hiến pháp và pháp luật",
-          "Đảng đứng ngoài pháp luật và không cần tuân thủ hiến pháp",
-          "Đảng chỉ đạo bằng các mệnh lệnh miệng bí mật"
+          "Hải Phòng",
+          "Hà Nội",
+          "Côn Đảo",
+          "Sài Gòn"
         ],
-        "correct": 1,
-        "explanation": "Đảng lãnh đạo Nhà nước nhưng không làm thay; Nhà nước thể chế hóa đường lối của Đảng thành luật pháp và quản lý xã hội bằng pháp luật.",
-        "trapAnalysis": "Đảng lãnh đạo thông qua đường lối, cán bộ và trong khuôn khổ pháp luật."
+        "correct": 0,
+        "explanation": "Đồng chí Nguyễn Đức Cảnh bị thực dân Pháp bắt và xử chém tại nhà lao Hải Phòng ngày 31/7/1932, nêu tấm gương bất khuất trước máy chém quân thù.",
+        "trapAnalysis": "Đồng chí Nguyễn Đức Cảnh hy sinh tại Hải Phòng năm 1932."
+      },
+      {
+        "id": 31,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Ai là người giữ chức Tổng Bí thư Ban Chấp hành Trung ương Đảng sau Đại hội I (giai đoạn 1936 - 1938)?",
+        "options": [
+          "Hà Huy Tập",
+          "Lê Hồng Phong",
+          "Nguyễn Văn Cừ",
+          "Trần Phú"
+        ],
+        "correct": 0,
+        "explanation": "Đồng chí Hà Huy Tập giữ chức Tổng Bí thư của Đảng từ tháng 7/1936 đến tháng 3/1938, có công lớn trong việc khôi phục và chỉ đạo phong trào.",
+        "trapAnalysis": "Lê Hồng Phong (1935 - 1936), Hà Huy Tập (1936 - 1938), Nguyễn Văn Cừ (1938 - 1940)."
+      },
+      {
+        "id": 32,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Thông hiểu",
+        "question": "Hội nghị Ban Chấp hành Trung ương Đảng họp tại Thượng Hải (tháng 7/1936) do ai chủ trì?",
+        "options": [
+          "Lê Hồng Phong",
+          "Hà Huy Tập",
+          "Nguyễn Văn Cừ",
+          "Trường Chinh"
+        ],
+        "correct": 0,
+        "explanation": "Hội nghị Trung ương tháng 7/1936 họp tại Thượng Hải (Trung Quốc) do đồng chí Lê Hồng Phong - Ủy viên Ban Chấp hành Quốc tế Cộng sản - chủ trì.",
+        "trapAnalysis": "Hội nghị Thượng Hải (7/1936) do đồng chí Lê Hồng Phong chủ trì định ra đường lối mới cho thời kỳ 1936-1939."
+      },
+      {
+        "id": 33,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Thông hiểu",
+        "question": "Hình thức đấu tranh nghị trường trong thời kỳ 1936 - 1939 được Đảng tận dụng như thế nào?",
+        "options": [
+          "Đưa người của Đảng và Mặt trận ứng cử vào Viện Dân biểu và Hội đồng Quản hạt",
+          "Vận động nhân dân tẩy chay hoàn toàn các cuộc bỏ phiếu bầu cử",
+          "Thỏa hiệp với chính quyền thuộc địa để nhận ghế quan chức cao cấp",
+          "Biến các viện dân biểu thành căn cứ địa quân sự bí mật"
+        ],
+        "correct": 0,
+        "explanation": "Đảng triệt để lợi dụng diễn đàn hợp pháp, đưa các chiến sĩ ưu tú ứng cử vào Viện Dân biểu Bắc Kỳ, Trung Kỳ và Hội đồng Quản hạt Nam Kỳ để vạch trần tội ác thực dân.",
+        "trapAnalysis": "Đấu tranh nghị trường là lợi dụng các cơ quan dân cử để nói lên tiếng nói của nhân dân, không phải thỏa hiệp chính trị."
+      },
+      {
+        "id": 34,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Tổng Bí thư trẻ tuổi nhất trong lịch sử Đảng Cộng sản Việt Nam được bầu vào tháng 3/1938 là ai?",
+        "options": [
+          "Nguyễn Văn Cừ",
+          "Trần Phú",
+          "Hà Huy Tập",
+          "Trường Chinh"
+        ],
+        "correct": 0,
+        "explanation": "Đồng chí Nguyễn Văn Cừ được bầu làm Tổng Bí thư tại Hội nghị Trung ương tháng 3/1938 khi mới 26 tuổi.",
+        "trapAnalysis": "Nguyễn Văn Cừ là Tổng Bí thư trẻ nhất của Đảng (26 tuổi khi nhậm chức năm 1938)."
+      },
+      {
+        "id": 35,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Thông hiểu",
+        "question": "Mục tiêu trọng tâm của tác phẩm 'Tự chỉ trích' (1939) của Nguyễn Văn Cừ là:",
+        "options": [
+          "Thành thật vạch khuyết điểm, củng cố kỷ luật và tăng cường đoàn kết nội bộ Đảng",
+          "Công kích cá nhân các đồng chí lãnh đạo trong Ban Chấp hành Trung ương",
+          "Thừa nhận sự bế tắc của phong trào dân chủ trước sự đàn áp của giặc",
+          "Kêu gọi các đảng viên tự rút lui khỏi hoạt động cách mạng bí mật"
+        ],
+        "correct": 0,
+        "explanation": "Tác phẩm nêu rõ: 'Phải thành thực vạch những khuyết điểm và tìm phương pháp sửa chữa... để làm cho Đảng càng ngày càng thống nhất, càng mạnh'.",
+        "trapAnalysis": "'Tự chỉ trích' là mẫu mực về tự phê bình và phê bình mang tính xây dựng, đoàn kết Đảng."
+      },
+      {
+        "id": 36,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Vận dụng",
+        "question": "Điểm tiến bộ vượt bậc của Đảng trong phong trào 1936 - 1939 so với giai đoạn 1930 - 1931 là:",
+        "options": [
+          "Nghệ thuật kết hợp tài tình các hình thức đấu tranh công khai và bí mật",
+          "Xây dựng thành công lực lượng không quân và pháo binh cách mạng",
+          "Xóa bỏ hoàn toàn tình trạng mù chữ trong toàn thể giai cấp công nhân",
+          "Đã tiến hành khởi nghĩa từng phần thắng lợi ở các thành phố lớn"
+        ],
+        "correct": 0,
+        "explanation": "Bước trưởng thành lớn nhất là nghệ thuật sử dụng các hình thức đấu tranh linh hoạt: công khai, nửa công khai, hợp pháp, nửa hợp pháp kết hợp chặt chẽ với bí mật bất hợp pháp.",
+        "trapAnalysis": "Nghệ thuật kết hợp các hình thức đấu tranh phong phú là bước tiến vượt bậc của Đảng thời kỳ 1936-1939."
+      },
+      {
+        "id": 37,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Sau khi Thế chiến II bùng nổ, Toàn quyền Pháp Catroux đã thi hành chính sách gì ở Đông Dương?",
+        "options": [
+          "Đặt Đảng Cộng sản ra ngoài vòng pháp luật và tổng động viên thời chiến",
+          "Nới lỏng các quyền tự do dân chủ để tranh thủ nhân dân",
+          "Rút toàn bộ bộ máy cảnh sát mật thám về nước Pháp",
+          "Trao trả độc lập ngay cho triều đình nhà Nguyễn"
+        ],
+        "correct": 0,
+        "explanation": "Tháng 9/1939, Pháp thi hành sắc lệnh giải tán các hội hữu ái, đóng cửa báo chí tiến bộ, đặt Đảng CS ra ngoài vòng pháp luật và thi hành chính sách vơ vét kinh tế thời chiến.",
+        "trapAnalysis": "Pháp thực hiện chính sách 'kinh tế chỉ huy', thẳng tay khủng bố trắng lực lượng cách mạng."
+      },
+      {
+        "id": 38,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Tên gọi Mặt trận thống nhất được quyết định thành lập tại Hội nghị Trung ương 6 (11/1939) là:",
+        "options": [
+          "Mặt trận Thống nhất Dân tộc Phản đế Đông Dương",
+          "Mặt trận Việt Nam Độc lập Đồng minh",
+          "Mặt trận Dân chủ Đông Dương",
+          "Mặt trận Thống nhất Công Nông Đông Dương"
+        ],
+        "correct": 0,
+        "explanation": "HNTW 6 quyết định thành lập Mặt trận Thống nhất Dân tộc Phản đế Đông Dương nhằm tập hợp mọi lực lượng chống chiến tranh và ách thống trị đế quốc.",
+        "trapAnalysis": "Mặt trận Phản đế Đông Dương gắn với HNTW 6 (11/1939); Mặt trận Việt Minh gắn với HNTW 8 (5/1941)."
+      },
+      {
+        "id": 39,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Hội nghị Trung ương lần thứ 7 (tháng 11/1940) đã quyết định duy trì lực lượng vũ trang nào?",
+        "options": [
+          "Đội du kích Bắc Sơn",
+          "Đội Cứu quốc quân II",
+          "Việt Nam Giải phóng quân",
+          "Tự vệ chiến đấu cứu quốc"
+        ],
+        "correct": 0,
+        "explanation": "HNTW 7 họp tại làng Đình Bảng (Từ Sơn, Bắc Ninh) quyết định duy trì đội du kích Bắc Sơn để làm hạt nhân xây dựng lực lượng vũ trang cách mạng sau này.",
+        "trapAnalysis": "HNTW 7 chủ trương duy trì và củng cố đội du kích Bắc Sơn."
+      },
+      {
+        "id": 40,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Vì sao Hội nghị Trung ương 8 (5/1941) chủ trương thành lập Mặt trận Việt Minh riêng cho Việt Nam?",
+        "options": [
+          "Để giải quyết vấn đề dân tộc trong khuôn khổ từng nước ở Đông Dương",
+          "Vì nhân dân Lào và Campuchia từ chối tham gia cách mạng",
+          "Vì thực dân Pháp đã rút hoàn toàn khỏi lãnh thổ Lào và Campuchia",
+          "Vì Quốc tế Cộng sản yêu cầu giải tán liên minh ba nước Đông Dương"
+        ],
+        "correct": 0,
+        "explanation": "Chủ trương giải quyết vấn đề dân tộc trong khuôn khổ từng nước nhằm phát huy tối đa tinh thần tự quyết và truyền thống yêu nước của mỗi dân tộc (Việt Nam lập Việt Minh, Lào lập Ai Lao Độc lập Đồng minh, Campuchia lập Cao Miên Độc lập Đồng minh).",
+        "trapAnalysis": "Sáng tạo lớn của HNTW 8 là giải quyết vấn đề dân tộc trong khuôn khổ từng quốc gia riêng biệt."
+      },
+      {
+        "id": 41,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Tại Hội nghị Trung ương 8 (tháng 5/1941), đồng chí nào được bầu làm Tổng Bí thư của Đảng?",
+        "options": [
+          "Trường Chinh",
+          "Hồ Chí Minh",
+          "Võ Nguyên Giáp",
+          "Hoàng Văn Thụ"
+        ],
+        "correct": 0,
+        "explanation": "Hội nghị TW 8 đã bầu Ban Chấp hành Trung ương chính thức và bầu đồng chí Trường Chinh làm Tổng Bí thư của Đảng.",
+        "trapAnalysis": "Đồng chí Trường Chinh được bầu làm Tổng Bí thư tại HNTW 8 (5/1941)."
+      },
+      {
+        "id": 42,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Bức thư 'Kính cáo đồng bào' (tháng 6/1941) của Nguyễn Ái Quốc kêu gọi điều gì?",
+        "options": [
+          "Toàn thể đồng bào đoàn kết muôn người như một để cứu nước cứu nhà",
+          "Kêu gọi các nhà tư bản đầu tư phát triển công nghiệp đồn điền",
+          "Đòi thực dân Pháp tăng lương giảm giờ làm cho thợ thuyền",
+          "Khuyên nhân dân bảo toàn tính mạng chờ đợi hòa bình thế giới"
+        ],
+        "correct": 0,
+        "explanation": "Trong bức thư 'Kính cáo đồng bào' ngày 6/6/1941, Người thiết tha kêu gọi: 'Hiện thời muốn cứu nước, không có con đường nào khác hơn là toàn dân đoàn kết một lòng'.",
+        "trapAnalysis": "'Kính cáo đồng bào' là lời hịch non sông thức tỉnh khối đại đoàn kết toàn dân tộc đứng lên cứu nước."
+      },
+      {
+        "id": 43,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Hội Văn hóa Cứu quốc Việt Nam được thành lập năm 1944 là thành viên của tổ chức nào?",
+        "options": [
+          "Mặt trận Việt Minh",
+          "Đảng Xã hội Việt Nam",
+          "Tổng Liên đoàn Lao động",
+          "Đoàn Thanh niên Tiền phong"
+        ],
+        "correct": 0,
+        "explanation": "Hội Văn hóa Cứu quốc Việt Nam (thành lập 1944) là một đoàn thể cứu quốc nằm trong Mặt trận Việt Minh, tập hợp giới văn nghệ sĩ, trí thức yêu nước.",
+        "trapAnalysis": "Hội Văn hóa Cứu quốc là thành viên trực thuộc Mặt trận Việt Minh."
+      },
+      {
+        "id": 44,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Chỉ thị 12/3/1945 đề ra khẩu hiệu thay thế cho khẩu hiệu 'thành lập chính quyền Xô viết' là gì?",
+        "options": [
+          "Chính quyền cách mạng của nhân dân hoặc Ủy ban Dân tộc Giải phóng",
+          "Nhà nước quân chủ lập hiến dân tộc",
+          "Hội đồng ủy trị quốc tế Đông Dương",
+          "Chính phủ liên hiệp bảo hộ Pháp - Việt"
+        ],
+        "correct": 0,
+        "explanation": "Chỉ thị xác định thành lập các Ủy ban Dân tộc Giải phóng hoặc chính quyền cách mạng nhân dân ở những vùng đã giải phóng.",
+        "trapAnalysis": "Chính quyền nhân dân / Ủy ban Dân tộc Giải phóng là hình thức chính quyền phù hợp với tính chất giải phóng dân tộc."
+      },
+      {
+        "id": 45,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Cuộc Khởi nghĩa Ba Tơ (Quảng Ngãi) nổ ra vào ngày tháng năm nào ngay sau đảo chính Nhật?",
+        "options": [
+          "11/03/1945",
+          "09/03/1945",
+          "12/03/1945",
+          "15/04/1945"
+        ],
+        "correct": 0,
+        "explanation": "Ngày 11/3/1945, các chiến sĩ cộng sản bị giam ở căng an trí Ba Tơ đã lãnh đạo nhân dân khởi nghĩa cướp đồn địch và thành lập Đội Du kích Ba Tơ anh hùng.",
+        "trapAnalysis": "Khởi nghĩa Ba Tơ (Quảng Ngãi) nổ ra ngày 11/3/1945 ngay sau đêm Nhật đảo chính."
+      },
+      {
+        "id": 46,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Nội dung nào KHÔNG nằm trong Nghị quyết của Hội nghị toàn quốc của Đảng họp tại Tân Trào (14 - 15/8/1945)?",
+        "options": [
+          "Quyết định phát động Tổng khởi nghĩa giành chính quyền trong cả nước",
+          "Đề ra 3 nguyên tắc khởi nghĩa: Tập trung, Thống nhất, Kịp thời",
+          "Chủ trương liên minh quân sự với quân đội Tưởng Giới Thạch",
+          "Đề ra chính sách đối nội, đối ngoại sẵn sàng tiếp đón Đồng minh"
+        ],
+        "correct": 2,
+        "explanation": "Hội nghị toàn quốc chủ trương triệt để tranh thủ thế chủ động giành chính quyền trước khi quân Đồng minh (kể cả quân Tưởng) vào nước ta, tuyệt đối không liên minh quân sự phụ thuộc vào họ.",
+        "trapAnalysis": "Phương châm là giành độc lập trước khi Đồng minh vào, không liên minh ủy thác cho quân Tưởng."
+      },
+      {
+        "id": 47,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Mười chính sách lớn của Việt Minh được cơ quan quyền lực nào chính thức thông qua vào tháng 8/1945?",
+        "options": [
+          "Đại hội Quốc dân Tân Trào",
+          "Hội nghị Ban Thường vụ TW Đảng",
+          "Hội nghị Quân sự cách mạng Bắc Kỳ",
+          "Quốc hội khóa I nước Việt Nam DCCH"
+        ],
+        "correct": 0,
+        "explanation": "Quốc dân Đại hội Tân Trào (16 - 17/8/1945) - được ví như Quốc hội lâm thời - đã chính thức thông qua 10 chính sách lớn của Việt Minh.",
+        "trapAnalysis": "Đại hội Quốc dân Tân Trào (16-17/8/1945) là nơi thông qua 10 chính sách của Việt Minh."
+      },
+      {
+        "id": 48,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Khẩu hiệu nổi tiếng nào được truyền đi trong những ngày sục sôi của Cách mạng Tháng Tám năm 1945?",
+        "options": [
+          "Đem sức ta mà tự giải phóng cho ta",
+          "Vô sản tất cả các nước liên hiệp lại",
+          "Tất cả cho tiền tuyến, tất cả để chiến thắng",
+          "Không có gì quý hơn độc lập tự do"
+        ],
+        "correct": 0,
+        "explanation": "Chủ tịch Hồ Chí Minh đã ra lời kêu gọi Tổng khởi nghĩa: 'Giờ quyết định cho vận mệnh dân tộc ta đã đến. Toàn quốc đồng bào hãy đứng dậy đem sức ta mà tự giải phóng cho ta!'.",
+        "trapAnalysis": "Lời hiệu triệu thiêng liêng: 'Đem sức ta mà tự giải phóng cho ta'."
+      },
+      {
+        "id": 49,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Bản Tuyên ngôn Độc lập ngày 2/9/1945 được Chủ tịch Hồ Chí Minh soạn thảo tại địa chỉ nào ở Hà Nội?",
+        "options": [
+          "Số 48 phố Hàng Ngang",
+          "Số 5D phố Hàm Long",
+          "Số 312 phố Khâm Thiên",
+          "Số 90 phố Thợ Nhuộm"
+        ],
+        "correct": 0,
+        "explanation": "Tại tầng 2 căn nhà số 48 phố Hàng Ngang (Hà Nội), Chủ tịch Hồ Chí Minh đã viết bản Tuyên ngôn Độc lập bất hủ lịch sử.",
+        "trapAnalysis": "48 Hàng Ngang là nơi Bác soạn Tuyên ngôn Độc lập."
+      },
+      {
+        "id": 50,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Vận dụng",
+        "question": "Ý nghĩa quốc tế sâu sắc nhất của Cách mạng Tháng Tám năm 1945 ở Việt Nam là:",
+        "options": [
+          "Mở đầu kỷ nguyên sụp đổ của hệ thống thuộc địa của chủ nghĩa thực dân cũ",
+          "Buộc các nước đế quốc phải bồi thường chiến phí cho các nước thuộc địa",
+          "Dẫn tới việc thành lập Khối quân sự Vac-sơ-va ở châu Âu",
+          "Chấm dứt hoàn toàn cuộc Chiến tranh Lạnh giữa hai cực Xô - Mỹ"
+        ],
+        "correct": 0,
+        "explanation": "Thắng lợi của CMT8 là phát súng lệnh mở đầu cho sự sụp đổ dây chuyền của chủ nghĩa thực dân kiểu cũ trên phạm vi toàn thế giới, cổ vũ mạnh mẽ phong trào giải phóng dân tộc.",
+        "trapAnalysis": "CMT8 chọc thủng khâu yếu nhất trong sợi dây xích của chủ nghĩa thực dân, mở màn sự sụp đổ của hệ thống thuộc địa."
       }
     ]
   },
   {
     "id": "de_05",
     "code": "MÃ ĐỀ: 105",
-    "title": "Đề 05: Giai Cấp Công Nhân Việt Nam & GCCN Trong Thế Giới Hiện Nay",
-    "description": "Thời điểm ra đời GCCN Việt Nam, điểm tương đồng với thế kỷ XIX và các biến đổi: trí tuệ hóa, trung lưu hóa, xã hội hóa lao động.",
-    "duration": 15,
+    "title": "Đề 05: Cao Trào Dân Chủ 1936 - 1939 & Chuyển Hướng Chiến Lược",
+    "description": "Bộ đề tập trung vào các hình thức đấu tranh dân chủ 1936 - 1939 và quá trình chuyển hướng chỉ đạo chiến lược qua các Hội nghị Trung ương 6, 7, 8.",
+    "duration": 40,
     "questions": [
       {
         "id": 1,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Nhận biết",
-        "question": "Giai cấp công nhân Việt Nam ra đời trong hoàn cảnh lịch sử nào?",
+        "question": "Vua Hàm Nghi ban Chiếu Cần Vương lần đầu tiên vào ngày tháng năm nào?",
         "options": [
-          "Trong phong trào khởi nghĩa Tây Sơn",
-          "Trong cuộc khai thác thuộc địa của thực dân Pháp vào đầu thế kỷ XX",
-          "Sau khi đất nước hoàn toàn giải phóng năm 1975",
-          "Thời kỳ các vua Hùng dựng nước"
+          "13/07/1885",
+          "05/07/1885",
+          "19/08/1885",
+          "01/09/1885"
         ],
-        "correct": 1,
-        "explanation": "Vở ghi: Giai cấp công nhân ở Việt Nam ra đời vào đầu thế kỷ XX trong các đồn điền, hầm mỏ, xí nghiệp của thực dân Pháp.",
-        "trapAnalysis": "Ra đời đầu thế kỷ XX trong cuộc khai thác thuộc địa của Pháp."
+        "correct": 0,
+        "explanation": "Ngày 13/7/1885, tại căn cứ Tân Sở (Cam Lộ, Quảng Trị), phụ chính đại thần Tôn Thất Thuyết nhân danh vua Hàm Nghi ban Chiếu Cần Vương.",
+        "trapAnalysis": "Ngày 5/7/1885 là vụ biến kinh thành Huế; ngày 13/7/1885 là ngày ban Chiếu Cần Vương."
       },
       {
         "id": 2,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Giai cấp công nhân Việt Nam ra đời TRƯỚC hay SAU giai cấp tư sản dân tộc Việt Nam?",
+        "question": "Tính chất nửa phong kiến của xã hội Việt Nam thời thuộc địa thể hiện rõ nhất ở điểm nào?",
         "options": [
-          "Ra đời sau giai cấp tư sản dân tộc rất lâu",
-          "Ra đời trước giai cấp tư sản dân tộc Việt Nam",
-          "Ra đời cùng một ngày với giai cấp tư sản",
-          "Giai cấp tư sản không bao giờ xuất hiện ở Việt Nam"
+          "Chế độ sở hữu ruộng đất phong kiến và giai cấp địa chủ vẫn được Pháp duy trì dung dưỡng",
+          "Vua nhà Nguyễn vẫn nắm toàn bộ quyền lực quân đội và tài chính quốc gia",
+          "Tất cả ruộng đất trong cả nước đều thuộc quyền sở hữu của triều đình",
+          "Giai cấp nông dân được tự do bầu cử đại biểu địa phương"
         ],
-        "correct": 1,
-        "explanation": "Do chính sách khai thác thuộc địa của Pháp, giai cấp công nhân Việt Nam ra đời trước cả giai cấp tư sản dân tộc Việt Nam.",
-        "trapAnalysis": "Ra đời TRƯỚC giai cấp tư sản dân tộc Việt Nam."
+        "correct": 0,
+        "explanation": "Thực dân Pháp câu kết với giai cấp địa chủ phong kiến, duy trì phương thức bóc lột địa tô phong kiến để làm chỗ dựa cho bộ máy cai trị thuộc địa.",
+        "trapAnalysis": "'Nửa phong kiến' vì Pháp duy trì quan hệ sản xuất phong kiến lỗi thời để phục vụ cai trị."
       },
       {
         "id": 3,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Nguồn gốc xuất thân chủ yếu của giai cấp công nhân Việt Nam là từ đâu?",
+        "question": "Nguyên nhân trực tiếp khiến giai cấp nông dân Việt Nam có tinh thần cách mạng quật cường nhất là:",
         "options": [
-          "Từ tầng lớp địa chủ phong kiến phá sản",
-          "Từ giai cấp nông dân bị tước đoạt ruộng đất và bần cùng hóa",
-          "Từ tầng lớp quý tộc hoàng gia",
-          "Từ thợ thủ công nhập cư nước ngoài"
+          "Chịu ba tầng áp bức bóc lột nặng nề của đế quốc, phong kiến và tư sản",
+          "Được tiếp thu các tác phẩm lý luận kinh điển của phương Tây",
+          "Có tổ chức nghiệp đoàn và công đoàn công khai bảo vệ",
+          "Nắm giữ các cơ sở kinh tế hàng hóa lớn ở đô thị"
         ],
-        "correct": 1,
-        "explanation": "Giai cấp công nhân Việt Nam phần lớn xuất thân trực tiếp từ nông dân nghèo bị thực dân và phong kiến cướp bóc ruộng đất.",
-        "trapAnalysis": "Xuất thân chủ yếu từ giai cấp nông dân."
+        "correct": 0,
+        "explanation": "Nông dân bị tước đoạt ruộng đất, bị sưu cao thuế nặng và áp bức tàn tệ nhất, nên họ có lòng căm thù giặc sâu sắc và tinh thần đấu tranh quyết liệt.",
+        "trapAnalysis": "Nông dân bị bần cùng hóa và chịu áp bức nặng nề nhất nên là động lực cách mạng to lớn nhất."
       },
       {
         "id": 4,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Mối quan hệ tự nhiên giữa giai cấp công nhân và giai cấp nông dân ở Việt Nam là gì?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Nhận biết",
+        "question": "Người chế tạo thành công súng trường theo mẫu súng của quân đội Pháp trong khởi nghĩa Hương Khê là ai?",
         "options": [
-          "Quan hệ thù địch xung đột quyền lợi",
-          "Quan hệ ruột thịt máu thịt, cùng chung nỗi đau mất nước và bị áp bức bóc lột",
-          "Quan hệ buôn bán cạnh tranh khốc liệt",
-          "Không có bất kỳ mối quan hệ nào"
+          "Cao Thắng",
+          "Phan Đình Phùng",
+          "Đinh Công Tráng",
+          "Nguyễn Chanh"
         ],
-        "correct": 1,
-        "explanation": "Công nhân và nông dân Việt Nam có mối quan hệ tự nhiên gắn bó máu thịt, tạo điều kiện thuận lợi xây dựng khối liên minh công nông vững chắc.",
-        "trapAnalysis": "Quan hệ máu thịt, đồng cảm sâu sắc."
+        "correct": 0,
+        "explanation": "Tướng quân Cao Thắng - cánh tay phải của Phan Đình Phùng - đã dày công nghiên cứu tháo lắp và đúc rèn thành công súng trường kiểu 1874 của Pháp.",
+        "trapAnalysis": "Cao Thắng là danh tướng chế tạo súng trường trong phong trào Cần Vương."
       },
       {
         "id": 5,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Giai cấp công nhân Việt Nam phải chịu tầng tầng lớp lớp ách áp bức bóc lột của những thế lực nào?",
+        "question": "Tại sao khởi nghĩa Yên Thế (1884 - 1913) có thể duy trì chiến đấu bền bỉ suốt gần 30 năm?",
         "options": [
-          "Chỉ bị áp bức bởi địa chủ trong làng",
-          "Chịu ba tầng áp bức bóc lột: thực dân Pháp, phong kiến tay sai và tư bản",
-          "Không bị ai bóc lột",
-          "Chỉ bị bóc lột bởi các công ty liên doanh"
+          "Có sự lãnh đạo tài tình của Hoàng Hoa Thám và cách đánh du kích sáng tạo dựa vào rừng núi",
+          "Được quân đội nhà Thanh ở Trung Quốc sang chi viện thường xuyên",
+          "Được trang bị tàu chiến và đại bác tầm xa hiện đại",
+          "Thực dân Pháp không dám tiến công vào vùng Yên Thế"
         ],
-        "correct": 1,
-        "explanation": "Công nhân Việt Nam chịu ba tầng áp bức: thực dân, phong kiến và tư sản, nên tinh thần đấu tranh cách mạng vô cùng kiên cường và triệt để.",
-        "trapAnalysis": "Ba tầng áp bức: Thực dân, phong kiến và tư bản."
+        "correct": 0,
+        "explanation": "Nghĩa quân Yên Thế dựa vào núi rừng rậm rạp hiểm trở, lòng dân ủng hộ và tài thao lược du kích xuất sắc của 'Hùm xám Yên Thế' Hoàng Hoa Thám.",
+        "trapAnalysis": "Yên Thế trường kỳ chiến đấu nhờ chiến thuật du kích tài tình và dựa vào căn cứ địa rừng núi."
       },
       {
         "id": 6,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Đảng Cộng sản Việt Nam ra đời là sản phẩm của sự kết hợp giữa ba yếu tố nào?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Nhận biết",
+        "question": "Phong trào Đông Du (1905 - 1908) bị tan rã xuất phát từ nguyên nhân trực tiếp nào?",
         "options": [
-          "Chủ nghĩa Mác - Lênin + Phong trào công nhân + Phong trào yêu nước",
-          "Chủ nghĩa Mác + Phong trào nông dân + Nho giáo",
-          "Kinh tế thị trường + Phong trào sinh viên + Phong trào Phật giáo",
-          "Triết học Đức + Phong trào giải phóng phụ nữ + Công đoàn"
+          "Chính phủ Nhật Bản câu kết với Pháp trục xuất lưu học sinh Việt Nam",
+          "Các du học sinh Việt Nam tốt nghiệp về nước hết",
+          "Cụ Phan Bội Châu quyết định giải tán để lập chiến khu",
+          "Các nhà tài trợ phong kiến cắt đứt nguồn tài chính"
         ],
         "correct": 0,
-        "explanation": "Chủ tịch Hồ Chí Minh khẳng định: Chủ nghĩa Mác - Lênin kết hợp với phong trào công nhân và phong trào yêu nước đã dẫn tới việc thành lập Đảng CSVN năm 1930.",
-        "trapAnalysis": "Việt Nam có thêm yếu tố thứ 3: Phong trào yêu nước."
+        "explanation": "Tháng 9/1908, thực dân Pháp câu kết với chính phủ Nhật (cho Pháp vay tiền để đổi lấy việc trục xuất người Việt), Nhật ra lệnh trục xuất Phan Bội Châu và du học sinh.",
+        "trapAnalysis": "Nhật bắt tay với Pháp trục xuất lưu học sinh Việt Nam, làm phong trào Đông Du tan rã."
       },
       {
         "id": 7,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Vì sao việc kết hợp thêm 'Phong trào yêu nước' là sáng tạo lý luận lớn của Chủ tịch Hồ Chí Minh?",
+        "question": "Điểm hạn chế lớn nhất trong chủ trương cải cách của cụ Phan Châu Trinh là gì?",
         "options": [
-          "Vì phong trào yêu nước ở Việt Nam có truyền thống hàng ngàn năm, là động lực to lớn thu hút toàn thể dân tộc đứng lên cứu nước",
-          "Vì Việt Nam không có công nhân",
-          "Vì chủ nghĩa Mác yêu cầu bắt buộc phải có",
-          "Vì phong trào công nhân không muốn đấu tranh"
+          "Ảo tưởng dựa vào lòng nhân từ của chính phủ thực dân Pháp để đánh đổ phong kiến",
+          "Kêu gọi nông dân nổi dậy khởi nghĩa vũ trang cướp chính quyền",
+          "Chỉ chú trọng phát triển công nghiệp mà bỏ bê giáo dục",
+          "Phản đối việc truyền bá chữ Quốc ngữ cho đồng bào"
         ],
         "correct": 0,
-        "explanation": "Ở một nước thuộc địa như Việt Nam, lòng yêu nước là ngọn cờ tập hợp sức mạnh to lớn nhất của mọi tầng lớp nhân dân.",
-        "trapAnalysis": "Truyền thống yêu nước ngàn năm là động lực cách mạng vĩ đại."
+        "explanation": "Cụ Phan Châu Trinh chủ trương 'ỷ Pháp cầu tiến bộ', dựa vào chính kẻ đang cướp nước mình để cải cách văn minh là điều ảo tưởng, không tưởng.",
+        "trapAnalysis": "Hạn chế của Phan Châu Trinh: Ảo tưởng vào sự giúp đỡ của thực dân Pháp (xin giặc rủ lòng thương)."
       },
       {
         "id": 8,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Nhận biết",
-        "question": "Đảng Cộng sản Việt Nam được chính thức thành lập vào ngày tháng năm nào?",
+        "question": "Tờ báo tiến bộ nào bằng tiếng Pháp do Nguyễn An Ninh xuất bản tại Sài Gòn năm 1923?",
         "options": [
-          "03/02/1930",
-          "19/08/1945",
-          "02/09/1945",
-          "30/04/1975"
+          "Chuông rè (La Cloche Fêlée)",
+          "Người cùng khổ (Le Paria)",
+          "Việt Nam hồn",
+          "Nhân đạo (L'Humanité)"
         ],
         "correct": 0,
-        "explanation": "Đảng Cộng sản Việt Nam ra đời ngày 3/2/1930 tại Hội nghị hợp nhất các tổ chức cộng sản do Nguyễn Ái Quốc chủ trì.",
-        "trapAnalysis": "Ngày thành lập Đảng: 03/02/1930."
+        "explanation": "Nhà yêu nước Nguyễn An Ninh sáng lập tờ báo 'La Cloche Fêlée' (Chuông rè) tại Sài Gòn nhằm thức tỉnh thanh niên và công kích chế độ thực dân.",
+        "trapAnalysis": "'La Cloche Fêlée' (Chuông rè) gắn liền với nhà trí thức yêu nước Nguyễn An Ninh."
       },
       {
         "id": 9,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Ngay từ khi mới ra đời, giai cấp công nhân Việt Nam đã nắm lấy ngọn cờ lãnh đạo cách mạng là nhờ:",
+        "question": "Phong trào đòi thả tự do cho cụ Phan Bội Châu (1925) và đám tang cụ Phan Châu Trinh (1926) chứng tỏ điều gì?",
         "options": [
-          "Có số lượng đông đảo chiếm 90% dân số",
-          "Sớm tiếp thu chủ nghĩa Mác - Lênin và có đội tiên phong là Đảng Cộng sản Việt Nam dẫn đường",
-          "Được chính quyền thực dân Pháp ủng hộ",
-          "Có nhiều ruộng đất phong kiến"
+          "Ý thức dân tộc và phong trào yêu nước của quần chúng thành thị đang dâng cao",
+          "Chính quyền thực dân Pháp đã nhượng bộ trao trả độc lập",
+          "Giai cấp công nhân đã hoàn toàn nắm độc quyền lãnh đạo phong trào",
+          "Khuynh hướng phong kiến đã phục hồi sức mạnh thống trị"
         ],
-        "correct": 1,
-        "explanation": "Dù số lượng ban đầu còn nhỏ bé, nhưng GCCN Việt Nam nhanh chóng nắm quyền lãnh đạo cách mạng nhờ sớm tiếp thu ánh sáng chủ nghĩa Mác - Lênin qua lãnh tụ Nguyễn Ái Quốc.",
-        "trapAnalysis": "Sớm tiếp thu CN Mác-Lênin và có Đảng CSVN lãnh đạo."
+        "correct": 0,
+        "explanation": "Hai phong trào đấu tranh chính trị sôi sục này chứng tỏ sự thức tỉnh mạnh mẽ của tinh thần dân tộc dân chủ trong tầng lớp trí thức, thanh niên và thị dân.",
+        "trapAnalysis": "Đây là đợt sóng dân chủ công khai thức tỉnh tinh thần yêu nước rộng rãi trong nhân dân đô thị."
       },
       {
         "id": 10,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Trong thời kỳ Đổi mới hiện nay, giai cấp công nhân Việt Nam đóng vai trò gì?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Nhận biết",
+        "question": "Công hội bí mật đầu tiên của công nhân Việt Nam do ai thành lập năm 1920 tại Sài Gòn?",
         "options": [
-          "Là giai cấp đi đầu trong sự nghiệp công nghiệp hóa, hiện đại hóa đất nước và hội nhập quốc tế",
-          "Thu hẹp dần và không còn cần thiết",
-          "Chuyển giao toàn bộ quyền lãnh đạo cho tư nhân",
-          "Chỉ làm việc trong khu vực kinh tế nhà nước khép kín"
+          "Tôn Đức Thắng",
+          "Nguyễn Đức Cảnh",
+          "Trần Văn Cung",
+          "Ngô Gia Tự"
         ],
         "correct": 0,
-        "explanation": "Đảng ta khẳng định: Giai cấp công nhân Việt Nam là giai cấp lãnh đạo cách mạng thông qua đội tiên phong là Đảng CSVN; đi đầu trong sự nghiệp CNH, HĐH đất nước.",
-        "trapAnalysis": "Đi đầu trong sự nghiệp công nghiệp hóa, hiện đại hóa."
+        "explanation": "Năm 1920, đồng chí Tôn Đức Thắng sau khi trở về từ Pháp đã thành lập Công hội bí mật tại xưởng Ba Son (Sài Gòn).",
+        "trapAnalysis": "Công hội Ba Son (1920) gắn liền với đồng chí Tôn Đức Thắng."
       },
       {
         "id": 11,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Điểm TƯƠNG ĐỒNG cơ bản nhất giữa giai cấp công nhân thế kỷ XXI với giai cấp công nhân thế kỷ XIX là:",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Nguyễn Ái Quốc tham gia sáng lập Đảng Cộng sản Pháp tại Đại hội Tours vào thời gian nào?",
         "options": [
-          "Vẫn là lực lượng sản xuất hàng đầu và vẫn bị bóc lột giá trị thặng dư trong các xí nghiệp TBCN",
-          "Đều sử dụng động cơ hơi nước thô sơ",
-          "Đều không biết sử dụng điện thoại thông minh",
-          "Đều chiếm đa số tuyệt đối dân số nông thôn"
+          "Tháng 12/1920",
+          "Tháng 07/1920",
+          "Tháng 06/1919",
+          "Tháng 01/1921"
         ],
         "correct": 0,
-        "explanation": "Slide: Điểm tương đồng với thế kỷ XIX: vẫn là lực lượng sản xuất hàng đầu, vẫn chịu sự bóc lột giá trị thặng dư, vẫn tồn tại xung đột lợi ích cơ bản với giai cấp tư sản.",
-        "trapAnalysis": "Vẫn là LLSX hàng đầu và vẫn bị bóc lột giá trị thặng dư."
+        "explanation": "Từ ngày 25 đến ngày 30/12/1920, tại Đại hội Tours, Người bỏ phiếu thành lập Đảng Cộng sản Pháp và trở thành người cộng sản Việt Nam đầu tiên.",
+        "trapAnalysis": "Tháng 12/1920 là mốc gia nhập Quốc tế Cộng sản và lập Đảng CS Pháp."
       },
       {
         "id": 12,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Xung đột lợi ích cơ bản giữa giai cấp công nhân và giai cấp tư sản trong CNTB ngày nay:",
+        "question": "Hình ảnh 'hai cánh của một con chim' trong tư tưởng Nguyễn Ái Quốc nói về mối quan hệ giữa:",
         "options": [
-          "Đã biến thành tình bạn thân thiết không còn tranh chấp",
-          "Vẫn tồn tại khách quan do bản chất chiếm đoạt giá trị thặng dư của nhà tư bản",
-          "Đã được xóa bỏ hoàn toàn bằng công nghệ tự động hóa",
-          "Chỉ là hiểu lầm về mặt văn hóa"
+          "Cách mạng vô sản ở chính quốc và cách mạng giải phóng dân tộc ở thuộc địa",
+          "Giai cấp công nhân và giai cấp nông dân",
+          "Lực lượng chính trị và lực lượng quân sự vũ trang",
+          "Chủ nghĩa yêu nước truyền thống và tinh thần quốc tế vô sản"
         ],
-        "correct": 1,
-        "explanation": "Dù xã hội hiện đại có nhiều thay đổi về phúc lợi, bản chất xung đột giữa người làm thuê và người chiếm hữu TLSX bóc lột vẫn tồn tại.",
-        "trapAnalysis": "Vẫn tồn tại xung đột lợi ích cơ bản khách quan."
+        "correct": 0,
+        "explanation": "Người ví chủ nghĩa đế quốc như con đỉa hai vòi, còn cách mạng vô sản ở chính quốc và cách mạng thuộc địa như hai cánh của một con chim, phải phối hợp nhịp nhàng mới bay lên được.",
+        "trapAnalysis": "Hình ảnh 'hai cánh của một con chim' biểu thị mối quan hệ mật thiết bình đẳng giữa cách mạng chính quốc và thuộc địa."
       },
       {
         "id": 13,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Biến đổi nào sau đây thể hiện sự nâng cao về mặt CHẤT LƯỢNG lao động của công nhân hiện đại?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Tại Mát-xcơ-va (1923), Nguyễn Ái Quốc được bầu vào Ban Chấp hành của tổ chức quốc tế nào?",
         "options": [
-          "Xu hướng trí tuệ hóa công nhân (công nhân tri thức)",
-          "Xu hướng giảm thời gian học tập",
-          "Xu hướng chỉ lao động tay chân",
-          "Xu hướng từ bỏ sử dụng máy vi tính"
+          "Quốc tế Nông dân",
+          "Quốc tế Thanh niên",
+          "Quốc tế Công hội đỏ",
+          "Ủy ban Chống chiến tranh đế quốc"
         ],
         "correct": 0,
-        "explanation": "Slide: Những biến đổi: xu hướng trí tuệ hóa công nhân (công nhân tri thức); tỷ lệ lao động chất xám và kỹ năng công nghệ cao ngày càng chiếm ưu thế.",
-        "trapAnalysis": "Xu hướng trí tuệ hóa công nhân (công nhân tri thức)."
+        "explanation": "Tháng 10/1923, tại Đại hội lần thứ nhất Quốc tế Nông dân, Người được bầu vào Ban Chấp hành và Đoàn Chủ tịch Quốc tế Nông dân.",
+        "trapAnalysis": "Bác được bầu vào Đoàn Chủ tịch Hội đồng Quốc tế Nông dân năm 1923."
       },
       {
         "id": 14,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Hiện tượng 'trung lưu hóa công nhân' (công nhân mua cổ phiếu nhỏ, có xe hơi, có nhà trả góp) biểu hiện biến đổi gì?",
+        "question": "Vì sao Hội Việt Nam Cách mạng Thanh niên (6/1925) được xem là tổ chức quá độ phù hợp?",
         "options": [
-          "Công nhân tham gia vào sở hữu mang tính hình thức ở mức độ vi mô",
-          "Công nhân đã trở thành chủ tịch tập đoàn tư bản",
-          "Chủ nghĩa tư bản đã biến thành chủ nghĩa cộng sản",
-          "Giai cấp tư sản đã tự nguyện phá sản"
+          "Vì trình độ giác ngộ của quần chúng lúc đó chưa thể tiếp nhận ngay Đảng Cộng sản",
+          "Vì chính quyền thực dân Pháp cho phép tổ chức này hoạt động công khai",
+          "Vì tổ chức này không mang tính chất cách mạng vô sản",
+          "Vì Quốc tế Cộng sản cấm thành lập Đảng Cộng sản ở các xứ thuộc địa"
         ],
         "correct": 0,
-        "explanation": "Slide: Biến đổi tham gia vào sở hữu (trung lưu hóa) - một bộ phận công nhân có sở hữu cổ phiếu nhỏ nhưng không nắm quyền chi phối quá trình sản xuất.",
-        "trapAnalysis": "Tham gia vào sở hữu (trung lưu hóa) mang tính hình thức vi mô."
+        "explanation": "Khi phong trào công nhân và quần chúng còn ở bước chuyển tiếp, thành lập Hội VN Cách mạng Thanh niên là hình thức quá độ sáng tạo để bồi dưỡng giác ngộ cán bộ trước khi thành lập Đảng.",
+        "trapAnalysis": "Tổ chức quá độ phù hợp với tâm lý yêu nước và trình độ chính trị thực tế của thanh niên lúc bấy giờ."
       },
       {
         "id": 15,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Hiện tượng công nhân có cổ phiếu có làm thay đổi bản chất bóc lột giá trị thặng dư của chủ nghĩa tư bản không?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Bí danh của Nguyễn Ái Quốc khi hoạt động cách mạng tại Thái Lan (1928 - 1929) là gì?",
         "options": [
-          "Làm thay đổi hoàn toàn, không còn bóc lột nữa",
-          "Không làm thay đổi bản chất bóc lột; giá trị thặng dư phần lớn vẫn rơi vào tay các nhà tư bản nắm cổ phần chi phối",
-          "Biến nhà tư bản thành người làm thuê cho công nhân",
-          "Làm cho máy móc tự động sinh ra tiền mà không cần lao động"
+          "Thầu Chín",
+          "Văn Ba",
+          "Lý Thụy",
+          "Tống Văn Sơ"
         ],
-        "correct": 1,
-        "explanation": "Số cổ phiếu nhỏ lẻ của người lao động không mang lại quyền quyết định; lợi nhuận siêu ngạch và giá trị thặng dư vẫn tập trung vào các tập đoàn tư bản lớn.",
-        "trapAnalysis": "Không làm thay đổi bản chất bóc lột giá trị thặng dư."
+        "correct": 0,
+        "explanation": "Tại Thái Lan, Người mang bí danh Thầu Chín, hòa mình vào kiều bào mở trường học, dịch sách, xây dựng cơ sở yêu nước.",
+        "trapAnalysis": "Thầu Chín (Thái Lan); Lý Thụy (Quảng Châu); Tống Văn Sơ (vụ án Hồng Kông 1931)."
       },
       {
         "id": 16,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Khái niệm 'Công nhân áo trắng' trong xã hội hiện đại dùng để chỉ lực lượng nào?",
+        "question": "Ý nghĩa phương pháp luận to lớn nhất của phong trào 'Vô sản hóa' (1928) là gì?",
         "options": [
-          "Những người thợ sơn quét vôi",
-          "Những người lao động kỹ thuật, công nghệ thông tin, điều khiển dây chuyền tự động hóa với trình độ học vấn cao",
-          "Những người làm nông nghiệp công nghệ cao",
-          "Những nhân viên bán hàng thời trang"
+          "Gắn liền lý luận cách mạng Mác - Lênin với thực tiễn đấu tranh của giai cấp công nhân",
+          "Tập trung mua sắm trang bị máy móc cơ giới cho nông thôn",
+          "Tổ chức đưa toàn bộ hội viên sang định cư ở các nước tư bản",
+          "Giải tán hoàn toàn các chi bộ thanh niên trí thức ở thành thị"
         ],
-        "correct": 1,
-        "explanation": "'Công nhân áo xanh' chỉ lao động cơ bắp truyền thống; 'Công nhân áo trắng' chỉ công nhân tri thức, kỹ sư vận hành hệ thống công nghệ cao.",
-        "trapAnalysis": "Công nhân tri thức, kỹ thuật công nghệ cao."
+        "correct": 0,
+        "explanation": "'Vô sản hóa' thực hiện xuất sắc nguyên lý 'học đi đôi với hành', kết hợp chủ nghĩa Mác với phong trào công nhân, biến lý luận thành sức mạnh vật chất.",
+        "trapAnalysis": "Ý nghĩa lớn nhất: Kết hợp nhuần nhuyễn lý luận Mác - Lênin với thực tiễn phong trào công nhân."
       },
       {
         "id": 17,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Xã hội hóa lao động trong bối cảnh cách mạng công nghiệp 4.0 có biểu hiện mới nào?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Đại hội lần thứ nhất của Hội Việt Nam Cách mạng Thanh niên (tháng 5/1929) diễn ra ở đâu?",
         "options": [
-          "Lao động dựa trên nền tảng kỹ thuật số, làm việc cộng tác từ xa và chuỗi cung ứng toàn cầu",
-          "Mỗi quốc gia tự sản xuất mọi thứ không cần giao thương",
-          "Quay lại mô hình tự cung tự cấp phong kiến",
-          "Xóa bỏ toàn bộ mạng internet"
+          "Hương Cảng, Trung Quốc",
+          "Quảng Châu, Trung Quốc",
+          "Hà Nội, Việt Nam",
+          "Sài Gòn, Việt Nam"
         ],
         "correct": 0,
-        "explanation": "Biểu hiện mới của xã hội hóa lao động: chuỗi giá trị toàn cầu, phân công lao động xuyên lục địa và mạng lưới kết nối số hóa.",
-        "trapAnalysis": "Chuỗi giá trị toàn cầu, nền tảng số hóa xuyên biên giới."
+        "explanation": "Tháng 5/1929, Đại hội toàn quốc của Hội VN Cách mạng Thanh niên họp tại Hương Cảng (Trung Quốc).",
+        "trapAnalysis": "Đại hội Hội VN Cách mạng Thanh niên họp tại Hương Cảng tháng 5/1929."
       },
       {
         "id": 18,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Ở một số nước xã hội chủ nghĩa hiện nay (như Việt Nam, Trung Quốc), giai cấp công nhân đã trở thành:",
+        "question": "Lý do đoàn đại biểu Kỳ bộ Bắc Kỳ bỏ về nước tại Đại hội tháng 5/1929 là gì?",
         "options": [
-          "Giai cấp lãnh đạo xã hội thông qua đội tiên phong là Đảng Cộng sản",
-          "Giai cấp bị tước đoạt toàn bộ quyền công dân",
-          "Tầng lớp không có đại diện trong quốc hội",
-          "Nhóm người làm thuê cho nước ngoài đơn thuần"
+          "Đề nghị thành lập Đảng Cộng sản ngay không được đa số đại hội chấp thuận",
+          "Bị cảnh sát Anh tại Hương Cảng phát hiện và truy quét",
+          "Bất đồng về việc phân chia quỹ tài chính của tổ chức",
+          "Phản đối việc kết nạp thêm hội viên từ các trường đại học"
         ],
         "correct": 0,
-        "explanation": "Slide: Ở một số nước xã hội chủ nghĩa, giai cấp công nhân đã trở thành giai cấp lãnh đạo thông qua đội tiên phong là Đảng Cộng sản.",
-        "trapAnalysis": "Đã trở thành giai cấp lãnh đạo xã hội."
+        "explanation": "Đoàn đại biểu Bắc Kỳ (do Ngô Gia Tự, Trần Văn Cung...) nhận thấy thời cơ lập Đảng đã chín muồi, khi đề xuất lập Đảng CS không được thông qua nên họ rút về nước để tự lập Đảng.",
+        "trapAnalysis": "Lý do bỏ về: Đòi lập Đảng Cộng sản ngay lập tức nhưng đại hội chưa đồng ý."
       },
       {
         "id": 19,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Giai cấp công nhân hiện nay ở các nước tư bản chủ nghĩa vẫn đi đầu trong phong trào gì?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Hai đại biểu của tổ chức An Nam Cộng sản Đảng tham dự Hội nghị thành lập Đảng đầu năm 1930 là ai?",
         "options": [
-          "Đấu tranh chống chủ nghĩa tư bản, chống bất công xã hội, đòi hòa bình và bảo vệ môi trường",
-          "Ủng hộ các cuộc chiến tranh xâm lược",
-          "Đòi đóng cửa trường học và bệnh viện",
-          "Đòi hạ tiền lương của chính mình"
+          "Châu Văn Liêm và Nguyễn Thiệu",
+          "Trịnh Đình Cửu và Nguyễn Đức Cảnh",
+          "Lê Hồng Phong và Hà Huy Tập",
+          "Trần Phú và Ngô Gia Tự"
         ],
         "correct": 0,
-        "explanation": "Slide: GCCN ở các nước tư bản vẫn là lực lượng đi đầu đấu tranh chống chủ nghĩa tư bản, đòi công bằng xã hội, dân sinh và dân chủ.",
-        "trapAnalysis": "Đi đầu chống CNTB, bất công xã hội, đòi dân sinh dân chủ."
+        "explanation": "Đại diện của An Nam Cộng sản Đảng tại Hội nghị thành lập Đảng là hai đồng chí Châu Văn Liêm (Việt) và Nguyễn Thiệu (Nghĩa).",
+        "trapAnalysis": "Châu Văn Liêm và Nguyễn Thiệu là đại biểu An Nam CS Đảng."
       },
       {
         "id": 20,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Vì sao nói giai cấp công nhân hiện nay vẫn là lực lượng quyết định sự giàu có của xã hội hiện đại?",
+        "question": "Văn kiện 'Chính cương vắn tắt của Đảng' (2/1930) xác định nhiệm vụ chính trị hàng đầu là gì?",
         "options": [
-          "Vì họ trực tiếp sáng tạo ra của cải vật chất và dịch vụ cốt lõi duy trì sự sống còn của văn minh nhân loại",
-          "Vì họ nắm giữ toàn bộ kho vàng thế giới",
-          "Vì họ có quyền phát hành tiền tệ",
-          "Vì họ được miễn nộp thuế thu nhập"
+          "Đánh đổ đế quốc chủ nghĩa Pháp và bọn phong kiến, làm cho nước Nam hoàn toàn độc lập",
+          "Tập trung phát triển công nghiệp nhẹ và xóa bỏ chế độ độc quyền ngoại thương",
+          "Thương lượng với Toàn quyền Đông Dương để thành lập chế độ tự trị",
+          "Phân chia toàn bộ của cải địa chủ cho các tầng lớp thị dân nghèo"
         ],
         "correct": 0,
-        "explanation": "Dù công nghệ phát triển đến đâu, không có bàn tay và khối óc của người lao động thì máy móc không thể tự vận hành tạo ra của cải xã hội.",
-        "trapAnalysis": "Trực tiếp sáng tạo của cải vật chất và dịch vụ nuôi sống xã hội."
+        "explanation": "Về chính trị: 'Đánh đổ đế quốc chủ nghĩa Pháp và bọn phong kiến, làm cho nước Nam được hoàn toàn độc lập, dựng lên chính phủ công nông binh'.",
+        "trapAnalysis": "Nhiệm vụ chính trị số một trong Cương lĩnh: Đánh đổ đế quốc Pháp và phong kiến tay sai, giành độc lập hoàn toàn."
       },
       {
         "id": 21,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Nhiệm vụ trọng tâm hàng đầu của giai cấp công nhân Việt Nam trong công cuộc Đổi mới là gì?",
+        "question": "Về văn hóa - xã hội, Cương lĩnh chính trị đầu tiên (2/1930) nêu rõ khẩu hiệu tiến bộ nào?",
         "options": [
-          "Đẩy mạnh công nghiệp hóa, hiện đại hóa đất nước gắn với phát triển kinh tế tri thức",
-          "Chuyển toàn bộ nhà máy sang làm nông nghiệp thủ công",
-          "Đóng cửa thị trường trong nước",
-          "Từ bỏ áp dụng công nghệ số"
+          "Dân chúng được tự do tổ chức, nam nữ bình quyền, phổ thông giáo dục theo hướng công nông hóa",
+          "Bắt buộc mọi người dân phải cải đạo sang tôn giáo mới",
+          "Xóa bỏ hoàn toàn chữ Quốc ngữ để học chữ Pháp",
+          "Đóng cửa toàn bộ các trường tư thục của tư sản dân tộc"
         ],
         "correct": 0,
-        "explanation": "GCCN Việt Nam phải đi đầu trong công nghiệp hóa, hiện đại hóa đất nước, làm chủ khoa học công nghệ để nâng cao năng suất quốc gia.",
-        "trapAnalysis": "Đi đầu trong công nghiệp hóa, hiện đại hóa đất nước."
+        "explanation": "Về xã hội: Dân chúng được tự do tổ chức; nam nữ bình quyền; phổ thông giáo dục theo công nông hóa.",
+        "trapAnalysis": "Cương lĩnh mang tư tưởng giải phóng con người tiến bộ: tự do tổ chức, bình đẳng giới tính và phổ cập giáo dục."
       },
       {
         "id": 22,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Để đáp ứng yêu cầu của cuộc cách mạng công nghiệp lần thứ tư, giai cấp công nhân Việt Nam cần phải:",
+        "question": "Cương lĩnh tháng 2/1930 xác định người lãnh đạo cách mạng là Đảng Cộng sản - đội tiên phong của:",
         "options": [
-          "Học tập nâng cao trình độ văn hóa, chuyên môn kỹ thuật, kỹ năng nghề nghiệp và tác phong công nghiệp",
-          "Chỉ cần rèn luyện sức khỏe cơ bắp",
-          "Từ chối học ngoại ngữ và tin học",
-          "Chờ đợi sự viện trợ của nước ngoài"
+          "Giai cấp vô sản",
+          "Giai cấp nông dân",
+          "Tầng lớp trí thức",
+          "Khối đại đoàn kết dân tộc"
         ],
         "correct": 0,
-        "explanation": "Xây dựng giai cấp công nhân Việt Nam hiện đại đòi hỏi nâng cao trình độ học vấn, tay nghề chuyên môn và tác phong làm việc chuyên nghiệp.",
-        "trapAnalysis": "Nâng cao trình độ văn hóa, kỹ năng nghề nghiệp, tác phong công nghiệp."
+        "explanation": "Cương lĩnh nêu rõ: 'Đảng là đội tiên phong của đạo quân vô sản gồm một số lớn giai cấp công nhân và làm cho họ có đủ năng lực lãnh đạo quần chúng'.",
+        "trapAnalysis": "Đảng là đội tiên phong của giai cấp vô sản (giai cấp công nhân)."
       },
       {
         "id": 23,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Vai trò nòng cốt của giai cấp công nhân Việt Nam trong khối đại đoàn kết toàn dân tộc là gì?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Vận dụng",
+        "question": "Thực tiễn lịch sử cách mạng Việt Nam đã chứng minh tính đúng đắn của Cương lĩnh tháng 2/1930 ở điểm nào?",
         "options": [
-          "Là hạt nhân gắn kết liên minh công nhân - nông dân - đội ngũ trí thức dưới sự lãnh đạo của Đảng",
-          "Là tầng lớp đứng ngoài khối đại đoàn kết",
-          "Tự tách mình thành một nhóm biệt lập",
-          "Cạnh tranh lợi ích với giai cấp nông dân"
+          "Độc lập dân tộc gắn liền với chủ nghĩa xã hội là con đường duy nhất đúng đắn",
+          "Chỉ cần tập trung vào ruộng đất là giành được toàn bộ chính quyền",
+          "Cách mạng chỉ có thể thắng lợi khi các nước đế quốc tự sụp đổ",
+          "Không cần xây dựng liên minh công nông mà chỉ cần trí thức"
         ],
         "correct": 0,
-        "explanation": "GCCN giữ vai trò nòng cốt và lãnh đạo liên minh công - nông - trí thức, nền tảng của khối đại đoàn kết dân tộc.",
-        "trapAnalysis": "Hạt nhân gắn kết khối liên minh công - nông - trí thức."
+        "explanation": "Đường lối giương cao ngọn cờ độc lập dân tộc gắn liền với CNXH do Nguyễn Ái Quốc vạch ra từ năm 1930 đã đưa cách mạng Việt Nam đi từ thắng lợi này đến thắng lợi khác.",
+        "trapAnalysis": "Chân lý lịch sử: Độc lập dân tộc gắn liền với CNXH là sợi chỉ đỏ xuyên suốt mọi thắng lợi."
       },
       {
         "id": 24,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Giai cấp công nhân Việt Nam thực hiện vai trò lãnh đạo xã hội thông qua tổ chức nào?",
+        "question": "Vai trò cá nhân của Nguyễn Ái Quốc tại Hội nghị hợp nhất Đảng (1930) được đánh giá là:",
         "options": [
-          "Đội tiên phong là Đảng Cộng sản Việt Nam",
-          "Các hiệp hội doanh nghiệp tư nhân",
-          "Các tổ chức từ thiện quốc tế",
-          "Các câu lạc bộ văn hóa nghệ thuật"
+          "Người sáng lập, linh hồn của hội nghị với uy tín chính trị tuyệt đối quy tụ các tổ chức",
+          "Người quan sát viên thụ động ghi chép biên bản nghị quyết",
+          "Đại biểu của phong trào vô sản hải ngoại không có quyền biểu quyết",
+          "Người bảo vệ lập trường của riêng tổ chức An Nam Cộng sản Đảng"
         ],
         "correct": 0,
-        "explanation": "GCCN Việt Nam lãnh đạo toàn xã hội thông qua đội tiên phong là Đảng Cộng sản Việt Nam.",
-        "trapAnalysis": "Thông qua đội tiên phong: Đảng Cộng sản Việt Nam."
+        "explanation": "Bằng uy tín lớn lao và năng lực lý luận kiệt xuất, Người đã xóa bỏ bất đồng cục bộ, hợp nhất thành công các tổ chức cộng sản và vạch ra Cương lĩnh sáng suốt.",
+        "trapAnalysis": "Nguyễn Ái Quốc là linh hồn, người chủ trì quyết định sự thành công trọn vẹn của Hội nghị thành lập Đảng."
       },
       {
         "id": 25,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Bảo vệ nền tảng tư tưởng của Đảng trong giai cấp công nhân Việt Nam hiện nay có nghĩa là gì?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Sau Hội nghị hợp nhất, Ban Chấp hành Trung ương lâm thời của Đảng do ai đứng đầu làm Trưởng ban?",
         "options": [
-          "Kiên định chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh, kiên quyết đấu tranh phản bác các quan điểm sai trái thù địch",
-          "Không cho ai đọc sách lý luận",
-          "Bắt buộc mọi người học thuộc sách cổ",
-          "Chỉ nghiên cứu kinh tế tư bản"
+          "Trịnh Đình Cửu",
+          "Nguyễn Đức Cảnh",
+          "Trần Phú",
+          "Nguyễn Ái Quốc"
         ],
         "correct": 0,
-        "explanation": "Nền tảng tư tưởng của Đảng ta là chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh; GCCN phải là lực lượng tiên phong bảo vệ nền tảng này.",
-        "trapAnalysis": "Kiên định chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh."
+        "explanation": "Đồng chí Trịnh Đình Cửu được Hội nghị cử làm người đứng đầu Ban Chấp hành Trung ương lâm thời của Đảng.",
+        "trapAnalysis": "Trịnh Đình Cửu là người đứng đầu Ban Chấp hành Trung ương lâm thời đầu năm 1930."
       },
       {
         "id": 26,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Mục tiêu xây dựng giai cấp công nhân Việt Nam thời kỳ mới được Đảng ta xác định là:",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Huyện nào ở Nghệ An được coi là nơi thành lập chính quyền Xô viết đầu tiên vào tháng 9/1930?",
         "options": [
-          "Phát triển về số lượng, nâng cao về chất lượng, giác ngộ giai cấp và bản lĩnh chính trị vững vàng",
-          "Giảm bớt số lượng công nhân nhà máy",
-          "Chuyển hết công nhân thành nông dân tự do",
-          "Khuyến khích công nhân không cần vào tổ chức công đoàn"
+          "Thanh Chương và Nam Đàn",
+          "Quỳnh Lưu và Diễn Châu",
+          "Hưng Nguyên và Kỳ Anh",
+          "Nghi Lộc và Can Lộc"
         ],
         "correct": 0,
-        "explanation": "Đảng ta chủ trương: Xây dựng giai cấp công nhân lớn mạnh, phát triển cả về số lượng và chất lượng, có bản lĩnh chính trị và trình độ chuyên môn cao.",
-        "trapAnalysis": "Lớn mạnh về số lượng, nâng cao về chất lượng và bản lĩnh chính trị."
+        "explanation": "Chính quyền Xô viết ra đời sớm nhất ở các xã thuộc hai huyện Thanh Chương và Nam Đàn (Nghệ An) sau các cuộc biểu tình thị uy của quần chúng.",
+        "trapAnalysis": "Thanh Chương và Nam Đàn là cái nôi ra đời sớm nhất của chính quyền Xô viết."
       },
       {
         "id": 27,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Thông hiểu",
-        "question": "Tổ chức đại diện chăm lo đời sống, bảo vệ quyền lợi hợp pháp của công nhân Việt Nam là:",
+        "question": "Chính sách quân sự nổi bật của chính quyền Xô viết Nghệ - Tĩnh là:",
         "options": [
-          "Tổng Liên đoàn Lao động Việt Nam (Tổ chức Công đoàn)",
-          "Hội sinh viên Việt Nam",
-          "Phòng thương mại và công nghiệp",
-          "Hiệp hội các nhà bán buôn"
+          "Thành lập các đội Tự vệ Đỏ canh gác giữ gìn trật tự và huấn luyện quân sự",
+          "Mua sắm pháo binh hạng nặng chuẩn bị đánh chiếm Vinh",
+          "Ký hiệp ước tương trợ quân sự với các nước láng giềng",
+          "Bắt buộc thanh niên gia nhập quân đội viễn chinh Pháp"
         ],
         "correct": 0,
-        "explanation": "Công đoàn Việt Nam là tổ chức chính trị - xã hội của GCCN và người lao động, đại diện và bảo vệ quyền lợi hợp pháp của người lao động.",
-        "trapAnalysis": "Tổng Liên đoàn Lao động Việt Nam (Tổ chức Công đoàn)."
+        "explanation": "Chính quyền Xô viết duy trì lực lượng tự vệ đỏ, huấn luyện quân sự bằng gậy gộc giáo mác, bảo vệ an ninh thôn xóm trước sự khủng bố của địch.",
+        "trapAnalysis": "Tổ chức Tự vệ Đỏ là lực lượng vũ trang nòng cốt của chính quyền Xô viết."
       },
       {
         "id": 28,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Thông hiểu",
-        "question": "Vấn đề việc làm, nhà ở xã hội, nhà trẻ cho con công nhân ở các khu công nghiệp thể hiện sự quan tâm đến:",
+        "question": "Luận cương chính trị tháng 10/1930 xác định điều kiện cốt tử để cách mạng Đông Dương thắng lợi là:",
         "options": [
-          "Nội dung kinh tế - xã hội nhằm chăm lo đời sống vật chất và tinh thần của giai cấp công nhân",
-          "Chính sách của các tập đoàn nước ngoài",
-          "Biện pháp xử phạt hành chính",
-          "Chính sách tạm thời không cần thiết"
+          "Có một Đảng Cộng sản có đường lối chính trị đúng, có kỷ luật tập trung và liên hệ mật thiết với quần chúng",
+          "Quân đội Đồng minh tiến hành can thiệp quân sự lật đổ chính quyền thuộc địa",
+          "Toàn bộ giai cấp địa chủ tự nguyện giao lại ruộng đất cho nhà nước",
+          "Kinh tế Đông Dương vượt qua được cuộc đại suy thoái toàn cầu"
         ],
         "correct": 0,
-        "explanation": "Chăm lo đời sống vật chất, tinh thần, nhà ở, trường học cho con em công nhân là nhiệm vụ quan trọng nhằm xây dựng GCCN lớn mạnh.",
-        "trapAnalysis": "Chăm lo đời sống vật chất và tinh thần của GCCN."
+        "explanation": "Luận cương chỉ rõ: 'Điều kiện cốt tử cho sự thắng lợi của cách mạng ở Đông Dương là cần phải có một Đảng Cộng sản có một đường lối chính trị đúng đắn, có kỷ luật tập trung...'.",
+        "trapAnalysis": "Sự lãnh đạo của Đảng Cộng sản với kỷ luật tập trung là điều kiện tiên quyết trong Luận cương."
       },
       {
         "id": 29,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Thông hiểu",
-        "question": "Điểm tựa chính trị - tinh thần của giai cấp công nhân Việt Nam trong sự nghiệp xây dựng CNXH là:",
+        "question": "Về phương pháp cách mạng, Luận cương tháng 10/1930 chủ trương giành chính quyền bằng cách nào?",
         "options": [
-          "Tư tưởng Hồ Chí Minh và chủ nghĩa Mác - Lênin",
-          "Các trào lưu triết học phương Tây cận đại",
-          "Tư tưởng tôn giáo trung cổ",
-          "Chủ nghĩa dân tộc cực đoan"
+          "Vũ trang bạo động khởi nghĩa theo khuôn phép quân sự",
+          "Đấu tranh nghị trường ôn hòa thông qua các cuộc bầu cử",
+          "Tiến hành chiến tranh ủy nhiệm giữa các cường quốc",
+          "Tập trung đàm phán ngoại giao với chính phủ Pháp"
         ],
         "correct": 0,
-        "explanation": "Chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh là kim chỉ nam, là điểm tựa tinh thần vững chắc của GCCN và nhân dân ta.",
-        "trapAnalysis": "Chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh."
+        "explanation": "Luận cương khẳng định: 'Võ trang bạo động không phải là một việc tình cờ, muốn làm lúc nào cũng được... phải theo khuôn phép nhà binh' để đánh đổ chính quyền địch.",
+        "trapAnalysis": "Vũ trang bạo động cướp chính quyền là con đường duy nhất được Luận cương khẳng định."
       },
       {
         "id": 30,
-        "chapter": "Chương 2: Sứ mệnh lịch sử của GCCN",
-        "level": "Thông hiểu",
-        "question": "Ý chí quyết tâm của giai cấp công nhân Việt Nam hiện nay được kết tinh trong khát vọng gì của dân tộc?",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Đồng chí Tổng Bí thư đầu tiên của Đảng hy sinh tại nhà thương Chợ Quán (Sài Gòn) vào ngày tháng năm nào?",
         "options": [
-          "Khát vọng phát triển đất nước phồn vinh, hạnh phúc, phấn đấu đến năm 2045 trở thành nước phát triển, thu nhập cao",
-          "Khát vọng mở rộng lãnh thổ ra bên ngoài",
-          "Khát vọng cạnh tranh vũ khí hạt nhân",
-          "Khát vọng quay về lối sống làng xã cổ truyền"
+          "06/09/1931",
+          "12/09/1930",
+          "31/07/1932",
+          "27/03/1935"
         ],
         "correct": 0,
-        "explanation": "Nghị quyết Đại hội XIII của Đảng nêu rõ: Khát vọng phát triển đất nước phồn vinh, hạnh phúc, đến năm 2045 trở thành nước phát triển theo định hướng XHCN.",
-        "trapAnalysis": "Khát vọng phát triển đất nước phồn vinh, hạnh phúc."
+        "explanation": "Ngày 6/9/1931, đồng chí Tổng Bí thư Trần Phú trút hơi thở cuối cùng tại nhà thương Chợ Quán sau những đòn tra tấn dã man của mật thám Pháp.",
+        "trapAnalysis": "Ngày hy sinh của Tổng Bí thư Trần Phú: 6/9/1931."
+      },
+      {
+        "id": 31,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Thông hiểu",
+        "question": "Nội dung trọng tâm trong bản 'Chương trình hành động của Đảng' (6/1932) là:",
+        "options": [
+          "Đòi các quyền tự do dân chủ, ân xá tù chính trị và củng cố lại các tổ chức Đảng",
+          "Phát động ngay cuộc Tổng khởi nghĩa vũ trang trên toàn Đông Dương",
+          "Thương lượng với thực dân Pháp để Đảng được hoạt động công khai hợp pháp",
+          "Chuyển toàn bộ cơ quan Trung ương sang hoạt động tại châu Âu"
+        ],
+        "correct": 0,
+        "explanation": "Bản Chương trình hành động vạch ra các mục tiêu đấu tranh cụ thể trước mắt: tự do nghiệp đoàn, tự do ngôn luận, ân xá tù chính trị, ngày làm 8 giờ... để tập hợp lại lực lượng.",
+        "trapAnalysis": "Chương trình hành động (6/1932) đưa ra các khẩu hiệu thiết thực để củng cố và hồi sinh phong trào."
+      },
+      {
+        "id": 32,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Đại hội đại biểu lần thứ I của Đảng (3/1935) có bao nhiêu đại biểu chính thức tham dự?",
+        "options": [
+          "13 đại biểu",
+          "25 đại biểu",
+          "50 đại biểu",
+          "100 đại biểu"
+        ],
+        "correct": 0,
+        "explanation": "Đại hội I họp tại Ma Cao gồm 13 đại biểu thay mặt cho khoảng 600 đảng viên của các tổ chức Đảng trong và ngoài nước.",
+        "trapAnalysis": "Đại hội I chỉ có 13 đại biểu tham dự trong bối cảnh hoạt động bí mật ngặt nghèo."
+      },
+      {
+        "id": 33,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Thông hiểu",
+        "question": "Chủ trương thành lập Mặt trận Nhân dân rộng rãi chống phát xít của Đại hội VII Quốc tế Cộng sản (1935) do ai khởi xướng?",
+        "options": [
+          "G. Đi-mi-trốp (Georgi Dimitrov)",
+          "V.I. Lênin",
+          "J.Xtalin",
+          "M.Goóc-ba-chốp"
+        ],
+        "correct": 0,
+        "explanation": "Tổng Thư ký Quốc tế Cộng sản Georgi Dimitrov đã đọc báo cáo lịch sử đề ra sách lược thành lập Mặt trận Nhân dân rộng rãi chống phát xít.",
+        "trapAnalysis": "Dimitrov là nhà lý luận kiệt xuất khởi xướng chiến lược Mặt trận nhân dân chống phát xít."
+      },
+      {
+        "id": 34,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Thông hiểu",
+        "question": "Vì sao phong trào 1936 - 1939 ở Việt Nam không nêu khẩu hiệu đánh đổ đế quốc Pháp?",
+        "options": [
+          "Vì Chính phủ Mặt trận Nhân dân Pháp đang nắm quyền có xu hướng tiến bộ cần tranh thủ",
+          "Vì thực dân Pháp đã tự nguyện trao trả độc lập cho ba kỳ",
+          "Vì giai cấp công nhân không còn ý chí đấu tranh giải phóng dân tộc",
+          "Vì phát xít Nhật đã thay thế hoàn toàn vị trí thống trị của Pháp"
+        ],
+        "correct": 0,
+        "explanation": "Ở Pháp, Mặt trận Nhân dân lên cầm quyền có chính sách tiến bộ nới lỏng ở thuộc địa, nên Đảng chủ trương chĩa mũi nhọn vào bọn phản động thuộc địa không chịu thi hành chính sách của Mặt trận Nhân dân.",
+        "trapAnalysis": "Chỉ chĩa mũi nhọn vào bọn thực dân phản động thuộc địa, tranh thủ chính phủ Mặt trận Nhân dân tiến bộ ở Pháp."
+      },
+      {
+        "id": 35,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Tổ chức 'Ủy ban lâm thời trù bị Đông Dương Đại hội' thành lập năm 1936 do ai tham gia lãnh đạo?",
+        "options": [
+          "Nguyễn An Ninh, Phan Văn Hùm, Tạ Thu Thâu...",
+          "Hoàng Hoa Thám và Phan Bội Châu",
+          "Nguyễn Thái Học và Phó Đức Chính",
+          "Lương Văn Can và Nguyễn Quyền"
+        ],
+        "correct": 0,
+        "explanation": "Ủy ban trù bị Đông Dương Đại hội tại Nam Kỳ có sự tham gia của Nguyễn An Ninh cùng nhiều trí thức và các nhóm chính trị dân chủ.",
+        "trapAnalysis": "Ủy ban trù bị Đông Dương Đại hội tập hợp đông đảo nhân sĩ trí thức tiến bộ ở Nam Kỳ."
+      },
+      {
+        "id": 36,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Thông hiểu",
+        "question": "Bài học lớn nhất về xây dựng khối liên minh của Đảng qua phong trào Dân chủ 1936 - 1939 là:",
+        "options": [
+          "Xây dựng Mặt trận Dân chủ thống nhất rộng rãi trên cơ sở nòng cốt công nông",
+          "Chỉ liên minh với tầng lớp tư sản lớn ở các thành phố cảng",
+          "Không cho phép các tầng lớp nhân sĩ trí thức tham gia mặt trận",
+          "Giải tán các đoàn thể quần chúng nông dân để tránh bị lộ"
+        ],
+        "correct": 0,
+        "explanation": "Bài học kinh nghiệm là biết tập hợp mọi lực lượng tiến bộ, yêu chuộng hòa bình dân chủ vào Mặt trận Thống nhất rộng rãi dựa trên nền tảng liên minh công nông.",
+        "trapAnalysis": "Bài học lớn nhất là nghệ thuật xây dựng Mặt trận thống nhất rộng rãi."
+      },
+      {
+        "id": 37,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Hội nghị Trung ương lần thứ 6 của Đảng (tháng 11/1939) họp tại địa điểm nào?",
+        "options": [
+          "Bà Điểm (Hóc Môn, Gia Định)",
+          "Đình Bảng (Từ Sơn, Bắc Ninh)",
+          "Pác Bó (Hà Quảng, Cao Bằng)",
+          "Tân Trào (Sơn Dương, Tuyên Quang)"
+        ],
+        "correct": 0,
+        "explanation": "Hội nghị TW 6 họp tại Bà Điểm (Hóc Môn, Gia Định) do Tổng Bí thư Nguyễn Văn Cừ chủ trì vào tháng 11/1939.",
+        "trapAnalysis": "Bà Điểm (Hóc Môn) là địa danh lịch sử gắn với Hội nghị TW 6 mở đầu chuyển hướng chiến lược."
+      },
+      {
+        "id": 38,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Chủ trương thay đổi tên gọi Mặt trận tại Hội nghị TW 6 (11/1939) nhằm mục đích gì?",
+        "options": [
+          "Tập trung mọi ngọn lửa đấu tranh vào kẻ thù chính là đế quốc chiến tranh",
+          "Lấy lòng chính phủ bảo hộ thực dân Pháp thời chiến",
+          "Phân hóa hàng ngũ giai cấp công nhân và thợ thuyền",
+          "Chuẩn bị cho việc nhượng bộ một phần lãnh thổ cho Nhật"
+        ],
+        "correct": 0,
+        "explanation": "Đổi thành Mặt trận Phản đế để giương cao mục tiêu chống đế quốc và chiến tranh xâm lược, đặt quyền lợi dân tộc lên trên hết.",
+        "trapAnalysis": "Mặt trận Phản đế ra đời nhằm chĩa mũi nhọn vào chủ nghĩa đế quốc phát xít."
+      },
+      {
+        "id": 39,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Cuộc Khởi nghĩa Nam Kỳ bùng nổ vào đêm 22 rạng sáng ngày nào năm 1940?",
+        "options": [
+          "23/11/1940",
+          "27/09/1940",
+          "13/01/1941",
+          "19/05/1941"
+        ],
+        "correct": 0,
+        "explanation": "Khởi nghĩa Nam Kỳ bùng nổ dữ dội từ đêm 22 rạng sáng ngày 23/11/1940 tại hầu khắp các tỉnh Nam Kỳ (Gia Định, Chợ Lớn, Mỹ Tho...).",
+        "trapAnalysis": "Ngày 23/11/1940 là ngày Khởi nghĩa Nam Kỳ bùng nổ (sau này là Ngày Nam Kỳ khởi nghĩa)."
+      },
+      {
+        "id": 40,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Đồng chí Phan Đăng Lưu đã nhận nhiệm vụ gì từ Hội nghị TW 7 (11/1940) trước khi bị bắt?",
+        "options": [
+          "Về Nam Kỳ truyền đạt lệnh hoãn cuộc khởi nghĩa vũ trang",
+          "Sang Trung Quốc đón đồng chí Nguyễn Ái Quốc về nước",
+          "Lãnh đạo cuộc bãi công của thợ xe lửa Trường Thi",
+          "Chỉ huy trực tiếp đội du kích Bắc Sơn đánh đồn Mỏ Nhài"
+        ],
+        "correct": 0,
+        "explanation": "Đồng chí Phan Đăng Lưu được TW cử về Nam Kỳ để chỉ đạo hoãn khởi nghĩa, nhưng khi về đến Sài Gòn thì đồng chí bị địch bắt và cuộc khởi nghĩa đã bùng nổ.",
+        "trapAnalysis": "Phan Đăng Lưu nhận chỉ thị hoãn Khởi nghĩa Nam Kỳ nhưng lệnh về không kịp."
+      },
+      {
+        "id": 41,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Khẳng định nào của Hội nghị TW 8 (5/1941) thể hiện tinh thần dân tộc cao nhất?",
+        "options": [
+          "Trong lúc này nếu không giải quyết được vấn đề dân tộc giải phóng thì quyền lợi giai cấp vạn năm cũng không đòi lại được",
+          "Cách mạng vô sản phải phục tùng hoàn toàn các mục tiêu ruộng đất của bần nông",
+          "Phải ưu tiên đánh đổ giai cấp địa chủ trước rồi mới đánh đuổi quân phát xít sau",
+          "Quyền lợi của dân tộc thuộc địa phải chờ đợi thắng lợi của công nhân Pháp"
+        ],
+        "correct": 0,
+        "explanation": "HNTW 8 chỉ rõ: Quyền lợi của bộ phận, của giai cấp phải đặt dưới quyền lợi sinh tử của toàn thể quốc gia dân tộc.",
+        "trapAnalysis": "Luận điểm bất hủ của HNTW 8: Giải phóng dân tộc là trên hết, trước hết."
+      },
+      {
+        "id": 42,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Đơn vị Cứu quốc quân I được thành lập trên cơ sở lực lượng vũ trang nào?",
+        "options": [
+          "Đội du kích Bắc Sơn",
+          "Đội du kích Ba Tơ",
+          "Tự vệ đỏ Nghệ Tĩnh",
+          "Việt Nam Giải phóng quân"
+        ],
+        "correct": 0,
+        "explanation": "Ngày 14/2/1941, tại khu rừng Khuổi Nọi (Võ Nhai), Đội du kích Bắc Sơn được thống nhất thành lập đơn vị Cứu quốc quân I.",
+        "trapAnalysis": "Cứu quốc quân I phát triển trực tiếp từ Đội du kích Bắc Sơn."
+      },
+      {
+        "id": 43,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Chỉ thị thành lập Đội Việt Nam Tuyên truyền Giải phóng quân (12/1944) do ai trực tiếp viết?",
+        "options": [
+          "Hồ Chí Minh",
+          "Trường Chinh",
+          "Võ Nguyên Giáp",
+          "Hoàng Văn Thụ"
+        ],
+        "correct": 0,
+        "explanation": "Đồng chí Hồ Chí Minh đã trực tiếp viết bản chỉ thị lịch sử gửi đồng chí Võ Nguyên Giáp nêu rõ phương châm, nguyên tắc và dự báo tương lai của đội quân giải phóng.",
+        "trapAnalysis": "Hồ Chí Minh là người ra chỉ thị thành lập Đội VNTTGPQ."
+      },
+      {
+        "id": 44,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Số lượng chiến sĩ ban đầu của Đội Việt Nam Tuyên truyền Giải phóng quân khi thành lập là:",
+        "options": [
+          "34 chiến sĩ",
+          "50 chiến sĩ",
+          "100 chiến sĩ",
+          "12 chiến sĩ"
+        ],
+        "correct": 0,
+        "explanation": "Đội được thành lập ngày 22/12/1944 gồm đúng 34 cán bộ chiến sĩ kiên trung, trong đó có 3 chiến sĩ nữ.",
+        "trapAnalysis": "34 chiến sĩ là con số lịch sử ngày thành lập Quân đội nhân dân Việt Nam."
+      },
+      {
+        "id": 45,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Cao trào kháng Nhật cứu nước (3/1945 - 8/1945) được Đảng xác định là giai đoạn có tính chất gì?",
+        "options": [
+          "Thời kỳ tiền khởi nghĩa làm đòn bẩy trực tiếp dẫn tới Tổng khởi nghĩa",
+          "Thời kỳ phòng ngự bảo toàn tuyệt đối lực lượng bí mật",
+          "Thời kỳ đàm phán ngoại giao ký kết hiệp ước hòa bình",
+          "Thời kỳ thoái trào tạm thời của cách mạng Đông Dương"
+        ],
+        "correct": 0,
+        "explanation": "Cao trào kháng Nhật cứu nước là thời kỳ 'tiền khởi nghĩa', làm cho không khí cách mạng sục sôi, tập dượt cho quần chúng tiến lên khởi nghĩa toàn diện.",
+        "trapAnalysis": "Cao trào kháng Nhật cứu nước là thời kỳ tiền khởi nghĩa chuẩn bị trực tiếp cho Tổng khởi nghĩa."
+      },
+      {
+        "id": 46,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Cơ quan chỉ đạo tối cao của cuộc khởi nghĩa toàn quốc được thành lập đêm 13/8/1945 là:",
+        "options": [
+          "Ủy ban Khởi nghĩa toàn quốc",
+          "Ủy ban Dân tộc Giải phóng Việt Nam",
+          "Tổng bộ Việt Minh",
+          "Ban Thường vụ Trung ương Đảng"
+        ],
+        "correct": 0,
+        "explanation": "Đêm 13/8/1945, Hội nghị liên tịch đã lập ra Ủy ban Khởi nghĩa toàn quốc do đồng chí Trường Chinh trực tiếp phụ trách.",
+        "trapAnalysis": "Ủy ban Khởi nghĩa toàn quốc thành lập đêm 13/8 ban bố Quân lệnh số 1."
+      },
+      {
+        "id": 47,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Chính phủ bù nhìn Trần Trọng Kim do phát xít Nhật dựng lên mang tính chất gì?",
+        "options": [
+          "Chính phủ tay sai bù nhìn hoàn toàn bất lực và hoang mang tột độ",
+          "Chính phủ liên hiệp tiến bộ đại diện cho quyền lợi nhân dân",
+          "Chính phủ quân sự độc tài trực tiếp cai trị các tỉnh miền Bắc",
+          "Chính phủ dân chủ độc lập được cộng đồng quốc tế công nhận"
+        ],
+        "correct": 0,
+        "explanation": "Chính phủ Trần Trọng Kim chỉ là con rối tay sai do Nhật dựng lên sau ngày 9/3/1945, khi Nhật đầu hàng thì chính phủ này hoàn toàn tê liệt tan rã.",
+        "trapAnalysis": "Chính phủ Trần Trọng Kim là bù nhìn tay sai của Nhật, không có thực quyền."
+      },
+      {
+        "id": 48,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Nhận biết",
+        "question": "Hai tỉnh cuối cùng trong cả nước giành được chính quyền trong Cách mạng Tháng Tám năm 1945 là:",
+        "options": [
+          "Đồng Nai Thượng và Hà Tiên",
+          "Cà Mau và Bạc Liêu",
+          "Cao Bằng và Lạng Sơn",
+          "Lai Châu và Sơn La"
+        ],
+        "correct": 0,
+        "explanation": "Đến ngày 28/8/1945, cuộc khởi nghĩa thắng lợi tại hai tỉnh lỵ cuối cùng là Đồng Nai Thượng và Hà Tiên, hoàn thành thắng lợi trọn vẹn Tổng khởi nghĩa trong cả nước.",
+        "trapAnalysis": "Đồng Nai Thượng và Hà Tiên (28/8/1945) là hai địa phương giành chính quyền muộn nhất."
+      },
+      {
+        "id": 49,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Tuyên ngôn Độc lập (2/9/1945) trích dẫn Tuyên ngôn độc lập của Mỹ và Tuyên ngôn nhân quyền của Pháp nhằm:",
+        "options": [
+          "Khẳng định các quyền dân tộc thiêng liêng trên cơ sở những chân lý được nhân loại thừa nhận",
+          "Chứng minh Việt Nam sẵn sàng lệ thuộc vào các cường quốc phương Tây",
+          "Kêu gọi các nước đế quốc đưa quân đội vào giúp đỡ Việt Nam",
+          "Bắt chước nguyên xi mô hình nhà nước tư sản của phương Tây"
+        ],
+        "correct": 0,
+        "explanation": "Hồ Chí Minh đã dùng chính lý lẽ bất hủ về nhân quyền của phương Tây để suy rộng ra 'quyền dân tộc': mọi dân tộc trên thế giới đều sinh ra bình đẳng, có quyền tự do và quyền mưu cầu hạnh phúc.",
+        "trapAnalysis": "Nghệ thuật lập luận: Dùng chân lý của đối phương để khẳng định quyền độc lập thiêng liêng của dân tộc mình."
+      },
+      {
+        "id": 50,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Vận dụng",
+        "question": "Nghệ thuật chớp thời cơ trong Cách mạng Tháng Tám năm 1945 để lại bài học gì cho hiện nay?",
+        "options": [
+          "Chủ động đón đầu xu thế, nhạy bén nắm bắt vận hội và đẩy lùi nguy cơ thách thức",
+          "Luôn chờ đợi sự trợ giúp vô điều kiện từ bên ngoài",
+          "Chỉ hành động khi tình hình quốc tế hoàn toàn yên tĩnh và ổn định",
+          "Tập trung đầu tư dàn trải không cần chọn khâu đột phá"
+        ],
+        "correct": 0,
+        "explanation": "Bài học chớp thời cơ là dự báo chính xác tình hình, chuẩn bị sẵn sàng thực lực, khi thời cơ đến thì kiên quyết hành động thần tốc để giành thắng lợi lớn nhất.",
+        "trapAnalysis": "Bài học thời cơ: Nhạy cảm chính trị, chuẩn bị sẵn thực lực để chớp thời cơ, biến nguy cơ thành thời cơ."
       }
     ]
   },
   {
     "id": "de_06",
     "code": "MÃ ĐỀ: 106",
-    "title": "Đề 06: Điều Kiện Ra Đời & Đặc Trưng Bản Chất Của Chủ Nghĩa Xã Hội",
-    "description": "Ôn tập mâu thuẫn kinh tế - chính trị dẫn đến CNXH, nhà nước XHCN đầu tiên (1917), chế độ công hữu TLSX và cách mạng bạo lực.",
-    "duration": 15,
+    "title": "Đề 06: Cao Trào Kháng Nhật Cứu Nước & Thắng Lợi CMT8 1945",
+    "description": "Bao quát từ Chỉ thị Nhật - Pháp bắn nhau, xây dựng căn cứ địa, lực lượng vũ trang đến nghệ thuật chớp thời cơ Tổng khởi nghĩa giành chính quyền Tháng Tám 1945.",
+    "duration": 40,
     "questions": [
       {
         "id": 1,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Nhận biết",
-        "question": "Chủ nghĩa xã hội là giai đoạn nào trong hình thái kinh tế - xã hội cộng sản chủ nghĩa?",
+        "question": "Cuộc khai thác thuộc địa lần thứ hai của thực dân Pháp tại Việt Nam bắt đầu từ năm nào?",
         "options": [
-          "Giai đoạn cao",
-          "Giai đoạn đầu (giai đoạn thấp)",
-          "Giai đoạn trung gian phong kiến",
-          "Giai đoạn kết thúc lịch sử"
+          "Năm 1914",
+          "Năm 1919",
+          "Năm 1925",
+          "Năm 1930"
         ],
         "correct": 1,
-        "explanation": "Vở ghi: 3.1.1. Chủ nghĩa xã hội, giai đoạn đầu của hình thái kinh tế xã hội cộng sản chủ nghĩa.",
-        "trapAnalysis": "Chủ nghĩa xã hội là giai đoạn đầu (giai đoạn thấp)."
+        "explanation": "Cuộc khai thác thuộc địa lần thứ hai của thực dân Pháp diễn ra từ năm 1919 (sau Thế chiến I) đến năm 1929 (bắt đầu cuộc khủng hoảng kinh tế thế giới).",
+        "trapAnalysis": "1919 - 1929 là thời gian diễn ra cuộc khai thác thuộc địa lần thứ hai của Pháp ở Đông Dương."
       },
       {
         "id": 2,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Về mặt kinh tế, điều kiện khách quan dẫn đến sự ra đời tất yếu của CNXH là gì?",
+        "question": "Lĩnh vực kinh tế nào được thực dân Pháp đầu tư với số vốn lớn nhất trong cuộc khai thác lần thứ hai?",
         "options": [
-          "Sự giàu có của các lãnh chúa phong kiến",
-          "Lực lượng sản xuất mang tính xã hội hóa mâu thuẫn với quan hệ sản xuất chiếm hữu tư nhân TBCN",
-          "Sự suy giảm dân số ở các nước tư bản",
-          "Sự thiếu hụt lương thực toàn cầu"
+          "Nông nghiệp đồn điền cao su và khai mỏ",
+          "Công nghiệp nặng chế tạo máy móc",
+          "Công nghệ thông tin và viễn thông",
+          "Đóng tàu chiến và luyện kim màu"
         ],
-        "correct": 1,
-        "explanation": "Vở ghi: Về kinh tế: lực lượng sản xuất mâu thuẫn với quan hệ sản xuất trong chủ nghĩa tư bản.",
-        "trapAnalysis": "Kinh tế: LLSX mâu thuẫn với QHSX trong CNTB."
+        "correct": 0,
+        "explanation": "Trong cuộc khai thác lần hai, tư bản Pháp tập trung vốn nhiều nhất vào nông nghiệp (chủ yếu là đồn điền cao su) và công nghiệp khai khoáng (đặc biệt là than đá).",
+        "trapAnalysis": "Pháp ưu tiên đồn điền cao su và khai mỏ vì quay vòng vốn nhanh và khả năng thu lợi nhuận siêu ngạch."
       },
       {
         "id": 3,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Về mặt chính trị - xã hội, điều kiện dẫn đến sự ra đời của CNXH là mâu thuẫn giữa:",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Nhận biết",
+        "question": "Ngân hàng nào nắm độc quyền phát hành tiền tệ và chi phối toàn bộ huyết mạch kinh tế Đông Dương?",
         "options": [
-          "Giai cấp công nhân và giai cấp tư sản",
-          "Giai cấp nông dân và giai cấp địa chủ",
-          "Tầng lớp trí thức và thợ thủ công",
-          "Thương nhân thành thị và người bán rong"
+          "Ngân hàng Đông Dương (Banque de l'Indochine)",
+          "Ngân hàng Thuộc địa Pháp",
+          "Ngân hàng Quốc gia An Nam",
+          "Ngân hàng Phát triển Viễn Đông"
         ],
         "correct": 0,
-        "explanation": "Vở ghi: Về chính trị: Mâu thuẫn GCCN và GCTS.",
-        "trapAnalysis": "Chính trị: Mâu thuẫn giữa GCCN và GCTS."
+        "explanation": "Ngân hàng Đông Dương thành lập năm 1875 là đại diện quyền lực tối cao của tư bản tài chính Pháp, nắm độc quyền phát hành giấy bạc và kiểm soát tài chính.",
+        "trapAnalysis": "Ngân hàng Đông Dương là cơ quan đầu não chi phối toàn bộ nền kinh tế Đông Dương."
       },
       {
         "id": 4,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Mâu thuẫn giữa LLSX xã hội hóa với QHSX tư nhân TBCN biểu hiện về mặt xã hội thành mâu thuẫn nào?",
+        "question": "Đặc điểm cơ bản của bộ phận tư sản mại bản ở Việt Nam thời thuộc địa là gì?",
         "options": [
-          "Mâu thuẫn giữa các dòng tu tôn giáo",
-          "Mâu thuẫn giữa giai cấp vô sản và giai cấp tư sản",
-          "Mâu thuẫn giữa người già và người trẻ",
-          "Mâu thuẫn giữa thành thị và vùng biển"
+          "Có quyền lợi kinh tế và chính trị gắn chặt với tư bản thực dân Pháp",
+          "Tích cực tham gia các phong trào giải phóng dân tộc",
+          "Có mâu thuẫn đối kháng sâu sắc với chính quyền thuộc địa",
+          "Lãnh đạo các tổ chức nghiệp đoàn thợ thuyền bí mật"
         ],
-        "correct": 1,
-        "explanation": "Mâu thuẫn kinh tế tất yếu biểu hiện thành mâu thuẫn giai cấp đối kháng gay gắt giữa GCCN và GCTS.",
-        "trapAnalysis": "Biểu hiện xã hội: Mâu thuẫn giữa GCCN và GCTS."
+        "correct": 0,
+        "explanation": "Tư sản mại bản là bộ phận tư sản làm đại lý, bao thầu, thu gom nguyên liệu cho Pháp, quyền lợi gắn chặt với đế quốc nên là đối tượng của cách mạng.",
+        "trapAnalysis": "Tư sản mại bản là tay sai đắc lực của tư bản Pháp, đối lập với tư sản dân tộc."
       },
       {
         "id": 5,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Quan hệ sản xuất tư nhân TBCN trở thành yếu tố gì đối với lực lượng sản xuất xã hội hóa cao?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Nhận biết",
+        "question": "Vua Duy Tân tham gia cuộc khởi nghĩa vũ trang chống Pháp năm 1916 do ai tổ chức?",
         "options": [
-          "Trở thành 'xiềng xích' kìm hãm sự phát triển của lực lượng sản xuất",
-          "Trở thành động lực thúc đẩy sản xuất phát triển vô hạn",
-          "Không có tác động gì đến sản xuất",
-          "Giúp LLSX phát triển bình đẳng"
+          "Thái Phiên và Trần Cao Vân",
+          "Phan Bội Châu và Cường Để",
+          "Lương Văn Can và Nguyễn Quyền",
+          "Nguyễn Thái Học và Phó Đức Chính"
         ],
         "correct": 0,
-        "explanation": "Khi LLSX phát triển vượt quá giới hạn của QHSX tư nhân, QHSX TBCN trở thành xiềng xích kìm hãm LLSX, đòi hỏi phải được thay thế bằng QHSX công hữu XHCN.",
-        "trapAnalysis": "Trở thành xiềng xích kìm hãm LLSX."
+        "explanation": "Năm 1916, hai nhà yêu nước Thái Phiên và Trần Cao Vân thuộc Việt Nam Quang phục Hội đã vận động vua Duy Tân tham gia cuộc khởi nghĩa tại Huế.",
+        "trapAnalysis": "Thái Phiên và Trần Cao Vân là hai chí sĩ lãnh đạo cuộc khởi nghĩa năm 1916 cùng vua Duy Tân."
       },
       {
         "id": 6,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
         "level": "Thông hiểu",
-        "question": "Cách mạng xã hội chủ nghĩa nổ ra là kết quả tất yếu của việc giải quyết mâu thuẫn nào?",
+        "question": "Vụ đầu độc binh lính Pháp tại Hà Nội (Hà Thành đầu độc) diễn ra vào năm nào?",
         "options": [
-          "Mâu thuẫn giữa con người và thiên nhiên",
-          "Mâu thuẫn đối kháng giữa giai cấp vô sản và giai cấp tư sản",
-          "Mâu thuẫn giữa các bộ tộc phong kiến",
-          "Mâu thuẫn giữa các hội họa sĩ"
+          "Năm 1908",
+          "Năm 1914",
+          "Năm 1917",
+          "Năm 1920"
         ],
-        "correct": 1,
-        "explanation": "Cách mạng XHCN là đỉnh cao của cuộc đấu tranh giai cấp giữa GCCN và GCTS để thiết lập chính quyền vô sản.",
-        "trapAnalysis": "Giải quyết mâu thuẫn giữa GCCN và GCTS."
+        "correct": 0,
+        "explanation": "Đêm 27/6/1908, vụ đầu độc binh lính Pháp nổ ra tại Hà Nội do binh lính người Việt phối hợp với nghĩa quân Hoàng Hoa Thám ngoài căn cứ thực hiện.",
+        "trapAnalysis": "Vụ Hà Thành đầu độc gắn liền với mốc năm 1908."
       },
       {
         "id": 7,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Cách mạng vô sản nhằm mục đích căn bản là gì?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Nhận biết",
+        "question": "Khởi nghĩa Thái Nguyên (1917) do Đội Cấn và Lương Ngọc Quyến lãnh đạo nổ ra tại đâu?",
         "options": [
-          "Chỉ thay đổi người đứng đầu chính phủ tư sản",
-          "Lật đổ chính quyền của giai cấp bóc lột, thiết lập chính quyền của giai cấp công nhân và nhân dân lao động",
-          "Tịch thu tiền của người nghèo",
-          "Bắt buộc nông dân phải đi làm thợ may"
+          "Trại lính khố xanh và nhà tù Thái Nguyên",
+          "Mỏ than Phấn Mễ Thái Nguyên",
+          "Khu đồn điền chè Sông Cầu",
+          "Vùng rừng núi Tam Đảo"
         ],
-        "correct": 1,
-        "explanation": "Mục tiêu cốt lõi của cách mạng vô sản là đập tan bộ máy nhà nước tư sản, giành chính quyền về tay nhân dân.",
-        "trapAnalysis": "Lật đổ giai cấp bóc lột, thiết lập chính quyền của nhân dân."
+        "correct": 0,
+        "explanation": "Đêm 30 rạng ngày 31/8/1917, binh lính yêu nước do Trịnh Văn Cấn (Đội Cấn) và chí sĩ Lương Ngọc Quyến lãnh đạo đã khởi nghĩa phá nhà tù Thái Nguyên.",
+        "trapAnalysis": "Khởi nghĩa Thái Nguyên (1917) là cuộc nổi dậy tiêu biểu của binh lính người Việt yêu nước."
       },
       {
         "id": 8,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Nhận biết",
-        "question": "Cách mạng vô sản được thực hiện bằng con đường nào theo nguyên tắc của chủ nghĩa Mác - Lênin?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Thông hiểu",
+        "question": "Mục tiêu ban đầu của phong trào 'Chấn hưng nội hóa, bài trừ ngoại hóa' (1919) là:",
         "options": [
-          "Con đường bạo lực cách mạng",
-          "Con đường cải lương ôn hòa cầu xin",
-          "Chờ đợi sự tự giác từ bỏ quyền lực của giai cấp tư sản",
-          "Con đường buôn bán thương mại"
+          "Tẩy chay hàng hóa của tư sản ngoại kiều và ủng hộ hàng hóa của tư sản Việt Nam",
+          "Vũ trang đánh chiếm các kho hàng của thương gia Pháp",
+          "Đòi chia lại ruộng đất cho nông dân nghèo ở miền Tây",
+          "Thành lập hợp tác xã sản xuất nông sản kiểu mới"
         ],
         "correct": 0,
-        "explanation": "Vở ghi: Cách mạng vô sản là cuộc cách mạng được thực hiện bằng con đường bạo lực cách mạng.",
-        "trapAnalysis": "Con đường bạo lực cách mạng."
+        "explanation": "Phong trào do tầng lời tư sản và tiểu tư sản dân tộc phát động nhằm bảo vệ quyền lợi buôn bán và sản xuất của giới công thương bản địa.",
+        "trapAnalysis": "Phong trào 'Chấn hưng nội hóa' là biểu hiện đấu tranh kinh tế của giai cấp tư sản dân tộc."
       },
       {
         "id": 9,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Vì sao cách mạng vô sản phải sử dụng bạo lực cách mạng?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Nhận biết",
+        "question": "Đảng Lập hiến do Bùi Quang Chiêu sáng lập năm 1923 đại diện cho quyền lợi của tầng lớp nào?",
         "options": [
-          "Vì giai cấp công nhân yêu thích bạo lực",
-          "Vì giai cấp tư sản không bao giờ tự nguyện từ bỏ quyền lực và tư liệu sản xuất, luôn dùng bạo lực trấn áp nhân dân",
-          "Vì hiến pháp tư sản bắt buộc như vậy",
-          "Vì không có cách nào khác để in báo chí"
+          "Đại địa chủ và tư sản mại bản Nam Kỳ",
+          "Giai cấp công nhân thợ thuyền",
+          "Giai cấp nông dân nghèo Nam Bộ",
+          "Tầng lớp học sinh sinh viên cấp tiến"
         ],
-        "correct": 1,
-        "explanation": "Bạo lực cách mạng là phương tiện tự vệ và tiến công tất yếu vì giai cấp thống trị luôn sẵn sàng dùng quân đội, cảnh sát để đàn áp nhân dân.",
-        "trapAnalysis": "Giai cấp thống trị không bao giờ tự nguyện từ bỏ quyền lực."
+        "correct": 0,
+        "explanation": "Đảng Lập hiến là tổ chức chính trị của tầng lớp đại địa chủ và tư sản lớn ở Nam Kỳ, chủ trương thỏa hiệp với thực dân Pháp để chia sẻ quyền lợi.",
+        "trapAnalysis": "Đảng Lập hiến (1923) theo khuynh hướng cải lương thỏa hiệp của tư sản mại bản và đại địa chủ."
       },
       {
         "id": 10,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Nhận biết",
-        "question": "Thắng lợi của cuộc cách mạng nào đã khai sinh ra nhà nước xã hội chủ nghĩa đầu tiên trên thế giới?",
+        "chapter": "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)",
+        "level": "Thông hiểu",
+        "question": "Tổ chức 'Tâm Tâm xã' (Tân Việt Thanh niên Đoàn) được thành lập năm 1923 tại đâu?",
         "options": [
-          "Cách mạng tư sản Pháp 1789",
-          "Cách mạng Tháng Mười Nga năm 1917",
-          "Cách mạng Tân Hợi 1911",
-          "Cách mạng Tháng Tám 1945 ở Việt Nam"
+          "Quảng Châu, Trung Quốc",
+          "Hương Cảng, Trung Quốc",
+          "Paris, Pháp",
+          "Băng Cốc, Thái Lan"
         ],
-        "correct": 1,
-        "explanation": "Vở ghi: Nhà nước chủ nghĩa xã hội đầu tiên xuất hiện trong thực tiễn: Liên Xô cũ sau Cách mạng Tháng Mười Nga năm 1917.",
-        "trapAnalysis": "Cách mạng Tháng Mười Nga năm 1917 khai sinh nhà nước XHCN đầu tiên."
+        "correct": 0,
+        "explanation": "Tâm Tâm Xã do các thanh niên yêu nước cấp tiến như Lê Hồng Sơn, Hồ Tùng Mậu, Lê Văn Phan... thành lập năm 1923 tại Quảng Châu (Trung Quốc).",
+        "trapAnalysis": "Tâm Tâm Xã thành lập năm 1923 tại Quảng Châu, là mảnh đất ươm mầm để Nguyễn Ái Quốc xây dựng tổ chức sau này."
       },
       {
         "id": 11,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Đặc trưng bản chất về kinh tế của Chủ nghĩa xã hội là gì?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Sau khi kết thúc Thế chiến I năm 1917, Nguyễn Tất Thành từ nước Anh trở lại quốc gia nào?",
         "options": [
-          "Kinh tế nghèo nàn, cào bằng của cải",
-          "Có nền kinh tế phát triển cao, dựa trên lực lượng sản xuất hiện đại và chế độ công hữu về tư liệu sản xuất chủ yếu",
-          "Chế độ tư hữu về toàn bộ của cải xã hội",
-          "Kinh tế phân tán, tự cung tự cấp phong kiến"
+          "Nước Pháp",
+          "Nước Nga",
+          "Nước Mỹ",
+          "Nước Trung Hoa"
         ],
-        "correct": 1,
-        "explanation": "Vở ghi: Đặc trưng bản chất của CNXH: có nền kinh tế phát triển cao, dựa trên lực lượng sản xuất hiện đại và chế độ công hữu về tư liệu sản xuất chủ yếu.",
-        "trapAnalysis": "Kinh tế phát triển cao, LLSX hiện đại, công hữu TLSX chủ yếu."
+        "correct": 0,
+        "explanation": "Cuối năm 1917, sau thời gian lao động ở Anh, Người trở lại Paris (Pháp) hòa mình vào phong trào công nhân và cộng đồng Việt kiều yêu nước.",
+        "trapAnalysis": "Cuối năm 1917 Bác từ Anh trở lại Pháp, bắt đầu thời kỳ hoạt động chính trị sôi nổi."
       },
       {
         "id": 12,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Chế độ sở hữu nào giữ vai trò chủ đạo về mặt kinh tế trong Chủ nghĩa xã hội?",
+        "question": "Trong bản 'Yêu sách của nhân dân An Nam' (1919), điểm nào thể hiện quyền tự do dân chủ quan trọng?",
         "options": [
-          "Chế độ tư hữu tư bản chủ nghĩa",
-          "Chế độ công hữu (sở hữu xã hội) về tư liệu sản xuất chủ yếu",
-          "Chế độ chiếm hữu nô lệ",
-          "Chế độ phong kiến địa tô"
+          "Tự do ngôn luận, tự do báo chí, tự do hội họp và lập hội",
+          "Đòi Toàn quyền Đông Dương phải từ chức ngay lập tức",
+          "Đòi nhượng lại tuyến đường sắt Bắc - Nam cho người bản xứ",
+          "Yêu cầu cấp phát bằng cử nhân đại học cho toàn bộ sĩ phu"
         ],
-        "correct": 1,
-        "explanation": "CNXH dựa trên chế độ công hữu về TLSX chủ yếu, xóa bỏ tận gốc nguồn gốc của áp bức bóc lột.",
-        "trapAnalysis": "Chế độ công hữu về tư liệu sản xuất chủ yếu."
+        "correct": 0,
+        "explanation": "Bản Yêu sách nêu rõ yêu cầu thực dân Pháp phải thừa nhận các quyền tự do tối thiểu: tự do đi lại, tự do hội họp, tự do báo chí và bãi bỏ chế độ cai trị bằng sắc lệnh.",
+        "trapAnalysis": "Yêu sách 1919 đòi quyền tự do dân chủ cơ bản: ngôn luận, báo chí, lập hội, bình đẳng pháp lý."
       },
       {
         "id": 13,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Cần phân biệt 'tư liệu sản xuất chủ yếu' được công hữu hóa với loại tài sản nào của cá nhân?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Tờ báo nào của Đảng Xã hội Pháp đã đăng bản Luận cương của Lênin mà Nguyễn Ái Quốc được đọc vào tháng 7/1920?",
         "options": [
-          "Tư liệu sinh hoạt, vật phẩm tiêu dùng cá nhân hợp pháp của công dân",
-          "Mọi thứ trên trái đất",
-          "Hầm mỏ và đất đai",
-          "Nhà máy điện và đường sắt"
+          "Báo L'Humanité (Nhân đạo)",
+          "Báo Le Paria",
+          "Báo La Vie Ouvrière",
+          "Báo Le Populaire"
         ],
         "correct": 0,
-        "explanation": "Chủ nghĩa xã hội công hữu hóa tư liệu sản xuất chủ yếu (nhà máy, hầm mỏ, đất đai), hoàn toàn bảo vệ quyền sở hữu tư liệu sinh hoạt cá nhân hợp pháp.",
-        "trapAnalysis": "Phân biệt TLSX chủ yếu với tư liệu sinh hoạt cá nhân."
+        "explanation": "Bản 'Sơ thảo lần thứ nhất những luận cương...' của Lênin được đăng trên báo L'Humanité vào các ngày 16 và 17/7/1920.",
+        "trapAnalysis": "Báo L'Humanité (Nhân đạo) là tờ báo đăng Luận cương của Lênin."
       },
       {
         "id": 14,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Nguyên tắc phân phối chủ đạo trong giai đoạn Chủ nghĩa xã hội là gì?",
+        "question": "Câu nói nổi tiếng của Nguyễn Ái Quốc khi đọc xong Luận cương Lênin là gì?",
         "options": [
-          "Phân phối bình quân cào bằng",
-          "Phân phối theo lao động ('Làm theo năng lực, hưởng theo lao động')",
-          "Phân phối theo nhu cầu sinh hoạt",
-          "Phân phối theo gia thế dòng dõi"
+          "Hỡi đồng bào bị đọa đày đau khổ! Đây là cái cần thiết cho chúng ta, đây là con đường giải phóng chúng ta!",
+          "Không có gì quý hơn độc lập tự do!",
+          "Đoàn kết, đoàn kết, đại đoàn kết! Thành công, thành công, đại thành công!",
+          "Nước Việt Nam là một, dân tộc Việt Nam là một!"
         ],
-        "correct": 1,
-        "explanation": "Trong CNXH, nguyên tắc phân phối chủ đạo là: 'Làm theo năng lực, hưởng theo lao động'. Ai làm nhiều hưởng nhiều, làm ít hưởng ít, không làm không hưởng (trừ người già, trẻ em).",
-        "trapAnalysis": "Phân phối theo lao động."
+        "correct": 0,
+        "explanation": "Trong phòng trọ nhỏ ở Paris, Người đã xúc động reo lên: 'Hỡi đồng bào bị đọa đày đau khổ! Đây là cái cần thiết cho chúng ta, đây là con đường giải phóng chúng ta!'.",
+        "trapAnalysis": "Lời reo vui bất hủ khi tìm thấy con đường cứu nước của Lãnh tụ Nguyễn Ái Quốc tháng 7/1920."
       },
       {
         "id": 15,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Mục đích cao nhất của nền sản xuất trong Chủ nghĩa xã hội là gì?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Nguyễn Ái Quốc đến Quảng Châu (Trung Quốc) vào thời gian nào để chuẩn bị thành lập Đảng?",
         "options": [
-          "Tối đa hóa lợi nhuận cho giới chủ",
-          "Thỏa mãn ngày càng tốt hơn nhu cầu vật chất và tinh thần của toàn thể nhân dân lao động",
-          "Tích lũy vàng bạc cho kho bạc nhà nước",
-          "Sản xuất vũ khí để xâm chiếm thị trường"
+          "Tháng 11/1924",
+          "Tháng 06/1923",
+          "Tháng 02/1925",
+          "Tháng 06/1925"
         ],
-        "correct": 1,
-        "explanation": "Mục đích của sản xuất XHCN không vì lợi nhuận tư bản mà nhằm phục vụ con người, thỏa mãn nhu cầu chính đáng của nhân dân.",
-        "trapAnalysis": "Thỏa mãn nhu cầu vật chất và tinh thần của nhân dân."
+        "correct": 0,
+        "explanation": "Ngày 11/11/1924, đồng chí Nguyễn Ái Quốc với bí danh Lý Thụy từ Mát-xcơ-va đến Quảng Châu (Trung Quốc) - cái nôi cách mạng sôi động lúc bấy giờ.",
+        "trapAnalysis": "Tháng 11/1924 Bác đến Quảng Châu bắt đầu trực tiếp gầy dựng tổ chức."
       },
       {
         "id": 16,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Về phương diện chính trị, Chủ nghĩa xã hội là chế độ xã hội mang bản chất của ai?",
+        "question": "Tác phẩm 'Đường Kách mệnh' (1927) nêu rõ Đảng muốn vững mạnh thì phải có yếu tố cốt lõi nào?",
         "options": [
-          "Giai cấp tư sản",
-          "Do nhân dân làm chủ, mang bản chất của giai cấp công nhân",
-          "Các tập đoàn quân sự độc quyền",
-          "Tầng lớp phong kiến"
+          "Phải có chủ nghĩa làm cốt, trong Đảng ai ai cũng phải hiểu và theo chủ nghĩa ấy",
+          "Phải tích lũy thật nhiều vàng bạc và vũ khí tối tân",
+          "Phải ký kết hiệp ước bảo hộ với các nước tư bản hùng mạnh",
+          "Phải kết nạp toàn bộ các quan lại phong kiến tiến bộ"
         ],
-        "correct": 1,
-        "explanation": "CNXH là chế độ do nhân dân làm chủ, nhà nước XHCN mang bản chất giai cấp công nhân dưới sự lãnh đạo của Đảng Cộng sản.",
-        "trapAnalysis": "Do nhân dân làm chủ, mang bản chất giai cấp công nhân."
+        "correct": 0,
+        "explanation": "Người viết: 'Đảng muốn vững thì phải có chủ nghĩa làm cốt, trong đảng ai ai cũng phải hiểu, ai ai cũng phải theo chủ nghĩa ấy. Đảng mà không có chủ nghĩa cũng như người không có trí khôn'.",
+        "trapAnalysis": "Nguyên lý xây dựng Đảng trong Đường Kách mệnh: Đảng phải lấy chủ nghĩa Mác - Lênin làm cốt lõi."
       },
       {
         "id": 17,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Về phương diện văn hóa - tư tưởng, Chủ nghĩa xã hội lấy hệ tư tưởng nào làm nền tảng?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Bảy đảng viên đầu tiên của Chi bộ cộng sản 5D Hàm Long (3/1929) xuất thân từ tổ chức nào?",
         "options": [
-          "Chủ nghĩa Mác - Lênin",
-          "Chủ nghĩa thực dụng cá nhân",
-          "Thần học tôn giáo thời trung cổ",
-          "Tư tưởng bảo hoàng phong kiến"
+          "Kỳ bộ Bắc Kỳ của Hội Việt Nam Cách mạng Thanh niên",
+          "Đảng Lập hiến Nam Kỳ",
+          "Hội Phục Việt Trung Kỳ",
+          "Chi bộ hải ngoại tại Thái Lan"
         ],
         "correct": 0,
-        "explanation": "Nền văn hóa XHCN lấy hệ tư tưởng chủ nghĩa Mác - Lênin làm kim chỉ nam, kế thừa các giá trị tinh hoa văn hóa dân tộc và nhân loại.",
-        "trapAnalysis": "Chủ nghĩa Mác - Lênin là nền tảng tư tưởng."
+        "explanation": "Bảy đồng chí sáng lập chi bộ 5D Hàm Long đều là những cán bộ ưu tú thuộc Kỳ bộ Bắc Kỳ của Hội Việt Nam Cách mạng Thanh niên.",
+        "trapAnalysis": "Chi bộ 5D Hàm Long được lập bởi các cán bộ cốt cán của Kỳ bộ Bắc Kỳ Hội VN Cách mạng Thanh niên."
       },
       {
         "id": 18,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Về quan hệ dân tộc trong Chủ nghĩa xã hội, các dân tộc có mối quan hệ như thế nào?",
+        "question": "Tại sao sự ra đời của ba tổ chức cộng sản năm 1929 phản ánh xu thế khách quan của lịch sử?",
         "options": [
-          "Áp bức và đồng hóa lẫn nhau",
-          "Bình đẳng, đoàn kết, tôn trọng và giúp nhau cùng phát triển",
-          "Kỳ thị chủng tộc và chia rẽ",
-          "Phân chia đẳng cấp thượng đẳng và hạ đẳng"
+          "Chứng tỏ chủ nghĩa Mác - Lênin đã thấm sâu vào phong trào công nhân và đòi hỏi phải có Đảng lãnh đạo",
+          "Chứng tỏ thực dân Pháp đã hoàn toàn đầu hàng trước phong trào đấu tranh",
+          "Chứng tỏ phong trào công nhân Việt Nam muốn duy trì sự chia rẽ lâu dài",
+          "Do Quốc tế Cộng sản trực tiếp cử ba phái đoàn về ba kỳ thành lập"
         ],
-        "correct": 1,
-        "explanation": "CNXH thực hiện quyền bình đẳng hoàn toàn giữa các dân tộc, đoàn kết, tương trợ giúp đỡ nhau cùng tiến bộ.",
-        "trapAnalysis": "Bình đẳng, đoàn kết, giúp nhau cùng phát triển."
+        "correct": 0,
+        "explanation": "Sự xuất hiện đồng thời ba tổ chức cộng sản chứng minh phong trào cách mạng trong nước đã phát triển vượt bậc, việc thành lập chính đảng cộng sản là đòi hỏi tất yếu khách quan.",
+        "trapAnalysis": "Ba tổ chức ra đời phản ánh sự phát triển chín muồi của tư tưởng vô sản tại Việt Nam."
       },
       {
         "id": 19,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Con người trong xã hội xã hội chủ nghĩa được định hướng phát triển như thế nào?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Hội nghị hợp nhất các tổ chức cộng sản (đầu năm 1930) bắt đầu họp từ ngày nào?",
         "options": [
-          "Phát triển tự do, ấm no, hạnh phúc và có điều kiện phát triển toàn diện",
-          "Bị ràng buộc bởi các giáo lý tôn giáo hà khắc",
-          "Chỉ làm việc không có thời gian nghỉ ngơi giải trí",
-          "Phải sống khép kín không giao tiếp xã hội"
+          "06/01/1930",
+          "03/02/1930",
+          "07/02/1930",
+          "24/02/1930"
         ],
         "correct": 0,
-        "explanation": "Mục tiêu của CNXH là giải phóng con người khỏi áp bức, tạo mọi điều kiện để con người phát triển toàn diện cả thể chất lẫn tinh thần.",
-        "trapAnalysis": "Ấm no, tự do, hạnh phúc, phát triển toàn diện."
+        "explanation": "Hội nghị hợp nhất khai mạc ngày 6/1/1930 và bế mạc ngày 7/2/1930 tại Cửu Long (Hương Cảng).",
+        "trapAnalysis": "Hội nghị bắt đầu từ 6/1/1930; ngày 3/2/1930 là ngày kỷ niệm được Đảng chọn."
       },
       {
         "id": 20,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Về chính sách đối ngoại, các nước xã hội chủ nghĩa chủ trương điều gì?",
+        "question": "Nội dung nào được Nguyễn Ái Quốc nhấn mạnh trong 'Lời kêu gọi' nhân dịp thành lập Đảng?",
         "options": [
-          "Hòa bình, hữu nghị, hợp tác bình đẳng và cùng có lợi với tất cả các nước trên thế giới",
-          "Gây chiến tranh xâm chiếm thuộc địa",
-          "Đóng cửa biên giới cô lập với thế giới bên ngoài",
-          "Liên minh quân sự để đàn áp các dân tộc nhỏ"
+          "Công nông binh bị áp bức hãy đoàn kết lại dưới lá cờ của Đảng Cộng sản Việt Nam",
+          "Kêu gọi các nước phương Tây viện trợ tài chính khẩn cấp cho chính phủ cách mạng",
+          "Khuyên nhân dân bảo toàn tính mạng và nộp thuế đầy đủ cho chính quyền Pháp",
+          "Chỉ đạo tiến hành ám sát cá nhân các quan chức cấp cao của thuộc địa"
         ],
         "correct": 0,
-        "explanation": "Chính sách đối ngoại XHCN: Độc lập, tự chủ, hòa bình, hữu nghị, hợp tác, tôn trọng chủ quyền của nhau trên cơ sở luật pháp quốc tế.",
-        "trapAnalysis": "Hòa bình, hữu nghị, hợp tác bình đẳng cùng có lợi."
+        "explanation": "Trong Lời kêu gọi, Người vạch trần tội ác đế quốc và tha thiết kêu gọi: 'Hỡi công nông binh! Hỡi đồng bào bị áp bức! Hãy gia nhập Đảng Cộng sản Việt Nam!'.",
+        "trapAnalysis": "Lời kêu gọi thành lập Đảng tập hợp công nông binh đứng lên làm cách mạng."
       },
       {
         "id": 21,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Điểm giống nhau cơ bản giữa Chủ nghĩa xã hội và giai đoạn cao Chủ nghĩa cộng sản là gì?",
+        "question": "Tính chất cách mạng thể hiện trong Cương lĩnh chính trị đầu tiên (2/1930) là:",
         "options": [
-          "Đều dựa trên chế độ công hữu về tư liệu sản xuất chủ yếu và không còn bóc lột người",
-          "Đều duy trì giai cấp tư sản cầm quyền",
-          "Đều phân phối của cải theo cổ phần góp vốn",
-          "Đều tồn tại nền kinh tế tiểu nông cá thể"
+          "Cách mạng giải phóng dân tộc kết hợp chặt chẽ với cách mạng ruộng đất",
+          "Cách mạng tư sản cổ điển giành quyền thống trị cho tư sản",
+          "Cách mạng tôn giáo nhằm khôi phục trật tự đạo đức Nho giáo",
+          "Cách mạng quân quản nhằm thiết lập nền độc tài quân phiệt"
         ],
         "correct": 0,
-        "explanation": "Cả hai giai đoạn đều thuộc cùng một hình thái KT-XH cộng sản chủ nghĩa, đều dựa trên công hữu TLSX và xóa bỏ bóc lột.",
-        "trapAnalysis": "Cùng dựa trên chế độ công hữu TLSX chủ yếu, không còn bóc lột."
+        "explanation": "Cương lĩnh kết hợp nhuần nhuyễn hai nhiệm vụ giải phóng dân tộc (nhiệm vụ tư sản dân quyền) và cách mạng ruộng đất (thổ địa cách mạng).",
+        "trapAnalysis": "Bản chất Cương lĩnh: Kết hợp độc lập dân tộc và thổ địa cách mạng hướng tới CNXH."
       },
       {
         "id": 22,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Điểm khác nhau căn bản giữa CNXH (giai đoạn thấp) và CSCN (giai đoạn cao) về phân phối của cải là:",
+        "question": "Văn kiện 'Điều lệ vắn tắt của Đảng' (2/1930) quy định nguyên tắc tổ chức cơ bản nào?",
         "options": [
-          "CNXH phân phối theo lao động; CSCN phân phối theo nhu cầu",
-          "CNXH phân phối theo nhu cầu; CSCN phân phối theo tiền lương",
-          "Cả hai đều phân phối cào bằng bình quân",
-          "CNXH không có của cải để phân phối"
+          "Tập trung dân chủ",
+          "Dân chủ đa nguyên",
+          "Thủ trưởng độc đoán",
+          "Tự do tuyệt đối không kỷ luật"
         ],
         "correct": 0,
-        "explanation": "Giai đoạn thấp phân phối theo lao động ('Làm theo năng lực, hưởng theo lao động'); giai đoạn cao phân phối theo nhu cầu ('Làm theo năng lực, hưởng theo nhu cầu').",
-        "trapAnalysis": "CNXH: theo lao động; CSCN: theo nhu cầu."
+        "explanation": "Điều lệ vắn tắt xác lập Đảng Cộng sản Việt Nam tổ chức theo nguyên tắc tập trung dân chủ của đảng kiểu mới kiểu Lênin-nít.",
+        "trapAnalysis": "Nguyên tắc tổ chức cơ bản của Đảng là Tập trung dân chủ."
       },
       {
         "id": 23,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Vì sao ở giai đoạn CNXH chưa thể thực hiện phân phối theo nhu cầu?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Vận dụng",
+        "question": "Sự đúng đắn và sáng tạo của Cương lĩnh tháng 2/1930 bắt nguồn từ yếu tố nào?",
         "options": [
-          "Vì lực lượng sản xuất chưa đạt đến mức của cải tuôn ra dồi dào dở khóc dở cười và ý thức con người chưa hoàn toàn tự giác tuyệt đối",
-          "Vì Đảng không đồng ý phân phối theo nhu cầu",
-          "Vì người dân từ chối nhận của cải",
-          "Vì nhà nước cấm sản xuất hàng tiêu dùng"
+          "Nắm vững bản chất chủ nghĩa Mác - Lênin và thấu hiểu sâu sắc thực tiễn xã hội Việt Nam",
+          "Sao chép nguyên văn mô hình cách mạng vô sản của nước Nga Xô viết",
+          "Thực hiện máy móc các chỉ thị tả khuynh của Quốc tế Cộng sản",
+          "Dựa trên các học thuyết chính trị phong kiến Nho gia cổ truyền"
         ],
         "correct": 0,
-        "explanation": "Phân phối theo nhu cầu đòi hỏi LLSX phát triển cực cao, của cải dồi dào phong phú và lao động đã trở thành nhu cầu tự giác bậc nhất của con người.",
-        "trapAnalysis": "LLSX chưa đủ dồi dào của cải và ý thức con người đang trong quá trình hoàn thiện."
+        "explanation": "Nguyễn Ái Quốc đã không giáo điều sách vở mà xuất phát từ thực tiễn một nước thuộc địa nửa phong kiến, nhận diện chính xác mâu thuẫn chủ yếu là mâu thuẫn dân tộc.",
+        "trapAnalysis": "Sáng tạo lớn nhất: Vận dụng chủ nghĩa Mác - Lênin vào hoàn cảnh thực tiễn Việt Nam."
       },
       {
         "id": 24,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
         "level": "Thông hiểu",
-        "question": "Trong giai đoạn cao của chủ nghĩa cộng sản, nhà nước sẽ có số phận lịch sử như thế nào?",
+        "question": "Tại sao việc thành lập Đảng năm 1930 là bước ngoặt vô cùng quan trọng của lịch sử Việt Nam?",
         "options": [
-          "Tự tiêu vong khi không còn giai cấp và chức năng trấn áp giai cấp",
-          "Trở nên tàn bạo hơn trước",
-          "Mở rộng bộ máy hành chính gấp 10 lần",
-          "Được chuyển giao cho các ngân hàng tư nhân"
+          "Từ đây cách mạng Việt Nam có ngọn cờ lãnh đạo duy nhất đúng đắn và gắn liền với phong trào thế giới",
+          "Chế độ thực dân Pháp đã hoàn toàn sụp đổ ngay trong mùa xuân năm 1930",
+          "Nước Việt Nam đã được các nước tư bản công nhận độc lập về mặt ngoại giao",
+          "Giai cấp phong kiến đã hoàn toàn từ bỏ quyền sở hữu ruộng đất"
         ],
         "correct": 0,
-        "explanation": "Chủ nghĩa Mác - Lênin khẳng định: Khi xã hội hoàn toàn không còn giai cấp, nhà nước với tư cách công cụ bạo lực giai cấp sẽ tự tiêu vong.",
-        "trapAnalysis": "Nhà nước tự tiêu vong khi xã hội không còn giai cấp."
+        "explanation": "Đảng ra đời mở ra thời kỳ cách mạng Việt Nam có đường lối cứu nước đúng đắn, chấm dứt thời kỳ mò mẫm bế tắc, đưa cách mạng hòa vào dòng thác thời đại mới.",
+        "trapAnalysis": "Bước ngoặt vĩ đại: Cách mạng có chính đảng tiên phong lãnh đạo với đường lối khoa học."
       },
       {
         "id": 25,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Trong xã hội cộng sản chủ nghĩa tương lai, lao động sẽ trở thành điều gì đối với con người?",
+        "chapter": "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)",
+        "level": "Nhận biết",
+        "question": "Ai là người trực tiếp thảo luận và thống nhất việc hợp nhất ba tổ chức cộng sản cùng Nguyễn Ái Quốc?",
         "options": [
-          "Nhu cầu sống đầu tiên của con người",
-          "Một gánh nặng cực nhọc bị ép buộc",
-          "Hình phạt cho các công dân phạm lỗi",
-          "Việc vô nghĩa không ai muốn làm"
+          "Các đại biểu của Đông Dương CS Đảng và An Nam CS Đảng",
+          "Đại diện của Quốc dân Đảng và Đảng Lập hiến",
+          "Đại diện của chính quyền Quốc Dân Đảng Trung Quốc",
+          "Các đại biểu của Đảng Cộng sản Liên Xô tại Hồng Kông"
         ],
         "correct": 0,
-        "explanation": "C.Mác chỉ ra: Trong giai đoạn cao CSCN, lao động không còn là phương tiện kiếm sống đơn thuần mà trở thành nhu cầu sống tự giác đầu tiên của con người.",
-        "trapAnalysis": "Lao động trở thành nhu cầu sống đầu tiên."
+        "explanation": "Nguyễn Ái Quốc đã trực tiếp ngồi lại cùng các đại biểu của Đông Dương CS Đảng và An Nam CS Đảng để phân tích và thống nhất thành lập Đảng CSVN.",
+        "trapAnalysis": "Hai tổ chức trực tiếp tham gia hội đàm hợp nhất là Đông Dương CS Đảng và An Nam CS Đảng."
       },
       {
         "id": 26,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Sự khác biệt về quan hệ giai cấp giữa CNXH và giai đoạn cao CSCN là gì?",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Tại Hà Tĩnh, chính quyền Xô viết hình thành sớm nhất ở các huyện nào vào cuối năm 1930?",
         "options": [
-          "CNXH vẫn còn giai cấp và sự khác biệt giai cấp; CSCN là xã hội hoàn toàn không còn giai cấp",
-          "Cả hai đều không có giai cấp",
-          "CNXH đã xóa bỏ mọi giai cấp",
-          "CSCN có thêm nhiều giai cấp mới"
+          "Can Lộc, Thạch Hà, Cẩm Xuyên",
+          "Kỳ Anh, Hương Sơn, Đức Thọ",
+          "Nghi Xuân, Vũ Quang, Lộc Hà",
+          "Hương Khê, Can Lộc, Kỳ Anh"
         ],
         "correct": 0,
-        "explanation": "Trong CNXH vẫn còn kết cấu xã hội - giai cấp đa dạng (công nhân, nông dân, trí thức); lên CSCN xã hội mới thực sự trở thành xã hội không giai cấp.",
-        "trapAnalysis": "CNXH: còn khác biệt giai cấp; CSCN: hoàn toàn không còn giai cấp."
+        "explanation": "Ở Hà Tĩnh, chính quyền Xô viết ra đời mạnh mẽ tại các huyện Can Lộc, Thạch Hà, Cẩm Xuyên... từ tháng 9/1930.",
+        "trapAnalysis": "Can Lộc, Thạch Hà, Cẩm Xuyên là địa bàn tiêu biểu của chính quyền Xô viết Hà Tĩnh."
       },
       {
         "id": 27,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Thông hiểu",
-        "question": "Liên Xô cũ sau năm 1917 đã làm được những kỳ tích lịch sử nào chứng minh tính ưu việt của CNXH?",
+        "question": "Sự tàn bạo của thực dân Pháp đối với phong trào 1930 - 1931 được thể hiện qua hành động nào?",
         "options": [
-          "Xóa bỏ mù chữ, công nghiệp hóa thần tốc và đánh tan chủ nghĩa phát xít cứu nhân loại",
-          "Mua lại toàn bộ nước Mỹ",
-          "Giải tán quân đội ngay trong chiến tranh",
-          "Khôi phục lại chế độ Nga hoàng"
+          "Dùng máy bay ném bom vào đoàn người biểu tình tay không và khủng bố trắng đẫm máu",
+          "Cắt điện nước và cấm họp chợ ở các huyện miền núi",
+          "Cho phép các đảng viên cộng sản được tị nạn chính trị sang Pháp",
+          "Thương lượng bồi thường đất đai cho nông dân nghèo"
         ],
         "correct": 0,
-        "explanation": "Liên Xô đã biến một nước nông nghiệp lạc hậu thành cường quốc công nghiệp, đánh bại phát xít Đức, mở đầu kỷ nguyên chinh phục vũ trụ (Gagarin 1961).",
-        "trapAnalysis": "Xóa mù chữ, CNH thần tốc, đánh tan chủ nghĩa phát xít."
+        "explanation": "Thực dân Pháp đã thẳng tay ném bom tàn sát đoàn biểu tình ở Hưng Nguyên, đốt phá làng xóm, giam cầm và xử bắn hàng ngàn chiến sĩ cách mạng.",
+        "trapAnalysis": "Khủng bố trắng tàn bạo bằng bom đạn và máy chém là phản ứng dã man của thực dân Pháp."
       },
       {
         "id": 28,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Sự sụp đổ của mô hình CNXH ở Liên Xô và Đông Âu những năm 1989-1991 phản ánh điều gì?",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Nhận biết",
+        "question": "Vụ án Tống Văn Sơ (Nguyễn Ái Quốc bị bắt tại Hồng Kông) diễn ra vào năm nào?",
         "options": [
-          "Sự sụp đổ của một mô hình cụ thể chậm đổi mới, quan liêu, giáo điều, chứ không phải sự sụp đổ của lý tưởng CNXH khoa học",
-          "Sự thắng lợi vĩnh viễn của chủ nghĩa tư bản",
-          "Học thuyết Mác hoàn toàn sai lầm",
-          "Nhân loại không còn cần công bằng xã hội"
+          "Năm 1931",
+          "Năm 1930",
+          "Năm 1935",
+          "Năm 1941"
         ],
         "correct": 0,
-        "explanation": "Đảng ta khẳng định: Sự sụp đổ của Liên Xô là sự sụp đổ của một mô hình thực nghiệm duy ý chí, quan liêu bao cấp, chứ bản chất lý tưởng CNXHKH vẫn đúng đắn.",
-        "trapAnalysis": "Sụp đổ của một mô hình giáo điều quan liêu cụ thể, không phải bản chất CNXH."
+        "explanation": "Ngày 6/6/1931, Nguyễn Ái Quốc với tên gọi Tống Văn Sơ bị cảnh sát Anh bắt trái phép tại số nhà 186 phố Tam Kung (Cửu Long, Hồng Kông).",
+        "trapAnalysis": "Vụ án Tống Văn Sơ tại Hồng Kông bắt đầu từ ngày 6/6/1931."
       },
       {
         "id": 29,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Thông hiểu",
-        "question": "Bài học lớn nhất mà Việt Nam rút ra từ sự sụp đổ của mô hình Xô Viết là gì?",
+        "question": "Luật sư tiến bộ người Anh nào đã tận tâm bào chữa cứu thoát Nguyễn Ái Quốc trong vụ án Hồng Kông?",
         "options": [
-          "Phải kiên định mục tiêu độc lập dân tộc gắn liền với CNXH nhưng phải luôn đổi mới sáng tạo, phù hợp với thực tiễn",
-          "Từ bỏ chủ nghĩa Mác - Lênin",
-          "Tư nhân hóa hoàn toàn đất đai",
-          "Xóa bỏ vai trò lãnh đạo của Đảng Cộng sản"
+          "Luật sư F.H. Loseby",
+          "Luật sư Paul Doumer",
+          "Luật sư Albert Sarraut",
+          "Luật sư Georges Bidault"
         ],
         "correct": 0,
-        "explanation": "Đổi mới ở Việt Nam là 'Đổi mới nhưng không đổi màu': kiên định mục tiêu độc lập dân tộc và CNXH, vận dụng sáng tạo chủ nghĩa Mác - Lênin vào hoàn cảnh cụ thể.",
-        "trapAnalysis": "Kiên định mục tiêu nhưng kiên quyết đổi mới sáng tạo, tránh giáo điều."
+        "explanation": "Luật sư Francis Henry Loseby cùng vợ và các đồng nghiệp chí công vô tư đã bào chữa thắng lợi, giúp Nguyễn Ái Quốc thoát khỏi nanh vuốt thực dân Pháp.",
+        "trapAnalysis": "Luật sư Loseby là ân nhân đã bảo vệ thành công Nguyễn Ái Quốc trước tòa án thực dân Anh."
       },
       {
         "id": 30,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Thông hiểu",
-        "question": "Mô hình phát triển kinh tế của Việt Nam trong thời kỳ quá độ được xác định là:",
+        "question": "Mặc dù phong trào 1930 - 1931 bị dìm trong biển máu, Đảng ta đã rút ra được bài học lớn gì?",
         "options": [
-          "Kinh tế thị trường định hướng xã hội chủ nghĩa",
-          "Kinh tế kế hoạch hóa tập trung quan liêu bao cấp cũ",
-          "Kinh tế tư bản thị trường tự do tuyệt đối",
-          "Kinh tế phong kiến tự cấp tự túc"
+          "Bài học về xây dựng khối liên minh công nông và nghệ thuật sử dụng bạo lực cách mạng",
+          "Bài học về việc từ bỏ hoàn toàn phương pháp đấu tranh vũ trang bạo động",
+          "Bài học về việc giao quyền chỉ huy quân sự cho các tướng lĩnh nước ngoài",
+          "Bài học về việc phân tán tổ chức Đảng thành các chi bộ độc lập không liên lạc"
         ],
         "correct": 0,
-        "explanation": "Việt Nam đã xác định mô hình kinh tế tổng quát trong thời kỳ quá độ là: Nền kinh tế thị trường định hướng xã hội chủ nghĩa.",
-        "trapAnalysis": "Kinh tế thị trường định hướng xã hội chủ nghĩa."
-      }
-    ]
-  },
-  {
-    "id": "de_07",
-    "code": "MÃ ĐỀ: 107",
-    "title": "Đề 07: Tính Tất Yếu & Đặc Điểm Cốt Lõi Của Thời Kỳ Quá Độ",
-    "description": "Luận điểm 'những cơn đau đẻ kéo dài' của Lênin, 2 kiểu quá độ (trực tiếp vs gián tiếp), sự đan xen các yếu tố cũ - mới trên mọi lĩnh vực.",
-    "duration": 15,
-    "questions": [
+        "explanation": "Phong trào để lại bài học vô giá về liên minh công nông, về xây dựng chính quyền công nông và chuẩn bị khởi nghĩa vũ trang giành chính quyền.",
+        "trapAnalysis": "Bài học lớn nhất của Xô viết Nghệ Tĩnh là khẳng định sức mạnh của khối liên minh công nông."
+      },
       {
-        "id": 1,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "id": 31,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Nhận biết",
-        "question": "Thời kỳ quá độ lên chủ nghĩa xã hội là một tất yếu đối với đối tượng nào?",
+        "question": "Đồng chí Tổng Bí thư Lê Hồng Phong hy sinh tại nhà tù Côn Đảo vào năm nào?",
         "options": [
-          "Chỉ các nước nghèo châu Phi",
-          "Tất cả các nước xây dựng chủ nghĩa xã hội",
-          "Chỉ các nước phương Tây phát triển",
-          "Không có nước nào cần thời kỳ quá độ"
-        ],
-        "correct": 1,
-        "explanation": "Vở ghi: Thời kỳ quá độ lên chủ nghĩa xã hội là tất yếu đối với tất cả các nước xây dựng chủ nghĩa xã hội.",
-        "trapAnalysis": "Tất yếu đối với TẤT CẢ các nước đi lên CNXH."
-      },
-      {
-        "id": 2,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Vì sao thời kỳ quá độ lên CNXH là tất yếu đối với TẤT CẢ các nước?",
-        "options": [
-          "Vì CNXH không thể tự nảy sinh hoàn chỉnh trong lòng CNTB, cần thời kỳ lịch sử để cải biến xã hội cũ và xây dựng cơ sở vật chất mới",
-          "Vì thủ tục Liên Hợp Quốc yêu cầu",
-          "Vì các nước tư bản ra lệnh",
-          "Vì người dân cần thời gian nghỉ ngơi"
+          "Năm 1942",
+          "Năm 1935",
+          "Năm 1939",
+          "Năm 1945"
         ],
         "correct": 0,
-        "explanation": "Chủ nghĩa xã hội dựa trên công hữu và xóa bỏ bóc lột - đối lập với CNTB, nên không thể tự động hình thành mà phải qua thời kỳ cải tạo và xây dựng gian khổ.",
-        "trapAnalysis": "CNXH không thể tự nảy sinh trong lòng CNTB, cần thời kỳ cải tạo và xây dựng."
+        "explanation": "Đồng chí Lê Hồng Phong bị địch đày ra Côn Đảo và trút hơi thở cuối cùng vào ngày 6/9/1942 sau những đòn tra tấn dã man trong hầm đá ngục tù.",
+        "trapAnalysis": "Đồng chí Lê Hồng Phong hy sinh tại Côn Đảo năm 1942."
       },
       {
-        "id": 3,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "id": 32,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Thông hiểu",
-        "question": "Theo V.I.Lênin, thời kỳ quá độ được ví là 'những cơn đau đẻ kéo dài' nhằm nhấn mạnh điều gì?",
+        "question": "Thành công lớn nhất của Đại hội lần thứ I của Đảng (3/1935) là gì?",
         "options": [
-          "Sự sung sướng an nhàn",
-          "Tính chất cực kỳ khó khăn, phức tạp, lâu dài và đau đớn của quá trình chuyển biến cách mạng",
-          "Sự nhanh chóng dễ dàng chỉ trong vài tuần",
-          "Sự thất bại chắc chắn của cuộc cách mạng"
-        ],
-        "correct": 1,
-        "explanation": "Vở ghi: Theo Lênin, thời kỳ quá độ là 'những cơn đau đẻ kéo dài' (CỰC KÌ KHÓ KHĂN). Cái mới ra đời từ lòng cái cũ luôn trải qua những biến động gay gắt.",
-        "trapAnalysis": "Nhấn mạnh tính chất cực kỳ khó khăn, phức tạp và lâu dài."
-      },
-      {
-        "id": 4,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Có mấy kiểu quá độ lên chủ nghĩa xã hội theo học thuyết Mác - Lênin?",
-        "options": [
-          "Chỉ có 1 kiểu duy nhất",
-          "Có 2 kiểu: Quá độ trực tiếp và Quá độ gián tiếp",
-          "Có 3 kiểu",
-          "Có 4 kiểu"
-        ],
-        "correct": 1,
-        "explanation": "Slide 3.2.1: Có hai kiểu quá độ: Quá độ trực tiếp và Quá độ gián tiếp.",
-        "trapAnalysis": "Có hai kiểu quá độ: Trực tiếp và Gián tiếp."
-      },
-      {
-        "id": 5,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Quá độ TRỰC TIẾP lên CNXH là kiểu quá độ diễn ra ở những nước nào?",
-        "options": [
-          "Ở các nước tiền tư bản lạc hậu",
-          "Ở những nước tư bản phát triển (C.Mác và Ph.Ăngghen nêu ra)",
-          "Ở các nước thuộc địa nửa phong kiến",
-          "Ở các quốc gia nguyên thủy"
-        ],
-        "correct": 1,
-        "explanation": "Slide: Quá độ trực tiếp: từ chủ nghĩa tư bản lên chủ nghĩa cộng sản ở những nước tư bản phát triển (ghi chú: Mác + Ăngghen nêu ra).",
-        "trapAnalysis": "Quá độ trực tiếp: từ nước TBCN phát triển (Mác - Ăngghen nêu)."
-      },
-      {
-        "id": 6,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Quá độ GIÁN TIẾP lên CNXH là kiểu quá độ diễn ra ở những nước nào?",
-        "options": [
-          "Ở các nước tiền tư bản hoặc chưa qua chủ nghĩa tư bản phát triển (V.I.Lênin bổ sung)",
-          "Ở những nước có nền công nghiệp hiện đại bậc nhất thế giới",
-          "Ở các nước tư bản độc quyền nhà nước",
-          "Ở các nước đế quốc chủ nghĩa"
+          "Khôi phục được hệ thống tổ chức của Đảng từ Trung ương đến địa phương sau khủng bố",
+          "Phát động ngay phong trào tổng bãi công phá hoại chiến tranh đế quốc",
+          "Kêu gọi các nước phương Tây ủng hộ chính quyền Xô viết Đông Dương",
+          "Xóa bỏ hoàn toàn tình trạng thất nghiệp trong công nhân thuộc địa"
         ],
         "correct": 0,
-        "explanation": "Slide: Quá độ gián tiếp: từ những nước tiền tư bản hoặc chưa qua chủ nghĩa tư bản phát triển (ghi chú: Lênin bổ sung; ví dụ như Việt Nam).",
-        "trapAnalysis": "Quá độ gián tiếp: từ nước tiền tư bản (Lênin bổ sung)."
+        "explanation": "Ý nghĩa lớn nhất của Đại hội I là khẳng định sự phục hồi hoàn toàn hệ thống tổ chức của Đảng và các tổ chức quần chúng sau những năm bị địch khủng bố trắng.",
+        "trapAnalysis": "Ý nghĩa sống còn của Đại hội I: Khôi phục hoàn chỉnh hệ thống tổ chức Đảng từ TW đến cơ sở."
       },
       {
-        "id": 7,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "id": 33,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Thông hiểu",
-        "question": "Việt Nam thuộc kiểu quá độ nào lên chủ nghĩa xã hội?",
+        "question": "Hội nghị Trung ương Đảng tháng 3/1938 đã quyết định thành lập tổ chức mặt trận nào?",
         "options": [
-          "Quá độ trực tiếp từ tư bản phát triển",
-          "Quá độ gián tiếp từ một nước thuộc địa nửa phong kiến, nông nghiệp lạc hậu bỏ qua chế độ TBCN",
-          "Không thuộc kiểu quá độ nào",
-          "Quá độ tư bản chủ nghĩa hoàn chỉnh"
-        ],
-        "correct": 1,
-        "explanation": "Slide ghi rõ ví dụ: Quá độ gián tiếp: từ những nước tiền tư bản... Ví dụ như Việt Nam.",
-        "trapAnalysis": "Việt Nam thuộc kiểu quá độ gián tiếp."
-      },
-      {
-        "id": 8,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Điểm khác biệt trong sơ đồ phân kỳ giữa Mác - Ăngghen và V.I.Lênin là gì?",
-        "options": [
-          "Mác - Ăngghen mô tả giai đoạn thấp là thời kỳ quá độ lên CSCN; Lênin tách rõ: TK quá độ lên CNXH, CNXH và giai đoạn cao CSCN",
-          "Lênin phủ nhận hoàn toàn giai đoạn CSCN",
-          "Mác không công nhận CNXH",
-          "Cả hai sơ đồ hoàn toàn giống hệt nhau từng chữ"
+          "Mặt trận Dân chủ Đông Dương",
+          "Mặt trận Việt Minh",
+          "Mặt trận Phản đế Đông Dương",
+          "Mặt trận Tổ quốc Việt Nam"
         ],
         "correct": 0,
-        "explanation": "Slide: Sơ đồ trên slide: Mác - Ăngghen mô tả giai đoạn thấp là thời kỳ quá độ lên chủ nghĩa cộng sản; V.I. Lênin tách rõ thời kỳ quá độ lên chủ nghĩa xã hội, chủ nghĩa xã hội và giai đoạn cao của chủ nghĩa cộng sản.",
-        "trapAnalysis": "Lênin tách rõ: TKQĐ lên CNXH -> CNXH -> CSCN cao."
+        "explanation": "Tháng 3/1938, Hội nghị Trung ương do Nguyễn Văn Cừ chủ trì đã quyết định đổi tên Mặt trận Thống nhất Nhân dân Phản đế thành Mặt trận Dân chủ Đông Dương.",
+        "trapAnalysis": "Mặt trận Dân chủ Đông Dương được quyết định đổi tên tại HNTW tháng 3/1938."
       },
       {
-        "id": 9,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Đặc điểm bao trùm của thời kỳ quá độ lên chủ nghĩa xã hội là gì?",
-        "options": [
-          "Xã hội thuần nhất không còn mâu thuẫn",
-          "Các yếu tố của xã hội cũ và xã hội mới đan xen trên mọi lĩnh vực",
-          "Kinh tế chỉ có một thành phần duy nhất",
-          "Chính trị không còn phân hóa giai cấp"
-        ],
-        "correct": 1,
-        "explanation": "Slide: Đặc điểm thời kỳ quá độ: các yếu tố của xã hội cũ và xã hội mới đan xen trên mọi lĩnh vực.",
-        "trapAnalysis": "Từ khóa bao trùm: Các yếu tố cũ và mới đan xen trên mọi lĩnh vực."
-      },
-      {
-        "id": 10,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Về mặt KINH TẾ, sự đan xen giữa xã hội cũ và mới trong thời kỳ quá độ biểu hiện ở điểm nào?",
-        "options": [
-          "Nền kinh tế hoàn toàn chỉ có hợp tác xã",
-          "Nền kinh tế có nhiều thành phần vận động theo định hướng xã hội chủ nghĩa",
-          "Nền kinh tế tư nhân chiếm độc quyền 100%",
-          "Kinh tế hiện vật không dùng tiền tệ"
-        ],
-        "correct": 1,
-        "explanation": "Slide: Kinh tế có nhiều thành phần vận động theo định hướng xã hội chủ nghĩa (kinh tế nhà nước, kinh tế tập thể, kinh tế tư nhân...).",
-        "trapAnalysis": "Kinh tế có nhiều thành phần theo định hướng XHCN."
-      },
-      {
-        "id": 11,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Về mặt CHÍNH TRỊ, thời kỳ quá độ có đặc điểm kết cấu xã hội như thế nào?",
-        "options": [
-          "Kết cấu xã hội thuần nhất chỉ có công nhân",
-          "Kết cấu xã hội đa dạng, phức tạp với nhiều giai cấp, tầng lớp khác nhau có lợi ích vừa thống nhất vừa mâu thuẫn",
-          "Không còn giai cấp nào tồn tại",
-          "Giai cấp tư sản nắm toàn quyền"
-        ],
-        "correct": 1,
-        "explanation": "Slide: Chính trị có kết cấu xã hội đa dạng, phức tạp (công nhân, nông dân, trí thức, tiểu thương, tư nhân...).",
-        "trapAnalysis": "Chính trị có kết cấu xã hội đa dạng, phức tạp."
-      },
-      {
-        "id": 12,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Ghi chú viết tay ở phần chính trị trong slide nhấn mạnh nhiệm vụ gì của giai cấp công nhân?",
-        "options": [
-          "Từ bỏ quân đội và công an",
-          "Giai cấp công nhân nắm quyền lực nhà nước trấn áp GCTS, tiến hành xã hội không giai cấp, thiết lập tăng cường chuyên chính vô sản",
-          "Giao lại chính quyền cho các tập đoàn tư bản",
-          "Giải tán các cơ quan tư pháp"
-        ],
-        "correct": 1,
-        "explanation": "Slide (ghi chú viết tay): giai cấp công nhân nắm quyền lực nhà nước trấn áp GCTS, tiến hành xã hội không giai cấp, thiết lập tăng cường chuyên chính vô sản.",
-        "trapAnalysis": "Nắm quyền lực trấn áp GCTS, thiết lập tăng cường chuyên chính vô sản."
-      },
-      {
-        "id": 13,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Về TƯ TƯỞNG VÀ VĂN HÓA, đặc điểm của thời kỳ quá độ là gì?",
-        "options": [
-          "Chỉ có duy nhất một quan điểm tư tưởng",
-          "Tồn tại nhiều quan điểm, giá trị khác nhau; tư tưởng XHCN đấu tranh với tư tưởng tư sản và tàn dư cũ",
-          "Mọi người đều có suy nghĩ giống hệt nhau",
-          "Không có tôn giáo hay phong tục nào"
-        ],
-        "correct": 1,
-        "explanation": "Slide: Tư tưởng và văn hóa tồn tại nhiều quan điểm, giá trị khác nhau, đan xen giữa tư tưởng tiến bộ và tàn dư lạc hậu cũ.",
-        "trapAnalysis": "Tồn tại nhiều quan điểm, giá trị khác nhau."
-      },
-      {
-        "id": 14,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Chuyên chính vô sản trong thời kỳ quá độ có hai chức năng cơ bản nào?",
-        "options": [
-          "Chức năng bạo lực trấn áp kẻ thù và chức năng tổ chức xây dựng xã hội mới",
-          "Chức năng buôn bán và chức năng cho vay tiền",
-          "Chức năng tôn giáo và chức năng thể thao",
-          "Chức năng du lịch và chức năng lễ hội"
-        ],
-        "correct": 0,
-        "explanation": "Chuyên chính vô sản vừa có chức năng bạo lực trấn áp sự phản kháng của giai cấp bóc lột, vừa có chức năng chủ yếu và cơ bản hơn là tổ chức xây dựng xã hội mới.",
-        "trapAnalysis": "Hai chức năng: Trấn áp kẻ thù và Tổ chức xây dựng xã hội mới."
-      },
-      {
-        "id": 15,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Trong hai chức năng của chuyên chính vô sản, chức năng nào giữ vai trò CƠ BẢN VÀ QUYẾT ĐỊNH NHẤT?",
-        "options": [
-          "Chức năng bạo lực trấn áp",
-          "Chức năng tổ chức và xây dựng xã hội mới",
-          "Chức năng đóng cửa biên giới",
-          "Chức năng tịch thu tài sản"
-        ],
-        "correct": 1,
-        "explanation": "V.I.Lênin nhấn mạnh: Bản chất sâu xa và chức năng căn bản nhất của chuyên chính vô sản không phải là bạo lực mà là tổ chức xây dựng thành công xã hội mới.",
-        "trapAnalysis": "Chức năng tổ chức và xây dựng xã hội mới là cơ bản nhất."
-      },
-      {
-        "id": 16,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Theo C.Mác, xã hội của thời kỳ quá độ có đặc điểm thoát thai như thế nào?",
-        "options": [
-          "Là xã hội vừa thoát thai từ xã hội tư bản chủ nghĩa, chưa phát triển trên cơ sở của chính nó, còn mang những dấu vết của xã hội cũ để lại",
-          "Là xã hội hoàn toàn mới không dính dáng gì đến lịch sử",
-          "Là xã hội quay trở lại nguyên thủy",
-          "Là xã hội hoàn hảo ngay từ ngày đầu tiên"
-        ],
-        "correct": 0,
-        "explanation": "Vở ghi: Theo C. Mác, xã hội của thời kỳ quá độ là xã hội vừa thoát thai từ xã hội tư bản chủ nghĩa, xã hội chưa phát triển trên cơ sở của chính nó, còn mang những dấu vết của xã hội cũ để lại.",
-        "trapAnalysis": "Vừa thoát thai từ CNTB, chưa phát triển trên cơ sở chính nó, còn dấu vết cũ."
-      },
-      {
-        "id": 17,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Những 'dấu vết của xã hội cũ để lại' trong thời kỳ quá độ biểu hiện ở lĩnh vực nào?",
-        "options": [
-          "Chỉ ở lĩnh vực ăn mặc",
-          "Trên mọi phương diện: kinh tế, đạo đức, tinh thần và tập quán lối sống",
-          "Chỉ ở lĩnh vực khí hậu thời tiết",
-          "Không có dấu vết nào"
-        ],
-        "correct": 1,
-        "explanation": "C.Mác chỉ ra: Những dấu vết cũ tồn tại dai dẳng về mọi phương diện kinh tế, tư tưởng, tâm lý, đạo đức, thói quen.",
-        "trapAnalysis": "Dấu vết cũ tồn tại trên mọi phương diện: kinh tế, đạo đức, tinh thần."
-      },
-      {
-        "id": 18,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Trong nền kinh tế nhiều thành phần thời kỳ quá độ ở Việt Nam, thành phần kinh tế nào giữ VAI TRÒ CHỦ ĐẠO?",
-        "options": [
-          "Kinh tế tư nhân",
-          "Kinh tế nhà nước",
-          "Kinh tế có vốn đầu tư nước ngoài",
-          "Kinh tế cá thể tiểu chủ"
-        ],
-        "correct": 1,
-        "explanation": "Đảng ta xác định: Kinh tế nhà nước giữ vai trò chủ đạo, là công cụ vật chất quan trọng để nhà nước định hướng và điều tiết nền kinh tế vĩ mô.",
-        "trapAnalysis": "Kinh tế nhà nước giữ vai trò chủ đạo."
-      },
-      {
-        "id": 19,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Thành phần kinh tế tư nhân ở Việt Nam hiện nay được xác định có vị trí vai trò là:",
-        "options": [
-          "Kẻ thù của chủ nghĩa xã hội cần xóa bỏ ngay",
-          "Một động lực quan trọng của nền kinh tế thị trường định hướng XHCN",
-          "Thành phần kinh tế duy nhất được phép kinh doanh",
-          "Thành phần không được pháp luật bảo vệ"
-        ],
-        "correct": 1,
-        "explanation": "Nghị quyết của Đảng nêu rõ: Kinh tế tư nhân là một động lực quan trọng của nền kinh tế quốc dân.",
-        "trapAnalysis": "Kinh tế tư nhân là một động lực quan trọng."
-      },
-      {
-        "id": 20,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Vì sao trong thời kỳ quá độ ở Việt Nam lại cần phát triển kinh tế nhiều thành phần?",
-        "options": [
-          "Để phù hợp với trình độ phát triển không đồng đều của lực lượng sản xuất và khơi dậy mọi nguồn lực xã hội",
-          "Vì Việt Nam không muốn phát triển công nghiệp",
-          "Vì muốn khôi phục hoàn toàn chủ nghĩa tư bản",
-          "Vì các nước tư bản ép buộc"
-        ],
-        "correct": 0,
-        "explanation": "Lực lượng sản xuất nước ta còn nhiều tầng nấc, do đó quan hệ sản xuất phải đa dạng hóa các hình thức sở hữu để giải phóng sức sản xuất.",
-        "trapAnalysis": "Phù hợp với trình độ không đồng đều của LLSX, giải phóng sức sản xuất."
-      },
-      {
-        "id": 21,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Trong thời kỳ quá độ lên CNXH, cuộc đấu tranh giai cấp diễn ra trong điều kiện mới nào?",
-        "options": [
-          "Giai cấp công nhân đã nắm chính quyền nhà nước và trở thành giai cấp cầm quyền",
-          "Giai cấp công nhân vẫn là nô lệ làm thuê",
-          "Giai cấp tư sản vẫn nắm toàn bộ quân đội",
-          "Không còn bất kỳ cuộc đấu tranh nào"
-        ],
-        "correct": 0,
-        "explanation": "Điều kiện mới căn bản: GCCN từ địa vị bị trị đã trở thành giai cấp thống trị, nắm giữ bộ máy nhà nước để cải tạo xã hội.",
-        "trapAnalysis": "GCCN đã nắm chính quyền nhà nước."
-      },
-      {
-        "id": 22,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Nội dung cốt lõi của cuộc đấu tranh giai cấp trong thời kỳ quá độ ở Việt Nam hiện nay là gì?",
-        "options": [
-          "Đấu tranh vũ trang đổ máu mỗi ngày",
-          "Thực hiện thắng lợi sự nghiệp CNH, HĐH đất nước theo định hướng XHCN, chống lại nghèo nàn lạc hậu và nguy cơ chệch hướng",
-          "Tịch thu hết tài sản của nông dân",
-          "Cấm buôn bán tự do ngoài chợ"
-        ],
-        "correct": 1,
-        "explanation": "Đấu tranh giai cấp ở nước ta hiện nay diễn ra trong hòa bình: xây dựng kinh tế vững mạnh, giữ vững định hướng XHCN, phòng chống 'diễn biến hòa bình' và tham nhũng lãng phí.",
-        "trapAnalysis": "Thực hiện CNH-HĐH theo định hướng XHCN, chống nghèo nàn lạc hậu."
-      },
-      {
-        "id": 23,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Thế lực thù địch thường sử dụng chiến lược nào để chống phá công cuộc xây dựng CNXH ở nước ta?",
-        "options": [
-          "Chiến lược 'Diễn biến hòa bình', kích động bạo loạn lật đổ",
-          "Chiến lược giúp đỡ vốn không hoàn lại",
-          "Chiến lược xuất khẩu máy móc miễn phí",
-          "Chiến lược khuyến khích người dân học tập"
-        ],
-        "correct": 0,
-        "explanation": "Các thế lực thù địch dùng chiến lược 'diễn biến hòa bình' xuyên tạc lý luận, kích động chia rẽ dân tộc, tôn giáo hòng làm chệch hướng XHCN.",
-        "trapAnalysis": "Chiến lược 'Diễn biến hòa bình'."
-      },
-      {
-        "id": 24,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Nhiệm vụ bảo vệ Tổ quốc trong thời kỳ quá độ bao gồm những nội dung nào?",
-        "options": [
-          "Bảo vệ vững chắc độc lập, chủ quyền, thống nhất, toàn vẹn lãnh thổ và bảo vệ chế độ XHCN, bảo vệ Đảng, Nhà nước và Nhân dân",
-          "Chỉ bảo vệ đất liền không bảo vệ biển đảo",
-          "Chỉ bảo vệ biên giới phía tây",
-          "Không cần quân đội chỉ cần cảnh sát"
-        ],
-        "correct": 0,
-        "explanation": "Bảo vệ Tổ quốc Việt Nam XHCN là bảo vệ toàn diện: độc lập chủ quyền lãnh thổ biển đảo, bảo vệ Đảng, Nhà nước, Nhân dân và chế độ XHCN.",
-        "trapAnalysis": "Bảo vệ độc lập chủ quyền và bảo vệ chế độ XHCN, Đảng, Nhà nước, Nhân dân."
-      },
-      {
-        "id": 25,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Để giữ vững định hướng XHCN trong kinh tế thị trường, Nhà nước ta sử dụng công cụ gì?",
-        "options": [
-          "Hệ thống pháp luật, chiến lược quy hoạch phát triển và lực lượng kinh tế nhà nước chủ đạo",
-          "Mệnh lệnh hành chính cấm đoán mù quáng",
-          "Thả nổi hoàn toàn cho thị trường tự do",
-          "Phụ thuộc vào ý kiến của các quỹ tài chính phương Tây"
-        ],
-        "correct": 0,
-        "explanation": "Nhà nước pháp quyền XHCN quản lý nền kinh tế thị trường định hướng XHCN bằng pháp luật, cơ chế chính sách và nguồn lực của kinh tế nhà nước.",
-        "trapAnalysis": "Pháp luật, quy hoạch chiến lược và kinh tế nhà nước chủ đạo."
-      },
-      {
-        "id": 26,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Mục tiêu kinh tế của thời kỳ quá độ là xây dựng cơ sở vật chất - kỹ thuật của CNXH, đó là:",
-        "options": [
-          "Nền sản xuất nông nghiệp dùng trâu cày",
-          "Nền đại công nghiệp hiện đại có năng suất lao động cao hơn chủ nghĩa tư bản",
-          "Nền kinh tế thủ công mỹ nghệ",
-          "Nền kinh tế đóng cửa tự cung tự cấp"
-        ],
-        "correct": 1,
-        "explanation": "Cơ sở vật chất - kỹ thuật của CNXH là nền đại công nghiệp hiện đại với trình độ công nghệ tiên tiến, năng suất lao động cao.",
-        "trapAnalysis": "Nền đại công nghiệp hiện đại có năng suất lao động cao."
-      },
-      {
-        "id": 27,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Nguyên tắc 'phát triển kinh tế đi đôi với tiến bộ và công bằng xã hội' ở Việt Nam thể hiện điều gì?",
-        "options": [
-          "Không chờ đến khi kinh tế phát triển cao mới thực hiện công bằng, mà thực hiện công bằng xã hội ngay trong từng bước đi và từng chính sách phát triển",
-          "Chỉ làm kinh tế trước, 100 năm sau mới làm công bằng",
-          "Chia đều của cải dù không làm việc",
-          "Ưu tiên làm giàu cho quan chức"
-        ],
-        "correct": 0,
-        "explanation": "Quan điểm nhất quán của Đảng ta: Tiến bộ và công bằng xã hội không chờ đợi kinh tế giàu có mới làm, mà phải thực hiện ngay trong từng bước và từng chính sách phát triển.",
-        "trapAnalysis": "Thực hiện tiến bộ và công bằng xã hội ngay trong từng bước và từng chính sách."
-      },
-      {
-        "id": 28,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Vì sao thời kỳ quá độ lên CNXH ở Việt Nam diễn ra lâu dài và nhiều thử thách?",
-        "options": [
-          "Vì xuất phát từ nền kinh tế tiểu nông lạc hậu, chiến tranh tàn phá nặng nề và bối cảnh quốc tế phức tạp",
-          "Vì nhân dân không ủng hộ",
-          "Vì Việt Nam không có tài nguyên khoáng sản",
-          "Vì Đảng không có đường lối"
-        ],
-        "correct": 0,
-        "explanation": "Việt Nam đi lên từ điểm xuất phát thấp (nông nghiệp lạc hậu, hậu quả chiến tranh nặng nề, cơ chế thị trường quốc tế cạnh tranh khốc liệt) nên TKQĐ phải lâu dài.",
-        "trapAnalysis": "Xuất phát điểm thấp, hậu quả chiến tranh và bối cảnh quốc tế phức tạp."
-      },
-      {
-        "id": 29,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Trong thời kỳ quá độ, việc củng cố hệ thống chính trị nhằm mục đích gì?",
-        "options": [
-          "Xây dựng Đảng trong sạch vững mạnh, Nhà nước pháp quyền hiệu lực hiệu quả và khối đại đoàn kết toàn dân bền vững",
-          "Tăng thêm số lượng cán bộ quan liêu",
-          "Phục vụ lợi ích riêng cho một nhóm gia đình",
-          "Ngăn cản người dân đóng góp ý kiến"
-        ],
-        "correct": 0,
-        "explanation": "Củng cố hệ thống chính trị là điều kiện tiên quyết để giữ vững ổn định chính trị, bảo đảm sự lãnh đạo của Đảng và quyền làm chủ của nhân dân.",
-        "trapAnalysis": "Xây dựng Đảng trong sạch vững mạnh, Nhà nước hiệu lực hiệu quả."
-      },
-      {
-        "id": 30,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Thước đo cao nhất cho sự thành công của thời kỳ quá độ lên CNXH là gì?",
-        "options": [
-          "Đời sống vật chất và tinh thần của nhân dân ngày càng ấm no, tự do, hạnh phúc",
-          "Số lượng các cuộc diễu binh hoành tráng",
-          "Số lượng biệt thự của các đại gia",
-          "Sự thỏa mãn của các nhà tư bản nước ngoài"
-        ],
-        "correct": 0,
-        "explanation": "Chủ tịch Hồ Chí Minh khẳng định: CNXH là làm sao cho nhân dân đủ ăn, đủ mặc, ngày càng sung sướng, ai nấy được đi học, ốm đau có thuốc men.",
-        "trapAnalysis": "Nhân dân ngày càng ấm no, tự do, hạnh phúc."
-      }
-    ]
-  },
-  {
-    "id": "de_08",
-    "code": "MÃ ĐỀ: 108",
-    "title": "Đề 08: Quá Độ Lên CNXH Ở Việt Nam & Tám Đặc Trưng Bản Chất",
-    "description": "Bản chất bỏ qua chế độ TBCN ở Việt Nam, hệ thống 8 đặc trưng xã hội XHCN mà nhân dân ta đang xây dựng theo Cương lĩnh của Đảng.",
-    "duration": 15,
-    "questions": [
-      {
-        "id": 1,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Bản chất của việc 'bỏ qua chế độ tư bản chủ nghĩa' ở Việt Nam là bỏ qua điều gì?",
-        "options": [
-          "Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa",
-          "Bỏ qua toàn bộ thành tựu khoa học kỹ thuật nhân loại",
-          "Bỏ qua việc phát triển công nghiệp hiện đại",
-          "Bỏ qua mở cửa hội nhập kinh tế quốc tế"
-        ],
-        "correct": 0,
-        "explanation": "Vở ghi: Quá độ lên CNXH bỏ qua chế độ TBCN là bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa.",
-        "trapAnalysis": "Bỏ qua vị trí thống trị của QHSX và KTTT TBCN."
-      },
-      {
-        "id": 2,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Trong quá trình bỏ qua chế độ TBCN, chúng ta cần phải KẾ THỪA điều gì từ chủ nghĩa tư bản?",
-        "options": [
-          "Kế thừa tệ nạn thất nghiệp và khủng hoảng kinh tế",
-          "Kế thừa các thành tựu mà nhân loại đã đạt được dưới CNTB, đặc biệt là khoa học, công nghệ và phát triển lực lượng sản xuất",
-          "Kế thừa sự phân hóa giàu nghèo sâu sắc",
-          "Kế thừa chính sách chiến tranh xâm lược"
-        ],
-        "correct": 1,
-        "explanation": "Đảng ta chỉ rõ: Bỏ qua CNTB nhưng phải tiếp thu, kế thừa những thành tựu mà nhân loại đã tạo ra dưới chế độ TBCN, nhất là KH-CN và LLSX tiên tiến.",
-        "trapAnalysis": "Kế thừa thành tựu khoa học công nghệ và LLSX tiên tiến."
-      },
-      {
-        "id": 3,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Theo C.Mác, đặc điểm thoát thai của xã hội thời kỳ quá độ được diễn đạt như thế nào?",
-        "options": [
-          "Vừa thoát thai từ xã hội tư bản chủ nghĩa, chưa phát triển trên cơ sở của chính nó, còn mang những dấu vết của xã hội cũ để lại",
-          "Đã hoàn toàn xóa sạch dấu vết quá khứ",
-          "Không chịu bất kỳ ảnh hưởng nào của CNTB",
-          "Là một xã hội sao chép lại chế độ phong kiến"
-        ],
-        "correct": 0,
-        "explanation": "Vở ghi: Theo C. Mác, xã hội của thời kỳ quá độ là xã hội vừa thoát thai từ xã hội tư bản chủ nghĩa, xã hội chưa phát triển trên cơ sở của chính nó, còn mang những dấu vết của xã hội cũ để lại.",
-        "trapAnalysis": "Vừa thoát thai từ XH TBCN, chưa phát triển trên cơ sở chính nó."
-      },
-      {
-        "id": 4,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Vì sao không thể xóa bỏ ngay lập tức kinh tế tư nhân trong thời kỳ quá độ ở Việt Nam?",
-        "options": [
-          "Vì kinh tế tư nhân còn đóng góp phát triển sức sản xuất, tạo việc làm và của cải cho xã hội",
-          "Vì nhà nước không có luật quản lý",
-          "Vì các nước tư bản cấm xóa bỏ",
-          "Vì giai cấp công nhân không muốn làm chủ"
-        ],
-        "correct": 0,
-        "explanation": "Kinh tế tư nhân trong thời kỳ quá độ có vai trò huy động vốn, công nghệ, giải quyết việc làm, là một động lực quan trọng của nền kinh tế.",
-        "trapAnalysis": "Kinh tế tư nhân giúp giải phóng sức sản xuất, tạo việc làm và của cải."
-      },
-      {
-        "id": 5,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên CNXH (bổ sung, phát triển năm 2011) xác định mô hình CNXH ở nước ta có mấy ĐẶC TRƯNG?",
-        "options": [
-          "6 đặc trưng",
-          "7 đặc trưng",
-          "8 đặc trưng",
-          "9 đặc trưng"
-        ],
-        "correct": 2,
-        "explanation": "Slide: 3.3.2. Những đặc trưng và phương hướng xây dựng chủ nghĩa xã hội ở Việt Nam hiện nay: 'Tám đặc trưng'.",
-        "trapAnalysis": "Có 8 đặc trưng bản chất của xã hội XHCN ở Việt Nam."
-      },
-      {
-        "id": 6,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Đặc trưng số (1) thể hiện MỤC TIÊU TỔNG QUÁT của CNXH ở Việt Nam là:",
-        "options": [
-          "Dân giàu, nước mạnh, dân chủ, công bằng, văn minh",
-          "Thu nhập bình quân cao nhất thế giới",
-          "Xóa bỏ hoàn toàn sở hữu cá nhân",
-          "Phát triển quân sự hàng đầu khu vực"
-        ],
-        "correct": 0,
-        "explanation": "Slide: Đặc trưng (1): dân giàu, nước mạnh, dân chủ, công bằng, văn minh. Đây là mục tiêu tổng quát của chế độ xã hội ta.",
-        "trapAnalysis": "Đặc trưng 1: Dân giàu, nước mạnh, dân chủ, công bằng, văn minh."
-      },
-      {
-        "id": 7,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Đặc trưng số (2) thể hiện BẢN CHẤT CHÍNH TRỊ của chế độ ta là:",
-        "options": [
-          "Do giai cấp tư sản điều hành",
-          "Do nhân dân làm chủ",
-          "Do các tập đoàn kinh tế chi phối",
-          "Do tầng lớp quý tộc lãnh đạo"
-        ],
-        "correct": 1,
-        "explanation": "Slide: Đặc trưng (2): do nhân dân làm chủ. Mọi quyền lực trong xã hội đều thuộc về nhân dân.",
-        "trapAnalysis": "Đặc trưng 2: Do nhân dân làm chủ."
-      },
-      {
-        "id": 8,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Đặc trưng số (3) về BẢN CHẤT KINH TẾ của CNXH ở Việt Nam là:",
-        "options": [
-          "Kinh tế bao cấp tập trung",
-          "Có nền kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại và quan hệ sản xuất tiến bộ phù hợp",
-          "Kinh tế tư nhân chiếm vị trí độc quyền tuyệt đối",
-          "Kinh tế lạc hậu dựa vào tài nguyên thô"
-        ],
-        "correct": 1,
-        "explanation": "Slide: Đặc trưng (3): kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại và quan hệ sản xuất tiến bộ, phù hợp.",
-        "trapAnalysis": "Đặc trưng 3: LLSX hiện đại và QHSX tiến bộ phù hợp."
-      },
-      {
-        "id": 9,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Đặc trưng số (4) về NỀN VĂN HÓA của xã hội XHCN ở Việt Nam là:",
-        "options": [
-          "Văn hóa phương Tây hiện đại hoàn toàn",
-          "Có nền văn hóa tiên tiến, đậm đà bản sắc dân tộc",
-          "Văn hóa phong kiến truyền thống khép kín",
-          "Văn hóa giải trí thương mại hóa đơn thuần"
-        ],
-        "correct": 1,
-        "explanation": "Slide: Đặc trưng (4): có nền văn hóa tiên tiến, đậm đà bản sắc dân tộc.",
-        "trapAnalysis": "Đặc trưng 4: Văn hóa tiên tiến, đậm đà bản sắc dân tộc."
-      },
-      {
-        "id": 10,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Đặc trưng số (5) về CON NGƯỜI trong xã hội XHCN ở Việt Nam là:",
-        "options": [
-          "Con người chỉ biết tuân lệnh máy móc",
-          "Con người có cuộc sống ấm no, tự do, hạnh phúc, có điều kiện phát triển toàn diện",
-          "Con người phải chịu sự kiểm soát nghiêm ngặt suy nghĩ",
-          "Con người tự do vô chính phủ"
-        ],
-        "correct": 1,
-        "explanation": "Slide: Đặc trưng (5): con người có cuộc sống ấm no, tự do, hạnh phúc và điều kiện phát triển toàn diện.",
-        "trapAnalysis": "Đặc trưng 5: Con người ấm no, tự do, hạnh phúc, phát triển toàn diện."
-      },
-      {
-        "id": 11,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Đặc trưng số (6) về QUAN HỆ DÂN TỘC trong xã hội XHCN ở Việt Nam là:",
-        "options": [
-          "Đồng hóa các dân tộc thiểu số",
-          "Các dân tộc trong cộng đồng Việt Nam bình đẳng, đoàn kết, tôn trọng và giúp nhau cùng phát triển",
-          "Ưu tiên đặc quyền cho một dân tộc duy nhất",
-          "Chia rẽ các dân tộc theo vùng miền"
-        ],
-        "correct": 1,
-        "explanation": "Slide: Đặc trưng (6): các dân tộc bình đẳng, đoàn kết, tôn trọng và giúp nhau cùng phát triển.",
-        "trapAnalysis": "Đặc trưng 6: Bình đẳng, đoàn kết, tôn trọng, giúp nhau cùng phát triển."
-      },
-      {
-        "id": 12,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Đặc trưng số (7) về NHÀ NƯỚC trong xã hội XHCN ở Việt Nam là:",
-        "options": [
-          "Nhà nước quân chủ lập hiến",
-          "Có Nhà nước pháp quyền xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân do Đảng Cộng sản lãnh đạo",
-          "Nhà nước tam quyền phân lập tư sản",
-          "Nhà nước tôn giáo thần quyền"
-        ],
-        "correct": 1,
-        "explanation": "Slide: Đặc trưng (7): có Nhà nước pháp quyền xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân, do Đảng Cộng sản lãnh đạo.",
-        "trapAnalysis": "Đặc trưng 7: Nhà nước pháp quyền XHCN của dân, do dân, vì dân do ĐCS lãnh đạo."
-      },
-      {
-        "id": 13,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Đặc trưng số (8) về QUAN HỆ QUỐC TẾ của xã hội XHCN ở Việt Nam là:",
-        "options": [
-          "Đối đầu quân sự với các nước láng giềng",
-          "Có quan hệ hữu nghị và hợp tác với các nước trên thế giới",
-          "Đóng cửa biên giới không giao thương",
-          "Chỉ quan hệ với các nước cùng chung ý thức hệ"
-        ],
-        "correct": 1,
-        "explanation": "Slide: Đặc trưng (8): có quan hệ hữu nghị, hợp tác với các nước trên thế giới.",
-        "trapAnalysis": "Đặc trưng 8: Quan hệ hữu nghị, hợp tác với các nước trên thế giới."
-      },
-      {
-        "id": 14,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Khẩu hiệu 'Dân giàu, nước mạnh, dân chủ, công bằng, văn minh' thể hiện mối quan hệ gì giữa các mục tiêu?",
-        "options": [
-          "Mục tiêu mâu thuẫn lẫn nhau không thể cùng thực hiện",
-          "Mối quan hệ biện chứng thống nhất, mục tiêu này là tiền đề và điều kiện cho mục tiêu kia",
-          "Chỉ cần dân giàu, không cần nước mạnh",
-          "Chỉ cần công bằng, không cần dân giàu"
-        ],
-        "correct": 1,
-        "explanation": "Năm yếu tố tạo thành hệ giá trị mục tiêu tổng thể của CNXH ở Việt Nam, gắn bó khăng khít hỗ trợ lẫn nhau.",
-        "trapAnalysis": "Mối quan hệ biện chứng thống nhất trong hệ mục tiêu tổng thể."
-      },
-      {
-        "id": 15,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Bản chất 'Do nhân dân làm chủ' trong CNXH ở Việt Nam được thực hiện qua những hình thức dân chủ nào?",
-        "options": [
-          "Chỉ có dân chủ trực tiếp",
-          "Dân chủ đại diện (gián tiếp) và dân chủ trực tiếp",
-          "Chỉ có bỏ phiếu kín qua mạng",
-          "Chỉ do người đứng đầu chỉ định"
-        ],
-        "correct": 1,
-        "explanation": "Nhân dân thực hiện quyền làm chủ thông qua hai hình thức cơ bản: Dân chủ trực tiếp (tự mình quyết định) và Dân chủ gián tiếp (qua đại biểu Quốc hội, HĐND...).",
-        "trapAnalysis": "Dân chủ trực tiếp và dân chủ gián tiếp (đại diện)."
-      },
-      {
-        "id": 16,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Khái niệm 'quan hệ sản xuất tiến bộ, phù hợp' trong đặc trưng kinh tế số (3) có nghĩa là gì?",
-        "options": [
-          "Xóa bỏ tư hữu ngay lập tức bằng mọi giá",
-          "QHSX phải phù hợp với trình độ phát triển của LLSX, đa dạng hóa sở hữu nhưng kinh tế nhà nước giữ vai trò chủ đạo",
-          "Duy trì mãi mãi quan hệ bao cấp",
-          "Để cho tư bản tự do bóc lột"
-        ],
-        "correct": 1,
-        "explanation": "Tiến bộ và phù hợp nghĩa là không nóng vội duy ý chí công hữu hóa khi LLSX chưa cho phép, mà phải thiết lập QHSX tương thích với trình độ LLSX.",
-        "trapAnalysis": "QHSX phù hợp với trình độ phát triển của LLSX."
-      },
-      {
-        "id": 17,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Nền văn hóa 'tiên tiến' trong đặc trưng số (4) được hiểu là nền văn hóa như thế nào?",
-        "options": [
-          "Nền văn hóa phương Tây lai căng",
-          "Nền văn hóa yêu nước, tiến bộ, có nội dung cốt lõi là lý tưởng độc lập dân tộc và CNXH dưới ánh sáng chủ nghĩa Mác - Lênin",
-          "Nền văn hóa chỉ có trong các viện bảo tàng",
-          "Nền văn hóa thương mại buôn bán"
-        ],
-        "correct": 1,
-        "explanation": "Tiên tiến là yêu nước, tiến bộ; nội dung cốt lõi là độc lập dân tộc gắn liền với CNXH; nhằm mục tiêu giải phóng con người.",
-        "trapAnalysis": "Tiên tiến: yêu nước, tiến bộ, định hướng XHCN."
-      },
-      {
-        "id": 18,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "'Đậm đà bản sắc dân tộc' trong đặc trưng số (4) bao gồm những giá trị gì?",
-        "options": [
-          "Các hủ tục mê tín dị đoan thời phong kiến",
-          "Những giá trị văn hóa truyền thống tốt đẹp: lòng yêu nước, tinh thần đoàn kết, nhân nghĩa, cần cù sáng tạo",
-          "Lối sống bảo thủ cục bộ địa phương",
-          "Tâm lý ỷ lại bao cấp"
-        ],
-        "correct": 1,
-        "explanation": "Bản sắc dân tộc kết tinh lòng yêu nước nồng nàn, ý chí tự cường, tinh thần đại đoàn kết, đức tính nhân ái, thủy chung của dân tộc Việt Nam.",
-        "trapAnalysis": "Giá trị truyền thống tốt đẹp: yêu nước, đoàn kết, nhân nghĩa."
-      },
-      {
-        "id": 19,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Quyền bình đẳng giữa các dân tộc trong đặc trưng số (6) được bảo đảm trên những lĩnh vực nào?",
-        "options": [
-          "Chỉ bình đẳng trong các lễ hội ca múa nhạc",
-          "Bình đẳng toàn diện trên tất cả các lĩnh vực chính trị, kinh tế, văn hóa, xã hội và trước pháp luật",
-          "Chỉ bình đẳng về mặt hình thức trong văn bản",
-          "Chỉ áp dụng ở đồng bằng"
-        ],
-        "correct": 1,
-        "explanation": "Các dân tộc ở Việt Nam đều bình đẳng về quyền và nghĩa vụ công dân trên mọi mặt chính trị, kinh tế, giáo dục, pháp lý.",
-        "trapAnalysis": "Bình đẳng toàn diện trên mọi lĩnh vực và trước pháp luật."
-      },
-      {
-        "id": 20,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Mối quan hệ giữa 8 đặc trưng của xã hội XHCN ở Việt Nam là gì?",
-        "options": [
-          "Mỗi đặc trưng đứng riêng rẽ không liên quan nhau",
-          "Tám đặc trưng phản ánh toàn diện bản chất chế độ, tạo thành một hệ thống chỉnh thể thống nhất gắn kết hữu cơ",
-          "Chỉ có đặc trưng số 1 là quan trọng",
-          "Các đặc trưng loại trừ lẫn nhau"
-        ],
-        "correct": 1,
-        "explanation": "Tám đặc trưng khái quát toàn diện diện mạo xã hội XHCN ở nước ta về mục tiêu, kinh tế, chính trị, văn hóa, con người, dân tộc, nhà nước và đối ngoại.",
-        "trapAnalysis": "Tạo thành một chỉnh thể thống nhất, gắn kết hữu cơ."
-      },
-      {
-        "id": 21,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Vì sao nói đặc trưng 'Dân giàu, nước mạnh, dân chủ, công bằng, văn minh' thể hiện tính ưu việt của CNXH?",
-        "options": [
-          "Vì chế độ tư bản không thể giải quyết triệt để vấn đề công bằng xã hội và phân hóa giàu nghèo sâu sắc",
-          "Vì chế độ tư bản không muốn có tiền",
-          "Vì chế độ phong kiến giàu có hơn",
-          "Vì khẩu hiệu này chỉ là hình thức"
-        ],
-        "correct": 0,
-        "explanation": "CNTB dù giàu có nhưng bản chất bóc lột tư nhân tạo ra bất bình đẳng sâu sắc; chỉ có CNXH mới kết hợp hài hòa giữa dân giàu, nước mạnh với công bằng, văn minh.",
-        "trapAnalysis": "Kết hợp hài hòa giữa tăng trưởng kinh tế với công bằng và tiến bộ xã hội."
-      },
-      {
-        "id": 22,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Đặc trưng nào trong 8 đặc trưng thể hiện sự bảo đảm bằng pháp lý cho quyền lực của nhân dân?",
-        "options": [
-          "Đặc trưng số (7): Nhà nước pháp quyền xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân",
-          "Đặc trưng số (4): Văn hóa tiên tiến",
-          "Đặc trưng số (8): Quan hệ hữu nghị",
-          "Đặc trưng số (6): Các dân tộc bình đẳng"
-        ],
-        "correct": 0,
-        "explanation": "Nhà nước pháp quyền XHCN là công cụ pháp lý và thiết chế quyền lực tối cao để thể chế hóa và bảo vệ quyền làm chủ của nhân dân.",
-        "trapAnalysis": "Đặc trưng 7: Nhà nước pháp quyền XHCN bảo đảm bằng pháp lý."
-      },
-      {
-        "id": 23,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Đặc trưng 'Có quan hệ hữu nghị và hợp tác với các nước trên thế giới' phản ánh phương châm đối ngoại nào của ta?",
-        "options": [
-          "Việt Nam sẵn sàng là bạn, là đối tác tin cậy và là thành viên có trách nhiệm của cộng đồng quốc tế",
-          "Việt Nam khép kín cửa khẩu không giao lưu",
-          "Việt Nam chỉ hợp tác với các nước giàu",
-          "Việt Nam can thiệp vào nội bộ nước khác"
-        ],
-        "correct": 0,
-        "explanation": "Phương châm đối ngoại nhất quán: Đa phương hóa, đa dạng hóa, Việt Nam là bạn, là đối tác tin cậy, thành viên có trách nhiệm trong cộng đồng quốc tế.",
-        "trapAnalysis": "Việt Nam là bạn, đối tác tin cậy, thành viên có trách nhiệm."
-      },
-      {
-        "id": 24,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Tiêu chuẩn 'Con người có cuộc sống ấm no, tự do, hạnh phúc' đặt con người ở vị trí nào trong chiến lược phát triển?",
-        "options": [
-          "Là công cụ thuần túy để tăng GDP",
-          "Là trung tâm, là chủ thể, là nguồn lực quan trọng nhất và là mục tiêu cao nhất của sự phát triển",
-          "Là gánh nặng cho ngân sách nhà nước",
-          "Là đối tượng bị điều khiển"
-        ],
-        "correct": 1,
-        "explanation": "Quan điểm của Đảng ta: Con người vừa là mục tiêu, vừa là động lực của sự nghiệp đổi mới và phát triển đất nước.",
-        "trapAnalysis": "Con người là trung tâm, chủ thể, nguồn lực và mục tiêu cao nhất."
-      },
-      {
-        "id": 25,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Sự khác biệt căn bản giữa Nhà nước pháp quyền XHCN Việt Nam với Nhà nước pháp quyền tư sản trong đặc trưng số (7) là gì?",
-        "options": [
-          "Nhà nước ta đặt dưới sự lãnh đạo của Đảng Cộng sản Việt Nam và phục vụ nhân dân lao động",
-          "Nhà nước ta không có tòa án",
-          "Nhà nước ta không có hiến pháp",
-          "Nhà nước ta không có cảnh sát"
-        ],
-        "correct": 0,
-        "explanation": "Nhà nước pháp quyền XHCN VN mang bản chất GCCN, do Đảng CSVN lãnh đạo, quyền lực thuộc về nhân dân; khác với nhà nước tư sản phục vụ thiểu số tư sản.",
-        "trapAnalysis": "Đặt dưới sự lãnh đạo của Đảng CSVN và phục vụ đa số nhân dân."
-      },
-      {
-        "id": 26,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Đặc trưng nào thể hiện rõ nét tính chất nhân văn sâu sắc của xã hội xã hội chủ nghĩa đối với đồng bào các dân tộc thiểu số?",
-        "options": [
-          "Đặc trưng số (6): Các dân tộc bình đẳng, đoàn kết, tôn trọng và giúp nhau cùng phát triển",
-          "Đặc trưng số (3): Kinh tế phát triển cao",
-          "Đặc trưng số (1): Dân giàu nước mạnh",
-          "Đặc trưng số (8): Quan hệ quốc tế"
-        ],
-        "correct": 0,
-        "explanation": "Đặc trưng số 6 thể hiện sự quan tâm sâu sắc của Đảng và Nhà nước đối với đồng bào các dân tộc thiểu số, chính sách ưu tiên phát triển miền núi, vùng sâu vùng xa.",
-        "trapAnalysis": "Đặc trưng 6: Các dân tộc bình đẳng, đoàn kết, giúp nhau cùng phát triển."
-      },
-      {
-        "id": 27,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Cơ sở kinh tế để thực hiện đặc trưng 'Dân giàu, nước mạnh' một cách bền vững là gì?",
-        "options": [
-          "Nền kinh tế phát triển cao dựa trên LLSX hiện đại và quan hệ sản xuất tiến bộ phù hợp",
-          "Khai thác cạn kiệt tài nguyên thiên nhiên bán lấy tiền",
-          "Đi vay nợ nước ngoài để tiêu dùng",
-          "Tăng thuế thật nặng đối với người tiêu dùng"
-        ],
-        "correct": 0,
-        "explanation": "Muốn dân giàu nước mạnh bền vững phải có nền kinh tế phát triển cao, năng suất lao động vượt trội dựa trên công nghệ hiện đại và QHSX tiến bộ.",
-        "trapAnalysis": "Kinh tế phát triển cao dựa trên LLSX hiện đại và QHSX phù hợp."
-      },
-      {
-        "id": 28,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Thế nào là 'xã hội do nhân dân làm chủ' trong thực tiễn đời sống?",
-        "options": [
-          "Nhân dân được biết, được bàn, được làm, được kiểm tra, được giám sát và được thụ hưởng",
-          "Nhân dân chỉ được nghe thông báo sau khi mọi việc đã xong",
-          "Người giàu làm chủ thay cho người nghèo",
-          "Chỉ cán bộ mới có quyền giám sát"
-        ],
-        "correct": 0,
-        "explanation": "Cơ chế dân chủ ở cơ sở: 'Dân biết, dân bàn, dân làm, dân kiểm tra, dân giám sát, dân thụ hưởng'.",
-        "trapAnalysis": "Phương châm: Dân biết, dân bàn, dân làm, dân kiểm tra, dân giám sát, dân thụ hưởng."
-      },
-      {
-        "id": 29,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Tám đặc trưng của CNXH ở Việt Nam là mục tiêu hướng tới, để đạt được mục tiêu đó ta phải thông qua điều gì?",
-        "options": [
-          "Tám phương hướng xây dựng CNXH",
-          "Chờ đợi sự may mắn của lịch sử",
-          "Ngồi yên không cần hành động",
-          "Vay mượn toàn bộ mô hình nước ngoài"
-        ],
-        "correct": 0,
-        "explanation": "Để hiện thực hóa 8 đặc trưng của CNXH, Cương lĩnh của Đảng đã xác định 8 phương hướng cơ bản cần thực hiện.",
-        "trapAnalysis": "Thông qua 8 phương hướng xây dựng CNXH."
-      },
-      {
-        "id": 30,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Thành tựu của công cuộc Đổi mới sau gần 40 năm ở Việt Nam đã khẳng định điều gì về con đường đi lên CNXH?",
-        "options": [
-          "Đất nước ta chưa bao giờ có được cơ đồ, tiềm lực, vị thế và uy tín quốc tế như ngày nay; con đường đi lên CNXH là đúng đắn",
-          "Việt Nam đã chọn nhầm đường",
-          "Đất nước hoàn toàn bế tắc",
-          "Kinh tế thụt lùi so với trước Đổi mới"
-        ],
-        "correct": 0,
-        "explanation": "Tổng Bí thư Nguyễn Phú Trọng khẳng định: 'Đất nước ta chưa bao giờ có được cơ đồ, tiềm lực, vị thế và uy tín quốc tế như ngày nay'. Con đường đi lên CNXH là phù hợp quy luật khách quan.",
-        "trapAnalysis": "Cơ đồ, tiềm lực, vị thế và uy tín quốc tế khẳng định con đường đi lên CNXH đúng đắn."
-      }
-    ]
-  },
-  {
-    "id": "de_09",
-    "code": "MÃ ĐỀ: 109",
-    "title": "Đề 09: Tám Phương Hướng, Bốn Trụ Cột & Ba Khâu Đột Phá Ở Việt Nam",
-    "description": "Nắm vững 8 phương hướng, 4 trụ cột (Trung tâm, Then chốt, Nền tảng tinh thần, Trọng yếu) và 3 khâu đột phá chiến lược (Thể chế, Nhân lực, Hạ tầng).",
-    "duration": 15,
-    "questions": [
-      {
-        "id": 1,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "id": 34,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Nhận biết",
-        "question": "Có bao nhiêu phương hướng cơ bản xây dựng CNXH ở Việt Nam được xác định trong Cương lĩnh của Đảng?",
+        "question": "Cuốn sách 'Vấn đề dân cày' (1938) vạch trần nỗi khốn cùng của nông dân do hai tác giả nào biên soạn?",
         "options": [
-          "6 phương hướng",
-          "7 phương hướng",
-          "8 phương hướng",
-          "10 phương hướng"
-        ],
-        "correct": 2,
-        "explanation": "Slide: 3.3.2. Những đặc trưng và phương hướng: 'Tám phương hướng'.",
-        "trapAnalysis": "Có 8 phương hướng cơ bản."
-      },
-      {
-        "id": 2,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Phương hướng số (1) về phát triển lực lượng sản xuất ở nước ta là:",
-        "options": [
-          "Đẩy mạnh công nghiệp hóa, hiện đại hóa gắn với kinh tế tri thức, bảo vệ tài nguyên, môi trường",
-          "Tập trung khai thác than đá thô xuất khẩu",
-          "Ngừng nhập khẩu công nghệ mới",
-          "Chỉ làm nông nghiệp truyền thống"
+          "Qua Ninh và Vân Đình (Trường Chinh và Võ Nguyên Giáp)",
+          "Nguyễn Văn Cừ và Hà Huy Tập",
+          "Lê Hồng Phong và Nguyễn Thị Minh Khai",
+          "Trần Phú và Ngô Gia Tự"
         ],
         "correct": 0,
-        "explanation": "Slide: Phương hướng (1): đẩy mạnh công nghiệp hóa, hiện đại hóa gắn với kinh tế tri thức, bảo vệ tài nguyên, môi trường.",
-        "trapAnalysis": "Phương hướng 1: CNH, HĐH gắn với kinh tế tri thức và bảo vệ môi trường."
+        "explanation": "Tác phẩm lý luận nổi tiếng 'Vấn đề dân cày' do hai đồng chí Trường Chinh (bút danh Qua Ninh) và Võ Nguyên Giáp (bút danh Vân Đình) biên soạn năm 1938.",
+        "trapAnalysis": "Qua Ninh và Vân Đình là bút danh của Trường Chinh và Võ Nguyên Giáp."
       },
       {
-        "id": 3,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "id": 35,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
         "level": "Thông hiểu",
-        "question": "Phương hướng số (2) về mô hình kinh tế tổng quát ở nước ta là:",
+        "question": "Phong trào 'Đón phái viên Gô-đa (Godart)' đầu năm 1937 được Đảng sử dụng nhằm mục đích gì?",
         "options": [
-          "Phát triển kinh tế kế hoạch hóa tập trung bao cấp",
-          "Phát triển kinh tế thị trường định hướng xã hội chủ nghĩa",
-          "Phát triển kinh tế tư bản tự do hoàn toàn",
-          "Phát triển kinh tế phong kiến đóng cửa"
-        ],
-        "correct": 1,
-        "explanation": "Slide: Phương hướng (2): phát triển kinh tế thị trường định hướng xã hội chủ nghĩa.",
-        "trapAnalysis": "Phương hướng 2: Kinh tế thị trường định hướng XHCN."
-      },
-      {
-        "id": 4,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Phương hướng số (3) về văn hóa và con người là:",
-        "options": [
-          "Thương mại hóa toàn bộ trường học và bệnh viện",
-          "Xây dựng văn hóa, con người, nâng cao đời sống và thực hiện tiến bộ, công bằng xã hội",
-          "Chỉ quan tâm tăng trưởng GDP, bỏ qua an sinh xã hội",
-          "Nhập khẩu lối sống hưởng thụ thực dụng"
-        ],
-        "correct": 1,
-        "explanation": "Slide: Phương hướng (3): xây dựng văn hóa, con người, nâng cao đời sống và thực hiện tiến bộ, công bằng xã hội.",
-        "trapAnalysis": "Phương hướng 3: Xây dựng văn hóa, con người, tiến bộ công bằng xã hội."
-      },
-      {
-        "id": 5,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Phương hướng số (4) về quốc phòng và an ninh là:",
-        "options": [
-          "Bảo đảm quốc phòng, an ninh và trật tự, an toàn xã hội",
-          "Giảm biên chế quân đội xuống mức tối thiểu",
-          "Nhờ quân đội nước ngoài bảo vệ biên giới",
-          "Không cần trang bị vũ khí hiện đại"
+          "Tập hợp quần chúng biểu tình thị uy đưa yêu sách đòi tự do cơm áo",
+          "Tổ chức phục kích tiêu diệt viên thanh tra của chính phủ Pháp",
+          "Chứng minh nhân dân Việt Nam hoàn toàn hài lòng với chế độ thuộc địa",
+          "Quyên góp kinh phí để phái viên trở về nước Pháp an toàn"
         ],
         "correct": 0,
-        "explanation": "Slide: Phương hướng (4): bảo đảm quốc phòng, an ninh và trật tự, an toàn xã hội.",
-        "trapAnalysis": "Phương hướng 4: Bảo đảm quốc phòng, an ninh và trật tự an toàn xã hội."
+        "explanation": "Đảng đã biến các cuộc đón tiếp Gô-đa thành những cuộc biểu tình khổng lồ của hàng chục vạn quần chúng, hô vang khẩu hiệu đòi tự do, cơm áo, hòa bình.",
+        "trapAnalysis": "Đón Gô-đa là hình thức biểu dương lực lượng và đưa bản dân nguyện của quần chúng lao động."
       },
       {
-        "id": 6,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Phương hướng số (5) về đối ngoại và hội nhập quốc tế là:",
+        "id": 36,
+        "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+        "level": "Vận dụng",
+        "question": "Ý nghĩa lịch sử quan trọng nhất của phong trào 1936 - 1939 đối với sự nghiệp giải phóng dân tộc là:",
         "options": [
-          "Đối ngoại độc lập, tự chủ, hòa bình, hữu nghị, hợp tác, hội nhập quốc tế",
-          "Phụ thuộc vào một cường quốc duy nhất",
-          "Đóng cửa biên giới cấm người nước ngoài nhập cảnh",
-          "Tham gia các liên minh quân sự để khiêu khích nước láng giềng"
+          "Tổ chức và giác ngộ hàng triệu quần chúng thành một đội quân chính trị hùng hậu",
+          "Đã giải phóng hoàn toàn vùng đồng bằng sông Hồng khỏi ách thực dân",
+          "Thành lập được quân đội chính quy hiện đại sẵn sàng tác chiến",
+          "Xóa bỏ hoàn toàn ách thống trị của phát xít Nhật trên toàn cõi Đông Dương"
         ],
         "correct": 0,
-        "explanation": "Slide: Phương hướng (5): đối ngoại độc lập, tự chủ, hòa bình, hữu nghị, hợp tác, hội nhập quốc tế.",
-        "trapAnalysis": "Phương hướng 5: Đối ngoại độc lập, tự chủ, hòa bình, hữu nghị, hợp tác."
+        "explanation": "Phong trào dân chủ 1936 - 1939 đã thức tỉnh và tập hợp hàng triệu quần chúng vào trận địa cách mạng, tạo nên đội quân chính trị khổng lồ chuẩn bị cho Tổng khởi nghĩa.",
+        "trapAnalysis": "Ý nghĩa nổi bật nhất là xây dựng đội quân chính trị quần chúng rộng lớn cho CMT8."
       },
       {
-        "id": 7,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Phương hướng số (6) về dân chủ và đại đoàn kết là:",
-        "options": [
-          "Xây dựng nền dân chủ xã hội chủ nghĩa, đại đoàn kết toàn dân tộc",
-          "Phân chia quyền lợi theo đẳng cấp dòng họ",
-          "Hạn chế quyền tự do ngôn luận hợp pháp của người dân",
-          "Chia rẽ các tôn giáo trong nước"
-        ],
-        "correct": 0,
-        "explanation": "Slide: Phương hướng (6): xây dựng nền dân chủ xã hội chủ nghĩa, đại đoàn kết toàn dân tộc.",
-        "trapAnalysis": "Phương hướng 6: Xây dựng nền dân chủ XHCN, đại đoàn kết toàn dân tộc."
-      },
-      {
-        "id": 8,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Phương hướng số (7) về xây dựng bộ máy nhà nước là:",
-        "options": [
-          "Xây dựng Nhà nước quân chủ lập hiến",
-          "Xây dựng Nhà nước pháp quyền xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân",
-          "Xây dựng Nhà nước tam quyền phân lập tư sản",
-          "Xây dựng Nhà nước liên bang"
-        ],
-        "correct": 1,
-        "explanation": "Slide: Phương hướng (7): xây dựng Nhà nước pháp quyền xã hội chủ nghĩa của nhân dân, do nhân dân, vì nhân dân.",
-        "trapAnalysis": "Phương hướng 7: Xây dựng Nhà nước pháp quyền XHCN của dân, do dân, vì dân."
-      },
-      {
-        "id": 9,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Phương hướng số (8) về công tác xây dựng Đảng là:",
-        "options": [
-          "Xây dựng Đảng trong sạch, vững mạnh",
-          "Chuyển giao quyền lãnh đạo cho các hội nghề nghiệp",
-          "Không cần đào tạo bồi dưỡng lý luận cho đảng viên",
-          "Để cán bộ tự do làm kinh tế tư nhân bất hợp pháp"
-        ],
-        "correct": 0,
-        "explanation": "Slide: Phương hướng (8): xây dựng Đảng trong sạch, vững mạnh.",
-        "trapAnalysis": "Phương hướng 8: Xây dựng Đảng trong sạch, vững mạnh."
-      },
-      {
-        "id": 10,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Vì sao trong CNH, HĐH hiện nay Đảng ta nhấn mạnh phải 'gắn với kinh tế tri thức và bảo vệ môi trường'?",
-        "options": [
-          "Vì tài nguyên thiên nhiên là hữu hạn, biến đổi khí hậu đe dọa sự phát triển bền vững và kinh tế tri thức là xu thế thời đại",
-          "Vì các nước tư bản ra lệnh cấm khai thác mỏ",
-          "Vì Việt Nam không có rừng và biển",
-          "Vì kinh tế tri thức không tốn chi phí"
-        ],
-        "correct": 0,
-        "explanation": "Phát triển bền vững đòi hỏi không đánh đổi môi trường lấy tăng trưởng kinh tế đơn thuần; kinh tế tri thức là chìa khóa nâng cao năng suất và giá trị gia tăng.",
-        "trapAnalysis": "Bảo đảm phát triển bền vững, không đánh đổi môi trường lấy tăng trưởng."
-      },
-      {
-        "id": 11,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "id": 37,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
         "level": "Nhận biết",
-        "question": "Hệ thống BỐN TRỤ CỘT phát triển của Việt Nam bao gồm những yếu tố nào?",
+        "question": "Quân đội phát xít Nhật chính thức kéo vào xâm lược miền Bắc Việt Nam vào tháng năm nào?",
         "options": [
-          "Kinh tế là trung tâm; Xây dựng Đảng là then chốt; Văn hóa con người là nền tảng tinh thần; Quốc phòng an ninh là trọng yếu, thường xuyên",
-          "Xuất khẩu lúa gạo; Nhập khẩu xăng dầu; Mở rộng sân bay; Cắt giảm thuế",
-          "Tài chính là trung tâm; Giáo dục là then chốt; Thể thao là nền tảng; Du lịch là trọng yếu",
-          "Nông nghiệp là trung tâm; Đóng tàu là then chốt; Điện ảnh là nền tảng; Đua xe là trọng yếu"
+          "Tháng 09/1940",
+          "Tháng 06/1940",
+          "Tháng 12/1941",
+          "Tháng 03/1945"
         ],
         "correct": 0,
-        "explanation": "Slide: Bốn trụ cột phát triển: phát triển kinh tế - xã hội là trung tâm; xây dựng Đảng là then chốt; phát triển văn hóa, con người là nền tảng tinh thần; củng cố quốc phòng, an ninh là nhiệm vụ trọng yếu, thường xuyên.",
-        "trapAnalysis": "Học thuộc khẩu quyết 4 trụ cột: Kinh tế = Trung tâm; Đảng = Then chốt; Văn hóa = Nền tảng tinh thần; QPAN = Trọng yếu thường xuyên."
+        "explanation": "Ngày 22/9/1940, phát xít Nhật tiến công Lạng Sơn và đổ bộ vào Hải Phòng, chính thức đặt chân xâm lược Việt Nam.",
+        "trapAnalysis": "Tháng 9/1940 là mốc phát xít Nhật tràn vào Đông Dương."
       },
       {
-        "id": 12,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "id": 38,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
         "level": "Thông hiểu",
-        "question": "Trong 4 trụ cột phát triển, yếu tố nào giữ vai trò là 'NHIỆM VỤ TRUNG TÂM'?",
+        "question": "Chính sách 'nhổ lúa trồng đay' của phát xít Nhật và Pháp đã dẫn đến thảm họa khủng khiếp nào đầu năm 1945?",
         "options": [
-          "Phát triển văn hóa, con người",
-          "Phát triển kinh tế - xã hội",
-          "Xây dựng Đảng",
-          "Củng cố quốc phòng, an ninh"
-        ],
-        "correct": 1,
-        "explanation": "Phát triển kinh tế - xã hội là nhiệm vụ trung tâm nhằm tạo ra cơ sở vật chất kỹ thuật dồi dào, nâng cao đời sống nhân dân.",
-        "trapAnalysis": "Kinh tế - xã hội = NHIỆM VỤ TRUNG TÂM."
-      },
-      {
-        "id": 13,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Trong 4 trụ cột phát triển, yếu tố nào giữ vai trò là 'NHIỆM VỤ THEN CHỐT'?",
-        "options": [
-          "Xây dựng Đảng trong sạch, vững mạnh",
-          "Phát triển kết cấu hạ tầng giao thông",
-          "Mở rộng thị trường xuất khẩu",
-          "Đào tạo vận động viên thể thao"
+          "Nạn đói lịch sử làm hơn 2 triệu đồng bào miền Bắc bị chết đói",
+          "Dịch bệnh truyền nhiễm bùng phát trên toàn bán đảo Đông Dương",
+          "Sự phá sản của toàn bộ các nhà máy dệt ở Nam Định",
+          "Tình trạng ngập lụt kéo dài ở lưu vực sông Cửu Long"
         ],
         "correct": 0,
-        "explanation": "Xây dựng Đảng là then chốt vì Đảng là lực lượng lãnh đạo toàn bộ sự nghiệp cách mạng; Đảng có vững mạnh thì đất nước mới ổn định và phát triển.",
-        "trapAnalysis": "Xây dựng Đảng = NHIỆM VỤ THEN CHỐT."
+        "explanation": "Chính sách vơ vét thóc gạo và bắt dân ta nhổ lúa trồng đay, thầu dầu của phát xít Nhật đã gây ra nạn đói kinh hoàng làm hơn 2 triệu đồng bào ta thiệt mạng.",
+        "trapAnalysis": "Nạn đói Ất Dậu 1945 cướp đi sinh mạng hơn 2 triệu người là hậu quả tàn khốc của tội ác Nhật - Pháp."
       },
       {
-        "id": 14,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Trong 4 trụ cột phát triển, yếu tố nào đóng vai trò là 'NỀN TẢNG TINH THẦN' của xã hội?",
-        "options": [
-          "Củng cố quốc phòng, an ninh",
-          "Phát triển văn hóa, xây dựng con người",
-          "Phát triển kinh tế tư nhân",
-          "Hiện đại hóa hệ thống ngân hàng"
-        ],
-        "correct": 1,
-        "explanation": "Văn hóa là nền tảng tinh thần của xã hội, vừa là mục tiêu, vừa là động lực nội sinh của sự phát triển bền vững.",
-        "trapAnalysis": "Văn hóa, con người = NỀN TẢNG TINH THẦN."
-      },
-      {
-        "id": 15,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Trong 4 trụ cột phát triển, 'Củng cố quốc phòng, an ninh' được xác định có vị trí vai trò là:",
-        "options": [
-          "Nhiệm vụ tạm thời chỉ khi có chiến tranh",
-          "Nhiệm vụ trọng yếu, thường xuyên",
-          "Nhiệm vụ thứ yếu sau văn hóa",
-          "Nhiệm vụ chỉ giao riêng cho quân đội không cần sự tham gia của nhân dân"
-        ],
-        "correct": 1,
-        "explanation": "Slide: Củng cố quốc phòng, an ninh là nhiệm vụ trọng yếu, thường xuyên nhằm bảo vệ vững chắc Tổ quốc trong mọi tình huống.",
-        "trapAnalysis": "Củng cố QPAN = NHIỆM VỤ TRỌNG YẾU, THƯỜNG XUYÊN."
-      },
-      {
-        "id": 16,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Mối quan hệ giữa 'Phát triển kinh tế' (trung tâm) và 'Xây dựng Đảng' (then chốt) là gì?",
-        "options": [
-          "Tách rời nhau, kinh tế làm riêng, Đảng làm riêng",
-          "Kinh tế tạo cơ sở vật chất củng cố niềm tin vào Đảng; sự lãnh đạo đúng đắn của Đảng định hướng và mở đường cho kinh tế phát triển",
-          "Xây dựng Đảng làm kìm hãm phát triển kinh tế",
-          "Chỉ cần làm kinh tế, không cần quan tâm xây dựng Đảng"
-        ],
-        "correct": 1,
-        "explanation": "Kinh tế là trung tâm tạo thế và lực; Xây dựng Đảng là then chốt giữ vững tay lái và định hướng XHCN cho con tàu phát triển.",
-        "trapAnalysis": "Gắn bó hữu cơ: Kinh tế tạo thế và lực, Đảng định hướng tay lái."
-      },
-      {
-        "id": 17,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Vì sao nói 'Văn hóa con người là nền tảng tinh thần, mục tiêu và động lực của sự phát triển'?",
-        "options": [
-          "Vì văn hóa bồi dưỡng nhân cách, tâm hồn, khơi dậy khát vọng cống hiến và sức sáng tạo của con người - chủ thể của mọi thành công",
-          "Vì văn hóa giúp kiếm được nhiều ngoại tệ ngay lập tức",
-          "Vì văn hóa thay thế hoàn toàn máy móc",
-          "Vì văn hóa không cần tiền đầu tư"
-        ],
-        "correct": 0,
-        "explanation": "Con người là vốn quý nhất; văn hóa soi đường cho quốc dân đi, tạo nên sức mạnh nội sinh và động lực phát triển đất nước.",
-        "trapAnalysis": "Khơi dậy khát vọng cống hiến, bồi dưỡng nhân cách và sức mạnh nội sinh."
-      },
-      {
-        "id": 18,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Sự gắn kết giữa phát triển kinh tế - xã hội với củng cố quốc phòng - an ninh thể hiện ở phương châm:",
-        "options": [
-          "Vừa phát triển kinh tế vừa tăng cường tiềm lực quốc phòng an ninh, mỗi bước phát triển kinh tế là một bước củng cố QPAN",
-          "Chỉ lo làm kinh tế, giải tán quân đội",
-          "Chỉ lo quốc phòng, ngừng toàn bộ sản xuất kinh doanh",
-          "Chi 100% ngân sách cho vũ khí"
-        ],
-        "correct": 0,
-        "explanation": "Kết hợp chặt chẽ giữa kinh tế với quốc phòng, an ninh và giữa quốc phòng, an ninh với kinh tế trong từng chiến lược, quy hoạch phát triển.",
-        "trapAnalysis": "Mỗi bước phát triển kinh tế là một bước củng cố QPAN và ngược lại."
-      },
-      {
-        "id": 19,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Yếu tố quyết định để giữ vững bản chất của 4 trụ cột phát triển theo định hướng XHCN là:",
-        "options": [
-          "Sự lãnh đạo của Đảng Cộng sản Việt Nam",
-          "Sự tài trợ của các quỹ đầu tư tư nhân",
-          "Sự đồng thuận của các tập đoàn nước ngoài",
-          "Sự may mắn của thị trường"
-        ],
-        "correct": 0,
-        "explanation": "Sự lãnh đạo của Đảng Cộng sản Việt Nam là nhân tố quyết định hàng đầu bảo đảm đất nước phát triển đúng định hướng XHCN.",
-        "trapAnalysis": "Sự lãnh đạo đúng đắn của Đảng Cộng sản Việt Nam."
-      },
-      {
-        "id": 20,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Nếu một trong bốn trụ cột bị buông lỏng hoặc suy yếu thì sẽ dẫn tới hậu quả gì?",
-        "options": [
-          "Không ảnh hưởng gì đến các trụ cột khác",
-          "Làm mất cân đối tổng thể, đe dọa sự ổn định chính trị và sự phát triển bền vững của đất nước",
-          "Đất nước sẽ phát triển nhanh hơn",
-          "Chỉ ảnh hưởng đến một vài địa phương"
-        ],
-        "correct": 1,
-        "explanation": "Bốn trụ cột tạo thành hệ thống cân bằng động vững chắc; suy yếu bất kỳ trụ cột nào đều gây tổn hại đến toàn bộ công cuộc xây dựng đất nước.",
-        "trapAnalysis": "Mất cân đối tổng thể, đe dọa sự phát triển bền vững."
-      },
-      {
-        "id": 21,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "id": 39,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
         "level": "Nhận biết",
-        "question": "Đảng ta xác định có mấy KHÂU ĐỘT PHÁ CHIẾN LƯỢC trong phát triển đất nước?",
+        "question": "Cuộc Binh biến Đô Lương (tháng 1/1941) do ai lãnh đạo?",
         "options": [
-          "2 khâu đột phá",
-          "3 khâu đột phá chiến lược",
-          "4 khâu đột phá",
-          "5 khâu đột phá"
-        ],
-        "correct": 1,
-        "explanation": "Slide: 'Ba khâu đột phá': Hoàn thiện thể chế; Phát triển nguồn nhân lực chất lượng cao; Phát triển kết cấu hạ tầng đồng bộ.",
-        "trapAnalysis": "Có 3 khâu đột phá chiến lược."
-      },
-      {
-        "id": 22,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Khâu đột phá chiến lược thứ NHẤT là:",
-        "options": [
-          "Hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa",
-          "Tăng thuế thu nhập doanh nghiệp",
-          "Phát hành thêm tiền mặt",
-          "Mở rộng kinh doanh xổ số"
+          "Đội Cung (Nguyễn Văn Cung)",
+          "Đội Cấn (Trịnh Văn Cấn)",
+          "Lương Ngọc Quyến",
+          "Hoàng Hoa Thám"
         ],
         "correct": 0,
-        "explanation": "Slide: Đột phá 1: Hoàn thiện thể chế kinh tế thị trường định hướng xã hội chủ nghĩa.",
-        "trapAnalysis": "Đột phá 1: Hoàn thiện thể chế KTTT định hướng XHCN."
+        "explanation": "Đêm 13/1/1941, binh lính người Việt do Đội Cung (Nguyễn Văn Cung) chỉ huy đã nổi dậy chiếm đồn Rạng (Đô Lương, Nghệ An) rồi tiến về Vinh.",
+        "trapAnalysis": "Đội Cung lãnh đạo Binh biến Đô Lương (1941); Đội Cấn lãnh đạo Khởi nghĩa Thái Nguyên (1917)."
       },
       {
-        "id": 23,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
+        "id": 40,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
         "level": "Thông hiểu",
-        "question": "Nội dung trọng tâm của khâu đột phá 'Hoàn thiện thể chế' là giải quyết vấn đề gì?",
+        "question": "Văn kiện nào do Hồ Chí Minh biên soạn năm 1941 hướng dẫn cách thức tổ chức đánh du kích?",
         "options": [
-          "Xóa bỏ rào cản, tạo môi trường kinh doanh thông thoáng, minh bạch, bảo vệ quyền tài sản hợp pháp và giải phóng mọi sức sản xuất",
-          "Tăng thêm các thủ tục hành chính phức tạp",
-          "Cấm các doanh nghiệp tư nhân hoạt động",
-          "Chỉ cấp phép cho doanh nghiệp nhà nước"
+          "Tác phẩm 'Cách đánh du kích'",
+          "Chỉ thị 'Kháng chiến kiến quốc'",
+          "Tác phẩm 'Đường Kách mệnh'",
+          "Chỉ thị 'Nhật - Pháp bắn nhau'"
         ],
         "correct": 0,
-        "explanation": "Thể chế phải thông thoáng, minh bạch, giảm chi phí tuân thủ cho người dân và doanh nghiệp, tạo động lực cạnh tranh lành mạnh.",
-        "trapAnalysis": "Tạo môi trường thông thoáng, giải phóng sức sản xuất, giảm thủ tục rườm rà."
+        "explanation": "Năm 1941 tại Pác Bó, Hồ Chí Minh đã trực tiếp biên soạn cuốn sách thực tiễn 'Cách đánh du kích' làm tài liệu huấn luyện quân sự cho cán bộ.",
+        "trapAnalysis": "'Cách đánh du kích' (1941) là cẩm nang quân sự đầu tiên do Bác Hồ viết tại Pác Bó."
       },
       {
-        "id": 24,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Khâu đột phá chiến lược thứ HAI là:",
-        "options": [
-          "Phát triển nguồn nhân lực chất lượng cao",
-          "Nhập khẩu lao động nước ngoài giá rẻ",
-          "Giảm số lượng học sinh tốt nghiệp phổ thông",
-          "Cắt giảm ngân sách đào tạo đại học"
-        ],
-        "correct": 0,
-        "explanation": "Slide: Đột phá 2: Phát triển nguồn nhân lực chất lượng cao.",
-        "trapAnalysis": "Đột phá 2: Phát triển nguồn nhân lực chất lượng cao."
-      },
-      {
-        "id": 25,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Khâu đột phá 'Phát triển nguồn nhân lực chất lượng cao' đặc biệt ưu tiên cho đội ngũ nào?",
-        "options": [
-          "Đội ngũ cán bộ lãnh đạo quản lý, chuyên gia đầu ngành, nhà khoa học và lao động kỹ thuật tay nghề cao",
-          "Chỉ đào tạo vận động viên thể thao",
-          "Chỉ đào tạo ca sĩ diễn viên",
-          "Những người làm công việc giản đơn"
-        ],
-        "correct": 0,
-        "explanation": "Đại hội XIII nhấn mạnh: Ưu tiên phát triển nguồn nhân lực cho công tác lãnh đạo, quản lý và các lĩnh vực then chốt, khoa học công nghệ, chuyển đổi số.",
-        "trapAnalysis": "Ưu tiên chuyên gia đầu ngành, nhà khoa học, lao động kỹ thuật cao."
-      },
-      {
-        "id": 26,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Khâu đột phá chiến lược thứ BA là:",
-        "options": [
-          "Phát triển kết cấu hạ tầng đồng bộ, hiện đại",
-          "Tự tay làm đường đất thủ công",
-          "Chỉ làm đường sắt không làm đường bộ",
-          "Dừng xây dựng cầu cống"
-        ],
-        "correct": 0,
-        "explanation": "Slide: Đột phá 3: Phát triển kết cấu hạ tầng đồng bộ.",
-        "trapAnalysis": "Đột phá 3: Phát triển kết cấu hạ tầng đồng bộ."
-      },
-      {
-        "id": 27,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Khâu đột phá 'Phát triển kết cấu hạ tầng' hiện nay tập trung trọng điểm vào những lĩnh vực nào?",
-        "options": [
-          "Hạ tầng giao thông (đường cao tốc, sân bay, cảng biển) và hạ tầng số (viễn thông, dữ liệu, internet)",
-          "Hạ tầng buôn bán vỉa hè",
-          "Hạ tầng xe ngựa kéo",
-          "Chỉ xây dựng trụ sở cơ quan"
-        ],
-        "correct": 0,
-        "explanation": "Tập trung ưu tiên phát triển hạ tầng giao thông kết nối liên vùng (đường cao tốc Bắc - Nam, sân bay Long Thành...) và hạ tầng số phục vụ chuyển đổi số quốc gia.",
-        "trapAnalysis": "Hạ tầng giao thông kết nối liên vùng và hạ tầng số hiện đại."
-      },
-      {
-        "id": 28,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Vì sao ba khâu: Thể chế, Nhân lực và Hạ tầng được gọi là 'CÁC KHÂU ĐỘT PHÁ'?",
-        "options": [
-          "Vì đây là 3 điểm nghẽn lớn nhất cản trở sự phát triển của đất nước; khơi thông được 3 khâu này sẽ tạo ra bước nhảy vọt",
-          "Vì 3 khâu này dễ làm nhất",
-          "Vì không tốn tiền ngân sách",
-          "Vì do nước ngoài gợi ý ngẫu nhiên"
-        ],
-        "correct": 0,
-        "explanation": "Đột phá là tháo gỡ đúng những điểm nghẽn cốt lõi kìm hãm sự phát triển. Thể chế mở đường, nhân lực dẫn dắt, hạ tầng kết nối chắp cánh cho nền kinh tế bứt phá.",
-        "trapAnalysis": "Tháo gỡ 3 điểm nghẽn lớn nhất: Thể chế, Nhân lực, Hạ tầng."
-      },
-      {
-        "id": 29,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Mối quan hệ qua lại giữa ba khâu đột phá chiến lược được thể hiện như thế nào?",
-        "options": [
-          "Tác động qua lại hữu cơ: Thể chế tốt thu hút đầu tư hạ tầng và đào tạo nhân lực; Nhân lực giỏi thúc đẩy cải cách thể chế và vận hành hạ tầng; Hạ tầng tốt tạo không gian cho thể chế và nhân lực phát huy tác dụng",
-          "Hoàn toàn độc lập, khâu nào biết khâu nấy",
-          "Chỉ cần làm hạ tầng, bỏ qua thể chế",
-          "Chỉ cần làm thể chế, không cần đào tạo người"
-        ],
-        "correct": 0,
-        "explanation": "Ba khâu đột phá tạo thành thế 'kiềng ba chân' tương hỗ, bổ sung cho nhau trong quá trình thực hiện chiến lược phát triển kinh tế - xã hội.",
-        "trapAnalysis": "Thế kiềng 3 chân tương hỗ: Thể chế - Nhân lực - Hạ tầng."
-      },
-      {
-        "id": 30,
-        "chapter": "Chương 3: CNXH & Thời kỳ quá độ",
-        "level": "Thông hiểu",
-        "question": "Mục tiêu đến năm 2030 (kỷ niệm 100 năm thành lập Đảng) và năm 2045 (kỷ niệm 100 năm thành lập nước) của Việt Nam là gì?",
-        "options": [
-          "Đến năm 2030 là nước đang phát triển có công nghiệp hiện đại, thu nhập trung bình cao; đến năm 2045 trở thành nước phát triển, thu nhập cao theo định hướng XHCN",
-          "Đến năm 2030 trở thành nước nghèo nhất khu vực",
-          "Từ bỏ công nghiệp hóa",
-          "Quay lại mô hình bao cấp cũ"
-        ],
-        "correct": 0,
-        "explanation": "Nghị quyết Đại hội XIII xác định mục tiêu lịch sử: 2030 là nước đang phát triển có công nghiệp hiện đại, thu nhập trung bình cao; 2045 trở thành nước phát triển, thu nhập cao.",
-        "trapAnalysis": "Mục tiêu lịch sử: 2030 (thu nhập trung bình cao), 2045 (nước phát triển thu nhập cao)."
-      }
-    ]
-  },
-  {
-    "id": "de_10",
-    "code": "MÃ ĐỀ: 110",
-    "title": "Đề 10: Nền Dân Chủ XHCN & Nhà Nước Pháp Quyền XHCN Việt Nam",
-    "description": "Nguồn gốc ngữ nghĩa dân chủ, 3 phương diện dân chủ, tiến trình biện chứng Lênin, 3 tên gọi Nhà nước XHCN và đặc điểm Nhà nước pháp quyền VN.",
-    "duration": 15,
-    "questions": [
-      {
-        "id": 1,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
+        "id": 41,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
         "level": "Nhận biết",
-        "question": "Thuật ngữ 'Dân chủ' xuất hiện lần đầu tiên trong lịch sử nhân loại vào khoảng thời gian nào?",
+        "question": "Đồng chí Hoàng Văn Thụ - Ủy viên Thường vụ TW Đảng - hy sinh oanh liệt tại trường bắn Tương Mai (Hà Nội) năm nào?",
         "options": [
-          "Thế kỷ VII - VI trước Công nguyên",
-          "Thế kỷ XV sau Công nguyên",
-          "Năm 1789 sau Cách mạng Pháp",
-          "Năm 1917 sau Cách mạng Tháng Mười"
+          "Năm 1944",
+          "Năm 1941",
+          "Năm 1943",
+          "Năm 1945"
         ],
         "correct": 0,
-        "explanation": "Vở ghi: Thuật ngữ dân chủ ra đời vào thế kỷ VII–VI trước Công nguyên ở Hy Lạp cổ đại.",
-        "trapAnalysis": "Mốc ra đời thuật ngữ dân chủ: Thế kỷ VII - VI trước Công nguyên."
+        "explanation": "Ngày 24/5/1944, đồng chí Hoàng Văn Thụ bị thực dân Pháp xử bắn tại trường bắn Tương Mai, ung dung trước họng súng quân thù nêu cao khí tiết cộng sản.",
+        "trapAnalysis": "Đồng chí Hoàng Văn Thụ hy sinh ngày 24/5/1944 tại Hà Nội."
       },
       {
-        "id": 2,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
+        "id": 42,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Tờ báo bí mật nào là cơ quan ngôn luận của Ban Chấp hành TW Đảng thời kỳ 1943 - 1945?",
+        "options": [
+          "Báo Cờ Giải Phóng",
+          "Báo Búa Liềm",
+          "Báo Cứu Quốc",
+          "Báo Lao Động"
+        ],
+        "correct": 0,
+        "explanation": "Báo 'Cờ Giải Phóng' do Tổng Bí thư Trường Chinh trực tiếp phụ trách, ra số đầu ngày 10/10/1942, là cơ quan tuyên truyền của Trung ương Đảng thời kỳ tiền khởi nghĩa.",
+        "trapAnalysis": "Báo Cờ Giải Phóng là cơ quan ngôn luận của Trung ương Đảng Cộng sản Đông Dương."
+      },
+      {
+        "id": 43,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
         "level": "Nhận biết",
-        "question": "Thuật ngữ 'Dân chủ' được ghép từ hai từ tiếng Hy Lạp cổ nào?",
+        "question": "Hội nghị Quân sự cách mạng Bắc Kỳ họp vào tháng 4/1945 tại địa phương nào?",
         "options": [
-          "Demos (nhân dân) và Kratos (quyền lực)",
-          "Polis (nhà nước) và Nomos (luật)",
-          "Demos (người nghèo) và Archia (thủ lĩnh)",
-          "Civitas (công dân) và Libertas (tự do)"
+          "Hiệp Hòa (Bắc Giang)",
+          "Đình Bảng (Bắc Ninh)",
+          "Tân Trào (Tuyên Quang)",
+          "Chợ Chu (Thái Nguyên)"
         ],
         "correct": 0,
-        "explanation": "Vở ghi: Dân chủ = demos (nhân dân) + kratos (quyền lực). Nguồn gốc: dân chủ là quyền lực của nhân dân, thuộc về nhân dân.",
-        "trapAnalysis": "Demos = Nhân dân; Kratos = Quyền lực."
+        "explanation": "Từ ngày 15 đến 20/4/1945, Hội nghị Quân sự Bắc Kỳ do đồng chí Trường Chinh chủ trì họp tại Hiệp Hòa (Bắc Giang) để thống nhất lực lượng vũ trang.",
+        "trapAnalysis": "Hội nghị Quân sự Bắc Kỳ họp tại Hiệp Hòa (Bắc Giang) tháng 4/1945."
       },
       {
-        "id": 3,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
+        "id": 44,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
         "level": "Thông hiểu",
-        "question": "Theo Ph.Ăngghen, hình thức dân chủ sơ khai ban đầu tồn tại ở hình thái xã hội nào?",
+        "question": "Khẩu hiệu 'Phá kho thóc Nhật, giải quyết nạn đói' đã có tác dụng thực tiễn to lớn gì?",
         "options": [
-          "Chế độ chiếm hữu nô lệ La Mã",
-          "Dân chủ quân sự tồn tại ở hình thái nguyên thủy",
-          "Chế độ phong kiến châu Âu",
-          "Chế độ tư bản cận đại"
-        ],
-        "correct": 1,
-        "explanation": "Vở ghi: Theo Ăngghen: 'Dân chủ quân sự tồn tại ở hình thái nguyên thủy' (khi thị tộc bầu thủ lĩnh và biểu quyết chung).",
-        "trapAnalysis": "Ăngghen: Dân chủ quân sự tồn tại ở hình thái nguyên thủy."
-      },
-      {
-        "id": 4,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Thông hiểu",
-        "question": "Trên phương diện TỔ CHỨC VÀ QUẢN LÝ XÃ HỘI, dân chủ được xác định là gì?",
-        "options": [
-          "Là một nguyên tắc, nguyên tắc dân chủ",
-          "Là một hình thức nhà nước có quân đội",
-          "Là một khẩu hiệu tuyên truyền",
-          "Là một loại hàng hóa trao đổi"
+          "Biến sự phẫn uất sinh tử của hàng triệu nông dân thành hành động cách mạng cụ thể",
+          "Khiến quân đội phát xít Nhật lập tức chấp nhận đầu hàng vô điều kiện",
+          "Giúp giải quyết triệt để vấn đề sở hữu ruộng đất cho toàn dân",
+          "Đưa nước ta trở thành nước xuất khẩu gạo hàng đầu châu Á"
         ],
         "correct": 0,
-        "explanation": "Vở ghi: Trên phương diện tổ chức và quản lý xã hội, dân chủ là 1 nguyên tắc, nguyên tắc dân chủ.",
-        "trapAnalysis": "Phương diện tổ chức và quản lý: Dân chủ là một nguyên tắc."
+        "explanation": "Khẩu hiệu đã đáp ứng trúng nhu cầu sống còn của nhân dân, biến nạn đói thành ngọn lửa cách mạng thiêu cháy quân thù, quy tụ quần chúng về phía Việt Minh.",
+        "trapAnalysis": "Tác dụng: Khơi dậy và biến lòng căm thù của hàng triệu nông dân thành sức mạnh tiền khởi nghĩa."
       },
       {
-        "id": 5,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Thông hiểu",
-        "question": "Trên phương diện QUYỀN LỰC, dân chủ được hiểu là gì?",
-        "options": [
-          "Quyền lực tập trung vào tay một ông vua",
-          "Quyền lực thuộc về nhân dân; nhân dân là chủ nhân của nhà nước",
-          "Quyền lực thuộc về các tập đoàn tài phiệt",
-          "Quyền lực không thuộc về ai"
-        ],
-        "correct": 1,
-        "explanation": "Vở ghi: Trên phương diện quyền lực, dân chủ là quyền lực thuộc về nhân dân; nhân dân là chủ nhân của nhà nước.",
-        "trapAnalysis": "Phương diện quyền lực: Quyền lực thuộc về nhân dân, nhân dân là chủ nhân."
-      },
-      {
-        "id": 6,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Thông hiểu",
-        "question": "Trên phương diện CHẾ ĐỘ XÃ HỘI VÀ TRONG LĨNH VỰC CHÍNH TRỊ, dân chủ là gì?",
-        "options": [
-          "Một cảm xúc tự do cá nhân",
-          "Một hình thức nhà nước (chính thể dân chủ)",
-          "Một tôn giáo mới",
-          "Một tập tục làng xã"
-        ],
-        "correct": 1,
-        "explanation": "Vở ghi: Trên phương diện chế độ xã hội và trong lĩnh vực chính trị, dân chủ là 1 hình thức nhà nước.",
-        "trapAnalysis": "Phương diện chính trị và chế độ xã hội: Dân chủ là một hình thức nhà nước."
-      },
-      {
-        "id": 7,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Thông hiểu",
-        "question": "Quan niệm của chủ nghĩa Mác - Lênin về dân chủ trên phương diện nhà nước khẳng định:",
-        "options": [
-          "Dân chủ là một hình thức tổ chức nhà nước của giai cấp thống trị",
-          "Dân chủ là sự tự do tuyệt đối không cần pháp luật",
-          "Dân chủ không mang tính giai cấp",
-          "Dân chủ chỉ tồn tại ở các nước tư bản"
-        ],
-        "correct": 0,
-        "explanation": "Slide: Quan niệm Mác - Lênin: dân chủ là một hình thức tổ chức nhà nước của giai cấp thống trị.",
-        "trapAnalysis": "Dân chủ là hình thức tổ chức nhà nước của giai cấp thống trị."
-      },
-      {
-        "id": 8,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
+        "id": 45,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
         "level": "Nhận biết",
-        "question": "Luận điểm 'Dân chủ là sự thống trị của đa số' là câu nói của ai?",
+        "question": "Chiếc áo chàm và đôi dép cao su giản dị của Hồ Chí Minh xuất hiện gắn liền với thời kỳ hoạt động ở đâu?",
         "options": [
-          "C.Mác",
-          "Ph.Ăngghen",
-          "V.I.Lênin",
-          "Hồ Chí Minh"
+          "Chiến khu Pác Bó và Tân Trào",
+          "Paris, nước Pháp",
+          "Quảng Châu, Trung Quốc",
+          "Mát-xcơ-va, Liên Xô"
         ],
-        "correct": 2,
-        "explanation": "Slide: Quan niệm Mác - Lênin: theo Lênin, 'dân chủ là sự thống trị của đa số'.",
-        "trapAnalysis": "Lênin: Dân chủ là sự thống trị của đa số."
+        "correct": 0,
+        "explanation": "Bộ áo chàm giản dị của đồng bào dân tộc thiểu số gắn liền với hình ảnh Bác Hồ những năm tháng sống và lãnh đạo cách mạng tại căn cứ Pác Bó và Tân Trào.",
+        "trapAnalysis": "Hình ảnh áo chàm gắn với Bác Hồ ở căn cứ địa Việt Bắc (Pác Bó - Tân Trào)."
       },
       {
-        "id": 9,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
+        "id": 46,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Thông hiểu",
+        "question": "Vì sao cuộc Tổng khởi nghĩa tháng Tám năm 1945 nổ ra và giành thắng lợi nhanh chóng chỉ trong vòng 15 ngày?",
+        "options": [
+          "Nhờ sự chuẩn bị chu đáo suốt 15 năm, đường lối sáng suốt và nghệ thuật chớp đúng thời cơ",
+          "Do quân đội Đồng minh trực tiếp tham chiến tiêu diệt chính quyền thân Nhật",
+          "Do chính quyền tay sai Trần Trọng Kim chủ động trao lại quyền lực",
+          "Do phát xít Nhật tự nguyện bàn giao các đồn bốt cho lực lượng cách mạng"
+        ],
+        "correct": 0,
+        "explanation": "Thắng lợi thần tốc trong 15 ngày (từ 14 đến 28/8/1945) là kết tinh của 15 năm chuẩn bị rèn luyện qua các cao trào 1930 - 1931, 1936 - 1939, 1939 - 1945 và chớp thời cơ ngàn vàng.",
+        "trapAnalysis": "Thắng lợi 15 ngày là nhờ kết quả của 15 năm rèn luyện, chuẩn bị lực lượng và chớp thời cơ kiệt xuất."
+      },
+      {
+        "id": 47,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
         "level": "Nhận biết",
-        "question": "Định nghĩa giản dị mà sâu sắc của Chủ tịch Hồ Chí Minh về dân chủ là:",
+        "question": "Bài hát 'Tiến quân ca' của nhạc sĩ Văn Cao được chọn làm Quốc ca Việt Nam tại sự kiện nào?",
         "options": [
-          "'Dân chủ là muốn làm gì thì làm'",
-          "'Dân chủ: dân là chủ, dân làm chủ'",
-          "'Dân chủ là chính phủ ban phát quyền cho dân'",
-          "'Dân chủ là sự thỏa hiệp giai cấp'"
-        ],
-        "correct": 1,
-        "explanation": "Slide: Hồ Chí Minh: 'Dân chủ: dân là chủ, dân làm chủ'.",
-        "trapAnalysis": "Hồ Chí Minh: 'Dân là chủ, dân làm chủ'."
-      },
-      {
-        "id": 10,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Thông hiểu",
-        "question": "Dân chủ có thể được xem xét dưới những góc độ nào sau đây?",
-        "options": [
-          "Giá trị xã hội, phạm trù chính trị, nguyên tắc hoạt động của tổ chức CT-XH và phạm trù lịch sử",
-          "Một loại tài sản cá nhân có thể cầm cố",
-          "Một phương thuốc chữa bệnh",
-          "Một trò chơi giải trí"
+          "Quốc dân Đại hội Tân Trào (tháng 8/1945)",
+          "Đại hội đại biểu toàn quốc lần thứ I (1935)",
+          "Hội nghị thành lập Đảng (1930)",
+          "Hội nghị Trung ương lần thứ 8 (1941)"
         ],
         "correct": 0,
-        "explanation": "Slide: Dân chủ có thể được xem là giá trị xã hội, phạm trù chính trị, nguyên tắc hoạt động của tổ chức chính trị - xã hội và phạm trù lịch sử.",
-        "trapAnalysis": "Dân chủ là: Giá trị xã hội, phạm trù chính trị, nguyên tắc hoạt động, phạm trù lịch sử."
+        "explanation": "Tại Quốc dân Đại hội Tân Trào (16 - 17/8/1945), bài hát 'Tiến quân ca' do nhạc sĩ Văn Cao sáng tác đã chính thức được chọn làm Quốc ca.",
+        "trapAnalysis": "Đại hội Quốc dân Tân Trào chọn cờ đỏ sao vàng làm Quốc kỳ và Tiến quân ca làm Quốc ca."
       },
       {
-        "id": 11,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
+        "id": 48,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
         "level": "Thông hiểu",
-        "question": "Theo V.I.Lênin, tiến trình phát triển biện chứng của dân chủ trong lịch sử nhân loại diễn ra theo trật tự nào?",
+        "question": "Lời thoái vị nổi tiếng của vua Bảo Đại chiều ngày 30/8/1945 tại Ngọ Môn (Huế) là:",
         "options": [
-          "Từ chuyên chế đến dân chủ tư sản, rồi đến dân chủ vô sản và cuối cùng không còn dân chủ nữa",
-          "Từ dân chủ vô sản đến chuyên chế phong kiến",
-          "Từ dân chủ tư sản đến dân chủ chủ nô",
-          "Dân chủ tồn tại vĩnh viễn không bao giờ thay đổi"
+          "Thà làm dân một nước độc lập còn hơn làm vua một nước nô lệ",
+          "Trẫm xin nhường lại ngai vàng cho hoàng tộc triều Nguyễn",
+          "Xin nhân dân cho trẫm được bảo toàn toàn bộ tài sản hoàng gia",
+          "Trẫm xin đi tị nạn sang các nước phương Tây tự do"
         ],
         "correct": 0,
-        "explanation": "Slide: Theo Lênin, tiến trình phát triển dân chủ đi từ chuyên chế đến dân chủ tư sản, rồi đến dân chủ vô sản và cuối cùng không còn dân chủ nữa (con đường biện chứng).",
-        "trapAnalysis": "Chuyên chế -> Dân chủ tư sản -> Dân chủ vô sản -> Tiêu vong (không còn dân chủ)."
+        "explanation": "Khi trao ấn vàng và kiếm ngọc cho phái đoàn chính phủ lâm thời, vua Bảo Đại đã tuyên bố câu nói bất hủ: 'Thà làm dân một nước tự do còn hơn làm vua một nước nô lệ'.",
+        "trapAnalysis": "Câu nói lịch sử của Bảo Đại kết thúc vĩnh viễn chế độ quân chủ chuyên chế ở Việt Nam."
       },
       {
-        "id": 12,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
+        "id": 49,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
         "level": "Thông hiểu",
-        "question": "Vì sao V.I.Lênin nói đến giai đoạn cao CSCN thì 'không còn dân chủ nữa'?",
+        "question": "Lời thề thiêng liêng đanh thép kết thúc bản Tuyên ngôn Độc lập ngày 2/9/1945 là gì?",
         "options": [
-          "Vì chế độ độc tài sẽ quay trở lại",
-          "Vì khi xã hội không còn giai cấp, nhà nước tự tiêu vong thì dân chủ với tư cách một 'hình thức nhà nước' cũng tự tiêu vong",
-          "Vì người dân không muốn đi bầu cử",
-          "Vì chính phủ ra lệnh cấm dân chủ"
-        ],
-        "correct": 1,
-        "explanation": "Dân chủ với tư cách hình thức nhà nước (phạm trù lịch sử) sẽ tiêu vong cùng với sự tiêu vong của nhà nước; quyền tự do của con người chuyển hóa thành tập quán tự giác.",
-        "trapAnalysis": "Dân chủ với tư cách hình thức nhà nước tiêu vong cùng nhà nước."
-      },
-      {
-        "id": 13,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Thông hiểu",
-        "question": "Sự ra đời của nền dân chủ xã hội chủ nghĩa gồm mấy giai đoạn lịch sử?",
-        "options": [
-          "1 giai đoạn",
-          "2 giai đoạn (GĐ 1: giành lấy dân chủ; GĐ 2: lấy dân chủ tổ chức nhà nước)",
-          "3 giai đoạn",
-          "4 giai đoạn"
-        ],
-        "correct": 1,
-        "explanation": "Slide: Sự ra đời gồm hai giai đoạn: GĐ 1: giai cấp công nhân làm cách mạng giành lấy dân chủ; GĐ 2: GCCN lấy dân chủ để tổ chức nhà nước của giai cấp công nhân và nhân dân lao động.",
-        "trapAnalysis": "Hai giai đoạn: Giành lấy dân chủ -> Lấy dân chủ tổ chức nhà nước."
-      },
-      {
-        "id": 14,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Nhận biết",
-        "question": "Nền dân chủ xã hội chủ nghĩa chính thức ra đời sau sự kiện lịch sử nào?",
-        "options": [
-          "Cách mạng tư sản Anh 1640",
-          "Cách mạng tư sản Pháp 1789",
-          "Thắng lợi của Cách mạng Tháng Mười Nga năm 1917",
-          "Chiến thắng Điện Biên Phủ 1954"
-        ],
-        "correct": 2,
-        "explanation": "Slide: Dân chủ xã hội chủ nghĩa ra đời sau thắng lợi của Cách mạng Tháng Mười Nga năm 1917.",
-        "trapAnalysis": "Ra đời sau Cách mạng Tháng Mười Nga năm 1917."
-      },
-      {
-        "id": 15,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Thông hiểu",
-        "question": "Bản chất CHÍNH TRỊ của nền dân chủ xã hội chủ nghĩa là gì?",
-        "options": [
-          "Mang bản chất giai cấp tư sản phục vụ người giàu",
-          "Mang bản chất giai cấp công nhân, do Đảng Cộng sản lãnh đạo và thừa nhận nhân dân là chủ thể quyền lực nhà nước",
-          "Thuộc về một dòng họ quý tộc duy nhất",
-          "Không mang bản chất của giai cấp nào"
-        ],
-        "correct": 1,
-        "explanation": "Slide: Bản chất chính trị: mang bản chất giai cấp công nhân, do Đảng Cộng sản lãnh đạo và thừa nhận nhân dân là chủ thể quyền lực nhà nước.",
-        "trapAnalysis": "Bản chất chính trị: Mang bản chất GCCN, ĐCS lãnh đạo, nhân dân là chủ thể quyền lực."
-      },
-      {
-        "id": 16,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Thông hiểu",
-        "question": "Bản chất KINH TẾ của nền dân chủ xã hội chủ nghĩa dựa trên cơ sở nào?",
-        "options": [
-          "Chế độ sở hữu xã hội (công hữu) đối với tư liệu sản xuất chủ yếu",
-          "Chế độ chiếm hữu tư nhân tư bản chủ nghĩa",
-          "Chế độ địa tô phong kiến",
-          "Chế độ sở hữu nô lệ"
+          "Toàn thể dân tộc Việt Nam quyết đem tất cả tinh thần và lực lượng, tính mạng và của cải để giữ vững quyền tự do, độc lập ấy",
+          "Quyết tử để cho Tổ quốc quyết sinh",
+          "Không có gì quý hơn độc lập tự do",
+          "Nước Việt Nam là một, sông có thể cạn núi có thể mòn song chân lý đó không bao giờ thay đổi"
         ],
         "correct": 0,
-        "explanation": "Slide: Bản chất kinh tế: sở hữu xã hội đối với tư liệu sản xuất chủ yếu; nhân dân là chủ thể phát triển lực lượng sản xuất và thụ hưởng lợi ích.",
-        "trapAnalysis": "Bản chất kinh tế: Sở hữu xã hội (công hữu) về TLSX chủ yếu."
+        "explanation": "Bản Tuyên ngôn Độc lập khép lại bằng lời thề son sắt của toàn thể dân tộc: 'Toàn thể dân tộc Việt Nam quyết đem tất cả tinh thần và lực lượng, tính mạng và của cải để giữ vững quyền tự do, độc lập ấy'.",
+        "trapAnalysis": "Lời thề giữ vững độc lập tự do kết thúc bản Tuyên ngôn Độc lập 2/9/1945."
       },
       {
-        "id": 17,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Thông hiểu",
-        "question": "Bản chất TƯ TƯỞNG - VĂN HÓA - XÃ HỘI của nền dân chủ xã hội chủ nghĩa lấy hệ tư tưởng nào làm chủ đạo?",
+        "id": 50,
+        "chapter": "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)",
+        "level": "Vận dụng",
+        "question": "Giá trị thời đại vĩ đại nhất của thắng lợi Cách mạng Tháng Tám năm 1945 là:",
         "options": [
-          "Chủ nghĩa Mác - Lênin",
-          "Chủ nghĩa tự do tư sản",
-          "Tôn giáo thần quyền",
-          "Chủ nghĩa dân tộc hẹp hòi"
+          "Mở ra kỷ nguyên độc lập tự do của dân tộc gắn liền với con đường tiến lên chủ nghĩa xã hội",
+          "Đưa Việt Nam trở thành quốc gia có nền kinh tế phát triển nhất khu vực Đông Nam Á",
+          "Xóa bỏ hoàn toàn tình trạng nợ công và tranh chấp thương mại quốc tế",
+          "Giúp Việt Nam gia nhập ngay các định chế tài chính quốc tế đa phương"
         ],
         "correct": 0,
-        "explanation": "Slide: Bản chất tư tưởng - văn hóa - xã hội: hệ tư tưởng chủ đạo là chủ nghĩa Mác - Lênin, kế thừa các giá trị văn hóa và hướng đến giải phóng, phát triển con người.",
-        "trapAnalysis": "Chủ nghĩa Mác - Lênin là hệ tư tưởng chủ đạo."
-      },
-      {
-        "id": 18,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Thông hiểu",
-        "question": "Vì sao nói nền dân chủ xã hội chủ nghĩa là nền dân chủ 'CAO HƠN VỀ CHẤT' so với dân chủ tư sản?",
-        "options": [
-          "Vì quyền lực thực sự thuộc về nhân dân lao động, dân là chủ và dân làm chủ, dựa trên chế độ công hữu TLSX chủ yếu",
-          "Vì nó được in nhiều áp phích hơn",
-          "Vì các nước XHCN có nhiều vàng hơn",
-          "Vì nó không cần có pháp luật"
-        ],
-        "correct": 0,
-        "explanation": "Slide: Nền dân chủ xã hội chủ nghĩa là nền dân chủ cao hơn về chất so với dân chủ tư sản: quyền lực thuộc về nhân dân, dân là chủ và dân làm chủ; dân chủ gắn với pháp luật và được thực hiện dưới sự lãnh đạo của Đảng Cộng sản.",
-        "trapAnalysis": "Cao hơn về chất vì quyền lực thực sự thuộc về đa số nhân dân, dựa trên công hữu TLSX."
-      },
-      {
-        "id": 19,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Thông hiểu",
-        "question": "Ở Việt Nam, dân chủ có vị trí vai trò như thế nào đối với chế độ xã hội chủ nghĩa?",
-        "options": [
-          "Chỉ là một khẩu hiệu trang trí",
-          "Là mục tiêu, bản chất và động lực của chế độ xã hội chủ nghĩa; gắn với kỷ luật, kỷ cương",
-          "Là điều thứ yếu sau phát triển bất động sản",
-          "Chỉ áp dụng ở các thành phố lớn"
-        ],
-        "correct": 1,
-        "explanation": "Slide: Ở Việt Nam, dân chủ là mục tiêu, bản chất và động lực của chế độ xã hội chủ nghĩa; gắn với kỷ luật, kỷ cương và phải được thực hiện trong đời sống thực tiễn ở mọi cấp, mọi lĩnh vực.",
-        "trapAnalysis": "Dân chủ là mục tiêu, bản chất và động lực của chế độ XHCN; gắn với kỷ luật kỷ cương."
-      },
-      {
-        "id": 20,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Thông hiểu",
-        "question": "Mối quan hệ giữa dân chủ và kỷ luật, kỷ cương ở Việt Nam được xác định là:",
-        "options": [
-          "Dân chủ đối lập và loại trừ kỷ luật, kỷ cương",
-          "Dân chủ phải đi đôi với kỷ luật, kỷ cương, được thể chế hóa bằng pháp luật và bảo đảm bằng pháp luật",
-          "Chỉ cần kỷ luật nghiêm khắc, không cần dân chủ",
-          "Dân chủ là tự do vô chính phủ"
-        ],
-        "correct": 1,
-        "explanation": "Dân chủ không phải là muốn làm gì thì làm; dân chủ chân chính luôn song hành với kỷ luật kỷ cương và tinh thần thượng tôn pháp luật.",
-        "trapAnalysis": "Dân chủ đi đôi với kỷ luật, kỷ cương, bảo đảm bằng pháp luật."
-      },
-      {
-        "id": 21,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Nhận biết",
-        "question": "Nhà nước xã hội chủ nghĩa có BA TÊN GỌI đặc thù nào sau đây?",
-        "options": [
-          "Nhà nước toàn trị, nhà nước chuyên chế, nhà nước phong kiến mới",
-          "Nhà nước kiểu mới, nhà nước nửa nhà nước, nhà nước không còn nguyên nghĩa",
-          "Nhà nước tư bản, nhà nước đế quốc, nhà nước thực dân",
-          "Nhà nước quân phiệt, nhà nước liên bang, nhà nước kỹ trị"
-        ],
-        "correct": 1,
-        "explanation": "Vở ghi: Nhà nước xã hội chủ nghĩa có ba kiểu: nhà nước kiểu mới, nhà nước nửa nhà nước, nhà nước không còn nguyên nghĩa (3 tên gọi).",
-        "trapAnalysis": "Ba tên gọi: Kiểu mới, nửa nhà nước, không còn nguyên nghĩa."
-      },
-      {
-        "id": 22,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Thông hiểu",
-        "question": "Nội dung chủ yếu và MỤC ĐÍCH CUỐI CÙNG của Nhà nước xã hội chủ nghĩa là gì?",
-        "options": [
-          "Duy trì vĩnh viễn sự đàn áp bạo lực",
-          "Cải tạo xã hội cũ - xây dựng thành công xã hội mới",
-          "Tịch thu hết tiền của công dân",
-          "Bành trướng quân sự sang nước khác"
-        ],
-        "correct": 1,
-        "explanation": "Vở ghi: Nội dung chủ yếu và mục đích cuối cùng của nhà nước XHCN: cải tạo xã hội cũ - xây dựng thành công xã hội mới.",
-        "trapAnalysis": "Mục đích cuối cùng: Cải tạo xã hội cũ - xây dựng thành công xã hội mới."
-      },
-      {
-        "id": 23,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Thông hiểu",
-        "question": "Về mặt KINH TẾ, bản chất của Nhà nước xã hội chủ nghĩa dựa trên chế độ sở hữu nào?",
-        "options": [
-          "Chế độ tư hữu tư bản chủ nghĩa",
-          "Chế độ công hữu (sở hữu xã hội) về tư liệu sản xuất chủ yếu",
-          "Chế độ sở hữu phong kiến ruộng đất",
-          "Chế độ chiếm hữu nô lệ"
-        ],
-        "correct": 1,
-        "explanation": "Slide và lý luận Mác - Lênin: Bản chất kinh tế của Nhà nước XHCN dựa trên chế độ công hữu về các tư liệu sản xuất chủ yếu (nhân dân làm chủ kinh tế).",
-        "trapAnalysis": "Bản chất kinh tế: Chế độ công hữu về tư liệu sản xuất chủ yếu."
-      },
-      {
-        "id": 24,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Thông hiểu",
-        "question": "Về mặt CHÍNH TRỊ, bản chất của Nhà nước xã hội chủ nghĩa là:",
-        "options": [
-          "Mang bản chất giai cấp công nhân, do Đảng Cộng sản lãnh đạo, nhân dân là chủ thể quyền lực",
-          "Mang bản chất của giai cấp tư sản độc quyền",
-          "Do các dòng tộc hoàng gia lãnh đạo",
-          "Không có sự lãnh đạo của đảng phái nào"
-        ],
-        "correct": 0,
-        "explanation": "Slide: Bản chất chính trị của Nhà nước XHCN: mang bản chất giai cấp công nhân, do Đảng Cộng sản lãnh đạo, nhân dân là chủ thể quyền lực.",
-        "trapAnalysis": "Mang bản chất GCCN, ĐCS lãnh đạo, nhân dân là chủ thể quyền lực."
-      },
-      {
-        "id": 25,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Thông hiểu",
-        "question": "Nhà nước pháp quyền xã hội chủ nghĩa Việt Nam có đặc điểm đầu tiên cốt lõi về bản chất là:",
-        "options": [
-          "Nhà nước của nhân dân, do nhân dân, vì nhân dân",
-          "Nhà nước của giai cấp tư sản, do tư sản, vì người giàu",
-          "Nhà nước quân chủ kế vị",
-          "Nhà nước tôn giáo thần quyền"
-        ],
-        "correct": 0,
-        "explanation": "Slide 4.3: Đặc điểm: Nhà nước của nhân dân, do nhân dân, vì nhân dân.",
-        "trapAnalysis": "Nhà nước của nhân dân, do nhân dân, vì nhân dân."
-      },
-      {
-        "id": 26,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Thông hiểu",
-        "question": "Nguyên tắc thượng tôn nào chi phối toàn bộ tổ chức và hoạt động của Nhà nước pháp quyền XHCN Việt Nam?",
-        "options": [
-          "Tổ chức và hoạt động theo Hiến pháp và pháp luật",
-          "Hoạt động theo lệnh miệng của quan chức",
-          "Hoạt động theo phong tục làng xã không cần luật",
-          "Hoạt động theo sự chỉ đạo của các công ty nước ngoài"
-        ],
-        "correct": 0,
-        "explanation": "Slide: Tổ chức và hoạt động theo Hiến pháp và pháp luật; pháp luật giữ vị trí tối thượng trong quản lý xã hội.",
-        "trapAnalysis": "Tổ chức và hoạt động theo Hiến pháp và pháp luật."
-      },
-      {
-        "id": 27,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Thông hiểu",
-        "question": "Đặc điểm cấu trúc quyền lực trong Nhà nước pháp quyền XHCN Việt Nam được Hiến pháp quy định là:",
-        "options": [
-          "Quyền lực nhà nước là thống nhất, có sự phân công, phối hợp và kiểm soát giữa các cơ quan nhà nước trong việc thực hiện các quyền lập pháp, hành pháp, tư pháp",
-          "Tam quyền phân lập hoàn toàn độc lập và kiềm chế triệt tiêu nhau",
-          "Quyền lực hoàn toàn thuộc về tòa án",
-          "Không có sự phân công quyền lực"
-        ],
-        "correct": 0,
-        "explanation": "Slide: Quyền lực nhà nước thống nhất, có phân công, phối hợp và kiểm soát giữa lập pháp, hành pháp, tư pháp.",
-        "trapAnalysis": "Quyền lực thống nhất, có phân công, phối hợp và kiểm soát."
-      },
-      {
-        "id": 28,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Thông hiểu",
-        "question": "Lực lượng nào giữ vai trò LÃNH ĐẠO Nhà nước pháp quyền xã hội chủ nghĩa Việt Nam?",
-        "options": [
-          "Đảng Cộng sản Việt Nam",
-          "Các hiệp hội doanh nghiệp tư nhân",
-          "Các tổ chức phi chính phủ quốc tế",
-          "Mặt trận các tôn giáo"
-        ],
-        "correct": 0,
-        "explanation": "Slide: Đặc điểm: do Đảng Cộng sản Việt Nam lãnh đạo (được quy định tại Điều 4 Hiến pháp 2013).",
-        "trapAnalysis": "Do Đảng Cộng sản Việt Nam lãnh đạo."
-      },
-      {
-        "id": 29,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Thông hiểu",
-        "question": "Nhà nước pháp quyền XHCN Việt Nam được tổ chức và hoạt động theo NGUYÊN TẮC cơ bản nào?",
-        "options": [
-          "Nguyên tắc tập trung dân chủ",
-          "Nguyên tắc độc đoán chuyên quyền",
-          "Nguyên tắc đa nguyên chính trị",
-          "Nguyên tắc tự do vô tổ chức"
-        ],
-        "correct": 0,
-        "explanation": "Slide: Đặc điểm: tôn trọng quyền con người; tổ chức theo nguyên tắc tập trung dân chủ.",
-        "trapAnalysis": "Tổ chức theo nguyên tắc tập trung dân chủ."
-      },
-      {
-        "id": 30,
-        "chapter": "Chương 4: Dân chủ & Nhà nước XHCN",
-        "level": "Thông hiểu",
-        "question": "Mục tiêu phục vụ cao nhất của Nhà nước pháp quyền XHCN Việt Nam là gì?",
-        "options": [
-          "Phục vụ lợi ích của nhân dân, tất cả vì hạnh phúc của nhân dân",
-          "Phục vụ lợi ích của các đại gia bất động sản",
-          "Thu thật nhiều thuế để tích lũy cho ngân sách cá nhân",
-          "Xây dựng các cung điện xa hoa"
-        ],
-        "correct": 0,
-        "explanation": "Bản chất cốt tử của Nhà nước pháp quyền XHCN Việt Nam là 'vì nhân dân'; các cơ quan nhà nước hoạt động vì mục tiêu phục vụ nhân dân.",
-        "trapAnalysis": "Phục vụ lợi ích của nhân dân, tất cả vì hạnh phúc của nhân dân."
+        "explanation": "Giá trị lịch sử to lớn nhất: Cách mạng Tháng Tám đã mở ra kỷ nguyên mới trong lịch sử dân tộc - kỷ nguyên giải phóng dân tộc gắn liền với giải phóng giai cấp và tiến lên CNXH.",
+        "trapAnalysis": "Giá trị cốt lõi: Mở ra kỷ nguyên độc lập tự do gắn liền với CNXH."
       }
     ]
   }
 ];
 
-// Hàm rút ngẫu nhiên 30 câu hỏi từ toàn bộ ngân hàng 300 câu hỏi của 10 đề
+// Hàm rút ngẫu nhiên 50 câu hỏi từ toàn bộ ngân hàng 300 câu hỏi chuẩn hóa của 6 đề
 function generateRandomExam() {
   const allQuestions = [];
   EXAM_SETS.forEach(set => {
@@ -4613,8 +4579,8 @@ function generateRandomExam() {
     [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
   }
 
-  // Lấy 30 câu ngẫu nhiên
-  const selected30 = shuffled.slice(0, 30).map((q, idx) => ({
+  // Lấy đúng 50 câu ngẫu nhiên
+  const selected50 = shuffled.slice(0, 50).map((q, idx) => ({
     ...q,
     id: idx + 1
   }));
@@ -4622,66 +4588,62 @@ function generateRandomExam() {
   return {
     id: "de_random",
     code: "MÃ ĐỀ: 999",
-    title: "Đề Khảo Thí Ngẫu Nhiên (Trích Từ Ngân Hàng 300 Câu Của 10 Đề)",
-    description: "Hệ thống tự động rút trích ngẫu nhiên 30 câu hỏi từ ngân hàng 300 câu chuẩn mực của 10 bộ đề thi ôn tập để rèn luyện phản xạ phòng thi.",
-    duration: 15,
-    questions: selected30
+    title: "Đề Khảo Thí Ngẫu Nhiên (Trích Từ Ngân Hàng 300 Câu Chuẩn Hóa)",
+    description: "Hệ thống tự động rút trích ngẫu nhiên 50 câu hỏi từ ngân hàng 300 câu hỏi chuẩn mực của Chương 1 để rèn luyện phản xạ phòng thi thực tế.",
+    duration: 40,
+    questions: selected50
   };
 }
 
-// Bảng tóm tắt tri thức cốt lõi (Sổ tay Sinh viên cần nhớ)
+// Bảng tóm tắt tri thức cốt lõi (Sổ tay Sinh viên VKU cần nhớ - Chương 1)
 const CORE_KNOWLEDGE_SUMMARY = [
   {
-    chapter: "Chương 1: Nhập môn CNXHKH",
-    points: [
-      "Tiến trình: CNXH (thấp/TK quá độ lên CSCN) → CSCN (cao). Việt Nam đang trong thời kỳ quá độ lên CNXH.",
-      "Mốc ra đời & Kim chỉ nam: Tuyên ngôn của Đảng Cộng sản (tháng 2/1848, C.Mác & Ph.Ăngghen).",
-      "3 Tiền đề KHTN: Thuyết tế bào, Thuyết tiến hóa (Đác-uyn), Định luật bảo toàn và chuyển hóa năng lượng.",
-      "3 Tiền đề Lý luận: Triết học cổ điển Đức, Kinh tế chính trị học cổ điển Anh, CNXH không tưởng - phê phán Pháp & Anh.",
-      "Phát hiện quan trọng nhất: Sứ mệnh lịch sử toàn thế giới của giai cấp công nhân."
+    "chapter": "Phần 1: Bối cảnh lịch sử & Phong trào yêu nước trước 1930 (1858 - 1929)",
+    "points": [
+      "Bối cảnh quốc tế: CNTB chuyển sang CNĐQ độc quyền; Thắng lợi CMT10 Nga (1917) mở ra thời đại quá độ lên CNXH; Quốc tế Cộng sản ra đời (3/1919).",
+      "Pháp xâm lược (1858): Nổ súng tại Đà Nẵng (1/9/1858); Triều đình nhà Nguyễn lần lượt ký các hiệp ước đầu hàng (1862, 1874, 1883, Pa-tơ-nốt 1884), biến Việt Nam thành nước thuộc địa nửa phong kiến.",
+      "Chính sách cai trị của Pháp: Chia để trị (Bắc Kỳ nửa bảo hộ, Trung Kỳ bảo hộ, Nam Kỳ thuộc địa); độc quyền kinh tế (thuế muối, rượu, thuốc phiện; đồn điền cao su và mỏ than); văn hóa ngu dân nô dịch.",
+      "Phân hóa giai cấp: Địa chủ (đại địa chủ phản động, trung tiểu địa chủ yêu nước); Nông dân (>90% dân số, bị áp bức nặng nhất, động lực to lớn); Công nhân (ra đời khai thác lần 1, trước tư sản, tiên phong lãnh đạo); Tư sản (mại bản và dân tộc); Tiểu tư sản (trí thức, sinh viên, nhạy bén với cách mạng).",
+      "Mâu thuẫn chủ yếu & bao trùm: Toàn thể dân tộc Việt Nam >< Thực dân Pháp xâm lược và tay sai.",
+      "Phong trào yêu nước phong kiến: Phong trào Cần Vương (1885 - 1896, kết thúc sau khởi nghĩa Hương Khê của Phan Đình Phùng); Khởi nghĩa Yên Thế (1884 - 1913, phong trào nông dân tự vệ do Hoàng Hoa Thám lãnh đạo kéo dài gần 30 năm).",
+      "Khuynh hướng dân chủ tư sản: Phan Bội Châu (bạo động, cầu viện Nhật: Hội Duy Tân, Đông Du, Việt Nam Quang phục Hội); Phan Châu Trinh (cải cách nâng cao dân trí: Khai dân trí, chấn dân khí, hậu dân sinh); Việt Nam Quốc dân Đảng (Nguyễn Thái Học, khởi nghĩa Yên Bái 1930 'Không thành công cũng thành nhân'). Thất bại khẳng định sự bế tắc của khuynh hướng tư sản."
     ]
   },
   {
-    chapter: "Chương 2: Sứ mệnh lịch sử của GCCN",
-    points: [
-      "Đặc điểm cốt tử: Gắn với nền đại công nghiệp hiện đại, phương thức công nghiệp (đặc điểm nổi bật nhất); đại biểu LLSX tiên tiến.",
-      "Địa vị kinh tế: Không sở hữu tư liệu sản xuất chủ yếu, bị giai cấp tư sản bóc lột giá trị thặng dư.",
-      "Sứ mệnh tổng quát: Xóa bỏ CNTB; xây dựng CNXH và CSCN.",
-      "3 Nội dung sứ mệnh: Kinh tế (sản xuất của cải cho XHCN), Chính trị - XH (giành chính quyền, xây dựng nhà nước mới dưới sự lãnh đạo của ĐCS), Văn hóa - tư tưởng (hệ tư tưởng Mác - Lênin, xây dựng con người mới).",
-      "Điều kiện khách quan: Địa vị kinh tế và địa vị chính trị - xã hội.",
-      "Điều kiện chủ quan: ĐCS là nhân tố quan trọng nhất. Quy luật: Đảng Cộng sản = Phong trào công nhân + Chủ nghĩa Mác - Lênin (ở VN thêm Phong trào yêu nước).",
-      "GCCN Việt Nam: Ra đời đầu thế kỷ XX trong cuộc khai thác thuộc địa của Pháp.",
-      "GCCN hiện nay: Biến đổi trí tuệ hóa (công nhân tri thức), tham gia sở hữu (trung lưu hóa, mua cổ phiếu nhưng không làm thay đổi bản chất bóc lột), xã hội hóa lao động mang tính toàn cầu."
+    "chapter": "Phần 2: Nguyễn Ái Quốc & Sự thành lập Đảng CSVN (1911 - 1930)",
+    "points": [
+      "Hành trình cứu nước: 5/6/1911 rời bến Nhà Rồng (tàu Latouche-Tréville); 1919 gửi Yêu sách nhân dân An Nam tới Hội nghị Versailles đòi quyền tự do dân chủ; Tháng 7/1920 đọc Sơ thảo Luận cương Lênin tìm ra con đường cứu nước vô sản; Tháng 12/1920 bỏ phiếu tán thành Quốc tế 3 và sáng lập Đảng CS Pháp tại Đại hội Tours (từ người yêu nước thành chiến sĩ cộng sản).",
+      "Chuẩn bị tư tưởng & chính trị: Báo Le Paria (1922); Bản án chế độ thực dân Pháp (1925); Đường Kách mệnh (1927 - khẳng định cách mệnh trước hết phải có Đảng cách mệnh vững mạnh lấy chủ nghĩa Mác - Lênin làm cốt).",
+      "Chuẩn bị tổ chức: Hội Việt Nam Cách mạng Thanh niên (6/1925 tại Quảng Châu); Báo Thanh Niên (21/6/1925); Phong trào 'Vô sản hóa' (1928) đưa cán bộ vào nhà máy đồn điền rèn luyện lập trường giai cấp.",
+      "Ba tổ chức cộng sản năm 1929: Chi bộ 5D Hàm Long (3/1929); Đông Dương CS Đảng (6/1929 tại Bắc Kỳ, báo Búa Liềm); An Nam CS Đảng (8/1929 tại Nam Kỳ, tạp chí Bôn-sê-vích); Đông Dương CS Liên đoàn (9/1929 - 1/1930 tại Trung Kỳ). Nguy cơ chia rẽ đòi hỏi phải thống nhất.",
+      "Hội nghị thành lập Đảng (6/1 - 7/2/1930): Nguyễn Ái Quốc chủ trì tại Cửu Long (Hương Cảng) phái viên Quốc tế Cộng sản; hợp nhất thành Đảng Cộng sản Việt Nam; thông qua Cương lĩnh chính trị đầu tiên.",
+      "Nội dung Cương lĩnh 2/1930: Làm tư sản dân quyền cách mạng và thổ địa cách mạng để đi tới xã hội cộng sản; Công - Nông là gốc; đoàn kết lôi kéo tiểu tư sản, trí thức, trung tiểu địa chủ, tư sản dân tộc; ĐCS là đội tiên phong; Cách mạng VN là bộ phận của cách mạng vô sản thế giới.",
+      "Quy luật ra đời: Đảng CSVN = Chủ nghĩa Mác - Lênin + Phong trào công nhân + Phong trào yêu nước."
     ]
   },
   {
-    chapter: "Chương 3: CNXH & Thời kỳ quá độ lên CNXH",
-    points: [
-      "Điều kiện ra đời: Kinh tế (LLSX xã hội hóa mâu thuẫn QHSX tư nhân TBCN); Chính trị (mâu thuẫn GCCN >< GCTS).",
-      "Đặc trưng kinh tế bản chất: Nền kinh tế phát triển cao dựa trên LLSX hiện đại và chế độ CÔNG HỮU về tư liệu sản xuất chủ yếu.",
-      "Nhà nước XHCN đầu tiên: Liên Xô sau Cách mạng Tháng Mười Nga 1917.",
-      "Cách mạng vô sản: Thực hiện bằng con đường bạo lực cách mạng.",
-      "Thời kỳ quá độ: Là tất yếu khách quan với mọi nước. Lênin gọi là 'những cơn đau đẻ kéo dài' (cực kỳ khó khăn, phức tạp).",
-      "2 kiểu quá độ: Quá độ trực tiếp (từ CNTB phát triển - Mác & Ăngghen); Quá độ gián tiếp (từ tiền tư bản bỏ qua chế độ TBCN - Lênin bổ sung, ví dụ Việt Nam).",
-      "Đặc điểm TKQĐ: Đan xen tàn dư xã hội cũ và mầm mống xã hội mới trên mọi lĩnh vực.",
-      "Quá độ ở VN: Bỏ qua việc xác lập vị trí thống trị của QHSX và KTTT TBCN.",
-      "4 Trụ cột phát triển: Kinh tế - xã hội là TRUNG TÂM; Xây dựng Đảng là THEN CHỐT; Văn hóa con người là NỀN TẢNG TINH THẦN; Quốc phòng an ninh là NHIỆM VỤ TRỌNG YẾU, THƯỜNG XUYÊN.",
-      "3 Khâu đột phá chiến lược: Thể chế KTTT định hướng XHCN; Phát triển nguồn nhân lực chất lượng cao; Phát triển kết cấu hạ tầng đồng bộ."
+    "chapter": "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)",
+    "level": "Tổng hợp",
+    "points": [
+      "Phong trào 1930 - 1931: Bùng nổ từ 1/5/1930; Đỉnh cao Xô viết Nghệ - Tĩnh (9/1930); chính quyền sơ khai của công nông xóa thuế, chia ruộng công, diệt hủ tục; Cuộc tổng diễn tập đầu tiên cho Cách mạng Tháng Tám. QTCS công nhận ĐCS Đông Dương là phân bộ độc lập (4/1931).",
+      "Hội nghị TW tháng 10/1930: Đổi tên thành Đảng Cộng sản Đông Dương; bầu Trần Phú làm Tổng Bí thư đầu tiên; thông qua Luận cương chính trị tháng 10/1930.",
+      "Hạn chế Luận cương 10/1930: Quá nặng về đấu tranh giai cấp và thổ địa, chưa đặt giải phóng dân tộc lên hàng đầu; đánh giá chưa đúng khả năng cách mạng của tiểu tư sản, tư sản dân tộc, trung tiểu địa chủ yêu nước.",
+      "Khôi phục phong trào (1932 - 1935): Trần Phú hy sinh tại nhà thương Chợ Quán (6/9/1931: 'Hãy giữ vững chí khí chiến đấu'); Ban hành Chương trình hành động (6/1932); Đại hội I tại Ma Cao (3/1935) bầu Lê Hồng Phong làm TBT, khôi phục hệ thống tổ chức Đảng.",
+      "Phong trào Dân chủ 1936 - 1939: Bối cảnh Đại hội VII QTCS (7/1935 - Dimitrov) lập Mặt trận chống phát xít; Mặt trận Nhân dân Pháp cầm quyền (1936).",
+      "Chủ trương Đảng 1936 - 1939: Mục tiêu trước mắt đòi tự do, dân chủ, cơm áo, hòa bình; lập Mặt trận Dân chủ Đông Dương; kết hợp công khai và bí mật, hợp pháp và bất hợp pháp (Đông Dương Đại hội 1936, đấu tranh nghị trường, báo chí công khai: Tiền Phong, Dân Chúng, Tin Tức...; Mít tinh 1/5/1938 tại Khu Đấu Xảo); Tác phẩm 'Tự chỉ trích' của Nguyễn Văn Cừ (7/1939); Cuộc diễn tập thứ hai cho CMT8."
     ]
   },
   {
-    chapter: "Chương 4: Dân chủ & Nhà nước XHCN",
-    points: [
-      "Nguồn gốc: Demos (nhân dân) + Kratos (quyền lực) -> Quyền lực thuộc về nhân dân. Xuất hiện TK VII - VI TCN ở Hy Lạp cổ đại.",
-      "Ăngghen: Dân chủ quân sự tồn tại ở hình thái nguyên thủy.",
-      "3 phương diện dân chủ: Nguyên tắc (tổ chức & quản lý XH), Quyền lực (thuộc về nhân dân), Hình thức nhà nước (phương diện chính trị).",
-      "Quan điểm kinh điển: Lênin: 'Dân chủ là sự thống trị của đa số'; Hồ Chí Minh: 'Dân chủ: dân là chủ, dân làm chủ'.",
-      "Tiến trình biện chứng (Lênin): Chuyên chế -> Dân chủ tư sản -> Dân chủ vô sản -> Tiêu vong (không còn dân chủ nữa).",
-      "Ra đời DC XHCN: Sau Cách mạng Tháng Mười Nga 1917, qua 2 giai đoạn (giành lấy dân chủ -> dùng dân chủ tổ chức nhà nước).",
-      "Bản chất DC XHCN: Chính trị (GCCN, ĐCS lãnh đạo); Kinh tế (công hữu TLSX chủ yếu); Tư tưởng (chủ nghĩa Mác - Lênin). Cao hơn về chất so với DC tư sản.",
-      "3 tên gọi Nhà nước XHCN: Nhà nước kiểu mới, nhà nước nửa nhà nước, nhà nước không còn nguyên nghĩa.",
-      "Mục đích cuối cùng của Nhà nước XHCN: Cải tạo xã hội cũ - xây dựng thành công xã hội mới.",
-      "Nhà nước pháp quyền XHCN VN: Của dân, do dân, vì dân; Hiến pháp và pháp luật giữ vị trí tối thượng; Quyền lực nhà nước là THỐNG NHẤT, có sự phân công, phối hợp và kiểm soát giữa lập pháp, hành pháp, tư pháp; Đảng CSVN lãnh đạo; Nguyên tắc tập trung dân chủ."
+    "chapter": "Phần 4: Cao trào giải phóng dân tộc & Thắng lợi Cách mạng Tháng Tám (1939 - 1945)",
+    "points": [
+      "Bối cảnh CTTG II (9/1939) & Nhật chiếm Đông Dương (9/1940): Nhân dân chịu cảnh 'một cổ hai tròng'; Khởi nghĩa Bắc Sơn (9/1940), Khởi nghĩa Nam Kỳ (11/1940 - cờ đỏ sao vàng xuất hiện), Binh biến Đô Lương (1/1941).",
+      "Chuyển hướng chiến lược qua 3 Hội nghị TW: HNTW 6 (11/1939 tại Bà Điểm, Nguyễn Văn Cừ chủ trì mở đầu chuyển hướng); HNTW 7 (11/1940 tại Đình Bảng duy trì du kích Bắc Sơn); HNTW 8 (5/1941 tại Pác Bó do Nguyễn Ái Quốc chủ trì hoàn chỉnh chuyển hướng chiến lược: Đặt giải phóng dân tộc lên hàng đầu và cấp bách nhất; lập Mặt trận Việt Minh 19/5/1941; khởi nghĩa từng phần tiến lên Tổng khởi nghĩa; dự kiến lập nước Việt Nam Dân chủ Cộng hòa).",
+      "Chuẩn bị lực lượng: Căn cứ địa Bắc Sơn - Võ Nhai và Cao Bằng; Đội Việt Nam Tuyên truyền Giải phóng quân (22/12/1944 do Võ Nguyên Giáp chỉ huy, 34 chiến sĩ, chính trị trọng hơn quân sự, thắng Phai Khắt - Nà Ngần); Đề cương Văn hóa Việt Nam (1943 - Dân tộc hóa, Đại chúng hóa, Khoa học hóa).",
+      "Cao trào kháng Nhật cứu nước: Nhật đảo chính Pháp đêm 9/3/1945; Chỉ thị 'Nhật - Pháp bắn nhau và hành động của chúng ta' (12/3/1945): kẻ thù duy nhất trước mắt là phát xít Nhật; khẩu hiệu 'Phá kho thóc Nhật để giải quyết nạn đói'; Thống nhất thành Việt Nam Giải phóng quân (5/1945); Khu giải phóng Việt Bắc gồm 6 tỉnh (Cao - Bắc - Lạng - Hà - Tuyên - Thái), Tân Trào là thủ đô giải phóng.",
+      "Tổng khởi nghĩa Tháng Tám 1945: Nhật đầu hàng Đồng minh (15/8/1945); Thời cơ ngàn năm có một trước khi quân Đồng minh vào; Hội nghị toàn quốc của Đảng tại Tân Trào (14 - 15/8) ra Quân lệnh số 1 (3 nguyên tắc: Tập trung, Thống nhất, Kịp thời); Đại hội Quốc dân Tân Trào (16 - 17/8) cử Ủy ban Dân tộc Giải phóng (Chính phủ lâm thời) do Hồ Chí Minh làm Chủ tịch, chọn Quốc kỳ cờ đỏ sao vàng và Quốc ca Tiến quân ca.",
+      "Diễn biến thắng lợi 15 ngày (14 - 28/8/1945): 4 tỉnh đầu tiên giành chính quyền (18/8: Bắc Giang, Hải Dương, Hà Tĩnh, Quảng Nam); Hà Nội (19/8), Huế (23/8), Sài Gòn (25/8); Đồng Nai Thượng và Hà Tiên (28/8); Vua Bảo Đại thoái vị (30/8: 'Thà làm dân một nước tự do còn hơn làm vua một nước nô lệ').",
+      "Ngày 2/9/1945: Hồ Chí Minh đọc Tuyên ngôn Độc lập tại Quảng trường Ba Đình khai sinh nước Việt Nam Dân chủ Cộng hòa.",
+      "Tính chất & Ý nghĩa: Cuộc cách mạng giải phóng dân tộc mang tính chất dân chủ mới (điển hình, sâu sắc, triệt để); Mở ra kỷ nguyên độc lập tự do gắn liền với CNXH; cổ vũ phong trào giải phóng dân tộc trên thế giới."
     ]
   }
 ];

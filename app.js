@@ -1,6 +1,6 @@
 // =========================================================================
-// APP CONTROLLER: HỆ THỐNG THI TRỰC TUYẾN CNXHKH
-// Góc nhìn Giảng viên Khoa Lý luận Chính trị
+// APP CONTROLLER: HỆ THỐNG THI TRỰC TUYẾN LỊCH SỬ ĐẢNG CỘNG SẢN VIỆT NAM
+// CHƯƠNG 1 (1930 - 1945) • VKU ĐÀ NẴNG • BỘ MÔN LÝ LUẬN CHÍNH TRỊ
 // =========================================================================
 
 // State Management
@@ -8,9 +8,9 @@ const state = {
   currentSetIndex: 0, // 0: Đề 1, 1: Đề 2, 2: Đề 3, 'random': Đề ngẫu nhiên
   currentExam: null,
   currentQuestionIndex: 0,
-  userAnswers: new Array(30).fill(null),
-  flaggedQuestions: new Array(30).fill(false),
-  timeRemaining: 15 * 60, // 900 giây (15 phút)
+  userAnswers: new Array(50).fill(null),
+  flaggedQuestions: new Array(50).fill(false),
+  timeRemaining: 40 * 60, // 2400 giây (40 phút)
   timerInterval: null,
   isSubmitted: false,
   studyMode: 'exam', // 'exam' (Thi thật) hoặc 'practice' (Luyện tập tức thì)
@@ -127,9 +127,9 @@ function initExam(setIndex) {
   }
 
   state.currentQuestionIndex = 0;
-  state.userAnswers = new Array(30).fill(null);
-  state.flaggedQuestions = new Array(30).fill(false);
-  state.timeRemaining = 15 * 60; // 15 phút
+  state.userAnswers = new Array(state.currentExam.questions.length).fill(null);
+  state.flaggedQuestions = new Array(state.currentExam.questions.length).fill(false);
+  state.timeRemaining = (state.currentExam.duration || 40) * 60; // 40 phút
   state.isSubmitted = false;
   state.startTime = new Date();
   state.endTime = null;
@@ -181,7 +181,7 @@ function updateExamHeader() {
   if (state.studyMode === 'exam') {
     modeBadge.textContent = "Chế độ: Thi Giữa Kỳ (Chuẩn Khảo Thí)";
     modeBadge.className = "px-3 py-0.5 text-xs font-semibold rounded-full bg-red-100 text-red-800 border border-red-200 flex items-center gap-1.5";
-    if (modeLabel) modeLabel.textContent = "Thi Thật (15p)";
+    if (modeLabel) modeLabel.textContent = "Thi Thật (40p)";
   } else {
     modeBadge.textContent = "Chế độ: Luyện Tập (Hiện Giải Thích Ngay)";
     modeBadge.className = "px-3 py-0.5 text-xs font-semibold rounded-full bg-emerald-100 text-emerald-800 border border-emerald-200 flex items-center gap-1.5";
@@ -199,9 +199,9 @@ function startTimer() {
 
     updateTimerDisplay();
 
-    // Cảnh báo khi còn 3 phút
-    if (state.timeRemaining === 180) {
-      showToast("Lưu ý: Thời gian làm bài chỉ còn đúng 3 phút!", "warning");
+    // Cảnh báo khi còn 5 phút (300 giây)
+    if (state.timeRemaining === 300) {
+      showToast("Lưu ý: Thời gian làm bài chỉ còn đúng 5 phút!", "warning");
       sfx.playWarning();
     }
 
@@ -216,7 +216,7 @@ function startTimer() {
       clearInterval(state.timerInterval);
       state.timeRemaining = 0;
       updateTimerDisplay();
-      showToast("Đã hết 15 phút làm bài! Hệ thống đang tự động thu bài và chấm điểm.", "info");
+      showToast("Đã hết 40 phút làm bài! Hệ thống đang tự động thu bài và chấm điểm.", "info");
       submitExam(true);
     }
   }, 1000);
@@ -234,7 +234,7 @@ function updateTimerDisplay() {
 
   if (state.timeRemaining <= 60) {
     timerContainer.className = "flex items-center gap-2 px-3 py-1.5 rounded-lg font-mono font-bold text-red-700 bg-red-100 border border-red-300 timer-urgent";
-  } else if (state.timeRemaining <= 180) {
+  } else if (state.timeRemaining <= 300) {
     timerContainer.className = "flex items-center gap-2 px-3 py-1.5 rounded-lg font-mono font-bold text-amber-700 bg-amber-50 border border-amber-300";
   } else {
     timerContainer.className = "flex items-center gap-2 px-3 py-1.5 rounded-lg font-mono font-bold text-slate-800 bg-white border border-slate-200 shadow-sm";
@@ -360,7 +360,7 @@ function createQuestionCard(q, idx) {
   // Badge Số câu
   const numBadge = document.createElement("span");
   numBadge.className = "px-2.5 py-1 text-xs font-bold rounded-md bg-slate-800 text-white";
-  numBadge.textContent = `Câu ${idx + 1} / 30`;
+  numBadge.textContent = `Câu ${idx + 1} / ${state.currentExam.questions.length}`;
 
   // Badge Chương
   const chapBadge = document.createElement("span");
@@ -568,7 +568,7 @@ function renderSingleNavControls() {
 
   const statusLabel = document.createElement("span");
   statusLabel.className = "text-xs md:text-sm text-slate-500 font-medium";
-  statusLabel.textContent = `Câu ${state.currentQuestionIndex + 1} / 30`;
+  statusLabel.textContent = `Câu ${state.currentQuestionIndex + 1} / ${state.currentExam.questions.length}`;
 
   const nextBtn = document.createElement("button");
   nextBtn.className = `flex items-center gap-1.5 px-5 py-2.5 rounded-lg text-sm font-semibold smooth-transition ${
@@ -694,26 +694,27 @@ function submitExam(isForced = false) {
   state.isSubmitted = true;
   state.endTime = new Date();
 
-  const totalTimeSpentSeconds = (15 * 60) - state.timeRemaining;
+  const totalExamQuestions = state.currentExam.questions.length;
+  const examDurationSeconds = (state.currentExam.duration || 40) * 60;
+  const totalTimeSpentSeconds = examDurationSeconds - state.timeRemaining;
   const minutes = Math.floor(totalTimeSpentSeconds / 60);
   const seconds = totalTimeSpentSeconds % 60;
   const timeFormatted = `${minutes} phút ${seconds} giây`;
 
-  // Chấm điểm
+  // Chấm điểm theo 4 phân đoạn tri thức của Chương 1
   let correctCount = 0;
   const chapterBreakdown = {
-    "Chương 1: Nhập môn CNXHKH": { total: 0, correct: 0 },
-    "Chương 2: Sứ mệnh lịch sử của GCCN": { total: 0, correct: 0 },
-    "Chương 3: CNXH & Thời kỳ quá độ": { total: 0, correct: 0 },
-    "Chương 4: Dân chủ & Nhà nước XHCN": { total: 0, correct: 0 }
+    "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)": { total: 0, correct: 0 },
+    "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)": { total: 0, correct: 0 },
+    "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)": { total: 0, correct: 0 },
+    "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)": { total: 0, correct: 0 }
   };
 
   state.currentExam.questions.forEach((q, idx) => {
-    // Chuẩn hóa tên chương để nhóm
-    let groupChap = "Chương 1: Nhập môn CNXHKH";
-    if (q.chapter.includes("Chương 2")) groupChap = "Chương 2: Sứ mệnh lịch sử của GCCN";
-    if (q.chapter.includes("Chương 3")) groupChap = "Chương 3: CNXH & Thời kỳ quá độ";
-    if (q.chapter.includes("Chương 4")) groupChap = "Chương 4: Dân chủ & Nhà nước XHCN";
+    let groupChap = "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)";
+    if (q.chapter.includes("Phần 2")) groupChap = "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)";
+    if (q.chapter.includes("Phần 3")) groupChap = "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)";
+    if (q.chapter.includes("Phần 4")) groupChap = "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)";
 
     if (!chapterBreakdown[groupChap]) {
       chapterBreakdown[groupChap] = { total: 0, correct: 0 };
@@ -726,7 +727,7 @@ function submitExam(isForced = false) {
     }
   });
 
-  const finalScore = Number(((correctCount / 30) * 10).toFixed(2));
+  const finalScore = Number(((correctCount / totalExamQuestions) * 10).toFixed(2));
 
   // Lưu vào lịch sử (LocalStorage)
   saveExamAttempt({
@@ -735,6 +736,7 @@ function submitExam(isForced = false) {
     examTitle: state.currentExam.title,
     score: finalScore,
     correctCount: correctCount,
+    totalQuestions: totalExamQuestions,
     timeSpent: timeFormatted
   });
 
@@ -757,7 +759,7 @@ function renderResultsPanel(score, correctCount, timeFormatted, breakdown) {
   panel.classList.remove("hidden");
 
   document.getElementById("res-score-badge").textContent = `${score} / 10.0`;
-  document.getElementById("res-correct-badge").textContent = `${correctCount} / 30 câu đúng`;
+  document.getElementById("res-correct-badge").textContent = `${correctCount} / ${state.currentExam.questions.length} câu đúng`;
   document.getElementById("res-time-badge").textContent = timeFormatted;
 
   // Xếp loại & Nhận xét của Giảng viên
@@ -806,56 +808,56 @@ function renderResultsPanel(score, correctCount, timeFormatted, breakdown) {
   lucide.createIcons();
 }
 
-// Công cụ tạo nhận xét của Giảng viên
+// Công cụ tạo nhận xét của Giảng viên Bộ môn Lịch sử Đảng
 function getTeacherPedagogicalEvaluation(score, breakdown) {
   if (score >= 9.0) {
     return {
-      title: "XUẤT SẮC - ĐẠT CHUẨN ĐIỂM GIỎI TOÀN DIỆN",
+      title: "XUẤT SẮC - ĐẠT CHUẨN ĐIỂM GIỎI LỊCH SỬ ĐẢNG",
       titleColor: "text-emerald-700",
-      comment: "Thầy/Cô đánh giá rất cao tư duy lý luận của em. Em không chỉ ghi nhớ các mốc sự kiện mà còn thấu hiểu sâu sắc bản chất biện chứng, nhìn thấu các phương án bẫy trắc nghiệm tinh vi giữa quan điểm của Mác - Ăngghen và Lênin.",
+      comment: "Thầy/Cô đánh giá rất cao năng lực tư duy lịch sử và nhận thức chính trị của em. Em không chỉ nắm chắc từng mốc niên đại mà còn hiểu sâu sắc tính biện chứng của Cương lĩnh chính trị đầu tiên (2/1930) và nghệ thuật chớp thời cơ Tổng khởi nghĩa Tháng Tám năm 1945.",
       advice: [
-        "Tiếp tục duy trì phong độ và rèn luyện kỹ năng phân tích mối quan hệ giữa dân chủ và nhà nước.",
-        "Sẵn sàng đạt điểm tối đa trong kỳ thi kết thúc học phần chính thức."
+        "Tiếp tục duy trì phong độ xuất sắc này và tự tin đạt điểm tối đa trong kỳ thi chính thức.",
+        "Đọc thêm tài liệu mở rộng về bài học đại đoàn kết toàn dân và xây dựng chính quyền kiểu mới."
       ]
     };
   } else if (score >= 8.0) {
     return {
-      title: "LOẠI GIỎI - NẮM CHẮC KIẾN THỨC BẢN CHẤT",
+      title: "LOẠI GIỎI - NẮM VỮNG BẢN CHẤT LỊCH SỬ CHƯƠNG 1",
       titleColor: "text-blue-700",
-      comment: "Kết quả bài làm rất tốt! Em đã nắm vững các nguyên lý then chốt của CNXHKH. Chỉ còn một vài câu vận dụng cao ở phần đặc trưng thời kỳ quá độ hoặc cơ chế kiểm soát quyền lực nhà nước cần chú ý thêm.",
+      comment: "Kết quả bài làm rất tốt! Em đã nắm chắc tiến trình lịch sử từ khi Pháp xâm lược đến khi Cách mạng Tháng Tám toàn thắng. Một vài câu so sánh giữa Cương lĩnh 2/1930 và Luận cương 10/1930 hoặc chi tiết văn kiện Chỉ thị 12/3/1945 cần chú ý thêm.",
       advice: [
-        "Đọc kỹ lại phần 4 trụ cột phát triển và 3 khâu đột phá ở Việt Nam.",
-        "Phân biệt rạch ròi giữa điều kiện khách quan và nhân tố chủ quan quyết định sứ mệnh GCCN."
+        "Ôn lại sự khác biệt cốt lõi giữa Cương lĩnh tháng 2/1930 và Luận cương tháng 10/1930.",
+        "Ghi nhớ các mốc Hội nghị TW 6, 7, 8 trong quá trình chuyển hướng chỉ đạo chiến lược."
       ]
     };
   } else if (score >= 6.5) {
     return {
-      title: "LOẠI KHÁ - CẦN CẢNH GIÁC TRƯỚC CÁC BẪY CÂU CHỮ",
+      title: "LOẠI KHÁ - CẦN CẢNH GIÁC TRƯỚC CÁC BẪY MỐC SỰ KIỆN",
       titleColor: "text-amber-700",
-      comment: "Em đã hiểu được các khái niệm cơ bản nhưng còn dễ bị phân tâm trước các phương án gây nhiễu, đặc biệt là các luận điểm so sánh giữa Dân chủ tư sản và Dân chủ XHCN, hoặc các biến đổi của công nhân hiện đại.",
+      comment: "Em đã hiểu được các nét lớn của Chương 1 nhưng còn dễ nhầm lẫn trước các phương án bẫy trắc nghiệm (như tên các tổ chức cộng sản năm 1929, địa danh các cuộc khởi nghĩa hoặc tên gọi các mặt trận qua từng thời kỳ).",
       advice: [
-        "Xem kỹ mục 'Vạch trần bẫy trắc nghiệm' của Giảng viên ở từng câu sai.",
-        "Khắc sâu luận điểm: 'Trung lưu hóa công nhân' không làm thay đổi bản chất bóc lột của CNTB."
+        "Xem kỹ mục 'Vạch trần bẫy trắc nghiệm' của Giảng viên ở từng câu làm sai.",
+        "Mở 'Sổ tay tri thức cốt lõi' ở góc phải màn hình để hệ thống hóa lại các mốc thời gian."
       ]
     };
   } else if (score >= 5.0) {
     return {
-      title: "TRUNG BÌNH - CẦN HỆ THỐNG HÓA LẠI TƯ TƯỞNG",
+      title: "TRUNG BÌNH - CẦN HỆ THỐNG HÓA LẠI KIẾN THỨC",
       titleColor: "text-orange-700",
-      comment: "Mức độ hiểu bài mới ở ngưỡng ghi nhớ thuộc lòng, khi gặp các câu hỏi suy luận biện chứng hoặc đảo vế câu hỏi thì em dễ chọn nhầm. Cần dành thời gian ôn lại Chương 2 và Chương 3.",
+      comment: "Mức độ hiểu bài mới ở ngưỡng ghi nhớ rời rạc, chưa liên kết được nguyên nhân - kết quả và ý nghĩa của các phong trào cách mạng 1930 - 1931, 1936 - 1939 và 1939 - 1945.",
       advice: [
-        "Mở ngay 'Sổ tay tri thức cốt lõi' ở góc phải màn hình để ôn tập tổng quan.",
-        "Luyện lại Đề 01 và Đề 02 ở chế độ Luyện tập (Hiện giải thích ngay) để sửa sai lập tức."
+        "Luyện tập ở chế độ 'Luyện Tập Tức Thì' (xem ngay giải thích sau mỗi câu chọn).",
+        "Học thuộc các mốc: 1858, 1911, 1920, 1930, 1936, 1939, 1941, 1945."
       ]
     };
   } else {
     return {
-      title: "CHƯA ĐẠT YÊU CẦU - CẦN ÔN TẬP CẤP TỐC",
+      title: "CHƯA ĐẠT YÊU CẦU - CẦN ÔN TẬP CẤP TỐC CHƯƠNG 1",
       titleColor: "text-red-700",
-      comment: "Kết quả cho thấy em đang bị hổng nhiều mảng kiến thức trọng tâm hoặc làm bài quá vội vàng. Cần đọc kỹ giáo trình và ghi chép bài giảng trước khi thi giữa kỳ thật.",
+      comment: "Kết quả cho thấy em đang bị hổng nhiều mảng kiến thức trọng tâm hoặc làm bài quá vội vàng. Cần đọc kỹ lại giáo trình và slide Lịch sử Đảng trước khi bước vào phòng thi giữa kỳ thật.",
       advice: [
-        "Đọc lại toàn bộ nội dung 4 chương trong phần Sổ tay tóm tắt.",
-        "Thực hiện lại đề thi với tốc độ chậm hơn, chú ý phân tích kỹ từng phương án."
+        "Đọc lại toàn bộ nội dung 4 phần của Chương 1 trong Sổ tay cốt lõi.",
+        "Làm lại Đề 01 ở chế độ Luyện tập để nắm chắc từng đơn vị kiến thức."
       ]
     };
   }
@@ -972,11 +974,11 @@ function closeCheatSheetModal() {
 // ==========================================
 function saveExamAttempt(attempt) {
   try {
-    const history = JSON.parse(localStorage.getItem("cnxhkh_exam_history") || "[]");
+    const history = JSON.parse(localStorage.getItem("lsd_vku_exam_history") || "[]");
     history.unshift(attempt);
     // Lưu tối đa 20 lần gần nhất
     if (history.length > 20) history.pop();
-    localStorage.setItem("cnxhkh_exam_history", JSON.stringify(history));
+    localStorage.setItem("lsd_vku_exam_history", JSON.stringify(history));
     updateHistoryBadge();
   } catch (e) {
     console.error("Lỗi lưu lịch sử", e);
@@ -985,7 +987,7 @@ function saveExamAttempt(attempt) {
 
 function updateHistoryBadge() {
   try {
-    const history = JSON.parse(localStorage.getItem("cnxhkh_exam_history") || "[]");
+    const history = JSON.parse(localStorage.getItem("lsd_vku_exam_history") || "[]");
     const countEl = document.getElementById("history-count-badge");
     if (countEl) countEl.textContent = history.length;
   } catch (e) {}
@@ -997,7 +999,7 @@ function openHistoryModal() {
   listContainer.innerHTML = "";
 
   try {
-    const history = JSON.parse(localStorage.getItem("cnxhkh_exam_history") || "[]");
+    const history = JSON.parse(localStorage.getItem("lsd_vku_exam_history") || "[]");
     if (history.length === 0) {
       listContainer.innerHTML = `
         <div class="text-center py-8 text-slate-500 text-sm">
@@ -1022,7 +1024,7 @@ function openHistoryModal() {
             <div class="text-base md:text-lg font-black ${item.score >= 8 ? 'text-emerald-700' : (item.score >= 6.5 ? 'text-blue-700' : 'text-red-700')}">
               ${item.score} <span class="text-xs font-normal text-slate-500">/ 10.0</span>
             </div>
-            <div class="text-xs text-slate-500 font-medium">${item.correctCount}/30 câu</div>
+            <div class="text-xs text-slate-500 font-medium">${item.correctCount}/${item.totalQuestions || 50} câu</div>
           </div>
         `;
         listContainer.appendChild(div);
@@ -1045,7 +1047,7 @@ function closeHistoryModal() {
 
 function clearExamHistory() {
   if (confirm("Em có chắc chắn muốn xóa toàn bộ lịch sử thi đã lưu không?")) {
-    localStorage.removeItem("cnxhkh_exam_history");
+    localStorage.removeItem("lsd_vku_exam_history");
     updateHistoryBadge();
     openHistoryModal();
   }
