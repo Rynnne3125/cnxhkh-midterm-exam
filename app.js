@@ -1086,6 +1086,67 @@ function showToast(message, type = "info") {
 }
 
 // ==========================================
+// Chế Độ Toàn Màn Hình (Fullscreen Mode)
+// ==========================================
+function toggleFullscreen() {
+  const isFs = !!(document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement);
+  
+  if (!isFs) {
+    const el = document.documentElement;
+    if (el.requestFullscreen) {
+      el.requestFullscreen().catch(() => {});
+    } else if (el.webkitRequestFullscreen) {
+      el.webkitRequestFullscreen();
+    } else if (el.mozRequestFullScreen) {
+      el.mozRequestFullScreen();
+    } else if (el.msRequestFullscreen) {
+      el.msRequestFullscreen();
+    }
+    showToast("Đã kích hoạt chế độ Toàn Màn Hình phòng thi!", "info");
+  } else {
+    if (document.exitFullscreen) {
+      document.exitFullscreen().catch(() => {});
+    } else if (document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
+    } else if (document.mozCancelFullScreen) {
+      document.mozCancelFullScreen();
+    } else if (document.msExitFullscreen) {
+      document.msExitFullscreen();
+    }
+    showToast("Đã thoát chế độ Toàn Màn Hình", "info");
+  }
+}
+
+function updateFullscreenUI() {
+  const isFs = !!(document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement);
+  const icon = document.getElementById("fullscreen-icon");
+  const label = document.getElementById("fullscreen-label");
+  const btn = document.getElementById("fullscreen-toggle");
+
+  if (icon) {
+    icon.setAttribute("data-lucide", isFs ? "minimize" : "maximize");
+    lucide.createIcons();
+  }
+  if (label) {
+    label.textContent = isFs ? "Thu Nhỏ" : "Toàn Màn Hình";
+  }
+  if (btn) {
+    if (isFs) {
+      btn.classList.add("bg-red-50", "text-red-700", "border-red-300");
+      btn.classList.remove("bg-slate-100", "text-slate-700", "border-slate-300");
+    } else {
+      btn.classList.remove("bg-red-50", "text-red-700", "border-red-300");
+      btn.classList.add("bg-slate-100", "text-slate-700", "border-slate-300");
+    }
+  }
+}
+
+document.addEventListener("fullscreenchange", updateFullscreenUI);
+document.addEventListener("webkitfullscreenchange", updateFullscreenUI);
+document.addEventListener("mozfullscreenchange", updateFullscreenUI);
+document.addEventListener("MSFullscreenChange", updateFullscreenUI);
+
+// ==========================================
 // Đăng ký các sự kiện bàn phím & giao diện
 // ==========================================
 function setupEventListeners() {
@@ -1106,7 +1167,7 @@ function setupEventListeners() {
       if (e.key === "ArrowLeft" && state.currentQuestionIndex > 0) {
         goToQuestion(state.currentQuestionIndex - 1);
       }
-      if (e.key === "ArrowRight" && state.currentQuestionIndex < 29) {
+      if (e.key === "ArrowRight" && state.currentQuestionIndex < state.currentExam.questions.length - 1) {
         goToQuestion(state.currentQuestionIndex + 1);
       }
     }
@@ -1128,6 +1189,14 @@ function setupEventListeners() {
     renderQuestionContent();
     showToast(`Đã chuyển sang ${state.studyMode === 'exam' ? 'Chế độ Thi Giữa Kỳ (Chuẩn)' : 'Chế độ Luyện Tập Tức Thì'}`, "info");
   });
+
+  // Bật/tắt toàn màn hình
+  const fsBtn = document.getElementById("fullscreen-toggle");
+  if (fsBtn) {
+    fsBtn.addEventListener("click", () => {
+      toggleFullscreen();
+    });
+  }
 
   // Bật/tắt âm thanh
   document.getElementById("sound-toggle").addEventListener("click", () => {

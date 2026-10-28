@@ -37,6 +37,7 @@ Trang web ứng dụng khảo thí và ôn tập giữa kỳ môn **Lịch sử 
 * 🔄 **Hai chế độ khảo thí:**
   * *Chế độ Thi Giữa Kỳ:* Khảo thí nghiêm ngặt chuẩn đại học, nộp bài mới hiển thị kết quả và lời phê.
   * *Chế độ Luyện Tập Tức Thì:* Chọn đáp án đến đâu hiển thị ngay giải thích và lời phê của giảng viên đến đó.
+* 📺 **Chế độ Toàn Màn Hình (Fullscreen Exam Mode):** Tối ưu hóa không gian phòng thi, khóa tầm nhìn tập trung cao độ, hạn chế xao nhãng bởi các tab và ứng dụng khác.
 * 🖥️ **Hai giao diện xem:**
   * *Focus Mode (Từng câu):* Không gian tập trung cao độ kèm phím tắt bàn phím A, B, C, D, ←, →, F.
   * *List Mode (Danh sách cuộn):* Rà soát toàn bộ 50 câu liên tục.
