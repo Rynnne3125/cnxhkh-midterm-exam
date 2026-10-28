@@ -37,9 +37,10 @@ Trang web ứng dụng khảo thí và ôn tập giữa kỳ môn **Lịch sử 
 * 🔄 **Hai chế độ khảo thí:**
   * *Chế độ Thi Giữa Kỳ:* Khảo thí nghiêm ngặt chuẩn đại học, nộp bài mới hiển thị kết quả và lời phê.
   * *Chế độ Luyện Tập Tức Thì:* Chọn đáp án đến đâu hiển thị ngay giải thích và lời phê của giảng viên đến đó.
-* 📺 **Chế độ Toàn Màn Hình (Fullscreen Exam Mode):** Tối ưu hóa không gian phòng thi, khóa tầm nhìn tập trung cao độ, hạn chế xao nhãng bởi các tab và ứng dụng khác.
+* 🔍 **Toàn Màn Hình Khung Câu Hỏi (Zen Focus Mode):** Phóng to khung câu hỏi tràn toàn bộ màn hình (bấm nút *Toàn Màn Hình* hoặc phím tắt <kbd>Z</kbd>), triệt tiêu xao nhãng để tập trung tối đa 100% vào nội dung câu hỏi và 4 phương án, tích hợp đồng hồ đếm ngược, chuyển câu (<kbd>←</kbd>/<kbd>→</kbd>), chọn đáp án (<kbd>A</kbd>, <kbd>B</kbd>, <kbd>C</kbd>, <kbd>D</kbd>) và bảng chọn nhanh 50 câu (bấm <kbd>Esc</kbd> để thu nhỏ).
+* ↔️ **Tùy biến độ rộng linh hoạt:** Hỗ trợ ẩn/hiện cột bảng câu hỏi để mở rộng khung câu hỏi chiếm trọn 100% chiều ngang giao diện chính.
 * 🖥️ **Hai giao diện xem:**
-  * *Focus Mode (Từng câu):* Không gian tập trung cao độ kèm phím tắt bàn phím A, B, C, D, ←, →, F.
+  * *Focus Mode (Từng câu):* Không gian tập trung cao độ kèm phím tắt bàn phím A, B, C, D, ←, →, F, Z.
   * *List Mode (Danh sách cuộn):* Rà soát toàn bộ 50 câu liên tục.
 * 📊 **Đánh giá năng lực theo 4 phân đoạn tri thức:**
   * Phần 1: Bối cảnh lịch sử & Phong trào yêu nước trước 1930 (1858 - 1929)

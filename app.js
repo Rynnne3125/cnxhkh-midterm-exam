@@ -18,7 +18,9 @@ const state = {
   soundEnabled: true,
   filterReview: 'all', // 'all', 'wrong', 'flagged'
   startTime: null,
-  endTime: null
+  endTime: null,
+  isQuestionFocus: false,
+  isSidebarCollapsed: false
 };
 
 // Web Audio API Synthesizer (Không phụ thuộc file mp3 ngoài)
@@ -231,6 +233,8 @@ function updateTimerDisplay() {
   const timerContainer = document.getElementById("timer-container");
   
   timerEl.textContent = timeStr;
+  const zenTimerEl = document.getElementById("zen-timer-display");
+  if (zenTimerEl) zenTimerEl.textContent = timeStr;
 
   if (state.timeRemaining <= 60) {
     timerContainer.className = "flex items-center gap-2 px-3 py-1.5 rounded-lg font-mono font-bold text-red-700 bg-red-100 border border-red-300 timer-urgent";
@@ -393,8 +397,29 @@ function createQuestionCard(q, idx) {
   `;
   flagBtn.onclick = () => toggleFlag(idx);
 
+  // Nhóm nút tiện ích bên phải: Focus câu hỏi & Cắm cờ
+  const actionGroup = document.createElement("div");
+  actionGroup.className = "flex items-center gap-1.5";
+
+  const cardFocusBtn = document.createElement("button");
+  cardFocusBtn.type = "button";
+  cardFocusBtn.className = "flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-semibold bg-amber-50/80 text-amber-900 hover:bg-amber-100 border border-amber-200 smooth-transition";
+  cardFocusBtn.title = "Mở rộng khung câu hỏi này toàn màn hình để tập trung (Focus Mode)";
+  cardFocusBtn.innerHTML = `
+    <i data-lucide="maximize-2" class="w-3.5 h-3.5 text-amber-700"></i>
+    <span class="hidden sm:inline">Toàn màn hình</span>
+  `;
+  cardFocusBtn.onclick = (e) => {
+    e.stopPropagation();
+    state.currentQuestionIndex = idx;
+    toggleQuestionFocus();
+  };
+
+  actionGroup.appendChild(cardFocusBtn);
+  actionGroup.appendChild(flagBtn);
+
   cardHeader.appendChild(badgeGroup);
-  cardHeader.appendChild(flagBtn);
+  cardHeader.appendChild(actionGroup);
 
   // Nội dung câu hỏi
   const questionTitle = document.createElement("h3");
@@ -570,18 +595,21 @@ function renderSingleNavControls() {
   statusLabel.className = "text-xs md:text-sm text-slate-500 font-medium";
   statusLabel.textContent = `Câu ${state.currentQuestionIndex + 1} / ${state.currentExam.questions.length}`;
 
+  const totalQ = state.currentExam.questions.length;
+  const isLastQ = state.currentQuestionIndex === totalQ - 1;
+
   const nextBtn = document.createElement("button");
   nextBtn.className = `flex items-center gap-1.5 px-5 py-2.5 rounded-lg text-sm font-semibold smooth-transition ${
-    state.currentQuestionIndex === 29
+    isLastQ
       ? "bg-slate-800 text-white hover:bg-slate-900"
       : "bg-red-700 text-white hover:bg-red-800 shadow-sm"
   }`;
-  nextBtn.innerHTML = state.currentQuestionIndex === 29 
+  nextBtn.innerHTML = isLastQ 
     ? `<span>Kiểm tra lại</span> <i data-lucide="check" class="w-4 h-4"></i>`
     : `<span>Câu tiếp theo</span> <i data-lucide="arrow-right" class="w-4 h-4"></i>`;
   nextBtn.onclick = () => {
     sfx.playClick();
-    if (state.currentQuestionIndex < 29) {
+    if (state.currentQuestionIndex < totalQ - 1) {
       goToQuestion(state.currentQuestionIndex + 1);
     } else {
       // Ở câu cuối cùng, mở hộp thoại nộp bài hoặc nhắc nhở
@@ -1086,65 +1114,212 @@ function showToast(message, type = "info") {
 }
 
 // ==========================================
-// Chế Độ Toàn Màn Hình (Fullscreen Mode)
+// Chế Độ Toàn Màn Hình Khung Câu Hỏi (Zen Focus Mode)
 // ==========================================
-function toggleFullscreen() {
-  const isFs = !!(document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement);
+function toggleQuestionFocus() {
+  state.isQuestionFocus = !state.isQuestionFocus;
+  const overlay = document.getElementById("zen-focus-overlay");
   
-  if (!isFs) {
-    const el = document.documentElement;
-    if (el.requestFullscreen) {
-      el.requestFullscreen().catch(() => {});
-    } else if (el.webkitRequestFullscreen) {
-      el.webkitRequestFullscreen();
-    } else if (el.mozRequestFullScreen) {
-      el.mozRequestFullScreen();
-    } else if (el.msRequestFullscreen) {
-      el.msRequestFullscreen();
-    }
-    showToast("Đã kích hoạt chế độ Toàn Màn Hình phòng thi!", "info");
+  if (state.isQuestionFocus) {
+    overlay.classList.remove("hidden");
+    document.body.classList.add("overflow-hidden");
+    renderZenFocusContent();
+    showToast("Đã kích hoạt Toàn Màn Hình Khung Câu Hỏi (Phím Esc để thu nhỏ)", "info");
   } else {
-    if (document.exitFullscreen) {
-      document.exitFullscreen().catch(() => {});
-    } else if (document.webkitExitFullscreen) {
-      document.webkitExitFullscreen();
-    } else if (document.mozCancelFullScreen) {
-      document.mozCancelFullScreen();
-    } else if (document.msExitFullscreen) {
-      document.msExitFullscreen();
-    }
-    showToast("Đã thoát chế độ Toàn Màn Hình", "info");
+    overlay.classList.add("hidden");
+    document.body.classList.remove("overflow-hidden");
+    const pModal = document.getElementById("zen-palette-modal");
+    if (pModal) pModal.classList.add("hidden");
+    // Đồng bộ lại màn hình chính
+    renderQuestionContent();
+    renderQuestionPalette();
+    showToast("Đã thoát chế độ Toàn Màn Hình Khung Câu Hỏi", "info");
   }
 }
 
-function updateFullscreenUI() {
-  const isFs = !!(document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement);
-  const icon = document.getElementById("fullscreen-icon");
-  const label = document.getElementById("fullscreen-label");
-  const btn = document.getElementById("fullscreen-toggle");
+// Render nội dung câu hỏi trong Zen Focus
+function renderZenFocusContent() {
+  const qIdx = state.currentQuestionIndex;
+  const q = state.currentExam.questions[qIdx];
+  const container = document.getElementById("zen-question-card-body");
+  container.innerHTML = "";
 
-  if (icon) {
-    icon.setAttribute("data-lucide", isFs ? "minimize" : "maximize");
+  const card = document.createElement("div");
+  card.className = "bg-white rounded-3xl p-6 sm:p-8 md:p-10 border border-slate-200 shadow-2xl relative";
+
+  // Badges
+  const badgesDiv = document.createElement("div");
+  badgesDiv.className = "flex flex-wrap items-center gap-2 mb-4 pb-3 border-b border-slate-100";
+  badgesDiv.innerHTML = `
+    <span class="px-3 py-1 text-xs font-bold rounded-md bg-slate-900 text-white">Câu ${qIdx + 1} / ${state.currentExam.questions.length}</span>
+    <span class="px-3 py-1 text-xs font-medium rounded-md bg-red-50 text-red-700 border border-red-100">${q.chapter}</span>
+    <span class="px-2.5 py-1 text-xs font-semibold rounded-md bg-blue-50 text-blue-700 border border-blue-100">${q.level}</span>
+  `;
+  card.appendChild(badgesDiv);
+
+  // Question Title
+  const title = document.createElement("h2");
+  title.className = "text-lg sm:text-xl md:text-2xl font-bold text-slate-900 leading-relaxed mb-6";
+  title.textContent = q.question;
+  card.appendChild(title);
+
+  // Options List
+  const optionsDiv = document.createElement("div");
+  optionsDiv.className = "space-y-3.5";
+  const optLabels = ["A", "B", "C", "D"];
+
+  q.options.forEach((optText, optIdx) => {
+    const optBtn = document.createElement("button");
+    optBtn.className = getOptionBtnClass(qIdx, optIdx) + " p-4 md:p-5 text-left";
+    optBtn.disabled = state.isSubmitted && state.studyMode === 'exam';
+
+    optBtn.onclick = () => {
+      sfx.playClick();
+      selectOption(qIdx, optIdx);
+      renderZenFocusContent();
+    };
+
+    const optPrefix = document.createElement("span");
+    optPrefix.className = getOptionPrefixClass(qIdx, optIdx);
+    optPrefix.textContent = optLabels[optIdx];
+
+    const optBody = document.createElement("span");
+    optBody.className = "text-sm sm:text-base md:text-lg text-slate-800 font-medium leading-snug";
+    optBody.textContent = optText;
+
+    optBtn.appendChild(optPrefix);
+    optBtn.appendChild(optBody);
+    optionsDiv.appendChild(optBtn);
+  });
+  card.appendChild(optionsDiv);
+
+  // Giải thích & Bẫy tư duy (ở chế độ luyện tập hoặc sau khi nộp)
+  if (state.isSubmitted || (state.studyMode === 'practice' && state.userAnswers[qIdx] !== null)) {
+    card.appendChild(createPedagogicalCommentaryBox(q, qIdx));
+  }
+
+  container.appendChild(card);
+  updateZenControls();
+  lucide.createIcons();
+}
+
+// Cập nhật thanh điều hướng trong Zen Focus
+function updateZenControls() {
+  const qIdx = state.currentQuestionIndex;
+  const total = state.currentExam.questions.length;
+
+  document.getElementById("zen-exam-code").textContent = state.currentExam.code;
+  document.getElementById("zen-question-num").textContent = `Câu ${qIdx + 1} / ${total}`;
+  document.getElementById("zen-timer-display").textContent = document.getElementById("timer-display").textContent;
+
+  // Nút Prev
+  const prevBtn = document.getElementById("zen-prev-btn");
+  prevBtn.disabled = qIdx === 0;
+  if (qIdx === 0) {
+    prevBtn.className = "flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-bold bg-slate-100 text-slate-400 border border-slate-200 cursor-not-allowed";
+  } else {
+    prevBtn.className = "flex items-center gap-2 px-5 py-2.5 rounded-xl text-sm font-bold bg-white border border-slate-300 text-slate-700 hover:bg-slate-50 smooth-transition";
+  }
+
+  // Nút Next
+  const nextBtn = document.getElementById("zen-next-btn");
+  if (qIdx === total - 1) {
+    nextBtn.innerHTML = `<span>Kiểm tra & Nộp bài</span> <i data-lucide="check-circle" class="w-4 h-4"></i>`;
+    nextBtn.className = "flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-bold bg-emerald-700 text-white hover:bg-emerald-800 shadow-md smooth-transition";
+  } else {
+    nextBtn.innerHTML = `<span>Câu tiếp theo (→)</span> <i data-lucide="arrow-right" class="w-4 h-4"></i>`;
+    nextBtn.className = "flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-bold bg-red-700 text-white hover:bg-red-800 shadow-md smooth-transition";
+  }
+
+  // Nút Cắm Cờ
+  const isFlagged = state.flaggedQuestions[qIdx];
+  const flagBtn = document.getElementById("zen-flag-btn");
+  const flagText = document.getElementById("zen-flag-text");
+  flagText.textContent = isFlagged ? "Đã cắm cờ (F)" : "Cắm cờ (F)";
+  if (isFlagged) {
+    flagBtn.className = "flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold bg-amber-100 text-amber-800 border-amber-300 shadow-sm smooth-transition";
+  } else {
+    flagBtn.className = "flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold bg-slate-100 text-slate-700 border-slate-200 hover:bg-amber-50 hover:text-amber-800 smooth-transition";
+  }
+
+  // Tiến độ
+  const answered = state.userAnswers.filter(a => a !== null).length;
+  document.getElementById("zen-progress-text").textContent = `Tiến độ: ${answered}/${total} câu`;
+}
+
+function goToZenQuestion(direction) {
+  const newIdx = state.currentQuestionIndex + direction;
+  if (newIdx >= 0 && newIdx < state.currentExam.questions.length) {
+    sfx.playClick();
+    state.currentQuestionIndex = newIdx;
+    renderZenFocusContent();
+  } else if (newIdx >= state.currentExam.questions.length) {
+    // Câu cuối bấm tiếp -> mở prompt nộp bài
+    promptSubmitModal();
+  }
+}
+
+function toggleZenFlag() {
+  toggleFlag(state.currentQuestionIndex);
+  updateZenControls();
+}
+
+function toggleZenPaletteModal() {
+  const modal = document.getElementById("zen-palette-modal");
+  modal.classList.toggle("hidden");
+  if (!modal.classList.contains("hidden")) {
+    renderZenPaletteGrid();
     lucide.createIcons();
   }
-  if (label) {
-    label.textContent = isFs ? "Thu Nhỏ" : "Toàn Màn Hình";
-  }
-  if (btn) {
-    if (isFs) {
-      btn.classList.add("bg-red-50", "text-red-700", "border-red-300");
-      btn.classList.remove("bg-slate-100", "text-slate-700", "border-slate-300");
-    } else {
-      btn.classList.remove("bg-red-50", "text-red-700", "border-red-300");
-      btn.classList.add("bg-slate-100", "text-slate-700", "border-slate-300");
-    }
-  }
 }
 
-document.addEventListener("fullscreenchange", updateFullscreenUI);
-document.addEventListener("webkitfullscreenchange", updateFullscreenUI);
-document.addEventListener("mozfullscreenchange", updateFullscreenUI);
-document.addEventListener("MSFullscreenChange", updateFullscreenUI);
+function renderZenPaletteGrid() {
+  const grid = document.getElementById("zen-palette-grid");
+  grid.innerHTML = "";
+
+  state.currentExam.questions.forEach((q, idx) => {
+    const btn = document.createElement("button");
+    btn.className = getPaletteBtnClass(idx) + " w-9 h-9 text-xs font-bold";
+    btn.onclick = () => {
+      sfx.playClick();
+      state.currentQuestionIndex = idx;
+      toggleZenPaletteModal();
+      renderZenFocusContent();
+    };
+
+    const numSpan = document.createElement("span");
+    numSpan.textContent = idx + 1;
+    btn.appendChild(numSpan);
+
+    if (state.flaggedQuestions[idx]) {
+      const flagIcon = document.createElement("span");
+      flagIcon.className = "absolute -top-1 -right-1 text-[10px] text-amber-500 font-bold";
+      flagIcon.innerHTML = "★";
+      btn.appendChild(flagIcon);
+    }
+
+    grid.appendChild(btn);
+  });
+}
+
+// Mở rộng khung câu hỏi toàn chiều ngang trên trang chính (Ẩn/Hiện Palette)
+function toggleSidebar() {
+  state.isSidebarCollapsed = !state.isSidebarCollapsed;
+  const qCol = document.getElementById("question-column");
+  const pCol = document.getElementById("palette-column");
+
+  if (state.isSidebarCollapsed) {
+    qCol.classList.remove("lg:col-span-8");
+    qCol.classList.add("lg:col-span-12");
+    pCol.classList.add("hidden");
+    showToast("Đã mở rộng khung câu hỏi 100% chiều ngang trang", "info");
+  } else {
+    qCol.classList.remove("lg:col-span-12");
+    qCol.classList.add("lg:col-span-8");
+    pCol.classList.remove("hidden");
+  }
+  lucide.createIcons();
+}
 
 // ==========================================
 // Đăng ký các sự kiện bàn phím & giao diện
@@ -1152,23 +1327,61 @@ document.addEventListener("MSFullscreenChange", updateFullscreenUI);
 function setupEventListeners() {
   // Phím tắt bàn phím
   window.addEventListener("keydown", (e) => {
-    // Không nhận phím tắt nếu đang mở modal
+    // Đóng Palette modal hoặc thoát Zen Focus khi bấm Esc
+    if (e.key === "Escape") {
+      const pModal = document.getElementById("zen-palette-modal");
+      if (pModal && !pModal.classList.contains("hidden")) {
+        pModal.classList.add("hidden");
+        return;
+      }
+      if (state.isQuestionFocus) {
+        toggleQuestionFocus();
+        return;
+      }
+    }
+
+    // Phím Z bật/tắt toàn màn hình khung câu hỏi
+    if ((e.key === 'z' || e.key === 'Z') && !['INPUT', 'TEXTAREA'].includes(e.target.tagName)) {
+      toggleQuestionFocus();
+      return;
+    }
+
+    // Không nhận phím tắt nếu đang mở modal khác
     if (document.querySelector(".modal-open")) return;
 
     // Phím A, B, C, D hoặc 1, 2, 3, 4 chọn đáp án
-    if (state.viewMode === 'single' && !state.isSubmitted) {
-      if (['1', 'a', 'A'].includes(e.key)) selectOption(state.currentQuestionIndex, 0);
-      if (['2', 'b', 'B'].includes(e.key)) selectOption(state.currentQuestionIndex, 1);
-      if (['3', 'c', 'C'].includes(e.key)) selectOption(state.currentQuestionIndex, 2);
-      if (['4', 'd', 'D'].includes(e.key)) selectOption(state.currentQuestionIndex, 3);
-      if (['f', 'F'].includes(e.key)) toggleFlag(state.currentQuestionIndex);
+    if ((state.viewMode === 'single' || state.isQuestionFocus) && !state.isSubmitted) {
+      if (['1', 'a', 'A'].includes(e.key)) {
+        selectOption(state.currentQuestionIndex, 0);
+        if (state.isQuestionFocus) renderZenFocusContent();
+      }
+      if (['2', 'b', 'B'].includes(e.key)) {
+        selectOption(state.currentQuestionIndex, 1);
+        if (state.isQuestionFocus) renderZenFocusContent();
+      }
+      if (['3', 'c', 'C'].includes(e.key)) {
+        selectOption(state.currentQuestionIndex, 2);
+        if (state.isQuestionFocus) renderZenFocusContent();
+      }
+      if (['4', 'd', 'D'].includes(e.key)) {
+        selectOption(state.currentQuestionIndex, 3);
+        if (state.isQuestionFocus) renderZenFocusContent();
+      }
+      if (['f', 'F'].includes(e.key)) {
+        if (state.isQuestionFocus) toggleZenFlag();
+        else toggleFlag(state.currentQuestionIndex);
+      }
       
       // Mũi tên trái/phải chuyển câu
-      if (e.key === "ArrowLeft" && state.currentQuestionIndex > 0) {
-        goToQuestion(state.currentQuestionIndex - 1);
+      if (e.key === "ArrowLeft") {
+        if (state.isQuestionFocus) goToZenQuestion(-1);
+        else if (state.currentQuestionIndex > 0) goToQuestion(state.currentQuestionIndex - 1);
       }
-      if (e.key === "ArrowRight" && state.currentQuestionIndex < state.currentExam.questions.length - 1) {
-        goToQuestion(state.currentQuestionIndex + 1);
+      if (e.key === "ArrowRight") {
+        if (state.isQuestionFocus) goToZenQuestion(1);
+        else if (state.currentQuestionIndex < state.currentExam.questions.length - 1) {
+          goToQuestion(state.currentQuestionIndex + 1);
+        }
       }
     }
   });
@@ -1190,13 +1403,7 @@ function setupEventListeners() {
     showToast(`Đã chuyển sang ${state.studyMode === 'exam' ? 'Chế độ Thi Giữa Kỳ (Chuẩn)' : 'Chế độ Luyện Tập Tức Thì'}`, "info");
   });
 
-  // Bật/tắt toàn màn hình
-  const fsBtn = document.getElementById("fullscreen-toggle");
-  if (fsBtn) {
-    fsBtn.addEventListener("click", () => {
-      toggleFullscreen();
-    });
-  }
+
 
   // Bật/tắt âm thanh
   document.getElementById("sound-toggle").addEventListener("click", () => {
