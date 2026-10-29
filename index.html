@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Khảo Thí Trực Tuyến - Lịch Sử Đảng Cộng Sản Việt Nam (Chương 1: 1930 - 1945 • 50 Câu / 40 Phút • VKU)</title>
+  <title>Khảo Thí Trực Tuyến - Kinh Tế Chính Trị Mác - Lênin (VKU • Cô Nguyễn Thị Mỹ Hạnh)</title>
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -42,14 +42,14 @@
     <div class="hero-gradient text-white px-4 py-2 text-xs md:text-sm font-medium flex items-center justify-between">
       <div class="flex items-center gap-2">
         <i data-lucide="graduation-cap" class="w-4 h-4 text-amber-300"></i>
-        <span>KHOA LÝ LUẬN CHÍNH TRỊ • ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG VIỆT - HÀN (VKU)</span>
+        <span>KHOA LÝ LUẬN CHÍNH TRỊ • ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG VIỆT - HÀN (VKU) • CÔ NGUYỄN THỊ MỸ HẠNH</span>
       </div>
       <div class="hidden sm:flex items-center gap-4 text-xs text-red-100">
-        <span>Thời gian: <strong>40 phút</strong></span>
+        <span>Học phần: <strong>POS151</strong></span>
         <span>•</span>
-        <span>Quy mô: <strong>50 câu trắc nghiệm</strong></span>
+        <span>Giảng viên: <strong>Cô Nguyễn Thị Mỹ Hạnh</strong></span>
         <span>•</span>
-        <span>Góc nhìn: <strong>Giảng viên Lịch sử Đảng</strong></span>
+        <span>Góc nhìn: <strong>Chuẩn Khảo Thí VKU</strong></span>
       </div>
     </div>
 
@@ -62,10 +62,10 @@
         </div>
         <div>
           <h1 class="text-base sm:text-lg font-bold text-slate-900 leading-tight">
-            Lịch Sử Đảng Cộng Sản Việt Nam
+            Kinh Tế Chính Trị Mác - Lênin
           </h1>
           <p class="text-xs text-slate-500 font-medium">
-            Ngân hàng Đề thi Giữa kỳ (Chương 1: 1930 - 1945) • Đề chuẩn phân loại VKU Đà Nẵng
+            Ngân hàng Đề thi Giữa kỳ (Học phần POS151) • Đề chuẩn phân loại VKU Đà Nẵng • Cô Nguyễn Thị Mỹ Hạnh
           </p>
         </div>
       </div>
@@ -111,33 +111,27 @@
       </div>
     </div>
 
-    <!-- DẢI CHỌN ĐỀ THI (6 Bộ Đề Khảo Thí Chuẩn 50 Câu + Đề Ngẫu Nhiên) -->
+    <!-- DẢI CHỌN ĐỀ THI (4 Bộ Đề Khảo Thí Chuẩn VKU + Đề Ngẫu Nhiên) -->
     <div class="bg-slate-50 border-t border-slate-200 px-4 sm:px-6 lg:px-8 py-2">
       <div class="max-w-7xl mx-auto flex items-center gap-1.5 overflow-x-auto pb-1 sm:pb-0 scrollbar-thin">
         <span class="text-xs font-bold text-slate-500 uppercase tracking-wider shrink-0 mr-1 flex items-center gap-1">
-          <i data-lucide="layers" class="w-3.5 h-3.5"></i> 6 Đề Thi Giữa Kỳ (50 Câu / 40 Phút):
+          <i data-lucide="layers" class="w-3.5 h-3.5"></i> 4 Đề Thi Giữa Kỳ VKU:
         </span>
-        <button data-set="0" onclick="initExam(0)" class="exam-tab-btn px-2.5 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition" title="Tổng ôn toàn diện Chương 1">
-          <span>Đề 01 (Mã 101)</span>
+        <button data-set="0" onclick="initExam(0)" class="exam-tab-btn px-2.5 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition" title="Đề Giữa Kỳ Chuẩn Hóa KTCT Mác - Lênin (50 câu / 40 phút)">
+          <span>Đề 01 (Mã 201 • 50 câu)</span>
         </button>
-        <button data-set="1" onclick="initExam(1)" class="exam-tab-btn px-2.5 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition" title="Bối cảnh lịch sử & Phong trào trước 1930">
-          <span>Đề 02 (Mã 102)</span>
+        <button data-set="1" onclick="initExam(1)" class="exam-tab-btn px-2.5 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition" title="Đề Khảo Thí Điểm Cao - Đề 7 Điểm Cô Hạnh (23 câu / 20 phút)">
+          <span>Đề 02 (Mã 202 • Đề 7 Điểm)</span>
         </button>
-        <button data-set="2" onclick="initExam(2)" class="exam-tab-btn px-2.5 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition" title="Nguyễn Ái Quốc & Thành lập Đảng">
-          <span>Đề 03 (Mã 103)</span>
+        <button data-set="2" onclick="initExam(2)" class="exam-tab-btn px-2.5 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition" title="Đề Thực Chiến - Bài Tập Tư Bản & Giá Trị Hàng Hóa MTV (25 câu / 25 phút)">
+          <span>Đề 03 (Mã 203 • Đề MTV)</span>
         </button>
-        <button data-set="3" onclick="initExam(3)" class="exam-tab-btn px-2.5 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition" title="Cương lĩnh 2/1930, Luận cương & Cao trào 1930-1935">
-          <span>Đề 04 (Mã 104)</span>
+        <button data-set="3" onclick="initExam(3)" class="exam-tab-btn px-2.5 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition" title="Đề Chuyên Đề Nâng Cao - Bài Tập Định Lượng & Bẫy Tư Duy (20 câu / 20 phút)">
+          <span>Đề 04 (Mã 204 • Nâng Cao)</span>
         </button>
-        <button data-set="4" onclick="initExam(4)" class="exam-tab-btn px-2.5 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition" title="Phong trào Dân chủ 1936-1939 & Chuyển hướng">
-          <span>Đề 05 (Mã 105)</span>
-        </button>
-        <button data-set="5" onclick="initExam(5)" class="exam-tab-btn px-2.5 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition" title="Cao trào kháng Nhật & Cách mạng Tháng Tám 1945">
-          <span>Đề 06 (Mã 106)</span>
-        </button>
-        <button data-set="random" onclick="initExam('random')" class="exam-tab-btn px-3 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition flex items-center gap-1.5 bg-amber-100 text-amber-900 hover:bg-amber-200 border border-amber-300 ml-1" title="Trích ngẫu nhiên 50 câu từ toàn bộ ngân hàng 300 câu Chương 1">
+        <button data-set="random" onclick="initExam('random')" class="exam-tab-btn px-3 py-1.5 rounded-lg text-xs font-bold shrink-0 smooth-transition flex items-center gap-1.5 bg-amber-100 text-amber-900 hover:bg-amber-200 border border-amber-300 ml-1" title="Trích ngẫu nhiên 30 câu từ toàn bộ ngân hàng câu hỏi">
           <i data-lucide="shuffle" class="w-3.5 h-3.5 text-amber-700"></i>
-          <span>Trộn Ngẫu Nhiên 50 Câu</span>
+          <span>Trộn Ngẫu Nhiên 30 Câu</span>
         </button>
       </div>
     </div>
@@ -157,20 +151,20 @@
         <div>
           <div class="flex items-center gap-2.5 mb-1.5 flex-wrap">
             <span id="exam-code-badge" class="px-2.5 py-0.5 rounded-md text-xs font-black bg-red-700 text-white tracking-wider">
-              MÃ ĐỀ: 101
+              MÃ ĐỀ: 201
             </span>
             <span id="study-mode-badge" class="px-3 py-0.5 text-xs font-semibold rounded-full bg-red-100 text-red-800 border border-red-200">
               Chế độ: Thi Giữa Kỳ (Chuẩn Khảo Thí)
             </span>
             <span class="text-xs text-slate-500 font-medium hidden sm:inline">
-              (Chuẩn thời gian: 48s / câu)
+              (Học phần POS151 • Cô Nguyễn Thị Mỹ Hạnh)
             </span>
           </div>
           <h2 id="exam-title" class="text-lg sm:text-xl font-bold text-slate-900">
-            Đề 01: Chuẩn Mực Khảo Thí & Nhận Diện Bản Chất
+            Đề 01 (Mã Đề 201): Đề Giữa Kỳ Chuẩn Hóa KTCT Mác - Lênin
           </h2>
           <p id="exam-description" class="text-xs sm:text-sm text-slate-500 mt-1 max-w-2xl">
-            Bộ đề bao quát 4 chương trọng tâm, cân đối giữa câu hỏi thông hiểu, phân tích bản chất và nhận diện các bẫy khái niệm kinh điển.
+            Đề thi trắc nghiệm khách quan chuẩn khảo thí học phần Kinh tế chính trị Mác - Lênin (POS151) tại VKU - Giảng viên: Cô Nguyễn Thị Mỹ Hạnh.
           </p>
         </div>
 
@@ -202,7 +196,7 @@
               <span class="text-xs font-bold text-slate-700 uppercase tracking-wider flex items-center gap-1">
                 <i data-lucide="filter" class="w-3.5 h-3.5 text-red-700"></i> Lọc câu hỏi:
               </span>
-              <button data-filter="all" onclick="filterReviewQuestions('all')" class="filter-btn px-3 py-1 rounded-lg text-xs font-semibold bg-red-700 text-white smooth-transition">Tất cả (50)</button>
+              <button data-filter="all" onclick="filterReviewQuestions('all')" class="filter-btn px-3 py-1 rounded-lg text-xs font-semibold bg-red-700 text-white smooth-transition">Tất cả câu</button>
               <button data-filter="wrong" onclick="filterReviewQuestions('wrong')" class="filter-btn px-3 py-1 rounded-lg text-xs font-semibold bg-white text-slate-700 border border-slate-300 hover:bg-slate-100 smooth-transition">Chỉ câu làm SAI</button>
               <button data-filter="flagged" onclick="filterReviewQuestions('flagged')" class="filter-btn px-3 py-1 rounded-lg text-xs font-semibold bg-white text-slate-700 border border-slate-300 hover:bg-slate-100 smooth-transition">Câu đã cắm cờ</button>
             </div>
@@ -234,13 +228,13 @@
             <div class="flex items-center justify-between pb-3 border-b border-slate-100">
               <div class="flex items-center gap-2">
                 <i data-lucide="grid" class="w-4 h-4 text-red-700"></i>
-                <h3 class="font-bold text-sm text-slate-800 uppercase tracking-wide">Bảng Số Câu (50 Câu)</h3>
+                <h3 class="font-bold text-sm text-slate-800 uppercase tracking-wide">Bảng Số Câu</h3>
               </div>
               <button onclick="toggleSidebar()" class="flex items-center gap-1 text-[11px] font-semibold text-slate-500 hover:text-slate-800 px-2 py-0.5 rounded bg-slate-100 hover:bg-slate-200 smooth-transition" title="Ẩn bảng câu để mở rộng khung câu hỏi 100%">
                 <i data-lucide="panel-right-close" class="w-3 h-3"></i>
                 <span>Ẩn bảng</span>
               </button>
-              <span id="progress-bar-text" class="text-xs font-semibold text-slate-500">0% (0/50 câu)</span>
+              <span id="progress-bar-text" class="text-xs font-semibold text-slate-500">0% (0 câu)</span>
             </div>
 
             <!-- Thanh Progress Bar -->
@@ -260,11 +254,11 @@
               </div>
               <div class="flex items-center gap-1.5">
                 <span class="w-3 h-3 rounded bg-slate-200 shrink-0"></span>
-                <span>Chưa làm (<strong id="stat-remaining">50</strong>)</span>
+                <span>Chưa làm (<strong id="stat-remaining">--</strong>)</span>
               </div>
             </div>
 
-            <!-- Lưới 50 nút số câu hỏi -->
+            <!-- Lưới nút số câu hỏi -->
             <div id="palette-grid" class="grid grid-cols-6 gap-2 pt-1">
               <!-- Render tự động bởi JS -->
             </div>
@@ -273,9 +267,9 @@
             <div class="mt-4 pt-3 border-t border-slate-100 text-xs text-slate-500 space-y-1.5 leading-relaxed bg-red-50/50 p-3 rounded-xl border border-red-100">
               <div class="font-bold text-red-900 flex items-center gap-1">
                 <i data-lucide="lightbulb" class="w-3.5 h-3.5 text-amber-600"></i>
-                <span>Chiến thuật phòng thi của Thầy/Cô:</span>
+                <span>Chiến thuật phòng thi của Cô Hạnh:</span>
               </div>
-              <p>• 40 phút cho 50 câu nghĩa là em có trung bình <strong>48 giây/câu</strong>.</p>
+              <p>• Đọc kỹ yêu cầu đề bài, đặc biệt là các câu hỏi tính toán c, v, m, m', p' và quy luật kinh tế.</p>
               <p>• Câu nào dài hoặc phân vân, hãy bấm <strong>"Cắm cờ"</strong> để làm tiếp câu sau, tránh sa đà mất thời gian!</p>
               <p>• Không để trống bất kỳ câu nào trước khi bấm Nộp bài.</p>
             </div>
@@ -385,7 +379,7 @@
         </div>
         <div>
           <h3 class="text-lg font-bold text-slate-900">Xác Nhận Nộp Bài Thi</h3>
-          <p class="text-xs text-slate-500">Môn: Chủ nghĩa xã hội khoa học (Giữa kỳ)</p>
+          <p class="text-xs text-slate-500">Môn: Kinh tế chính trị Mác - Lênin (Giữa kỳ • Cô Hạnh)</p>
         </div>
       </div>
 
@@ -415,8 +409,8 @@
         <div class="flex items-center gap-2.5">
           <i data-lucide="bookmark-check" class="w-5 h-5 text-amber-300"></i>
           <div>
-            <h3 class="font-bold text-base md:text-lg leading-tight">Sổ Tay Tri Thức Cốt Lõi (Chương 1 - 4)</h3>
-            <p class="text-xs text-red-100">Tóm tắt các định nghĩa, quy luật, phát kiến và thuật ngữ không thể quên</p>
+            <h3 class="font-bold text-base md:text-lg leading-tight">Sổ Tay Tri Thức Cốt Lõi & Công Thức KTCT</h3>
+            <p class="text-xs text-red-100">Tóm tắt công thức c, v, m, m', p' và lý thuyết trọng tâm - Cô Nguyễn Thị Mỹ Hạnh</p>
           </div>
         </div>
         <button onclick="closeCheatSheetModal()" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white smooth-transition">
@@ -431,7 +425,7 @@
 
       <!-- Footer Modal -->
       <div class="p-4 bg-slate-50 border-t border-slate-200 rounded-b-3xl flex items-center justify-between text-xs text-slate-500">
-        <span>Biên soạn dựa trên Giáo trình & Ghi chú bài giảng của sinh viên</span>
+        <span>Biên soạn dựa trên Giáo trình KTCT Mác - Lênin & Ngân hàng đề thi VKU</span>
         <button onclick="closeCheatSheetModal()" class="px-4 py-2 bg-slate-800 text-white rounded-xl font-bold hover:bg-slate-900 smooth-transition">
           Đóng Sổ Tay
         </button>
@@ -478,8 +472,8 @@
   <!-- Footer -->
   <footer class="bg-white border-t border-slate-200 py-6 text-center text-xs text-slate-500 mt-auto no-print">
     <div class="max-w-7xl mx-auto px-4">
-      <p class="font-medium text-slate-700">Ứng dụng Khảo thí & Luyện thi Giữa kỳ Môn Lịch Sử Đảng Cộng Sản Việt Nam (VKU Đà Nẵng)</p>
-      <p class="mt-1 text-slate-400">Nội dung xây dựng dựa trên Giáo trình chuẩn mực và Ghi chép bài giảng môn học (Chương 1 đến Chương 4)</p>
+      <p class="font-medium text-slate-700">Ứng dụng Khảo thí & Luyện thi Giữa kỳ Môn Kinh Tế Chính Trị Mác - Lênin (VKU Đà Nẵng)</p>
+      <p class="mt-1 text-slate-400">Học phần POS151 • Giảng viên: Cô Nguyễn Thị Mỹ Hạnh • Biên soạn theo ngân hàng đề thi chuẩn khảo thí</p>
     </div>
   </footer>
 
@@ -494,8 +488,8 @@
       <!-- Top Focus Control Bar -->
       <div class="bg-slate-900/95 text-white rounded-2xl px-5 py-3 border border-slate-700 shadow-xl flex items-center justify-between flex-wrap gap-3">
         <div class="flex items-center gap-2.5">
-          <span class="px-2.5 py-1 rounded-lg text-xs font-black bg-red-600 text-white" id="zen-exam-code">MÃ ĐỀ: 101</span>
-          <span class="text-xs sm:text-sm font-bold text-slate-200" id="zen-question-num">Câu 1 / 50</span>
+          <span class="px-2.5 py-1 rounded-lg text-xs font-black bg-red-600 text-white" id="zen-exam-code">MÃ ĐỀ: 201</span>
+          <span class="text-xs sm:text-sm font-bold text-slate-200" id="zen-question-num">Câu 1</span>
           <span class="text-xs text-slate-400 hidden md:inline">• Toàn Màn Hình Focus</span>
         </div>
         <div class="flex items-center gap-2.5">
@@ -504,10 +498,10 @@
             <i data-lucide="timer" class="w-4 h-4 text-amber-400"></i>
             <span id="zen-timer-display">40:00</span>
           </div>
-          <!-- Nút Mở Bảng 50 câu -->
-          <button onclick="toggleZenPaletteModal()" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 smooth-transition" title="Mở bảng 50 câu để chọn câu nhanh">
+          <!-- Nút Mở Bảng câu hỏi -->
+          <button onclick="toggleZenPaletteModal()" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 smooth-transition" title="Mở bảng câu hỏi để chọn câu nhanh">
             <i data-lucide="grid" class="w-3.5 h-3.5 text-red-400"></i>
-            <span class="hidden sm:inline">Bảng 50 câu</span>
+            <span class="hidden sm:inline">Bảng câu hỏi</span>
           </button>
           <!-- Nút Thu nhỏ / Thoát Focus -->
           <button onclick="toggleQuestionFocus()" class="flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-xs font-bold bg-white text-slate-900 hover:bg-slate-100 shadow smooth-transition" title="Thu nhỏ về giao diện thường (Esc hoặc phím Z)">
@@ -533,7 +527,7 @@
             <i data-lucide="flag" class="w-4 h-4"></i>
             <span id="zen-flag-text">Cắm cờ (F)</span>
           </button>
-          <span id="zen-progress-text" class="text-xs text-slate-500 font-semibold hidden sm:inline">Tiến độ: 0/50</span>
+          <span id="zen-progress-text" class="text-xs text-slate-500 font-semibold hidden sm:inline">Tiến độ: 0</span>
         </div>
         <!-- Next -->
         <button id="zen-next-btn" onclick="goToZenQuestion(1)" class="flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-bold bg-red-700 text-white hover:bg-red-800 shadow-md smooth-transition">
@@ -550,7 +544,7 @@
       <div class="flex items-center justify-between pb-3 border-b border-slate-100">
         <h4 class="font-bold text-sm text-slate-800 flex items-center gap-2">
           <i data-lucide="grid" class="w-4 h-4 text-red-700"></i>
-          Bảng 50 Câu Hỏi (Chọn nhanh)
+          Bảng Câu Hỏi (Chọn nhanh)
         </h4>
         <button onclick="toggleZenPaletteModal()" class="text-slate-400 hover:text-slate-600 p-1">
           <i data-lucide="x" class="w-5 h-5"></i>

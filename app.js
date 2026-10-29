@@ -1,6 +1,6 @@
 // =========================================================================
-// APP CONTROLLER: HỆ THỐNG THI TRỰC TUYẾN LỊCH SỬ ĐẢNG CỘNG SẢN VIỆT NAM
-// CHƯƠNG 1 (1930 - 1945) • VKU ĐÀ NẴNG • BỘ MÔN LÝ LUẬN CHÍNH TRỊ
+// APP CONTROLLER: HỆ THỐNG THI TRỰC TUYẾN KINH TẾ CHÍNH TRỊ MÁC - LÊNIN
+// HỌC PHẦN POS151 • VKU ĐÀ NẴNG • GIẢNG VIÊN: CÔ NGUYỄN THỊ MỸ HẠNH
 // =========================================================================
 
 // State Management
@@ -183,7 +183,7 @@ function updateExamHeader() {
   if (state.studyMode === 'exam') {
     modeBadge.textContent = "Chế độ: Thi Giữa Kỳ (Chuẩn Khảo Thí)";
     modeBadge.className = "px-3 py-0.5 text-xs font-semibold rounded-full bg-red-100 text-red-800 border border-red-200 flex items-center gap-1.5";
-    if (modeLabel) modeLabel.textContent = "Thi Thật (40p)";
+    if (modeLabel) modeLabel.textContent = `Thi Thật (${state.currentExam.duration || 40}p)`;
   } else {
     modeBadge.textContent = "Chế độ: Luyện Tập (Hiện Giải Thích Ngay)";
     modeBadge.className = "px-3 py-0.5 text-xs font-semibold rounded-full bg-emerald-100 text-emerald-800 border border-emerald-200 flex items-center gap-1.5";
@@ -192,7 +192,7 @@ function updateExamHeader() {
 }
 
 // ==========================================
-// Bộ đếm thời gian 15 phút
+// Bộ đếm thời gian làm bài
 // ==========================================
 function startTimer() {
   updateTimerDisplay();
@@ -218,7 +218,7 @@ function startTimer() {
       clearInterval(state.timerInterval);
       state.timeRemaining = 0;
       updateTimerDisplay();
-      showToast("Đã hết 40 phút làm bài! Hệ thống đang tự động thu bài và chấm điểm.", "info");
+      showToast(`Đã hết ${state.currentExam.duration || 40} phút làm bài! Hệ thống đang tự động thu bài và chấm điểm.`, "info");
       submitExam(true);
     }
   }, 1000);
@@ -665,24 +665,26 @@ function toggleFlag(qIdx) {
 
 // Cập nhật thống kê tiến độ trên thanh sidebar
 function updateProgressStats() {
+  const total = state.currentExam ? state.currentExam.questions.length : 50;
   const answeredCount = state.userAnswers.filter(a => a !== null).length;
   const flaggedCount = state.flaggedQuestions.filter(f => f).length;
-  const remainingCount = 30 - answeredCount;
+  const remainingCount = total - answeredCount;
 
   document.getElementById("stat-answered").textContent = answeredCount;
   document.getElementById("stat-remaining").textContent = remainingCount;
   document.getElementById("stat-flagged").textContent = flaggedCount;
 
   // Thanh tiến độ %
-  const pct = Math.round((answeredCount / 30) * 100);
+  const pct = Math.round((answeredCount / total) * 100);
   document.getElementById("progress-bar-fill").style.width = `${pct}%`;
-  document.getElementById("progress-bar-text").textContent = `${pct}% (${answeredCount}/30 câu)`;
+  document.getElementById("progress-bar-text").textContent = `${pct}% (${answeredCount}/${total} câu)`;
 }
 
 // ==========================================
 // Nộp bài & Đánh giá năng lực của Giảng viên
 // ==========================================
 function promptSubmitModal() {
+  const total = state.currentExam ? state.currentExam.questions.length : 50;
   const answeredCount = state.userAnswers.filter(a => a !== null).length;
   const unAnsweredIndices = [];
   state.userAnswers.forEach((ans, idx) => {
@@ -702,7 +704,7 @@ function promptSubmitModal() {
     `;
   } else {
     modalText.innerHTML = `
-      <p class="text-slate-700 text-sm">Em đã hoàn thành đủ <strong>30/30 câu hỏi</strong>. Hãy bấm "Xác nhận nộp bài" để Giảng viên tiến hành chấm điểm và luận giải năng lực.</p>
+      <p class="text-slate-700 text-sm">Em đã hoàn thành đủ <strong>${total}/${total} câu hỏi</strong>. Hãy bấm "Xác nhận nộp bài" để Giảng viên tiến hành chấm điểm và luận giải năng lực.</p>
     `;
   }
 
@@ -729,21 +731,12 @@ function submitExam(isForced = false) {
   const seconds = totalTimeSpentSeconds % 60;
   const timeFormatted = `${minutes} phút ${seconds} giây`;
 
-  // Chấm điểm theo 4 phân đoạn tri thức của Chương 1
+  // Chấm điểm theo các mạch kiến thức của Kinh tế chính trị Mác - Lênin
   let correctCount = 0;
-  const chapterBreakdown = {
-    "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)": { total: 0, correct: 0 },
-    "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)": { total: 0, correct: 0 },
-    "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)": { total: 0, correct: 0 },
-    "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)": { total: 0, correct: 0 }
-  };
+  const chapterBreakdown = {};
 
   state.currentExam.questions.forEach((q, idx) => {
-    let groupChap = "Phần 1: Bối cảnh & Phong trào yêu nước (1858 - 1929)";
-    if (q.chapter.includes("Phần 2")) groupChap = "Phần 2: Nguyễn Ái Quốc & Thành lập Đảng (1920 - 1930)";
-    if (q.chapter.includes("Phần 3")) groupChap = "Phần 3: Cao trào 1930 - 1935 & Phong trào Dân chủ (1936 - 1939)";
-    if (q.chapter.includes("Phần 4")) groupChap = "Phần 4: Chuyển hướng chiến lược & CMT8 (1939 - 1945)";
-
+    let groupChap = q.chapter || "Chương 2: Hàng hóa, thị trường và vai trò của các chủ thể";
     if (!chapterBreakdown[groupChap]) {
       chapterBreakdown[groupChap] = { total: 0, correct: 0 };
     }
@@ -836,56 +829,56 @@ function renderResultsPanel(score, correctCount, timeFormatted, breakdown) {
   lucide.createIcons();
 }
 
-// Công cụ tạo nhận xét của Giảng viên Bộ môn Lịch sử Đảng
+// Công cụ tạo nhận xét của Giảng viên Bộ môn Kinh tế chính trị Mác - Lênin
 function getTeacherPedagogicalEvaluation(score, breakdown) {
   if (score >= 9.0) {
     return {
-      title: "XUẤT SẮC - ĐẠT CHUẨN ĐIỂM GIỎI LỊCH SỬ ĐẢNG",
+      title: "XUẤT SẮC - ĐẠT CHUẨN ĐIỂM 10 KINH TẾ CHÍNH TRỊ (CÔ HẠNH - VKU)",
       titleColor: "text-emerald-700",
-      comment: "Thầy/Cô đánh giá rất cao năng lực tư duy lịch sử và nhận thức chính trị của em. Em không chỉ nắm chắc từng mốc niên đại mà còn hiểu sâu sắc tính biện chứng của Cương lĩnh chính trị đầu tiên (2/1930) và nghệ thuật chớp thời cơ Tổng khởi nghĩa Tháng Tám năm 1945.",
+      comment: "Cô đánh giá rất cao năng lực tư duy lý luận và khả năng giải các bài toán kinh tế chính trị của em! Em nắm rất chắc tính hai mặt của lao động sản xuất hàng hóa, phân biệt chuẩn xác tư bản bất biến/khả biến, tư bản cố định/lưu động và tính toán thành thạo các công thức c, v, m, m', p' hay khấu hao.",
       advice: [
-        "Tiếp tục duy trì phong độ xuất sắc này và tự tin đạt điểm tối đa trong kỳ thi chính thức.",
-        "Đọc thêm tài liệu mở rộng về bài học đại đoàn kết toàn dân và xây dựng chính quyền kiểu mới."
+        "Tiếp tục duy trì phong độ xuất sắc này và tự tin đạt điểm tối đa trong kỳ thi giữa kỳ chính thức.",
+        "Rèn luyện thêm đề ngẫu nhiên để tăng tốc độ phản xạ bấm máy tính bài tập định lượng."
       ]
     };
   } else if (score >= 8.0) {
     return {
-      title: "LOẠI GIỎI - NẮM VỮNG BẢN CHẤT LỊCH SỬ CHƯƠNG 1",
+      title: "LOẠI GIỎI - NẮM VỮNG HỌC THUYẾT GIÁ TRỊ & GIÁ TRỊ THẶNG DƯ",
       titleColor: "text-blue-700",
-      comment: "Kết quả bài làm rất tốt! Em đã nắm chắc tiến trình lịch sử từ khi Pháp xâm lược đến khi Cách mạng Tháng Tám toàn thắng. Một vài câu so sánh giữa Cương lĩnh 2/1930 và Luận cương 10/1930 hoặc chi tiết văn kiện Chỉ thị 12/3/1945 cần chú ý thêm.",
+      comment: "Kết quả bài làm rất tốt! Em đã nắm vững các quy luật kinh tế thị trường, các phương pháp sản xuất giá trị thặng dư và bản chất bóc lột của CNTB. Một vài câu bài tập tính toán tỉ lệ cấu tạo hữu cơ hoặc phân loại địa tô cần chú ý thêm chi tiết.",
       advice: [
-        "Ôn lại sự khác biệt cốt lõi giữa Cương lĩnh tháng 2/1930 và Luận cương tháng 10/1930.",
-        "Ghi nhớ các mốc Hội nghị TW 6, 7, 8 trong quá trình chuyển hướng chỉ đạo chiến lược."
+        "Ôn lại sự khác biệt cốt lõi giữa GTTD tương đối và GTTD siêu ngạch.",
+        "Kiểm tra lại công thức xác định số lượng tiền cần thiết cho lưu thông và các nhân tố ảnh hưởng đến tỷ suất lợi nhuận p'."
       ]
     };
   } else if (score >= 6.5) {
     return {
-      title: "LOẠI KHÁ - CẦN CẢNH GIÁC TRƯỚC CÁC BẪY MỐC SỰ KIỆN",
+      title: "LOẠI KHÁ - CẦN CẢNH GIÁC TRƯỚC CÁC BẪY TÍNH TOÁN & KHÁI NIỆM",
       titleColor: "text-amber-700",
-      comment: "Em đã hiểu được các nét lớn của Chương 1 nhưng còn dễ nhầm lẫn trước các phương án bẫy trắc nghiệm (như tên các tổ chức cộng sản năm 1929, địa danh các cuộc khởi nghĩa hoặc tên gọi các mặt trận qua từng thời kỳ).",
+      comment: "Em đã hiểu được khung kiến thức cơ bản nhưng còn dễ bị mất điểm ở các câu hỏi bẫy định nghĩa (như phạm trù lịch sử vs phạm trù vĩnh viễn, lao động cụ thể vs lao động trừu tượng) hoặc nhầm lẫn giữa tư bản cố định và tư bản bất biến.",
       advice: [
         "Xem kỹ mục 'Vạch trần bẫy trắc nghiệm' của Giảng viên ở từng câu làm sai.",
-        "Mở 'Sổ tay tri thức cốt lõi' ở góc phải màn hình để hệ thống hóa lại các mốc thời gian."
+        "Mở 'Sổ tay tri thức cốt lõi' ở góc phải màn hình để ôn lại bảng công thức tính G, m', M, p', c/v."
       ]
     };
   } else if (score >= 5.0) {
     return {
-      title: "TRUNG BÌNH - CẦN HỆ THỐNG HÓA LẠI KIẾN THỨC",
+      title: "TRUNG BÌNH - CẦN HỆ THỐNG HÓA LẠI CÔNG THỨC & LÝ THUYẾT",
       titleColor: "text-orange-700",
-      comment: "Mức độ hiểu bài mới ở ngưỡng ghi nhớ rời rạc, chưa liên kết được nguyên nhân - kết quả và ý nghĩa của các phong trào cách mạng 1930 - 1931, 1936 - 1939 và 1939 - 1945.",
+      comment: "Mức độ hiểu bài mới ở ngưỡng nhận biết rời rạc, chưa liên kết được các phạm trù hàng hóa, tiền tệ và giá trị thặng dư. Cần luyện tập thêm các dạng bài tập tính toán giá trị một đơn vị sản phẩm.",
       advice: [
-        "Luyện tập ở chế độ 'Luyện Tập Tức Thì' (xem ngay giải thích sau mỗi câu chọn).",
-        "Học thuộc các mốc: 1858, 1911, 1920, 1930, 1936, 1939, 1941, 1945."
+        "Luyện tập ở chế độ 'Luyện Tập Tức Thì' (xem ngay giải thích và lời giải sau mỗi câu chọn).",
+        "Ghi nhớ quy tắc: Lao động cụ thể tạo ra Giá trị sử dụng; Lao động trừu tượng tạo ra Giá trị."
       ]
     };
   } else {
     return {
-      title: "CHƯA ĐẠT YÊU CẦU - CẦN ÔN TẬP CẤP TỐC CHƯƠNG 1",
+      title: "CHƯA ĐẠT YÊU CẦU - CẦN ÔN TẬP CẤP TỐC THEO SỔ TAY CÔ HẠNH",
       titleColor: "text-red-700",
-      comment: "Kết quả cho thấy em đang bị hổng nhiều mảng kiến thức trọng tâm hoặc làm bài quá vội vàng. Cần đọc kỹ lại giáo trình và slide Lịch sử Đảng trước khi bước vào phòng thi giữa kỳ thật.",
+      comment: "Kết quả cho thấy em đang bị hổng nhiều mảng kiến thức trọng tâm hoặc làm bài quá vội vàng. Cần đọc kỹ lại giáo trình và tài liệu ôn thi giữa kỳ của cô Hạnh trước khi thi chính thức.",
       advice: [
-        "Đọc lại toàn bộ nội dung 4 phần của Chương 1 trong Sổ tay cốt lõi.",
-        "Làm lại Đề 01 ở chế độ Luyện tập để nắm chắc từng đơn vị kiến thức."
+        "Đọc lại toàn bộ nội dung trong Sổ tay cốt lõi (bấm nút ở góc trên bên phải).",
+        "Làm lại Đề 01 (50 câu) ở chế độ Luyện tập để hiểu tường tận cách giải từng bài toán."
       ]
     };
   }
@@ -1002,11 +995,11 @@ function closeCheatSheetModal() {
 // ==========================================
 function saveExamAttempt(attempt) {
   try {
-    const history = JSON.parse(localStorage.getItem("lsd_vku_exam_history") || "[]");
+    const history = JSON.parse(localStorage.getItem("ktct_vku_exam_history") || "[]");
     history.unshift(attempt);
     // Lưu tối đa 20 lần gần nhất
     if (history.length > 20) history.pop();
-    localStorage.setItem("lsd_vku_exam_history", JSON.stringify(history));
+    localStorage.setItem("ktct_vku_exam_history", JSON.stringify(history));
     updateHistoryBadge();
   } catch (e) {
     console.error("Lỗi lưu lịch sử", e);
@@ -1015,7 +1008,7 @@ function saveExamAttempt(attempt) {
 
 function updateHistoryBadge() {
   try {
-    const history = JSON.parse(localStorage.getItem("lsd_vku_exam_history") || "[]");
+    const history = JSON.parse(localStorage.getItem("ktct_vku_exam_history") || "[]");
     const countEl = document.getElementById("history-count-badge");
     if (countEl) countEl.textContent = history.length;
   } catch (e) {}
@@ -1027,7 +1020,7 @@ function openHistoryModal() {
   listContainer.innerHTML = "";
 
   try {
-    const history = JSON.parse(localStorage.getItem("lsd_vku_exam_history") || "[]");
+    const history = JSON.parse(localStorage.getItem("ktct_vku_exam_history") || "[]");
     if (history.length === 0) {
       listContainer.innerHTML = `
         <div class="text-center py-8 text-slate-500 text-sm">
@@ -1075,7 +1068,7 @@ function closeHistoryModal() {
 
 function clearExamHistory() {
   if (confirm("Em có chắc chắn muốn xóa toàn bộ lịch sử thi đã lưu không?")) {
-    localStorage.removeItem("lsd_vku_exam_history");
+    localStorage.removeItem("ktct_vku_exam_history");
     updateHistoryBadge();
     openHistoryModal();
   }
